@@ -1,0 +1,94 @@
+# SaarathiAI Implementation Plan
+
+This plan details the steps to build "SaarathiAI" (सारथी), a Next.js 14 web application that offers personalized wisdom from the Bhagavad Gita using the Gemini API and a local Shloka database.
+
+## Goal
+To build a beautifully designed, mobile-responsive web application that maps user-provided life problems to relevant Bhagavad Gita shlokas and generates customized, context-aware guidance using Google's Gemini 2.0 Flash model. The app will feature English and Hindi language support.
+
+## User Review Required
+
+> [!IMPORTANT]
+> The app requires **exactly Next.js 14.2.0** as specified. `npx create-next-app` typically installs Next.js 15 by default today. I plan to manually initialize the project scaffolding or strictly downgrade to version 14.2.0 using npm.
+> 
+> Also, while the prompt mentions creating a comprehensive array of 50 shlokas, it only lists about 24 specific verses. I will implement the ones specifically requested and populate the rest to reach 50 using standard, well-known Gita verses matching those themes.
+
+## Proposed Changes
+
+---
+
+### Project Initialization and Configuration
+
+#### [NEW] package.json
+Initialize a `package.json` with exactly Next.js 14.2.0, React 18, `@google/generative-ai` (0.21.0), and tailwindcss. 
+
+#### [NEW] tsconfig.json, tailwind.config.ts, postcss.config.mjs
+Standard Next.js and Tailwind configuration files. Tailwind will use custom color variables as specified in the UI requirements.
+
+#### [NEW] .env.local
+A placeholder file for the `GEMINI_API_KEY`. (I will not commit the actual key to any files).
+
+---
+
+### Data Layer
+
+#### [NEW] lib/shlokas.ts
+- Create the shloka database containing 50 fully populated shloka objects with Sanskrit text, transliteration, English/Hindi meanings, English/Hindi keywords, and categories.
+- Implement the `findRelevantShlokas(userProblem, language)` function:
+  1. Tokenizes input text.
+  2. Ranks shlokas based on keyword overlap.
+  3. Returns top 3 shlokas.
+  4. Includes fallback logic to universal shlokas (2.47, 6.5, 18.66) if no match is found.
+
+---
+
+### Backend API
+
+#### [NEW] app/api/ask/route.ts
+- Create a Next.js App Router API endpoint (`POST /api/ask`).
+- Extract the user's problem and selected language.
+- Compute the top matching shloka from `lib/shlokas.ts`.
+- Formulate the precise system and user prompts for `gemini-2.0-flash`.
+- Ensure output is consistently returned as JSON containing `krishna_teaching`, `your_situation`, `one_step`, and `closing`.
+- Handle Gemini API errors with a robust fallback that uses the generic English/Hindi meaning of the shloka.
+
+---
+
+### Frontend Components
+
+#### [MODIFY] app/layout.tsx
+- Configure Google Fonts: `Crimson Pro` and `Inter`.
+- Set up root HTML attributes, standard metadata, and global styles import.
+
+#### [NEW] app/globals.css
+- Map standard UI tokens to the specified color palette: 
+  `--bg-primary: #0A0A0A`, 
+  `--bg-card: #141414`, 
+  `--accent-gold: #C9933A` etc.
+- Include Tailwind directives.
+
+#### [NEW] app/page.tsx
+- Build a responsive UI using Tailwind CSS.
+- **Header**: Logo, devanagari subtitle, tagline, EN/HI language toggle.
+- **Input Form**: Auto-resizing textarea, character counter, pulsing loading states.
+- **Suggested Shlokas Chips**: Pre-canned prompts to instantly test the system.
+- **Response Section**: Fade-in animated card styled neatly with the Shloka (Sanskrit + Transliteration) and sections cleanly separated by dividers. Provide secondary Shlokas ("Also relevant") below the main AI response.
+- **Footer**: Proper disclaimers.
+- Handle state management for loading, inputs, and selected language. All hardcoded tags and strings will have English/Hindi variants.
+
+---
+
+### Documentation
+
+#### [NEW] README.md
+Detailed setup and Vercel deployment instructions (git init, environment variables, push, etc.) as requested.
+
+## Verification Plan
+
+### Automated Tests
+- Test API endpoint using mock parameters to verify fallback logic.
+
+### Manual Verification
+- Verify the English to Hindi language switch updates all UI text and the placeholder text strings simultaneously.
+- Verify `findRelevantShlokas` returns the appropriate shloka for diverse queries.
+- Ensure the app is correctly laid out and fits exactly right on a simulated 375px wide mobile device without horizontal overflow.
+- Ensure the user secret `GEMINI_API_KEY` is completely out of the client bundle.

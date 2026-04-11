@@ -1,0 +1,400 @@
+"use client";
+
+import { useState, useRef, useEffect } from "react";
+import { Copy, Sparkles, Languages, RotateCcw } from "lucide-react";
+
+export default function Home() {
+  const [lang, setLang] = useState<'en' | 'hi'>('en');
+  const [problem, setProblem] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [response, setResponse] = useState<any>(null);
+  const [error, setError] = useState("");
+  const [copied, setCopied] = useState(false);
+  
+  const responseRef = useRef<HTMLDivElement>(null);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  const t = {
+    en: {
+      subtitle: "सारथी",
+      tagline: "Wisdom from the Gita, for your life today",
+      heading: "What is troubling you?",
+      placeholder: "Describe what you're going through...\n(e.g. I feel stuck in my career, I'm angry at someone I love)",
+      submit: "Seek Guidance",
+      loading: "Krishna is listening...",
+      chips: [
+        "I feel stuck in my career",
+        "I can't stop overthinking",
+        "I'm scared of failing",
+        "I'm angry at someone I love"
+      ],
+      meaning: "What this means",
+      teaching: "What Krishna is telling you",
+      situation: "For your situation",
+      step: "Your step today",
+      also: "Also relevant:",
+      askAgain: "Ask another question",
+      regenerate: "Regenerate Response",
+      copy: "Copy this wisdom",
+      copied: "Copied!",
+      footer: "SaarathiAI is spiritual guidance, not a substitute for professional mental health support.",
+      builtWith: "Built with love. Rooted in the Gita."
+    },
+    hi: {
+      subtitle: "सारथी",
+      tagline: "गीता का ज्ञान, आज के जीवन के लिए",
+      heading: "आपको क्या परेशान कर रहा है?",
+      placeholder: "अपनी परेशानी बताएं...\n(जैसे: मुझे अपने करियर में दिशा नहीं मिल रही)",
+      submit: "मार्गदर्शन पाएं",
+      loading: "कृष्ण सुन रहे हैं...",
+      chips: [
+        "मेरा करियर रुका हुआ लगता है",
+        "मैं बहुत ज़्यादा सोचता हूं",
+        "मुझे असफलता का डर है",
+        "मुझे किसी प्रियजन पर गुस्सा है"
+      ],
+      meaning: "अर्थ",
+      teaching: "कृष्ण आपसे क्या कह रहे हैं",
+      situation: "आपकी स्थिति में",
+      step: "आज का कदम",
+      also: "अन्य प्रासंगिक श्लोक:",
+      askAgain: "दूसरा प्रश्न पूछें",
+      regenerate: "पुनः विचार करें",
+      copy: "यह ज्ञान कॉपी करें",
+      copied: "कॉपी हो गया!",
+      footer: "SaarathiAI आध्यात्मिक मार्गदर्शन है, पेशेवर मानसिक स्वास्थ्य सहायता का विकल्प नहीं।",
+      builtWith: "प्रेम से निर्मित। गीता में समाहित।"
+    }
+  };
+
+  const currentT = t[lang];
+
+  // Auto-resize textarea
+  useEffect(() => {
+    if (textareaRef.current) {
+      textareaRef.current.style.height = "auto";
+      textareaRef.current.style.height = Math.max(120, textareaRef.current.scrollHeight) + "px";
+    }
+  }, [problem]);
+
+  useEffect(() => {
+    if (textareaRef.current && !response && !loading) {
+      textareaRef.current.focus();
+    }
+  }, [response, loading]);
+
+  useEffect(() => {
+    if (response && responseRef.current) {
+      setTimeout(() => {
+        responseRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
+  }, [response]);
+
+  const handleSubmit = async () => {
+    if (!problem.trim() || problem.length > 500) return;
+    
+    setLoading(true);
+    setError("");
+    setResponse(null);
+    setCopied(false);
+    
+    try {
+      const res = await fetch("/api/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ problem, language: lang })
+      });
+      
+      const data = await res.json();
+      
+      if (!res.ok) {
+        throw new Error(data.error || "Failed to fetch guidance");
+      }
+      
+      setResponse(data);
+    } catch (err: any) {
+      setError(err.message || "An unexpected error occurred.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleCopy = () => {
+    if (!response) return;
+    const { primary } = response;
+    const text = `Chapter ${primary.chapter}, Verse ${primary.verse}
+
+${primary.sanskrit}
+(${primary.transliteration})
+
+Meaning:
+${primary.meaning}
+
+Guidance:
+* Krishna says:
+  ${primary.guidance.krishna_teaching}
+* For you:
+  ${primary.guidance.your_situation}
+* Your step:
+  ${primary.guidance.one_step}
+
+${primary.guidance.closing}`;
+    
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleReset = () => {
+    setProblem("");
+    setResponse(null);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const isFallback = !!response?.primary?.guidance?.closing?.includes("Stay strong") || !!response?.primary?.guidance?.closing?.includes("धैर्य रखें");
+
+  return (
+    <div className="min-h-screen flex flex-col pt-8 pb-16 px-4 sm:px-6 md:px-8 max-w-3xl mx-auto">
+      {/* HEADER */}
+      <header className="flex flex-col items-center justify-center text-center py-10 relative w-full">
+        <button 
+          onClick={() => setLang(lang === 'en' ? 'hi' : 'en')}
+          className="absolute top-0 right-0 flex items-center gap-2 bg-card border border-border px-3 py-1.5 rounded-full text-sm font-medium hover:bg-card-hover transition-colors"
+        >
+          <Languages size={16} className="text-accent-gold" />
+          {lang === 'en' ? 'HI' : 'EN'}
+        </button>
+        
+        <div className="w-16 h-16 rounded-full bg-accent-gold/10 flex items-center justify-center mb-6">
+          <span className="text-4xl text-accent-gold font-serif">ॐ</span>
+        </div>
+        
+        <h1 className="text-4xl font-bold tracking-tight mb-2">
+          SaarathiAI <span className="text-accent-gold-light opacity-80">{currentT.subtitle}</span>
+        </h1>
+        <p className="text-secondary text-lg">{currentT.tagline}</p>
+      </header>
+
+      {/* INPUT SECTION */}
+      <main className="flex-grow w-full flex flex-col">
+        {!response && !loading && (
+          <div className="w-full flex-grow flex flex-col justify-center pb-20 animate-fade-in">
+            <h2 className="text-2xl font-medium mb-4 text-center">{currentT.heading}</h2>
+            <div className="relative w-full shadow-lg">
+              <textarea
+                ref={textareaRef}
+                value={problem}
+                onChange={(e) => setProblem(e.target.value.substring(0, 500))}
+                placeholder={currentT.placeholder}
+                className="w-full bg-card border border-border rounded-2xl p-5 text-lg resize-none focus:outline-none focus:ring-1 focus:ring-accent-gold focus:border-accent-gold transition-all min-h-[120px]"
+                disabled={loading}
+              />
+              <div className="absolute bottom-4 right-4 text-xs font-mono text-muted">
+                {problem.length}/500
+              </div>
+            </div>
+
+            {/* CHIPS */}
+            <div className="flex flex-wrap gap-2 mt-4 justify-center">
+              {currentT.chips.map((chip, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setProblem(chip)}
+                  disabled={loading}
+                  className="bg-card/50 border border-border px-3 py-1.5 rounded-full text-sm text-secondary hover:text-primary hover:border-accent-gold/50 transition-colors"
+                >
+                  {chip}
+                </button>
+              ))}
+            </div>
+
+            {error && (
+              <div className="mt-6 p-4 bg-red-900/20 border border-red-900/50 rounded-xl text-red-200 text-center">
+                {error}
+              </div>
+            )}
+
+            <button
+              onClick={handleSubmit}
+              disabled={!problem.trim() || loading}
+              className="mt-8 w-full max-w-sm mx-auto bg-accent-gold hover:bg-accent-gold-light text-black font-semibold h-14 rounded-full flex items-center justify-center gap-2 transition-all disabled:opacity-50 disabled:hover:bg-accent-gold"
+            >
+              <Sparkles size={18} />
+              {currentT.submit}
+            </button>
+          </div>
+        )}
+
+        {/* LOADING STATE */}
+        {loading && (
+          <div className="w-full flex-grow flex flex-col items-center justify-center py-20 animate-fade-in">
+            <div className="relative">
+              <span className="text-6xl text-accent-gold font-serif animate-pulse-slow">ॐ</span>
+              <div className="absolute inset-0 bg-accent-gold/20 blur-xl rounded-full animate-pulse-slow"></div>
+            </div>
+            <p className="mt-8 text-xl text-secondary animate-pulse">{currentT.loading}</p>
+          </div>
+        )}
+
+        {/* RESPONSE CARD */}
+        {response && !loading && (
+          <div ref={responseRef} className="w-full animate-slide-up pb-10">
+            <div className="bg-card border border-border rounded-3xl overflow-hidden shadow-2xl relative">
+              {/* Card Header Content */}
+              <div className="p-6 md:p-8 text-center bg-gradient-to-b from-card-hover to-card border-b border-border">
+                <span className="inline-block px-3 py-1 bg-accent-gold/10 text-accent-gold text-xs font-semibold tracking-widest uppercase rounded-full mb-6">
+                  {lang === 'en' ? `Chapter ${response.primary.chapter}, Verse ${response.primary.verse}` : `अध्याय ${response.primary.chapter}, श्लोक ${response.primary.verse}`}
+                </span>
+                
+                <div className="mb-4">
+                  <p className="font-serif text-2xl md:text-3xl text-accent-gold-light leading-relaxed whitespace-pre-wrap">
+                    {response.primary.sanskrit}
+                  </p>
+                </div>
+                <p className="text-muted text-sm italic tracking-wide mt-4 whitespace-pre-wrap">
+                  {response.primary.transliteration}
+                </p>
+              </div>
+
+              {/* Card Body Content */}
+              <div className="px-6 md:px-10 py-8 space-y-8">
+                
+                <section>
+                  <h3 className="text-xs text-muted uppercase tracking-wider mb-2 font-semibold">
+                    {currentT.meaning}
+                  </h3>
+                  <p className="text-secondary leading-relaxed">
+                    {response.primary.meaning}
+                  </p>
+                </section>
+
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent"></div>
+
+                <section>
+                  <h3 className="text-xs text-accent-gold uppercase tracking-wider mb-2 font-semibold">
+                    {currentT.teaching}
+                  </h3>
+                  <p className="leading-relaxed">
+                    {response.primary.guidance.krishna_teaching}
+                  </p>
+                </section>
+
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent"></div>
+
+                <section>
+                  <h3 className="text-xs text-accent-gold uppercase tracking-wider mb-2 font-semibold">
+                    {currentT.situation}
+                  </h3>
+                  <p className="leading-relaxed whitespace-pre-line text-[#e8e2d7]">
+                    {response.primary.guidance.your_situation}
+                  </p>
+                </section>
+
+                <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent"></div>
+
+                <section>
+                  <h3 className="text-xs text-success uppercase tracking-wider mb-2 font-semibold flex items-center gap-2">
+                    <div className="w-1.5 h-1.5 rounded-full bg-success"></div>
+                    {currentT.step}
+                  </h3>
+                  <p className="leading-relaxed font-medium">
+                    {response.primary.guidance.one_step}
+                  </p>
+                </section>
+
+                <div className="pt-6 relative">
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-px bg-accent-gold/30"></div>
+                  <p className="text-center font-serif italic text-accent-gold-light text-lg">
+                    "{response.primary.guidance.closing}"
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            {/* Fallback Note */}
+            {isFallback && (
+              <div className="mt-6 text-center text-xs text-accent-gold uppercase tracking-widest opacity-80 flex items-center justify-center gap-2">
+                <Sparkles size={12} />
+                {lang === 'en' ? "Showing direct wisdom from the Gita" : "गीता का सीधा ज्ञान दिखाया जा रहा है"}
+              </div>
+            )}
+
+            {/* Actions below card */}
+            <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center">
+              <button 
+                onClick={handleSubmit}
+                disabled={loading || !problem.trim()}
+                className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-card border border-border hover:border-accent-gold/50 transition-colors disabled:opacity-50"
+               >
+                <RotateCcw size={16} className="text-secondary" />
+                <span>{currentT.regenerate}</span>
+              </button>
+              <button 
+                onClick={handleCopy}
+                className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-card border border-border hover:border-accent-gold/50 transition-colors"
+               >
+                <Copy size={16} className="text-secondary" />
+                <span>{copied ? currentT.copied : currentT.copy}</span>
+              </button>
+              <button 
+                onClick={handleReset}
+                className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-card border border-border hover:border-accent-gold/50 transition-colors"
+               >
+                <Sparkles size={16} className="text-secondary" />
+                <span>{currentT.askAgain}</span>
+              </button>
+            </div>
+
+            {/* Trust Element */}
+            <div className="mt-10 text-center text-xs font-medium text-muted uppercase tracking-widest opacity-60">
+              {lang === 'en' ? "Rooted in Bhagavad Gita wisdom" : "भगवद गीता के ज्ञान पर आधारित"}
+            </div>
+
+            {/* Also Relevant Section */}
+            {response.also_relevant && response.also_relevant.length > 0 && (
+              <div className="mt-16 animate-fade-in">
+                <h3 className="text-sm font-medium text-secondary mb-4 px-2 uppercase tracking-wide">
+                  {currentT.also}
+                </h3>
+                <div className="grid sm:grid-cols-2 gap-4">
+                  {response.also_relevant.map((shloka: any, idx: number) => (
+                    <div key={idx} className="bg-card/50 border border-border rounded-2xl p-5 hover:bg-card transition-colors">
+                      <div className="text-accent-gold text-xs font-semibold mb-2">
+                        {lang === 'en' ? `Chapter ${shloka.chapter}, Verse ${shloka.verse}` : `अध्याय ${shloka.chapter}, श्लोक ${shloka.verse}`}
+                      </div>
+                      <p className="text-sm text-secondary line-clamp-3">
+                        {shloka.meaning}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+            
+          </div>
+        )}
+      </main>
+
+      {/* FOOTER */}
+      <footer className="mt-auto text-center pt-8 border-t border-border/50 text-muted text-xs">
+        <p className="mb-1 max-w-sm mx-auto leading-relaxed">{currentT.footer}</p>
+        <p>{currentT.builtWith}</p>
+      </footer>
+
+      <style jsx global>{`
+        @keyframes fade-in {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        @keyframes slide-up {
+          from { opacity: 0; transform: translateY(20px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in { animation: fade-in 0.5s ease-out forwards; }
+        .animate-slide-up { animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+      `}</style>
+    </div>
+  );
+}
