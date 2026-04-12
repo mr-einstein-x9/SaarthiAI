@@ -38,7 +38,7 @@ export async function POST(request: Request) {
 
     // Initialize Gemini API client
     const client = new GoogleGenerativeAI(apiKey);
-    const model = client.getGenerativeModel({ model: "gemini-2.0-flash" });
+    const model = client.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     // ✅ CRITICAL: Enhanced system prompt with Gita context and personalization
     const systemPrompt = `You are Saarathi (सारथी), Krishna's charioteer and spiritual guide based on the Bhagavad Gita.
