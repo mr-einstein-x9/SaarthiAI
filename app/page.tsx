@@ -108,8 +108,8 @@ export default function Home() {
       
       const data = await res.json();
       
-      if (!res.ok) {
-        throw new Error(data.error || "Failed to fetch guidance");
+      if (!res.ok || data.success === false) {
+        throw new Error(data.message || data.error || "Failed to fetch guidance");
       }
       
       setResponse(data);
@@ -121,25 +121,31 @@ export default function Home() {
   };
 
   const handleCopy = () => {
-    if (!response) return;
-    const { primary } = response;
-    const text = `Chapter ${primary.chapter}, Verse ${primary.verse}
+    if (!response || !response.data) return;
+    const { data } = response;
+    
+    const stepsString = data.practical_steps?.length 
+      ? data.practical_steps.map((s: string) => `  * ${s}`).join("\n") 
+      : "";
 
-${primary.sanskrit}
-(${primary.transliteration})
+    const text = `${data.chapter_verse}
+
+${data.shloka_sanskrit}
 
 Meaning:
-${primary.meaning}
+${data.shloka_english}
 
 Guidance:
-* Krishna says:
-  ${primary.guidance.krishna_teaching}
-* For you:
-  ${primary.guidance.your_situation}
-* Your step:
-  ${primary.guidance.one_step}
+* Core message:
+  ${data.core_message}
+* For your situation:
+  ${data.how_it_applies}
+* Actionable steps:
+${stepsString}
+* Daily Practice:
+  ${data.daily_practice}
 
-${primary.guidance.closing}`;
+"${data.deeper_wisdom}"`;
     
     navigator.clipboard.writeText(text);
     setCopied(true);
@@ -151,8 +157,6 @@ ${primary.guidance.closing}`;
     setResponse(null);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
-  const isFallback = !!response?.primary?.guidance?.closing?.includes("Stay strong") || !!response?.primary?.guidance?.closing?.includes("धैर्य रखें");
 
   return (
     <div className="min-h-screen flex flex-col pt-8 pb-16 px-4 sm:px-6 md:px-8 max-w-3xl mx-auto">
@@ -244,17 +248,14 @@ ${primary.guidance.closing}`;
               {/* Card Header Content */}
               <div className="p-6 md:p-8 text-center bg-gradient-to-b from-card-hover to-card border-b border-border">
                 <span className="inline-block px-3 py-1 bg-accent-gold/10 text-accent-gold text-xs font-semibold tracking-widest uppercase rounded-full mb-6">
-                  {lang === 'en' ? `Chapter ${response.primary.chapter}, Verse ${response.primary.verse}` : `अध्याय ${response.primary.chapter}, श्लोक ${response.primary.verse}`}
+                  {response.data?.chapter_verse}
                 </span>
                 
                 <div className="mb-4">
                   <p className="font-serif text-2xl md:text-3xl text-accent-gold-light leading-relaxed whitespace-pre-wrap">
-                    {response.primary.sanskrit}
+                    {response.data?.shloka_sanskrit}
                   </p>
                 </div>
-                <p className="text-muted text-sm italic tracking-wide mt-4 whitespace-pre-wrap">
-                  {response.primary.transliteration}
-                </p>
               </div>
 
               {/* Card Body Content */}
@@ -265,7 +266,7 @@ ${primary.guidance.closing}`;
                     {currentT.meaning}
                   </h3>
                   <p className="text-secondary leading-relaxed">
-                    {response.primary.meaning}
+                    {response.data?.shloka_english}
                   </p>
                 </section>
 
@@ -276,7 +277,7 @@ ${primary.guidance.closing}`;
                     {currentT.teaching}
                   </h3>
                   <p className="leading-relaxed">
-                    {response.primary.guidance.krishna_teaching}
+                    {response.data?.core_message}
                   </p>
                 </section>
 
@@ -287,39 +288,40 @@ ${primary.guidance.closing}`;
                     {currentT.situation}
                   </h3>
                   <p className="leading-relaxed whitespace-pre-line text-[#e8e2d7]">
-                    {response.primary.guidance.your_situation}
+                    <span className="block italic opacity-80 mb-2">"{response.data?.their_problem}"</span>
+                    {response.data?.how_it_applies}
                   </p>
                 </section>
 
                 <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent"></div>
 
                 <section>
-                  <h3 className="text-xs text-success uppercase tracking-wider mb-2 font-semibold flex items-center gap-2">
+                  <h3 className="text-xs text-success uppercase tracking-wider mb-4 font-semibold flex items-center gap-2">
                     <div className="w-1.5 h-1.5 rounded-full bg-success"></div>
                     {currentT.step}
                   </h3>
-                  <p className="leading-relaxed font-medium">
-                    {response.primary.guidance.one_step}
+                  <ul className="leading-relaxed font-medium space-y-2 mb-4">
+                    {response.data?.practical_steps?.map((step: string, idx: number) => (
+                      <li key={idx} className="flex gap-2">
+                        <span className="text-success opacity-70">•</span>
+                        <span>{step}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-sm border-t border-border/30 pt-3 text-secondary mt-3">
+                    <strong className="text-accent-gold">Daily Practice:</strong> {response.data?.daily_practice}
                   </p>
                 </section>
 
                 <div className="pt-6 relative">
                   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-px bg-accent-gold/30"></div>
                   <p className="text-center font-serif italic text-accent-gold-light text-lg">
-                    "{response.primary.guidance.closing}"
+                    "{response.data?.deeper_wisdom}"
                   </p>
                 </div>
 
               </div>
             </div>
-
-            {/* Fallback Note */}
-            {isFallback && (
-              <div className="mt-6 text-center text-xs text-accent-gold uppercase tracking-widest opacity-80 flex items-center justify-center gap-2">
-                <Sparkles size={12} />
-                {lang === 'en' ? "Showing direct wisdom from the Gita" : "गीता का सीधा ज्ञान दिखाया जा रहा है"}
-              </div>
-            )}
 
             {/* Actions below card */}
             <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center">
@@ -351,27 +353,6 @@ ${primary.guidance.closing}`;
             <div className="mt-10 text-center text-xs font-medium text-muted uppercase tracking-widest opacity-60">
               {lang === 'en' ? "Rooted in Bhagavad Gita wisdom" : "भगवद गीता के ज्ञान पर आधारित"}
             </div>
-
-            {/* Also Relevant Section */}
-            {response.also_relevant && response.also_relevant.length > 0 && (
-              <div className="mt-16 animate-fade-in">
-                <h3 className="text-sm font-medium text-secondary mb-4 px-2 uppercase tracking-wide">
-                  {currentT.also}
-                </h3>
-                <div className="grid sm:grid-cols-2 gap-4">
-                  {response.also_relevant.map((shloka: any, idx: number) => (
-                    <div key={idx} className="bg-card/50 border border-border rounded-2xl p-5 hover:bg-card transition-colors">
-                      <div className="text-accent-gold text-xs font-semibold mb-2">
-                        {lang === 'en' ? `Chapter ${shloka.chapter}, Verse ${shloka.verse}` : `अध्याय ${shloka.chapter}, श्लोक ${shloka.verse}`}
-                      </div>
-                      <p className="text-sm text-secondary line-clamp-3">
-                        {shloka.meaning}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
             
           </div>
         )}

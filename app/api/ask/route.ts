@@ -1,189 +1,210 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai';
-import { findRelevantShlokas } from '@/lib/shlokas';
+// Fix for: app/api/ask/route.ts
+// Updated to properly handle API key and use personalized prompts
 
-// Initialize Gemini
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const responseSchema = {
-  type: SchemaType.OBJECT,
-  properties: {
-    krishna_teaching: {
-      type: SchemaType.STRING,
-      description: "2-3 lines explaining what Krishna is truly saying in this shloka, in plain conversational language"
-    },
-    your_situation: {
-      type: SchemaType.STRING,
-      description: "3-4 lines that directly address this person's problem using their own words. Be specific, surgical, human. Not generic."
-    },
-    one_step: {
-      type: SchemaType.STRING,
-      description: "One single concrete action this person can take today based on this teaching. Practical, not philosophical."
-    },
-    closing: {
-      type: SchemaType.STRING,
-      description: "One warm closing line, like a friend would say."
-    }
-  },
-  required: ["krishna_teaching", "your_situation", "one_step", "closing"]
-};
-
-export async function POST(req: NextRequest) {
+export async function POST(request: Request) {
   try {
-    const { problem, language } = await req.json();
+    const { problem, language = "en" } = await request.json();
 
-    if (!problem) {
-      return NextResponse.json({ error: "Problem is required" }, { status: 400 });
+    // ✅ CORRECT: Access environment variable properly
+    const apiKey = process.env.GEMINI_API_KEY;
+
+    // ✅ Debug: Check if API key exists
+    if (!apiKey) {
+      console.error(
+        "❌ ERROR: GEMINI_API_KEY is not set in environment variables"
+      );
+      console.error("Make sure GEMINI_API_KEY is added in Vercel settings");
+      return Response.json(
+        {
+          error: "API configuration error",
+          message:
+            "GEMINI_API_KEY not found. Please check Vercel environment variables.",
+        },
+        { status: 500 }
+      );
     }
 
-    const relevantShlokas = findRelevantShlokas(problem, language || 'en');
-    const primaryShloka = relevantShlokas[0];
-    const otherShlokas = relevantShlokas.slice(1);
-
-    if (!process.env.GEMINI_API_KEY) {
-      console.warn("No API key, falling back to basic");
-      return generateFallback(primaryShloka, otherShlokas, language, problem);
+    // ✅ Validate user input
+    if (!problem || problem.trim().length === 0) {
+      return Response.json(
+        { error: "Problem description is required" },
+        { status: 400 }
+      );
     }
 
-    const model = genAI.getGenerativeModel({
-      model: "gemini-2.0-flash",
+    console.log("🔄 Processing problem:", problem.substring(0, 50) + "...");
+
+    // Initialize Gemini API client
+    const client = new GoogleGenerativeAI(apiKey);
+    const model = client.getGenerativeModel({ model: "gemini-2.0-flash" });
+
+    // ✅ CRITICAL: Enhanced system prompt with Gita context and personalization
+    const systemPrompt = `You are Saarathi (सारथी), Krishna's charioteer and spiritual guide based on the Bhagavad Gita.
+
+Your Sacred Duty:
+1. Listen deeply to the person's specific problem
+2. Identify the MOST RELEVANT Bhagavad Gita verse/teaching
+3. Explain PRECISELY how this teaching solves THEIR problem
+4. Provide practical, actionable wisdom
+5. Always be compassionate and non-judgmental
+
+Key Bhagavad Gita Verses You Should Know:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+For FEAR & DOUBT:
+  • Chapter 2, Verse 47: "Karmanye vadhikaraste maa phaleshu kadachana" 
+    (You have the right to act, but not to the fruits of your action)
+  • Chapter 18, Verse 30: "Yatra yogeshwara Krishna..." (Where there is Krishna)
+
+For ANGER & RESENTMENT:
+  • Chapter 6, Verse 6: "Bandhur atmatmanas tasya, jenatmana cha shatrutve" 
+    (The mind is either your friend or your greatest enemy)
+  • Chapter 16, Verse 1-3: Qualities of the spiritual person (absence of anger)
+
+For PURPOSELESSNESS & CAREER CONFUSION:
+  • Chapter 3, Verse 35: "Sva-dharme nidhanam shreyo" 
+    (Better to follow your own dharma than another's perfectly)
+  • Chapter 4, Verse 33: "Knowledge of sacrifice is superior" 
+    (Work done with knowledge, dedication, and detachment)
+
+For OVERWHELMING CHOICES:
+  • Chapter 2, Verse 7: "Karya-karya-vibhragena (Arjuna's confusion)")
+  • Chapter 3, Verses 21-24: Lead by example, focus on your duty
+
+For FAILURE & PERFECTIONISM:
+  • Chapter 2, Verse 48: "Yoga is skill in action" 
+    (Do your best, let go of results)
+  • Chapter 4, Verse 23: "Free from attachment, steadfast, with mind fixed in knowledge"
+
+For ANXIETY & OVERTHINKING:
+  • Chapter 2, Verse 14: "Matra-sparsas tu kaunteya agamapayino nityah" 
+    (Learn to tolerate opposites with equanimity)
+  • Chapter 5, Verse 23: "One who can tolerate before liberation"
+
+For RELATIONSHIPS & FORGIVENESS:
+  • Chapter 12, Verse 8: Devotion to Krishna transcends all differences
+  • Chapter 10, Verse 11: "Tesam satata-yuktanam bhajatam priti-purvakam" 
+    (Those devoted to me with love - I am dear)
+
+For LACK OF MOTIVATION:
+  • Chapter 18, Verse 45: "Sve sve karmani abhiratah samsiddhim labhate narah" 
+    (Engaged in their respective duties, people attain perfection)
+  • Chapter 3, Verse 21: Lead by your example
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RESPONSE FORMAT:
+Always respond with valid JSON (no markdown, no explanation):
+{
+  "shloka_sanskrit": "The actual Sanskrit verse if known",
+  "shloka_english": "The English translation/paraphrase",
+  "chapter_verse": "Chapter X, Verse Y",
+  "core_message": "One-sentence essence of this teaching",
+  "their_problem": "Mirror back their specific problem to show understanding",
+  "how_it_applies": "Detailed explanation of HOW this verse directly solves THEIR specific problem (3-4 sentences)",
+  "practical_steps": [
+    "Specific action step 1 tailored to their situation",
+    "Specific action step 2 tailored to their situation",
+    "Specific action step 3 tailored to their situation"
+  ],
+  "daily_practice": "One thing they can do today based on this teaching",
+  "deeper_wisdom": "A profound insight or reflection from this verse"
+}
+
+CRITICAL RULES:
+- Be SPECIFIC to their problem, not generic
+- Always cite the actual Gita chapter and verse
+- Explain the connection clearly
+- Make advice actionable
+- Show compassion and understanding
+- If they describe multiple issues, pick the ROOT cause
+- Ensure JSON is valid`;
+
+    const userMessage = `${language === "hi" ? "मेरी समस्या:" : "My Problem:"} "${problem}"
+
+${language === "hi" ? "कृपया भगवद गीता की सबसे प्रासंगिक शिक्षा साझा करें जो इस समस्या को सीधे संबोधित करे।" : "Please share the most relevant Bhagavad Gita teaching that directly addresses this specific problem."}`;
+
+    console.log("📤 Sending to Gemini API...");
+
+    // Call Gemini API
+    const result = await model.generateContent({
+      contents: [
+        {
+          role: "user",
+          parts: [{ text: userMessage }],
+        },
+      ],
+      systemInstruction: systemPrompt,
       generationConfig: {
-        responseMimeType: "application/json",
-        responseSchema: responseSchema,
-      }
-    });
-
-    const systemPrompt = `You are SaarathiAI (सारथी), a compassionate and wise guide who helps people find clarity through the timeless wisdom of the Bhagavad Gita.
-You speak like a warm, understanding friend — never preachy, never vague, never generic. You are deeply empathetic.
-
-STRICT RULES you must follow:
-1. Your ENTIRE response must be grounded in the provided shloka only. Do not bring in teachings from other shlokas or other texts.
-2. You MUST use the user's own words in your response. Mirror their situation back to them specifically.
-3. Never give generic spiritual advice like "focus on your karma". Every line must feel written for THIS person's problem.
-4. If user wrote in Hindi, respond fully in Hindi. If English, respond in English.
-5. Keep total response under 220 words.
-6. Never mention you are an AI. You are SaarathiAI — a guide.`;
-
-    const userPrompt = `A person is facing this problem:
-"${problem}"
-
-The most relevant teaching from the Bhagavad Gita is:
-Chapter ${primaryShloka.chapter}, Verse ${primaryShloka.verse}
-Sanskrit: ${primaryShloka.sanskrit}
-Meaning: ${language === 'hi' ? primaryShloka.meaning_hi : primaryShloka.meaning_en}
-
-Now write your guidance for this person reflecting ONLY on this given shloka.`;
-
-    // Retry mechanism for API Call
-    let parsedGuidance = null;
-    let attempts = 0;
-    while (attempts < 3 && !parsedGuidance) {
-      try {
-        const result = await model.generateContent({
-          contents: [
-            { role: "user", parts: [{ text: systemPrompt + "\n\n---\n\n" + userPrompt }] }
-          ]
-        });
-        
-        const responseText = result.response.text();
-        let jsonResponse;
-        
-        try {
-          jsonResponse = JSON.parse(responseText);
-        } catch (e) {
-          console.warn(`[Attempt ${attempts + 1}] Invalid JSON received.`);
-          throw new Error("Invalid JSON structure");
-        }
-        
-        // 1. Strict JSON Validation
-        if (!jsonResponse.krishna_teaching || !jsonResponse.your_situation || !jsonResponse.one_step || !jsonResponse.closing) {
-          console.warn(`[Attempt ${attempts + 1}] Missing required structural JSON fields.`);
-          throw new Error("Missing required fields");
-        }
-
-        // 4. Grounding Enforcement Post-Check
-        const totalWords = Object.values(jsonResponse).join(" ").split(/\s+/).filter(Boolean).length;
-        
-        if (totalWords > 220) {
-          console.warn(`[Attempt ${attempts + 1}] Response rejected: Exceeded 220 words (${totalWords}).`);
-          throw new Error("Response too long");
-        }
-
-        if (totalWords < 15) {
-          console.warn(`[Attempt ${attempts + 1}] Response rejected: Empty or too short (${totalWords} words).`);
-          throw new Error("Response too short");
-        }
-
-        const lowerCaseRes = Object.values(jsonResponse).join(" ").toLowerCase();
-        if (lowerCaseRes.includes("focus on your karma") || lowerCaseRes.includes("as an ai")) {
-          console.warn(`[Attempt ${attempts + 1}] Response rejected: Triggered generic flag.`);
-          throw new Error("Generic or AI-like response");
-        }
-
-        parsedGuidance = jsonResponse; // Success
-      } catch (err: any) {
-        attempts++;
-        if (attempts < 3) {
-          console.warn(`Retrying Gemini Call. (Attempt ${attempts} failed: ${err.message})`);
-        } else {
-          console.warn(`All 3 attempts to generate valid response failed. Triggering fallback.`);
-        }
-      }
-    }
-
-    if (!parsedGuidance) {
-      console.warn("Fallback triggered: Serving structured meaning override.");
-      return generateFallback(primaryShloka, otherShlokas, language, problem);
-    }
-
-    return NextResponse.json({
-      primary: {
-        chapter: primaryShloka.chapter,
-        verse: primaryShloka.verse,
-        sanskrit: primaryShloka.sanskrit,
-        transliteration: primaryShloka.transliteration,
-        meaning: language === 'hi' ? primaryShloka.meaning_hi : primaryShloka.meaning_en,
-        guidance: parsedGuidance
+        temperature: 0.7,
+        topP: 0.95,
+        maxOutputTokens: 1024,
       },
-      also_relevant: otherShlokas.map(s => ({
-        chapter: s.chapter,
-        verse: s.verse,
-        sanskrit: s.sanskrit,
-        transliteration: s.transliteration,
-        meaning: language === 'hi' ? s.meaning_hi : s.meaning_en
-      }))
     });
 
+    const responseText =
+      result.response.candidates?.[0]?.content?.parts?.[0]?.text || "";
+
+    if (!responseText) {
+      throw new Error("Empty response from Gemini API");
+    }
+
+    console.log("✅ Received response from Gemini");
+
+    // Parse JSON response
+    let guidance;
+    try {
+      // Try to extract JSON from markdown code blocks
+      let jsonStr = responseText;
+      const jsonMatch = responseText.match(/\`\`\`json\\n([\\s\\S]*?)\\n\`\`\`/);
+      if (jsonMatch) {
+        jsonStr = jsonMatch[1];
+      }
+
+      guidance = JSON.parse(jsonStr);
+    } catch (parseError) {
+      console.error("⚠️  Failed to parse JSON response:", responseText);
+      // Return raw response if parsing fails
+      guidance = {
+        error: "Response format issue",
+        raw_response: responseText,
+        message:
+          "Please try again. The API response format was unexpected.",
+      };
+    }
+
+    return Response.json({
+      success: true,
+      data: guidance,
+      timestamp: new Date().toISOString(),
+    });
   } catch (error) {
-    console.error("Endpoint error:", error);
-    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+    console.error("❌ API Error:", error);
+
+    const errorMessage =
+      error instanceof Error ? error.message : "Unknown error occurred";
+    const errorDetails =
+      error instanceof Error ? error.toString() : JSON.stringify(error);
+
+    return Response.json(
+      {
+        success: false,
+        error: "Failed to get guidance from Gita",
+        message: errorMessage,
+        details: errorDetails,
+      },
+      { status: 500 }
+    );
   }
 }
 
-function generateFallback(primaryShloka: any, otherShlokas: any[], language: string, problem: string) {
-  const isHi = language === 'hi';
-  const meaning = isHi ? primaryShloka.meaning_hi : primaryShloka.meaning_en;
-  
-  return NextResponse.json({
-    primary: {
-      chapter: primaryShloka.chapter,
-      verse: primaryShloka.verse,
-      sanskrit: primaryShloka.sanskrit,
-      transliteration: primaryShloka.transliteration,
-      meaning: meaning,
-      guidance: {
-        krishna_teaching: isHi ? `श्री कृष्ण इस श्लोक में स्पष्ट कहते हैं: "${meaning}"` : `Krishna directly explains in this verse: "${meaning}"`,
-        your_situation: isHi ? `आप जिस स्थिति का सामना कर रहे हैं, उसमें यह ज्ञान अत्यधिक आवश्यक है।` : `Regarding your current struggle, this ancient wisdom applies precisely and directly to your situation.`,
-        one_step: isHi ? `आज इस श्लोक के वास्तविक अर्थ पर 5 मिनट विचार करें।` : `Take 5 minutes today to deeply reflect on the literal meaning of this verse.`,
-        closing: isHi ? `सारथी आपके साथ है। धैर्य रखें।` : `Saarathi is with you. Stay strong.`
-      }
-    },
-    also_relevant: otherShlokas.map(s => ({
-      chapter: s.chapter,
-      verse: s.verse,
-      sanskrit: s.sanskrit,
-      transliteration: s.transliteration,
-      meaning: isHi ? s.meaning_hi : s.meaning_en
-    }))
+// Health check endpoint
+export async function GET() {
+  const apiKeyExists = !!process.env.GEMINI_API_KEY;
+
+  return Response.json({
+    status: apiKeyExists ? "✅ Ready" : "❌ API key not configured",
+    timestamp: new Date().toISOString(),
   });
 }
