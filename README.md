@@ -58,7 +58,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to start seeking guidance!
+Open [http://localhost:3000]([http://localhost:3000](https://saarthi-ai-black.vercel.app/)) in your browser to start seeking guidance!
 
 ---
 
