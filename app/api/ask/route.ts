@@ -128,8 +128,8 @@ ${language === "hi" ? "कृपया भगवद गीता की सब�
     console.log("📤 Sending to Gemini API...");
 
     const languageInstruction = language === "hi" 
-      ? "\n\nCRITICAL LANGUAGE RULE: You MUST write ALL JSON values (meaning, core message, problem, steps, daily practice, deeper wisdom) completely in HINDI. 'shloka_english' should actually be the translation in Hindi."
-      : "\n\nCRITICAL LANGUAGE RULE: Write ALL JSON values completely in English.";
+      ? "\n\nCRITICAL LANGUAGE RULE: You MUST write ALL JSON values completely in HINDI, EXCEPT 'shloka_sanskrit' which MUST remain in original Sanskrit (Devanagari). 'shloka_english' should actually be the translation in Hindi."
+      : "\n\nCRITICAL LANGUAGE RULE: Write ALL JSON values completely in English, EXCEPT 'shloka_sanskrit' which MUST remain in original Sanskrit (Devanagari/Transliteration).";
 
     // Call Gemini API
     const result = await model.generateContent({
