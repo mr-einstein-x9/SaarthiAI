@@ -1,7 +1,7 @@
 # SaarathiAI (सारथी)
 
 Wisdom from the Bhagavad Gita, for your life today. 
-This is a comprehensive Next.js 14 web application that maps user-provided life problems to relevant Bhagavad Gita shlokas and generates customized, context-aware guidance using Google's Gemini 2.0 Flash model.
+This is a comprehensive Next.js 14 web application that maps user-provided life problems to relevant Bhagavad Gita shlokas and generates customized, context-aware guidance using Google's Gemini 2.5 Flash model.
 
 ## Features
 - **Local DB with Retrieve-and-Rank**: Uses advanced synonym matching, stopword removal, and emotion-weighted keyword scoring.
