@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Om_symbol.svg/100px-Om_symbol.svg.png" width="80" alt="Om Symbol" />
+  <h1 style="font-size: 3rem; margin-bottom: 0;">ॐ</h1>
   <h1>SaarathiAI (सारथी) 🦚</h1>
   <p><em>Wisdom from the Bhagavad Gita, for your life today.</em></p>
 
