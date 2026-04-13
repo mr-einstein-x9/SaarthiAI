@@ -2,6 +2,7 @@
 // Updated to properly handle API key and use personalized prompts
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
+import { safe_generate } from "@/lib/gemini";
 
 export async function POST(request: Request) {
   try {
@@ -131,8 +132,8 @@ ${language === "hi" ? "कृपया भगवद गीता की सब�
       ? "\n\nCRITICAL LANGUAGE RULE: You MUST write ALL JSON values completely in HINDI, EXCEPT 'shloka_sanskrit' which MUST remain in original Sanskrit (Devanagari). 'shloka_english' should actually be the translation in Hindi."
       : "\n\nCRITICAL LANGUAGE RULE: Write ALL JSON values completely in English, EXCEPT 'shloka_sanskrit' which MUST remain in original Sanskrit (Devanagari/Transliteration).";
 
-    // Call Gemini API
-    const result = await model.generateContent({
+    // Call Gemini API automatically with retry logic
+    const result = await safe_generate(model, {
       contents: [
         {
           role: "user",
