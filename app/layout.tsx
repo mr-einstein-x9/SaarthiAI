@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { AudioPlayer } from "@/components/AudioPlayer";
 
 export const metadata: Metadata = {
   title: "SaarathiAI - Bhagavad Gita Wisdom",
@@ -20,6 +21,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased selection:bg-accent-gold/20">
         {children}
+        <AudioPlayer />
       </body>
     </html>
   );
