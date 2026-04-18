@@ -241,7 +241,7 @@ ${guidance.reflection_question || ""}`;
         </div>
         
         <h1 className="max-w-full text-3xl sm:text-4xl font-bold tracking-tight mb-2 leading-tight break-words">
-          SaarathiAI <span className="block sm:inline text-accent-gold-light opacity-80">{currentT.subtitle}</span>
+          SaarathiAI <span className="block sm:inline text-accent-gold-light opacity-80 font-spiritual">{currentT.subtitle}</span>
         </h1>
         <p className="text-secondary text-base sm:text-lg max-w-[18rem] sm:max-w-none mx-auto leading-snug break-words">{currentT.tagline}</p>
       </header>
@@ -318,7 +318,7 @@ ${guidance.reflection_question || ""}`;
                 </span>
                 
                 <div className="mb-4">
-                  <p className="font-serif text-2xl md:text-3xl text-accent-gold-light leading-relaxed whitespace-pre-wrap">
+                  <p className="font-spiritual text-2xl md:text-3xl text-accent-gold-light leading-relaxed whitespace-pre-wrap">
                     {response.data?.shloka_sanskrit}
                   </p>
                 </div>
@@ -331,7 +331,7 @@ ${guidance.reflection_question || ""}`;
                   <h3 className="text-xs text-accent-gold uppercase tracking-wider mb-2 font-semibold">
                     {currentT.firstWord}
                   </h3>
-                  <p className="font-serif text-2xl text-accent-gold-light leading-snug">
+                  <p className="font-spiritual text-2xl text-accent-gold-light leading-snug">
                     {openingLine}
                   </p>
                   {data.core_message && data.core_message !== openingLine && (
