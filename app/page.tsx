@@ -30,8 +30,13 @@ export default function Home() {
       ],
       meaning: "What this means",
       teaching: "What Krishna is telling you",
+      firstWord: "Krishna's first word",
       situation: "For your situation",
       step: "Your step today",
+      whyFits: "Why this shloka fits",
+      deeperWisdom: "Deeper wisdom",
+      dailyPractice: "Daily Practice",
+      reflection: "Reflection",
       also: "Also relevant:",
       askAgain: "Ask another question",
       regenerate: "Regenerate Response",
@@ -55,8 +60,13 @@ export default function Home() {
       ],
       meaning: "अर्थ",
       teaching: "कृष्ण आपसे क्या कह रहे हैं",
+      firstWord: "\u0915\u0943\u0937\u094d\u0923 \u0915\u093e \u092a\u0939\u0932\u093e \u0935\u091a\u0928",
       situation: "आपकी स्थिति में",
       step: "आज का कदम",
+      whyFits: "\u092f\u0939 \u0936\u094d\u0932\u094b\u0915 \u0915\u094d\u092f\u094b\u0902 \u0909\u092a\u092f\u0941\u0915\u094d\u0924 \u0939\u0948",
+      deeperWisdom: "\u0917\u0939\u0930\u093e \u091c\u094d\u091e\u093e\u0928",
+      dailyPractice: "\u0906\u091c \u0915\u093e \u0905\u092d\u094d\u092f\u093e\u0938",
+      reflection: "\u0935\u093f\u091a\u093e\u0930",
       also: "अन्य प्रासंगिक श्लोक:",
       askAgain: "दूसरा प्रश्न पूछें",
       regenerate: "पुनः विचार करें",
@@ -68,6 +78,14 @@ export default function Home() {
   };
 
   const currentT = t[lang];
+  const data = response?.data || {};
+  const openingLine = data.opening_line || data.core_message || "";
+  const problemReflection = data.problem_reflection || data.their_problem || "";
+  const krishnaGuidance = data.krishna_guidance || data.how_it_applies || "";
+  const whyThisFits = data.how_it_applies || data.krishna_guidance || "";
+  const practicalSteps = Array.isArray(data.practical_steps)
+    ? data.practical_steps.slice(0, 3)
+    : [];
 
   // Auto-resize textarea
   useEffect(() => {
@@ -122,30 +140,41 @@ export default function Home() {
 
   const handleCopy = () => {
     if (!response || !response.data) return;
-    const { data } = response;
+    const guidance = response.data;
+    const copyOpening = guidance.opening_line || guidance.core_message || "";
+    const copyProblem = guidance.problem_reflection || guidance.their_problem || "";
+    const copyGuidance = guidance.krishna_guidance || guidance.how_it_applies || "";
+    const copyWhyFits = guidance.how_it_applies || guidance.krishna_guidance || "";
     
-    const stepsString = data.practical_steps?.length 
-      ? data.practical_steps.map((s: string) => `  * ${s}`).join("\n") 
+    const stepsString = Array.isArray(guidance.practical_steps) && guidance.practical_steps.length
+      ? guidance.practical_steps.slice(0, 3).map((s: string) => `  * ${s}`).join("\n")
       : "";
 
-    const text = `${data.chapter_verse}
+    const text = `${guidance.chapter_verse || ""}
 
-${data.shloka_sanskrit}
+${guidance.shloka_sanskrit || ""}
 
 Meaning:
-${data.shloka_english}
+${guidance.shloka_english || ""}
 
 Guidance:
-* Core message:
-  ${data.core_message}
+* Krishna's first word:
+  ${copyOpening}
+* Core teaching:
+  ${guidance.core_message || ""}
 * For your situation:
-  ${data.how_it_applies}
-* Actionable steps:
+  ${copyProblem}
+  ${copyGuidance}
+* Your step today:
 ${stepsString}
 * Daily Practice:
-  ${data.daily_practice}
+  ${guidance.daily_practice || ""}
+* Why this shloka fits:
+  ${copyWhyFits}
 
-"${data.deeper_wisdom}"`;
+"${guidance.deeper_wisdom || ""}"
+
+${guidance.reflection_question || ""}`;
     
     navigator.clipboard.writeText(text);
     setCopied(true);
@@ -262,23 +291,17 @@ ${stepsString}
               <div className="px-6 md:px-10 py-8 space-y-8">
                 
                 <section>
-                  <h3 className="text-xs text-muted uppercase tracking-wider mb-2 font-semibold">
-                    {currentT.meaning}
-                  </h3>
-                  <p className="text-secondary leading-relaxed">
-                    {response.data?.shloka_english}
-                  </p>
-                </section>
-
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent"></div>
-
-                <section>
                   <h3 className="text-xs text-accent-gold uppercase tracking-wider mb-2 font-semibold">
-                    {currentT.teaching}
+                    {currentT.firstWord}
                   </h3>
-                  <p className="leading-relaxed">
-                    {response.data?.core_message}
+                  <p className="font-serif text-2xl text-accent-gold-light leading-snug">
+                    {openingLine}
                   </p>
+                  {data.core_message && data.core_message !== openingLine && (
+                    <p className="mt-3 leading-relaxed text-secondary">
+                      {data.core_message}
+                    </p>
+                  )}
                 </section>
 
                 <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent"></div>
@@ -287,10 +310,12 @@ ${stepsString}
                   <h3 className="text-xs text-accent-gold uppercase tracking-wider mb-2 font-semibold">
                     {currentT.situation}
                   </h3>
-                  <p className="leading-relaxed whitespace-pre-line text-[#e8e2d7]">
-                    <span className="block italic opacity-80 mb-2">"{response.data?.their_problem}"</span>
-                    {response.data?.how_it_applies}
-                  </p>
+                  <div className="space-y-3 leading-relaxed text-[#e8e2d7]">
+                    {problemReflection && (
+                      <p className="italic opacity-85">"{problemReflection}"</p>
+                    )}
+                    <p>{krishnaGuidance}</p>
+                  </div>
                 </section>
 
                 <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent"></div>
@@ -301,23 +326,48 @@ ${stepsString}
                     {currentT.step}
                   </h3>
                   <ul className="leading-relaxed font-medium space-y-2 mb-4">
-                    {response.data?.practical_steps?.map((step: string, idx: number) => (
-                      <li key={idx} className="flex gap-2">
+                    {practicalSteps.map((step: string, idx: number) => (
+                      <li key={idx} className="flex gap-2 before:text-success before:opacity-70 before:content-['-'] [&>span:first-child]:hidden">
                         <span className="text-success opacity-70">•</span>
                         <span>{step}</span>
                       </li>
                     ))}
                   </ul>
                   <p className="text-sm border-t border-border/30 pt-3 text-secondary mt-3">
-                    <strong className="text-accent-gold">Daily Practice:</strong> {response.data?.daily_practice}
+                    <strong className="text-accent-gold">{currentT.dailyPractice}:</strong> {data.daily_practice}
                   </p>
                 </section>
 
-                <div className="pt-6 relative">
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-px bg-accent-gold/30"></div>
-                  <p className="text-center font-serif italic text-accent-gold-light text-lg">
-                    "{response.data?.deeper_wisdom}"
-                  </p>
+                <div className="space-y-0 border-y border-border/40 divide-y divide-border/40">
+                  <details>
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-3 py-4 text-xs text-muted uppercase tracking-wider font-semibold hover:text-accent-gold transition-colors">
+                      <span>{currentT.whyFits}</span>
+                      <span aria-hidden="true" className="text-accent-gold">+</span>
+                    </summary>
+                    <div className="pb-5 space-y-3 text-secondary leading-relaxed">
+                      {data.shloka_english && <p>{data.shloka_english}</p>}
+                      {whyThisFits && <p>{whyThisFits}</p>}
+                    </div>
+                  </details>
+
+                  <details>
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-3 py-4 text-xs text-muted uppercase tracking-wider font-semibold hover:text-accent-gold transition-colors">
+                      <span>{currentT.deeperWisdom}</span>
+                      <span aria-hidden="true" className="text-accent-gold">+</span>
+                    </summary>
+                    <div className="pb-5 space-y-4">
+                      {data.deeper_wisdom && (
+                        <p className="font-serif italic text-accent-gold-light text-lg leading-relaxed">
+                          "{data.deeper_wisdom}"
+                        </p>
+                      )}
+                      {data.reflection_question && (
+                        <p className="text-sm text-secondary leading-relaxed">
+                          <strong className="text-accent-gold">{currentT.reflection}:</strong> {data.reflection_question}
+                        </p>
+                      )}
+                    </div>
+                  </details>
                 </div>
 
               </div>
