@@ -20,6 +20,105 @@
 body {
   color: var(--text-primary);
   background: var(--bg-primary);
+  overflow-x: hidden;
+}
+
+.krishna-scene {
+  position: relative;
+  isolation: isolate;
+  background: #120d09;
+}
+
+.saarathi-content {
+  width: calc(100vw - 2rem);
+  max-width: 22.375rem;
+  margin-inline: auto;
+}
+
+.krishna-scene__image,
+.krishna-scene__warmth,
+.krishna-scene__haze,
+.krishna-scene__canopy {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+.krishna-scene__image {
+  inset: -2.5%;
+  z-index: -4;
+  background-image: url("/krishna-sunset.png");
+  background-position: 34% center;
+  background-size: cover;
+  transform: scale(1.015);
+  animation: sunset-drift 42s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+.krishna-scene__warmth {
+  z-index: -3;
+  background:
+    linear-gradient(90deg, rgba(6, 4, 3, 0.42) 0%, rgba(6, 4, 3, 0.12) 36%, rgba(6, 4, 3, 0.34) 100%),
+    radial-gradient(ellipse at 30% 43%, rgba(255, 183, 82, 0.24), rgba(255, 183, 82, 0.05) 28%, transparent 58%);
+  animation: sunset-breathe 18s ease-in-out infinite;
+}
+
+.krishna-scene__haze {
+  z-index: -2;
+  background:
+    linear-gradient(105deg, transparent 0%, rgba(245, 201, 126, 0.07) 38%, transparent 70%),
+    linear-gradient(0deg, rgba(14, 9, 6, 0.42), transparent 38%, rgba(9, 6, 5, 0.18));
+  mix-blend-mode: screen;
+  opacity: 0.62;
+  transform: translate3d(-1.5%, 0, 0);
+  animation: haze-pass 34s ease-in-out infinite alternate;
+}
+
+.krishna-scene__canopy {
+  z-index: -1;
+  background:
+    linear-gradient(175deg, rgba(7, 5, 3, 0.48) 0%, transparent 20%),
+    linear-gradient(90deg, rgba(5, 4, 3, 0.42) 0%, transparent 30%, transparent 76%, rgba(5, 4, 3, 0.32) 100%);
+  opacity: 0.9;
+  animation: canopy-sway 30s ease-in-out infinite alternate;
+}
+
+@keyframes sunset-drift {
+  from {
+    transform: scale(1.015) translate3d(-0.35%, 0, 0);
+  }
+  to {
+    transform: scale(1.035) translate3d(0.45%, -0.35%, 0);
+  }
+}
+
+@keyframes sunset-breathe {
+  0%, 100% {
+    opacity: 0.82;
+  }
+  50% {
+    opacity: 0.96;
+  }
+}
+
+@keyframes haze-pass {
+  from {
+    opacity: 0.5;
+    transform: translate3d(-1.5%, 0.4%, 0);
+  }
+  to {
+    opacity: 0.72;
+    transform: translate3d(1.5%, -0.2%, 0);
+  }
+}
+
+@keyframes canopy-sway {
+  from {
+    transform: translate3d(-0.35%, 0, 0);
+  }
+  to {
+    transform: translate3d(0.35%, -0.25%, 0);
+  }
 }
 
 @keyframes pulse-slow {
@@ -35,6 +134,40 @@ body {
 
 .animate-pulse-slow {
   animation: pulse-slow 3s ease-in-out infinite;
+}
+
+@media (max-width: 640px) {
+  .krishna-scene__image {
+    background-position: 27% center;
+  }
+
+  .krishna-scene__warmth {
+    background:
+      linear-gradient(90deg, rgba(6, 4, 3, 0.5) 0%, rgba(6, 4, 3, 0.16) 42%, rgba(6, 4, 3, 0.42) 100%),
+      radial-gradient(ellipse at 31% 42%, rgba(255, 183, 82, 0.2), rgba(255, 183, 82, 0.04) 30%, transparent 62%);
+  }
+}
+
+@media (min-width: 640px) {
+  .saarathi-content {
+    width: calc(100vw - 3rem);
+    max-width: 48rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .saarathi-content {
+    width: calc(100vw - 4rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .krishna-scene__image,
+  .krishna-scene__warmth,
+  .krishna-scene__haze,
+  .krishna-scene__canopy {
+    animation: none;
+  }
 }
 
 /* Custom scrollbar for better ui */
