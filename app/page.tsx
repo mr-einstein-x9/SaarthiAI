@@ -218,7 +218,13 @@ ${guidance.reflection_question || ""}`;
   };
 
   return (
-    <div className="min-h-screen flex flex-col pt-8 pb-16 px-4 sm:px-6 md:px-8 max-w-3xl mx-auto">
+    <section className="krishna-scene min-h-screen overflow-hidden">
+      <div className="krishna-scene__image" aria-hidden="true"></div>
+      <div className="krishna-scene__warmth" aria-hidden="true"></div>
+      <div className="krishna-scene__haze" aria-hidden="true"></div>
+      <div className="krishna-scene__canopy" aria-hidden="true"></div>
+
+      <div className="saarathi-content relative z-10 min-h-screen flex flex-col pt-8 pb-16 overflow-x-hidden">
       {/* HEADER */}
       <header className="flex flex-col items-center justify-center text-center py-10 relative w-full">
         <button 
@@ -234,24 +240,24 @@ ${guidance.reflection_question || ""}`;
           <span className="text-4xl text-accent-gold font-serif">ॐ</span>
         </div>
         
-        <h1 className="text-4xl font-bold tracking-tight mb-2">
-          SaarathiAI <span className="text-accent-gold-light opacity-80">{currentT.subtitle}</span>
+        <h1 className="max-w-full text-3xl sm:text-4xl font-bold tracking-tight mb-2 leading-tight break-words">
+          SaarathiAI <span className="block sm:inline text-accent-gold-light opacity-80">{currentT.subtitle}</span>
         </h1>
-        <p className="text-secondary text-lg">{currentT.tagline}</p>
+        <p className="text-secondary text-base sm:text-lg max-w-[18rem] sm:max-w-none mx-auto leading-snug break-words">{currentT.tagline}</p>
       </header>
 
       {/* INPUT SECTION */}
-      <main className="flex-grow w-full flex flex-col">
+      <main className="flex-grow w-full min-w-0 flex flex-col">
         {!response && !loading && (
-          <div className="w-full flex-grow flex flex-col justify-center pb-20 animate-fade-in">
+          <div className="w-full min-w-0 flex-grow flex flex-col justify-center pb-20 animate-fade-in">
             <h2 className="text-2xl font-medium mb-4 text-center">{currentT.heading}</h2>
-            <div className="relative w-full shadow-lg">
+            <div className="relative w-full max-w-full min-w-0 shadow-lg">
               <textarea
                 ref={textareaRef}
                 value={problem}
                 onChange={(e) => setProblem(e.target.value.substring(0, 500))}
                 placeholder={currentT.placeholder}
-                className="w-full bg-card border border-border rounded-2xl p-5 text-lg resize-none focus:outline-none focus:ring-1 focus:ring-accent-gold focus:border-accent-gold transition-all min-h-[120px]"
+                className="w-full max-w-full min-w-0 box-border bg-card border border-border rounded-2xl p-5 text-lg resize-none focus:outline-none focus:ring-1 focus:ring-accent-gold focus:border-accent-gold transition-all min-h-[120px]"
                 disabled={loading}
               />
               <div className="absolute bottom-4 right-4 text-xs font-mono text-muted">
@@ -260,13 +266,13 @@ ${guidance.reflection_question || ""}`;
             </div>
 
             {/* CHIPS */}
-            <div className="flex flex-wrap gap-2 mt-4 justify-center">
+            <div className="flex flex-wrap gap-2 mt-4 justify-center w-full max-w-full min-w-0 overflow-hidden">
               {currentT.chips.map((chip, idx) => (
                 <button
                   key={idx}
                   onClick={() => setProblem(chip)}
                   disabled={loading}
-                  className="bg-card/50 border border-border px-3 py-1.5 rounded-full text-sm text-secondary hover:text-primary hover:border-accent-gold/50 transition-colors"
+                  className="max-w-full min-w-0 whitespace-normal break-words bg-card/50 border border-border px-3 py-1.5 rounded-full text-sm text-secondary text-center hover:text-primary hover:border-accent-gold/50 transition-colors"
                 >
                   {chip}
                 </button>
@@ -457,6 +463,7 @@ ${guidance.reflection_question || ""}`;
         .animate-fade-in { animation: fade-in 0.5s ease-out forwards; }
         .animate-slide-up { animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
       `}</style>
-    </div>
+      </div>
+    </section>
   );
 }
