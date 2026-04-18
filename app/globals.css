@@ -3,24 +3,32 @@
 @tailwind utilities;
 
 :root {
-  --font-inter: 'Inter', sans-serif;
-  --font-crimson: 'Crimson Pro', serif;
+  --font-humanist: 'Lora', serif;
+  --font-spiritual: 'Tiro Devanagari Hindi', serif;
   --bg-primary: #0A0A0A;
-  --bg-card: #141414;
-  --bg-card-hover: #1C1C1C;
+  --bg-card: rgba(20, 20, 20, 0.7);
+  --bg-card-hover: rgba(28, 28, 28, 0.8);
   --accent-gold: #C9933A;
   --accent-gold-light: #E8B455;
   --text-primary: #F5F0E8;
-  --text-secondary: #9A8F7E;
-  --text-muted: #5A5248;
+  --text-secondary: #B5A998;
+  --text-muted: #8A8275;
   --border: #252525;
   --success: #4A7C59;
+  --text-shadow-premium: 0 2px 8px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.9);
 }
 
 body {
+  font-family: var(--font-humanist);
   color: var(--text-primary);
   background: var(--bg-primary);
   overflow-x: hidden;
+  text-shadow: var(--text-shadow-premium);
+  cursor: url('/feather-pen.png'), auto;
+}
+
+button, a, textarea, input, label, [role="button"] {
+  cursor: url('/feather-pen.png'), pointer !important;
 }
 
 .krishna-scene {
@@ -29,10 +37,14 @@ body {
   background: #120d09;
 }
 
+/* Visibility Shroud for content */
 .saarathi-content {
   width: calc(100vw - 2rem);
   max-width: 22.375rem;
   margin-inline: auto;
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 0.4) 0%, transparent 80%);
+  position: relative;
+  z-index: 10;
 }
 
 .krishna-scene__image,
@@ -87,15 +99,19 @@ body {
   from {
     transform: scale(1.015) translate3d(-0.35%, 0, 0);
   }
+
   to {
     transform: scale(1.035) translate3d(0.45%, -0.35%, 0);
   }
 }
 
 @keyframes sunset-breathe {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.82;
   }
+
   50% {
     opacity: 0.96;
   }
@@ -106,6 +122,7 @@ body {
     opacity: 0.5;
     transform: translate3d(-1.5%, 0.4%, 0);
   }
+
   to {
     opacity: 0.72;
     transform: translate3d(1.5%, -0.2%, 0);
@@ -116,16 +133,20 @@ body {
   from {
     transform: translate3d(-0.35%, 0, 0);
   }
+
   to {
     transform: translate3d(0.35%, -0.25%, 0);
   }
 }
 
 @keyframes pulse-slow {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
     transform: scale(1);
   }
+
   50% {
     opacity: 0.7;
     transform: scale(1.05);
@@ -162,6 +183,7 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .krishna-scene__image,
   .krishna-scene__warmth,
   .krishna-scene__haze,
@@ -170,17 +192,39 @@ body {
   }
 }
 
+h1,
+h2,
+h3,
+.font-serif,
+[class*='text-accent-gold'] {
+  font-family: var(--font-humanist);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.font-spiritual {
+  font-family: var(--font-spiritual);
+}
+
+.bg-card {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
 /* Custom scrollbar for better ui */
 ::-webkit-scrollbar {
   width: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--border);
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-muted);
 }
