@@ -3,8 +3,14 @@
 import { useState, useRef, useEffect } from "react";
 import { Copy, Sparkles, Languages, RotateCcw } from "lucide-react";
 
+type Language = 'en' | 'hi';
+type LockedVerse = {
+  chapter_verse?: string;
+  shloka_sanskrit?: string;
+};
+
 export default function Home() {
-  const [lang, setLang] = useState<'en' | 'hi'>('en');
+  const [lang, setLang] = useState<Language>('en');
   const [problem, setProblem] = useState("");
   const [loading, setLoading] = useState(false);
   const [response, setResponse] = useState<any>(null);
@@ -109,7 +115,7 @@ export default function Home() {
     }
   }, [response]);
 
-  const handleSubmit = async () => {
+  const fetchGuidance = async (targetLang: Language, lockedVerse?: LockedVerse) => {
     if (!problem.trim() || problem.length > 500) return;
     
     setLoading(true);
@@ -121,7 +127,11 @@ export default function Home() {
       const res = await fetch("/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ problem, language: lang })
+        body: JSON.stringify({
+          problem,
+          language: targetLang,
+          ...(lockedVerse?.shloka_sanskrit ? { lockedVerse } : {})
+        })
       });
       
       const data = await res.json();
@@ -129,12 +139,32 @@ export default function Home() {
       if (!res.ok || data.success === false) {
         throw new Error(data.message || data.error || "Failed to fetch guidance");
       }
+
+      if (lockedVerse?.shloka_sanskrit && data.data) {
+        data.data.shloka_sanskrit = lockedVerse.shloka_sanskrit;
+      }
       
       setResponse(data);
     } catch (err: any) {
       setError(err.message || "An unexpected error occurred.");
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleSubmit = () => {
+    fetchGuidance(lang);
+  };
+
+  const handleLanguageToggle = () => {
+    const nextLang = lang === 'en' ? 'hi' : 'en';
+    setLang(nextLang);
+
+    if (response && problem.trim()) {
+      fetchGuidance(nextLang, {
+        chapter_verse: response.data?.chapter_verse,
+        shloka_sanskrit: response.data?.shloka_sanskrit
+      });
     }
   };
 
@@ -192,8 +222,9 @@ ${guidance.reflection_question || ""}`;
       {/* HEADER */}
       <header className="flex flex-col items-center justify-center text-center py-10 relative w-full">
         <button 
-          onClick={() => setLang(lang === 'en' ? 'hi' : 'en')}
-          className="absolute top-0 right-0 flex items-center gap-2 bg-card border border-border px-3 py-1.5 rounded-full text-sm font-medium hover:bg-card-hover transition-colors"
+          onClick={handleLanguageToggle}
+          disabled={loading}
+          className="absolute top-0 right-0 flex items-center gap-2 bg-card border border-border px-3 py-1.5 rounded-full text-sm font-medium hover:bg-card-hover transition-colors disabled:opacity-50"
         >
           <Languages size={16} className="text-accent-gold" />
           {lang === 'en' ? 'HI' : 'EN'}

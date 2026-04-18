@@ -6,7 +6,7 @@ import { safe_generate } from "@/lib/gemini";
 
 export async function POST(request: Request) {
   try {
-    const { problem, language = "en" } = await request.json();
+    const { problem, language = "en", lockedVerse } = await request.json();
 
     // ✅ CORRECT: Access environment variable properly
     const apiKey = process.env.GEMINI_API_KEY;
@@ -128,11 +128,22 @@ CRITICAL RULES:
 - Avoid long paragraphs, preaching, vague motivation, and repeated ideas
 - Show compassion and understanding without sounding weak
 - If they describe multiple issues, pick the ROOT cause
+- If a selected shloka is provided, use that exact shloka and do not replace it
 - Ensure JSON is valid`;
+
+    const lockedVerseInstruction = lockedVerse?.shloka_sanskrit
+      ? `
+
+Already selected shloka:
+Chapter/verse: ${lockedVerse.chapter_verse || "Use the provided shloka reference"}
+Sanskrit: ${lockedVerse.shloka_sanskrit}
+
+Use this exact shloka. Do not choose a different shloka. Return shloka_sanskrit exactly as provided, while writing the rest of the guidance in the requested language.`
+      : "";
 
     const userMessage = `${language === "hi" ? "मेरी समस्या:" : "My Problem:"} "${problem}"
 
-${language === "hi" ? "कृपया भगवद गीता की सबसे प्रासंगिक शिक्षा साझा करें जो इस समस्या को सीधे संबोधित करे।" : "Please share the most relevant Bhagavad Gita teaching that directly addresses this specific problem."}`;
+${language === "hi" ? "कृपया भगवद गीता की सबसे प्रासंगिक शिक्षा साझा करें जो इस समस्या को सीधे संबोधित करे।" : "Please share the most relevant Bhagavad Gita teaching that directly addresses this specific problem."}${lockedVerseInstruction}`;
 
     console.log("📤 Sending to Gemini API...");
 
