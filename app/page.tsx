@@ -10,6 +10,7 @@ type LockedVerse = {
 };
 
 export default function Home() {
+  const [isInteracted, setIsInteracted] = useState(false);
   const [lang, setLang] = useState<Language>('en');
   const [problem, setProblem] = useState("");
   const [loading, setLoading] = useState(false);
@@ -211,6 +212,14 @@ ${guidance.reflection_question || ""}`;
     setTimeout(() => setCopied(false), 2000);
   };
 
+  const handleReveal = () => {
+    setIsInteracted(true);
+    // Explicitly focus textarea after reveal for better UX
+    setTimeout(() => textareaRef.current?.focus(), 500);
+    // Notify AudioPlayer to show controls
+    window.dispatchEvent(new CustomEvent('saarthi-reveal'));
+  };
+
   const handleReset = () => {
     setProblem("");
     setResponse(null);
@@ -218,15 +227,49 @@ ${guidance.reflection_question || ""}`;
   };
 
   return (
-    <section className="krishna-scene min-h-screen overflow-hidden">
+    <section className={`krishna-scene min-h-screen overflow-hidden ${isInteracted ? 'krishna-scene--active' : 'krishna-scene--landed'}`}>
       <div className="krishna-scene__image" aria-hidden="true"></div>
       <div className="krishna-scene__warmth" aria-hidden="true"></div>
       <div className="krishna-scene__haze" aria-hidden="true"></div>
       <div className="krishna-scene__canopy" aria-hidden="true"></div>
 
-      <div className="saarathi-content relative z-10 min-h-screen flex flex-col pt-8 pb-16 overflow-x-hidden">
-      {/* HEADER */}
-      <header className="flex flex-col items-center justify-center text-center py-10 relative w-full">
+      {/* PERSISTENT LOGO & TRIGGER - Outside saarathi-content for visibility */}
+      <div 
+        className={`fixed z-50 transition-all duration-1000 ease-in-out flex flex-col items-center ${
+          isInteracted 
+            ? 'top-8 left-1/2 -translate-x-1/2 scale-100 sm:scale-110' 
+            : 'top-[15%] right-[10%] scale-90 sm:scale-100 translate-x-0'
+        }`}
+      >
+        <div className="relative group cursor-pointer text-center" onClick={!isInteracted ? handleReveal : undefined}>
+          <img 
+            src="/saarthi-symbol.png" 
+            alt="SaarthiAI Symbol" 
+            className="w-24 h-24 sm:w-32 sm:h-32 object-contain mb-2 drop-shadow-2xl"
+          />
+          
+          <h1 className="max-w-full text-3xl sm:text-4xl font-bold tracking-tight mb-2 leading-tight break-words">
+            SaarathiAI <span className="block sm:inline text-accent-gold-light opacity-80 font-spiritual">{currentT.subtitle}</span>
+          </h1>
+
+          {!isInteracted && (
+            <button
+              onClick={handleReveal}
+              className="mt-6 bg-accent-gold hover:bg-accent-gold-light text-black font-bold px-8 py-3 rounded-full shadow-[0_0_20px_rgba(201,147,58,0.3)] transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(201,147,58,0.5)] flex items-center gap-2"
+            >
+              <Sparkles size={18} />
+              Ask Krishna
+            </button>
+          )}
+        </div>
+      </div>
+
+      <div className={`saarathi-content relative z-10 min-h-screen flex flex-col pt-8 pb-16 overflow-x-hidden transition-all duration-1000 ${isInteracted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}>
+      
+      {/* Spacer to account for fixed logo height in active state */}
+      <div className="h-40 sm:h-52 w-full shrink-0"></div>
+      
+      <header className={`flex flex-col items-center justify-center text-center pb-10 relative w-full`}>
         <button 
           onClick={handleLanguageToggle}
           disabled={loading}
@@ -236,14 +279,7 @@ ${guidance.reflection_question || ""}`;
           {lang === 'en' ? 'HI' : 'EN'}
         </button>
         
-        <div className="w-16 h-16 rounded-full bg-accent-gold/10 flex items-center justify-center mb-6">
-          <span className="text-4xl text-accent-gold font-serif">ॐ</span>
-        </div>
-        
-        <h1 className="max-w-full text-3xl sm:text-4xl font-bold tracking-tight mb-2 leading-tight break-words">
-          SaarathiAI <span className="block sm:inline text-accent-gold-light opacity-80 font-spiritual">{currentT.subtitle}</span>
-        </h1>
-        <p className="text-secondary text-base sm:text-lg max-w-[18rem] sm:max-w-none mx-auto leading-snug break-words">{currentT.tagline}</p>
+        <p className="text-secondary text-base sm:text-lg max-w-[18rem] sm:max-w-none mx-auto leading-snug break-words mt-4">{currentT.tagline}</p>
       </header>
 
       {/* INPUT SECTION */}
