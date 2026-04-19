@@ -17,10 +17,12 @@ export async function safe_generate(
       const errorMessage = error?.message?.toString() || "";
       const errorStr = error?.toString() || "";
       
-      if (errorMessage.includes("503") || errorStr.includes("503")) {
+      if (errorMessage.includes("503") || errorStr.includes("503") || 
+          errorMessage.includes("429") || errorStr.includes("429") ||
+          errorMessage.includes("quota") || errorStr.includes("quota")) {
         attempt++;
         if (attempt >= maxRetries) {
-          throw new Error("Krishna is not available right now. Please try again shortly.");
+          throw new Error("Krishna is not available right now. His wisdom is being sought by many. Please return in a few moments.");
         }
         
         // Exponential backoff: 2^attempt seconds

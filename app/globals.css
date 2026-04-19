@@ -42,7 +42,6 @@ button, a, textarea, input, label, [role="button"] {
   width: calc(100vw - 2rem);
   max-width: 22.375rem;
   margin-inline: auto;
-  background: radial-gradient(circle at center, rgba(0, 0, 0, 0.4) 0%, transparent 80%);
   position: relative;
   z-index: 10;
 }
@@ -64,13 +63,22 @@ button, a, textarea, input, label, [role="button"] {
   background-size: cover;
   transform: scale(1.015);
   animation: sunset-drift 42s ease-in-out infinite alternate;
-  will-change: transform;
+  will-change: transform, filter;
+  transition: filter 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.krishna-scene--landed .krishna-scene__image {
+  filter: brightness(1.15) contrast(1.1) saturate(1.1);
+}
+
+.krishna-scene--active .krishna-scene__image {
+  filter: brightness(0.65) contrast(1.0) saturate(0.9);
 }
 
 .krishna-scene__warmth {
   z-index: -3;
   background:
-    linear-gradient(90deg, rgba(6, 4, 3, 0.42) 0%, rgba(6, 4, 3, 0.12) 36%, rgba(6, 4, 3, 0.34) 100%),
+    linear-gradient(90deg, rgba(6, 4, 3, 0.12) 0%, transparent 36%, rgba(6, 4, 3, 0.1) 100%),
     radial-gradient(ellipse at 30% 43%, rgba(255, 183, 82, 0.24), rgba(255, 183, 82, 0.05) 28%, transparent 58%);
   animation: sunset-breathe 18s ease-in-out infinite;
 }
@@ -89,9 +97,9 @@ button, a, textarea, input, label, [role="button"] {
 .krishna-scene__canopy {
   z-index: -1;
   background:
-    linear-gradient(175deg, rgba(7, 5, 3, 0.48) 0%, transparent 20%),
-    linear-gradient(90deg, rgba(5, 4, 3, 0.42) 0%, transparent 30%, transparent 76%, rgba(5, 4, 3, 0.32) 100%);
-  opacity: 0.9;
+    linear-gradient(175deg, rgba(7, 5, 3, 0.15) 0%, transparent 20%),
+    linear-gradient(90deg, rgba(5, 4, 3, 0.12) 0%, transparent 30%, transparent 76%, rgba(5, 4, 3, 0.1) 100%);
+  opacity: 0.6;
   animation: canopy-sway 30s ease-in-out infinite alternate;
 }
 
