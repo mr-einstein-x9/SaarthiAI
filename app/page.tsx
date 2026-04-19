@@ -13,6 +13,12 @@ export default function Home() {
   const [isInteracted, setIsInteracted] = useState(false);
   const [scrollOpacity, setScrollOpacity] = useState(1);
   const [lang, setLang] = useState<Language>('en');
+  const [quoteIndex, setQuoteIndex] = useState(0);
+
+  // Set random quote on mount to avoid hydration mismatch
+  useEffect(() => {
+    setQuoteIndex(Math.floor(Math.random() * 4));
+  }, []);
   
   // Handle header fade on scroll
   useEffect(() => {
@@ -47,8 +53,7 @@ export default function Home() {
     en: {
       subtitle: "सारथी",
       tagline: "Wisdom from the Gita, for your life today",
-      heading: "What is troubling you?",
-      placeholder: "Describe what you're going through...\n(e.g. I feel stuck in my career, I'm angry at someone I love)",
+      heading: "Tell me, what is troubling your heart?",
       submit: "Seek Guidance",
       loading: "Krishna is listening...",
       chips: [
@@ -77,8 +82,7 @@ export default function Home() {
     hi: {
       subtitle: "सारथी",
       tagline: "गीता का ज्ञान, आज के जीवन के लिए",
-      heading: "आपको क्या परेशान कर रहा है?",
-      placeholder: "अपनी परेशानी बताएं...\n(जैसे: मुझे अपने करियर में दिशा नहीं मिल रही)",
+      heading: "कहो मित्र, मन में क्या दुविधा है?",
       submit: "मार्गदर्शन पाएं",
       loading: "कृष्ण सुन रहे हैं...",
       chips: [
@@ -107,6 +111,24 @@ export default function Home() {
   };
 
   const currentT = t[lang];
+  
+  const placeholders = {
+    en: [
+      '"Maiya Mori, Main Nahin Makhan Khayo..."\nShare what is on your mind.',
+      '"Do not fear, I will protect you from the demons of Kamsa."\nTell me what troubles you.',
+      '"Live a life of dharma and righteousness."\nSeek your path here.',
+      '"Why to hide, let\'s play in the open!"\nSpeak your heart freely.'
+    ],
+    hi: [
+      '"मैय्या मोरी, मैं नहिं माखन खायो..."\nअपने मन की बात साझा करो।',
+      '"डरो मत, मैं रक्षा करूंगा..."\nअपनी चिंता मुझसे साझा करो।',
+      '"धर्म और सत्य का जीवन जियो।"\nयहाँ अपना मार्गदर्शन खोजो।',
+      '"छुपना क्यों, चलो खुलकर खेलें!"\nअपने हृदय की बात बेझिझक कहो।'
+    ]
+  };
+
+  const dynamicPlaceholder = placeholders[lang][quoteIndex];
+
   const data = response?.data || {};
   const openingLine = data.opening_line || data.core_message || "";
   const problemReflection = data.problem_reflection || data.their_problem || "";
@@ -323,7 +345,7 @@ ${guidance.reflection_question || ""}`;
                 ref={textareaRef}
                 value={problem}
                 onChange={(e) => setProblem(e.target.value.substring(0, 500))}
-                placeholder={currentT.placeholder}
+                placeholder={dynamicPlaceholder}
                 className="w-full max-w-full min-w-0 box-border bg-card border border-border rounded-2xl p-5 text-lg resize-none focus:outline-none focus:ring-1 focus:ring-accent-gold focus:border-accent-gold transition-all min-h-[120px]"
                 disabled={loading}
               />
