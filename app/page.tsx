@@ -11,7 +11,29 @@ type LockedVerse = {
 
 export default function Home() {
   const [isInteracted, setIsInteracted] = useState(false);
+  const [scrollOpacity, setScrollOpacity] = useState(1);
   const [lang, setLang] = useState<Language>('en');
+  
+  // Handle header fade on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!isInteracted) {
+        if (scrollOpacity !== 1) setScrollOpacity(1);
+        return;
+      }
+      
+      const scrollY = window.scrollY;
+      const fadeStart = 10;
+      const fadeEnd = 60;
+      
+      const newOpacity = Math.max(0, Math.min(1, 1 - (scrollY - fadeStart) / (fadeEnd - fadeStart)));
+      setScrollOpacity(newOpacity);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [isInteracted, scrollOpacity]);
+
   const [problem, setProblem] = useState("");
   const [loading, setLoading] = useState(false);
   const [response, setResponse] = useState<any>(null);
@@ -235,11 +257,16 @@ ${guidance.reflection_question || ""}`;
 
       {/* PERSISTENT LOGO & TRIGGER - Outside saarathi-content for visibility */}
       <div 
-        className={`fixed z-50 transition-all duration-1000 ease-in-out flex flex-col items-center ${
+        className={`fixed z-50 transition-all duration-700 ease-in-out flex flex-col items-center ${
           isInteracted 
             ? 'top-8 left-1/2 -translate-x-1/2 scale-100 sm:scale-110' 
             : 'top-[15%] right-[10%] scale-90 sm:scale-100 translate-x-0'
         }`}
+        style={{ 
+          opacity: isInteracted ? scrollOpacity : 1,
+          pointerEvents: (isInteracted && scrollOpacity < 0.1) ? 'none' : 'auto',
+          visibility: (isInteracted && scrollOpacity === 0) ? 'hidden' : 'visible'
+        }}
       >
         <div className="relative group cursor-pointer text-center" onClick={!isInteracted ? handleReveal : undefined}>
           <img 
@@ -273,7 +300,11 @@ ${guidance.reflection_question || ""}`;
         <button 
           onClick={handleLanguageToggle}
           disabled={loading}
-          className="absolute top-0 right-0 flex items-center gap-2 bg-card border border-border px-3 py-1.5 rounded-full text-sm font-medium hover:bg-card-hover transition-colors disabled:opacity-50"
+          className="absolute top-0 right-0 flex items-center gap-2 bg-card border border-border px-3 py-1.5 rounded-full text-sm font-medium hover:bg-card-hover transition-all duration-300 disabled:opacity-50"
+          style={{ 
+            opacity: isInteracted ? scrollOpacity : 1,
+            pointerEvents: (isInteracted && scrollOpacity < 0.1) ? 'none' : 'auto'
+          }}
         >
           <Languages size={16} className="text-accent-gold" />
           {lang === 'en' ? 'HI' : 'EN'}
