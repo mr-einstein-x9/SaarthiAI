@@ -6,37 +6,32 @@ import string
 from collections import OrderedDict
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# Load env variables (for GEMINI API KEY if present)
-load_dotenv('../.env.local')  # from Next.js project root
+# Load env variables
+load_dotenv('../.env.local')  
 
 # --- SYSTEM INITIALIZATION ---
-print("Initializing SaarthiAI Engine (Hybrid Local Search)...")
+print("Initializing SaarthiAI Engine (Production Ready)...")
 start_time = time.time()
 
 def normalize_text(text):
-    """Normalize text by converting to lowercase and removing punctuation."""
-    if not text:
-        return ""
-    text = text.lower()
-    text = text.translate(str.maketrans('', '', string.punctuation))
-    return text
+    if not text: return ""
+    return text.lower().translate(str.maketrans('', '', string.punctuation))
 
-# 1. Load Data (geeta.json loaded once at startup)
+# 1. Load Data
 verses_path = os.path.join(os.path.dirname(__file__), 'geeta.json')
 try:
     with open(verses_path, 'r', encoding='utf-8') as f:
         verses_data = json.load(f)
-        
-    # Preprocess all verses at startup to reduce per-request computation
     for verse in verses_data:
         verse["translation_clean"] = normalize_text(verse.get("translation", ""))
         verse["meaning_clean"] = normalize_text(verse.get("meaning", ""))
 except FileNotFoundError:
-    print("[WARN] geeta.json not found! Using empty dataset.")
+    print("[WARN] geeta.json not found!")
     verses_data = []
 
 # 2. Setup Gemini
@@ -44,181 +39,150 @@ api_key = os.environ.get("GEMINI_API_KEY", "dummy_key")
 genai.configure(api_key=api_key)
 gemini_model = genai.GenerativeModel("gemini-2.5-flash")
 
+# Detailed System Prompt from Frontend
+SYSTEM_PROMPT = """You are Saarathi (सारथी), Krishna's charioteer and spiritual guide based on the Bhagavad Gita.
+Your Sacred Duty:
+1. Listen deeply to the person's specific problem
+2. Identify the MOST RELEVANT Bhagavad Gita verse/teaching
+3. Speak with the direct, steady, compassionate voice of Krishna
+4. Lead with the main insight before giving detail
+5. Provide practical, actionable wisdom without becoming long
+
+CRITICAL RULE: The field 'shloka_sanskrit' MUST ALWAYS be the original Sanskrit verse (in Devanagari script). Do NOT translate this field.
+
+RESPONSE FORMAT:
+Always respond with valid JSON (no markdown, no explanation):
+{
+  "shloka_sanskrit": "The original Sanskrit verse in Devanagari",
+  "shloka_english": "The English translation/paraphrase",
+  "chapter_verse": "Chapter X, Verse Y",
+  "opening_line": "A powerful first line in Krishna's direct, supportive voice",
+  "problem_reflection": "Mirror their specific struggle in one short sentence",
+  "core_message": "One-sentence essence of this teaching",
+  "krishna_guidance": "2-3 short sentences that speak directly to them with calm authority and compassion",
+  "how_it_applies": "Concise explanation of why this verse fits their situation",
+  "practical_steps": ["step 1", "step 2", "step 3"],
+  "daily_practice": "One thing they can do today",
+  "deeper_wisdom": "A poetic reflection",
+  "reflection_question": "One thoughtful question",
+  "their_problem": "Legacy fallback"
+}"""
+
 print(f"Initialization complete in {time.time() - start_time:.2f}s")
 
-
 # --- CACHE ---
-# Simple In-Memory Cache with TTL to prevent memory growth
 class SimpleCache:
-    def __init__(self, max_size=500, ttl_seconds=300): # Default TTL = 5 minutes
+    def __init__(self, max_size=500, ttl_seconds=600):
         self.cache = OrderedDict()
         self.max_size = max_size
         self.ttl_seconds = ttl_seconds
 
-    def get(self, query):
-        if query in self.cache:
-            response_dict, timestamp = self.cache[query]
-            
-            # Check expiry
-            if time.time() - timestamp > self.ttl_seconds:
-                del self.cache[query]
-                return None
-                
-            self.cache.move_to_end(query)
-            return response_dict
+    def get(self, key):
+        if key in self.cache:
+            res, ts = self.cache[key]
+            if time.time() - ts < self.ttl_seconds:
+                self.cache.move_to_end(key)
+                return res
+            del self.cache[key]
         return None
 
-    def put(self, query, response_dict):
-        if len(self.cache) >= self.max_size:
-            self.cache.popitem(last=False)
-        self.cache[query] = (response_dict, time.time())
+    def put(self, key, val):
+        if len(self.cache) >= self.max_size: self.cache.popitem(last=False)
+        self.cache[key] = (val, time.time())
 
 query_cache = SimpleCache()
 
+# --- APP ---
+app = FastAPI(title="SaarthiAI Backend")
 
-# --- SEARCH LOGIC ---
-def search_verses(query, dataset, top_k=3):
-    """
-    Search verses using tokenization and keyword scoring on pre-cleaned fields.
-    Returns the top 'top_k' verses and the highest score.
-    Future Upgrade: Replace keyword search with FAISS (semantic search) to handle synonyms.
-    """
-    norm_query = normalize_text(query)
-    stopwords = {"is", "am", "are", "the", "a", "an", "and", "or", "to", "in", "of", "for", "with", "my", "i", "me", "how", "what", "why", "when", "where", "about", "it", "this", "that"}
-    query_words = [w for w in norm_query.split() if w and w not in stopwords]
-    
-    if not query_words:
-        return [], 0
-        
-    scored_verses = []
-    for verse in dataset:
-        score = 0
-        # Use pre-cleaned fields
-        text_content = f"{verse.get('translation_clean', '')} {verse.get('meaning_clean', '')}".split()
-        
-        # Track score per verse
-        for w in query_words:
-            if w in text_content:
-                score += 1
-        
-        if score > 0:
-            scored_verses.append({"verse": verse, "score": score})
-            
-    # Sort by score descending
-    scored_verses.sort(key=lambda x: x["score"], reverse=True)
-    
-    # Strictly limit max results
-    results = [item["verse"] for item in scored_verses[:top_k]]
-    top_score = scored_verses[0]["score"] if scored_verses else 0
-    return results, top_score
-
-
-# --- FASTAPI CONTRACT ---
-app = FastAPI(title="SaarthiAI RAG Engine")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # In production, restrict to your frontend domain
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class GuidanceRequest(BaseModel):
     query: str
+    language: str = "en"
 
 class GuidanceResponse(BaseModel):
-    guidance: str
-    verse_ref: str
-    confidence_tier: str  # "cache" | "direct" | "cloud" | "fallback"
+    success: bool = True
+    data: dict
+    source: str
     latency_ms: int
-    source: str = "api"   # "database" OR "api"
-    results: list = []    # Top verses from DB
 
-# --- API ENDPOINT ---
-@app.post("/ask", response_model=GuidanceResponse)
-def get_guidance(req: GuidanceRequest):
-    req_start_time = time.time()
-    query = req.query.strip()
-    
-    # 1. Check Simple Cache
-    cached_res = query_cache.get(query)
-    if cached_res:
-        print("SOURCE: CACHE")
-        # Ensure we don't mutate the cached object's original reference permanently
-        res_copy = cached_res.copy()
-        res_copy["confidence_tier"] = "cache"
-        res_copy["latency_ms"] = int((time.time() - req_start_time) * 1000)
-        return GuidanceResponse(**res_copy)
-
-    # Short query guard
+# --- SEARCH ---
+def search_verses(query, dataset, top_k=3):
     norm_query = normalize_text(query)
-    all_query_words = norm_query.split()
-    
-    results = []
-    top_score = 0
-    required_score = 1
-    
-    # 2. Local Keyword Search (Skip DB if query < 2 words or meaningless)
-    if len(all_query_words) >= 2:
-        results, top_score = search_verses(query, verses_data, top_k=3)
-        
-        stopwords = {"is", "am", "are", "the", "a", "an", "and", "or", "to", "in", "of", "for", "with", "my", "i", "me", "how", "what", "why", "when", "where", "about", "it", "this", "that"}
-        meaningful_words = [w for w in all_query_words if w not in stopwords]
-        required_score = max(1, len(meaningful_words) // 2)
-    else:
-        print("[SKIP] Query too short, skipping DB search.")
+    stopwords = {"is", "am", "are", "the", "a", "an", "and", "or", "to", "in", "of", "for", "with", "my", "i", "me", "how", "what", "why", "when", "where", "about"}
+    query_words = [w for w in norm_query.split() if w and w not in stopwords]
+    if not query_words: return [], 0
+    scored = []
+    for v in dataset:
+        score = sum(1 for w in query_words if w in f"{v.get('translation_clean','')} {v.get('meaning_clean','')}".split())
+        if score > 0: scored.append({"v": v, "s": score})
+    scored.sort(key=lambda x: x["s"], reverse=True)
+    return [x["v"] for x in scored[:top_k]], (scored[0]["s"] if scored else 0)
 
-    # 3. Routing Logic: DB Match vs API Fallback
-    # Safe Fallback: If no results OR score is weak -> fallback to API
-    if results and top_score >= required_score:
+@app.post("/ask", response_model=GuidanceResponse)
+async def get_guidance(req: GuidanceRequest):
+    start = time.time()
+    cache_key = f"{req.language}:{req.query.strip()}"
+    cached = query_cache.get(cache_key)
+    if cached:
+        print("SOURCE: CACHE")
+        return {**cached, "latency_ms": int((time.time()-start)*1000)}
+
+    query = req.query.strip()
+    norm_words = normalize_text(query).split()
+    results, top_score = ([], 0)
+    if len(norm_words) >= 2:
+        results, top_score = search_verses(query, verses_data)
+    
+    req_score = max(1, len([w for w in norm_words if w not in {"is","the","a","in"}]) // 2)
+
+    if results and top_score >= req_score:
         print("SOURCE: DATABASE")
-        
-        best_verse = results[0]
-        verse_ref = f"BG {best_verse.get('chapter', '?')}.{best_verse.get('verse', '?')}"
-        sanskrit = best_verse.get("text", "").replace("\n", " ")
-        english_trans = best_verse.get("translation", "")
-        
-        final_guidance = f"*{sanskrit}*\n\n**Meaning:** {english_trans}"
-        confidence_tier = "direct"
-        source = "database"
-        
-        # Ensure results have standard keys for frontend display
-        # The frontend can map these to "Chapter X, Verse Y"
-        
-        resp_dict = {
-            "guidance": final_guidance,
-            "verse_ref": verse_ref,
-            "confidence_tier": confidence_tier,
-            "latency_ms": int((time.time() - req_start_time) * 1000),
-            "source": source,
-            "results": results
+        v = results[0]
+        # Deterministic formatting to mimic AI but faster
+        data = {
+            "shloka_sanskrit": v.get("text", ""),
+            "shloka_english": v.get("translation", ""),
+            "chapter_verse": f"Chapter {v.get('chapter')}, Verse {v.get('verse')}",
+            "opening_line": "Arise, O Arjuna! Wisdom awaits you.",
+            "problem_reflection": f"You are facing a challenge of clarity regarding this situation.",
+            "core_message": v.get("translation", ""),
+            "krishna_guidance": v.get("meaning", ""),
+            "how_it_applies": "This verse directly addresses your current state of mind.",
+            "practical_steps": ["Reflect on this verse.", "Act without attachment.", "Stay centered."],
+            "daily_practice": "Recite this shloka today.",
+            "deeper_wisdom": "The soul is eternal, and so is truth.",
+            "reflection_question": "How does this verse change your perspective?",
+            "their_problem": "A moment of seeking."
         }
-        query_cache.put(query, resp_dict)
-        return GuidanceResponse(**resp_dict)
+        res = {"success": True, "data": data, "source": "database", "latency_ms": 0}
+        query_cache.put(cache_key, res)
+        res["latency_ms"] = int((time.time()-start)*1000)
+        return res
 
-    # 4. Fallback to Gemini API (Complex queries)
     print("SOURCE: API")
-    prompt = f"A user asks: '{query}'. Provide abstract, generalized comforting spiritual advice (2 sentences) referencing Bhagavad Gita themes."
-    
-    final_guidance = ""
-    confidence_tier = "cloud"
-    verse_ref = "Bhagavad Gita"
-    
+    lang_instr = "\n\nCRITICAL: You MUST write ALL JSON values in HINDI, EXCEPT 'shloka_sanskrit' which MUST stay in Sanskrit Devanagari." if req.language == "hi" else "\n\nCRITICAL: The 'shloka_sanskrit' field MUST be the original Sanskrit verse (Devanagari)."
     try:
-        cloud_res = gemini_model.generate_content(prompt, request_options={"timeout": 5.0})
-        final_guidance = cloud_res.text.strip()
+        response = gemini_model.generate_content(
+            f"{SYSTEM_PROMPT}{lang_instr}\n\nUser Problem: {query}",
+            generation_config={"response_mime_type": "application/json"}
+        )
+        data = json.loads(response.text)
+        res = {"success": True, "data": data, "source": "api", "latency_ms": 0}
+        query_cache.put(cache_key, res)
+        res["latency_ms"] = int((time.time()-start)*1000)
+        return res
     except Exception as e:
-        print(f"[ERROR] Gemini Failed ({str(e)}). Using Static Error Responder.")
-        confidence_tier = "fallback"
-        final_guidance = "The path may seem unclear and our servers are momentarily disconnected, but peace lies within. Pause, breathe, and find clarity in stillness."
-
-    resp_dict = {
-        "guidance": final_guidance,
-        "verse_ref": verse_ref,
-        "confidence_tier": confidence_tier,
-        "latency_ms": int((time.time() - req_start_time) * 1000),
-        "source": "api",
-        "results": []
-    }
-    
-    # Cache the API result as well
-    query_cache.put(query, resp_dict)
-    
-    return GuidanceResponse(**resp_dict)
+        print(f"API Error: {e}")
+        raise HTTPException(status_code=500, detail="Spiritual connection interrupted.")
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8001)
+    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))
