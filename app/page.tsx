@@ -169,17 +169,34 @@ export default function Home() {
     setCopied(false);
     
     try {
-      const res = await fetch("/api/ask", {
+      const baseUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+      const endpoint = baseUrl ? `${baseUrl}/ask` : "/api/ask";
+      
+      console.log(`🌐 Calling endpoint: ${endpoint}`);
+
+      const res = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           problem,
+          query: problem, // Compatibility for both Next.js and FastAPI
           language: targetLang,
           ...(lockedVerse?.shloka_sanskrit ? { lockedVerse } : {})
         })
       });
       
-      const data = await res.json();
+      let data = await res.json();
+
+      // If external backend fails, retry with internal fallback
+      if (baseUrl && !res.ok) {
+        console.warn("⚠️ External backend failed. Falling back to internal API.");
+        const fallbackRes = await fetch("/api/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ problem, language: targetLang })
+        });
+        data = await fallbackRes.json();
+      }
       
       if (!res.ok || data.success === false) {
         throw new Error(data.message || data.error || "Failed to fetch guidance");
