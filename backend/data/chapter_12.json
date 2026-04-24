@@ -1,0 +1,423 @@
+{
+    "chapter_number": 12,
+    "chapter_title": {
+        "sanskrit": "भक्तियोगः",
+        "iast": "Bhakti-yogaḥ",
+        "hindi": "भक्ति योग",
+        "english": "Bhakti Yoga — The Yoga of Devotion"
+    },
+    "chapter_summary": {
+        "hindi": "बारहवाँ अध्याय गीता का सबसे ह्रदयस्पर्शी और सबसे संक्षिप्त पूर्ण अध्याय है। इसे 'भक्तियोग' कहते हैं और यह गीता की भावनात्मक परिणति है। अर्जुन का प्रश्न सीधा है: जो साकार कृष्ण की उपासना करते हैं और जो निराकार अव्यक्त ब्रह्म की — इन दोनों में कौन अधिक योगवेत्ता है? कृष्ण उत्तर देते हैं: जो मुझमें मन लगाकर, परम श्रद्धा से उपासना करते हैं, वे श्रेष्ठ हैं। फिर एक क्रमिक मार्ग दिखाया जाता है — मन लगाओ, अभ्यास करो, कर्मयोग करो, फलत्याग करो। अध्याय का उत्तरार्ध (12.13–20) गीता का सबसे मनोरम भाग है — 'प्रिय भक्त' के लक्षणों का वर्णन। कौन भक्त कृष्ण को प्रिय है — जो द्वेष नहीं करता, करुणामय है, ममता और अहंकार से रहित है, सुख-दुःख में सम है, क्षमाशील है, योगी है, स्थिरबुद्धि है — यह लक्षण-माला अद्वितीय है। कृष्ण बार-बार 'स मे प्रियः' और 'स मे प्रियतरः' कहते हैं — भक्त को दिया यह प्रेम-वचन किसी भी साधक के लिए अमूल्य है।",
+        "english": "Chapter 12 is the most intimate and emotionally resonant chapter of the Gita — the chapter in which the divine speaks most directly as a lover to the beloved. Arjuna opens with a question that has occupied spiritual seekers across all traditions: is it better to worship the personal, manifest divine (saguṇa) or the impersonal, unmanifest Absolute (nirguṇa)? Krishna's answer is unambiguous: those who worship him with supreme faith, with minds fixed in him — they are the best yogīs. But he immediately acknowledges the validity of the other path and describes its greater difficulty for embodied beings. A ladder of practice is then offered for those who cannot immediately fix the mind on the divine: try absorption, then practice, then action, then renunciation of fruits. The chapter's incomparable second half (verses 13–20) is the Gita's portrait of the ideal devotee — a sustained, tender, and extraordinarily precise description of the qualities that make a person dear to Krishna. Each cluster ends with 'sa me priyaḥ' (that person is dear to Me) or 'sa me priyataraḥ' (dearer to Me) — words that turn theology into intimacy."
+    },
+    "total_verses": 20,
+    "verses": [
+        {
+            "chapter": 12,
+            "verse_number": 1,
+            "global_verse_id": 470,
+            "speaker": "Arjuna",
+            "sanskrit": {
+                "devanagari": "अर्जुन उवाच ।\nएवं सततयुक्ता ये भक्तास्त्वां पर्युपासते ।\nये चाप्यक्षरमव्यक्तं तेषां के योगवित्तमाः ॥ १ ॥",
+                "iast": "arjuna uvāca |\nevaṃ satata-yuktā ye bhaktās tvāṃ paryupāsate |\nye cāpy akṣaram avyaktaṃ teṣāṃ ke yoga-vittamāḥ ||1||"
+            },
+            "hindi": {
+                "devanagari": "अर्जुन बोले — जो भक्त इस प्रकार सदा युक्त होकर आपकी उपासना करते हैं, और जो अक्षर-अव्यक्त की उपासना करते हैं — इन दोनों में कौन अधिक योगवेत्ता हैं?",
+                "hinglish": "Arjun bole — Jo bhakt is prakar sada yukt hokar aapki upaasana karte hain, aur jo Akshar-Avyakt ki upaasana karte hain — in donon mein kaun adhik yoga-vittama hain?",
+                "translation": "अर्जुन ने कहा — जो भक्त इस प्रकार सदा युक्त होकर आपकी उपासना करते हैं, और जो अक्षर-अव्यक्त की — इन दोनों में कौन अधिक योगवेत्ता हैं?",
+                "explanation": "यह प्रश्न अध्याय 11 की विराट-दर्शन के बाद आता है — अर्जुन ने ब्रह्माण्ड-व्यापी कृष्ण का दर्शन किया है और अब पूछते हैं: क्या मुझे इस साकार रूप की उपासना करनी चाहिए या निराकार ब्रह्म की? 'सततयुक्ताः' = सदा युक्त — निरन्तर। 'पर्युपासते' = चारों ओर से उपासना करते हैं — पूर्ण समर्पण। 'अक्षरम् अव्यक्तम्' = अक्षर (अविनाशी) और अव्यक्त (निराकार) — यह सगुण-निर्गुण का प्रश्न है। 'योगवित्तमाः' = योग को सर्वाधिक जानने वाले। यह प्रश्न केवल दार्शनिक नहीं — यह साधना-मार्ग की व्यावहारिक दिशा का प्रश्न है। हर साधक के मन में यह उठता है।"
+            },
+            "english": {
+                "translation": "Arjuna said: Those devotees who are ever steadfast and worship You thus — and those who worship the Imperishable, the Unmanifest (akṣaram avyaktam) — which of these know yoga better?",
+                "explanation": "This question arises at the precise right moment — after the overwhelming vision of the Cosmic Form in Chapter 11. Arjuna has seen the infinite, terrifying, all-consuming universal Krishna, and now he asks the most practical question that vision generates: should I worship this personal form I know, or the impersonal Absolute that underlies it? 'Satata-yuktā' (ever steadfast, continuously united) — the quality of unwavering orientation that both paths demand. 'Akṣaram avyaktam' (the Imperishable Unmanifest) — the formless, attributeless Brahman of the Upaniṣadic tradition. 'Yoga-vittamāḥ' (those who know yoga best, the supreme masters of yoga) — the comparative is precise; Arjuna does not ask which path is correct, but which leads to the deepest knowing. This question is the hinge on which the entire Bhakti Yoga chapter turns."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 2,
+            "global_verse_id": 471,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रीभगवानुवाच ।\nमय्यावेश्य मनो ये मां नित्ययुक्ता उपासते ।\nश्रद्धया परयोपेताः ते मे युक्ततमा मताः ॥ २ ॥",
+                "iast": "śrī-bhagavān uvāca |\nmayy āveśya mano ye māṃ nitya-yuktā upāsate |\nśraddhayā parayopetāḥ te me yuktatamā matāḥ ||2||"
+            },
+            "hindi": {
+                "devanagari": "श्रीभगवान् बोले — जो मुझमें मन लगाकर, सदा युक्त होकर, परम श्रद्धा से युक्त होकर मेरी उपासना करते हैं — वे मेरे मत में सर्वाधिक युक्त (श्रेष्ठ) हैं।",
+                "hinglish": "Shri Bhagwan bole — Jo mujhme man lagakar, sada yukt hokar, param shraddha se yukt hokar meri upaasana karte hain — woh mere mat mein sarvaadhik yukt (shreshtha) hain.",
+                "translation": "श्रीभगवान् ने कहा — जो मुझमें मन लगाकर, सदा युक्त होकर और परम श्रद्धा से युक्त होकर मेरी उपासना करते हैं — वे मेरे मत में सर्वाधिक युक्त (युक्ततम) हैं।",
+                "explanation": "कृष्ण का उत्तर स्पष्ट और तत्काल है — कोई दार्शनिक हेरफेर नहीं। 'मयि आवेश्य मनः' = मुझमें मन पूर्णतः लगाकर — 'आवेश्य' = आविष्ट करना, डुबो देना। 'नित्ययुक्ताः' = सदा युक्त — क्षण-क्षण। 'परया श्रद्धया उपेताः' = परम श्रद्धा से युक्त। तीन गुण: मन का समर्पण + निरन्तरता + परम श्रद्धा। 'युक्ततमाः' = सर्वाधिक युक्त — 'तम' प्रत्यय श्रेष्ठता की उच्चतम सीमा। कृष्ण यहाँ स्पष्ट पक्ष लेते हैं: सगुण-भक्ति श्रेष्ठ है। यह केवल कृष्ण का पक्षपात नहीं — यह मनोविज्ञान का सत्य है कि साकार में प्रेम सहज है, निराकार में कठिन।"
+            },
+            "english": {
+                "translation": "The Blessed Lord said: Those who, fixing their mind on Me, worship Me, ever steadfast and endowed with supreme faith (śraddhayā parayā) — they, in My view, are the most united (yuktatamāḥ).",
+                "explanation": "'Mayy āveśya manaḥ' (having immersed the mind in Me) — 'āveśya' is a strong word: not merely directing attention but flooding, saturating the mind with the divine. This is not periodic remembrance but a quality of continuous absorption. 'Nitya-yuktāḥ' (ever steadfast, permanently united) — the devotion described is not circumstantial but a stable condition of being. 'Śraddhayā parayopetāḥ' (endowed with supreme faith) — 'paraya' (supreme, highest) qualifies the faith: not tentative belief but complete, unconditional trust. 'Yuktatamāḥ' (the most united, the best yogīs) — the superlative is unambiguous: Krishna declares the path of personal devotion to himself to be the highest form of yoga. The answer is immediate, personal, and decisive — a characteristic of genuine love: it does not equivocate."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 3,
+            "global_verse_id": 472,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते ।\nसर्वत्रगमचिन्त्यं च कूटस्थमचलं ध्रुवम् ॥ ३ ॥",
+                "iast": "ye tv akṣaram anirdeśyam avyaktaṃ paryupāsate |\nsarvatra-gam acintyaṃ ca kūṭa-stham acalaṃ dhruvam ||3||"
+            },
+            "hindi": {
+                "devanagari": "किन्तु जो अक्षर, अनिर्देश्य, अव्यक्त, सर्वत्रगामी, अचिन्त्य, कूटस्थ, अचल और ध्रुव (नित्य) की उपासना करते हैं —",
+                "hinglish": "Kintu jo Akshar, anirdeshy, avyakt, sarvatra-gaami, achintya, koot-stha, achal aur dhruva (nitya) ki upaasana karte hain —",
+                "translation": "किन्तु जो अक्षर, अनिर्देश्य (संकेतातीत), अव्यक्त, सर्वत्रगामी, अचिन्त्य, कूटस्थ (नित्यस्थिर), अचल और ध्रुव (नित्य) की उपासना करते हैं —",
+                "explanation": "यह श्लोक और अगला (12.4) मिलकर एक वाक्य बनाते हैं। यहाँ कृष्ण निराकार ब्रह्म के आठ विशेषण देते हैं: (१) 'अक्षर' = अविनाशी; (२) 'अनिर्देश्य' = जिसे शब्दों में नहीं कहा जा सकता, वाणी-अगोचर; (३) 'अव्यक्त' = इन्द्रियों से न दिखने वाला; (४) 'सर्वत्रग' = सर्वत्र व्याप्त; (५) 'अचिन्त्य' = मन-बुद्धि की पकड़ से परे; (६) 'कूटस्थ' = अपरिवर्तनीय, सम, सभी द्वन्द्वों से ऊपर; (७) 'अचल' = निश्चल; (८) 'ध्रुव' = नित्य, शाश्वत। ये आठों विशेषण निराकार ब्रह्म की अनुभव-से-परे प्रकृति को परिभाषित करते हैं। ध्यान दें: कृष्ण इस मार्ग की वैधता स्वीकार करते हैं — इसे गलत नहीं कहते।"
+            },
+            "english": {
+                "translation": "But those who worship the Imperishable (akṣara), the Undefinable (anirdeśyam), the Unmanifest, the Omnipresent, the Inconceivable, the Immutable (kūṭa-stha), the Immovable, the Constant —",
+                "explanation": "This verse and the next form one complete sentence. Here, rather than dismissing the path of the formless, Krishna describes it in eight increasingly precise attributes — each capturing a different dimension of the Absolute's transcendence. 'Anirdeśyam' (undefinable, that which cannot be pointed out) — it has no 'thisness,' no particular location, no describable feature. 'Avyaktam' (unmanifest) — beyond all sensory and perceptual access. 'Sarvatra-gam' (moving everywhere, omnipresent) — not localized anywhere because present everywhere. 'Acintyam' (inconceivable) — beyond the grasp of even the subtlest mental operations. 'Kūṭa-stham' (standing at the summit, immovably fixed) — the anvil on which all experience is struck but which itself is never struck. 'Acalam' (immovable) — unchanging in itself. 'Dhruvam' (the constant, the pole star of existence) — the eternal fixed point. This is the full portrait of nirguṇa Brahman."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 4,
+            "global_verse_id": 473,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "सन्नियम्येन्द्रियग्रामं सर्वत्र समबुद्धयः ।\nते प्राप्नुवन्ति मामेव सर्वभूतहिते रताः ॥ ४ ॥",
+                "iast": "sanniyamyendriya-grāmaṃ sarvatra sama-buddhayaḥ |\nte prāpnuvanti mām eva sarva-bhūta-hite ratāḥ ||4||"
+            },
+            "hindi": {
+                "devanagari": "इन्द्रिय-समूह को भली-भाँति संयमित करके, सर्वत्र समबुद्धि रखकर और सभी प्राणियों के हित में रत होकर — वे भी मुझे ही प्राप्त होते हैं।",
+                "hinglish": "Indriya-samooh ko bhalee-bhaanti sanyamit karke, sarvatra samabuddhi rakhkar aur sabhi praniyon ke hit mein rat hokar — woh bhi mujhe hi praapt hote hain.",
+                "translation": "इन्द्रिय-समूह को भली-भाँति संयमित करके, सर्वत्र समबुद्धि रखकर और सर्वभूत-हित में रत होकर — वे भी मुझे ही प्राप्त होते हैं।",
+                "explanation": "'मामेव' = मुझे ही — यह महत्त्वपूर्ण है। निराकार की उपासना करने वाले भी अन्ततः कृष्ण को ही प्राप्त होते हैं। इससे सिद्ध होता है कि सगुण और निर्गुण — दोनों एक ही परम सत्ता तक पहुँचते हैं; केवल मार्ग भिन्न है। तीन शर्तें: (१) 'सन्नियम्य इन्द्रियग्राम' = सम्पूर्ण इन्द्रिय-संयम; (२) 'सर्वत्र समबुद्धयः' = सर्वत्र समान दृष्टि — सुख-दुःख, मान-अपमान सब में समता; (३) 'सर्वभूतहिते रताः' = सभी प्राणियों के हित में रत — यह करुणा और सेवा का भाव है। 'ते प्राप्नुवन्ति मामेव' = वे भी मुझे ही पाते हैं। 'अपि' (भी) — दोनों मार्ग स्वीकृत।"
+            },
+            "english": {
+                "translation": "Having thoroughly restrained all the senses, even-minded everywhere (sama-buddhayaḥ), devoted to the welfare of all beings (sarva-bhūta-hite ratāḥ) — they also reach Me alone.",
+                "explanation": "'Te prāpnuvanti mām eva' (they also reach Me alone) — the 'also' (eva in the sense of inclusivity) is the key: those who worship the formless Absolute equally reach Krishna. The destination is one; the paths are two. Three conditions are required: 'sanniyamyendriya-grāmam' (having thoroughly restrained the entire group of senses) — a demanding prerequisite that makes the formless path harder; 'sarvatra sama-buddhayaḥ' (even-minded everywhere, equanimous in all circumstances) — seeing the same Brahman in all situations and beings; 'sarva-bhūta-hite ratāḥ' (devoted to the welfare of all beings) — universal compassion as the outward expression of the inward realization of unity. This last quality is remarkable: it makes the welfare of all beings a condition for the highest realization, grounding the most abstract path in the most concrete ethical commitment."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 5,
+            "global_verse_id": 474,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम् ।\nअव्यक्ता हि गतिर्दुःखं देहवद्भिरवाप्यते ॥ ५ ॥",
+                "iast": "kleśo 'dhikataras teṣām avyaktāsakta-cetasām |\navyaktā hi gatir duḥkhaṃ deha-vadbhir avāpyate ||5||"
+            },
+            "hindi": {
+                "devanagari": "जिनका चित्त अव्यक्त में आसक्त है, उनके लिए क्लेश अधिक है; क्योंकि देहधारियों द्वारा अव्यक्त-गति दुःखपूर्वक ही प्राप्त होती है।",
+                "hinglish": "Jinka chitta avyakt mein aasakt hai, unke liye klesh adhik hai; kyonki dehadhaariyon dwara avyakt-gati duhkhpurvak hi praapt hoti hai.",
+                "translation": "जिनका चित्त अव्यक्त में आसक्त है, उनके लिए क्लेश अधिकतर है; क्योंकि देहधारी प्राणियों के द्वारा अव्यक्त-गति दुःखपूर्वक प्राप्त होती है।",
+                "explanation": "यह श्लोक कृष्ण की स्पष्टवादिता का उत्कृष्ट उदाहरण है। वे निर्गुण-मार्ग को गलत नहीं कहते — किन्तु उसकी कठिनाई को छिपाते भी नहीं। 'क्लेशः अधिकतरः' = क्लेश अधिक है। 'अव्यक्तासक्तचेतसाम्' = जिनका चित्त अव्यक्त में लगा है। 'देहवद्भिः' = देहधारियों द्वारा — यह मूल कारण है। जब तक शरीर है, तब तक इन्द्रियाँ हैं; जब तक इन्द्रियाँ हैं, तब तक साकार अनुभव स्वाभाविक है। निराकार का ध्यान देहधारी के लिए स्वाभाविक रूप से प्रतिकूल है। 'दुःखं अवाप्यते' = दुःखपूर्वक प्राप्त होती है। यह व्यावहारिक मनोविज्ञान है — आदर्श क्या है यह नहीं, साधक के लिए सुलभ क्या है यह भी।"
+            },
+            "english": {
+                "translation": "For those whose minds are attached to the Unmanifest, the difficulty (kleśa) is far greater; for the way of the Unmanifest is attained with difficulty by embodied beings.",
+                "explanation": "'Kleśo 'dhikataras' (the suffering, the difficulty is greater) — Krishna's compassionate pragmatism: he does not condemn the path of the formless, but he does not conceal its difficulty either. 'Avyaktāsakta-cetasām' (for those whose minds are attached to the Unmanifest) — the effort required to hold an object-less object of meditation is vastly greater than holding a personal form. 'Deha-vadbhir avāpyate' (it is attained by the embodied with difficulty) — this is the crux: as long as one inhabits a body, sensory experience is the mind's natural medium. The formless has no handle, no image, no story, no relationship. The body-mind complex gravitates toward the concrete; forcing it toward the formless requires extraordinary sustained effort. This verse is not an argument against the nirguṇa path — it is an honest assessment of where most human beings actually stand."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 6,
+            "global_verse_id": 475,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "ये तु सर्वाणि कर्माणि मयि संन्यस्य मत्पराः ।\nअनन्येनैव योगेन मां ध्यायन्त उपासते ॥ ६ ॥",
+                "iast": "ye tu sarvāṇi karmāṇi mayi saṃnyasya mat-parāḥ |\nananyenaiva yogena māṃ dhyāyanta upāsate ||6||"
+            },
+            "hindi": {
+                "devanagari": "किन्तु जो सम्पूर्ण कर्मों को मुझमें समर्पित करके, मुझे परम मानकर, अनन्य योग से मेरा ध्यान करते हुए उपासना करते हैं —",
+                "hinglish": "Kintu jo sampoorn karmon ko mujhme samarpit karke, mujhe param maankar, ananya yog se mera dhyan karte hue upaasana karte hain —",
+                "translation": "किन्तु जो समस्त कर्मों को मुझमें समर्पित करके, मुझे ही परम मानकर, अनन्य योग से मेरा ध्यान करते और उपासना करते हैं —",
+                "explanation": "यह श्लोक और अगला (12.7) मिलकर पूर्ण वाक्य बनाते हैं। कृष्ण अब उस भक्त का वर्णन करते हैं जो उनका विशेष प्रिय है। तीन विशेषताएँ: (१) 'सर्वाणि कर्माणि मयि संन्यस्य' = समस्त कर्मों को मुझमें अर्पित करके — यह 3.30 का 'मयि सर्वाणि कर्माणि संन्यस्य' की याद दिलाता है; (२) 'मत्पराः' = जो मुझे ही परम, सर्वोच्च मानते हैं — उनका कोई अन्य आश्रय नहीं; (३) 'अनन्येन योगेन' = अनन्य योग से — केवल मुझमें, किसी अन्य में नहीं। 'ध्यायन्तः उपासते' = ध्यान और उपासना दोनों — भावना और अभ्यास दोनों।"
+            },
+            "english": {
+                "translation": "But those who, having surrendered all actions to Me, holding Me as the Supreme, worship Me, meditating on Me with undivided yoga (ananyena yogena) —",
+                "explanation": "This verse and the next form one complete sentence — a portrait of the devotee whom Krishna will specially protect. Three defining qualities: 'sarvāṇi karmāṇi mayi saṃnyasya' (having surrendered all actions in Me) — echoing 3.30's instruction, this is the complete offering of every act to the divine, leaving no action as one's own possession; 'mat-parāḥ' (holding Me as the Supreme, taking refuge in Me alone) — the devotee has no other ultimate priority, no competing supreme authority; 'ananyenaiva yogena' (with undivided yoga alone) — 'ananya' (not-other) is the hallmark quality of the highest devotee throughout the Gita: a mind that holds only Krishna. 'Dhyāyantaḥ upāsate' (meditating and worshipping) — the outer and inner forms of devotion working together."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 7,
+            "global_verse_id": 476,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "तेषामहं समुद्धर्ता मृत्युसंसारसागरात् ।\nभवामि नचिरात्पार्थ मय्यावेशितचेतसाम् ॥ ७ ॥",
+                "iast": "teṣām ahaṃ samuddhartā mṛtyu-saṃsāra-sāgarāt |\nbhavāmi na cirāt pārtha mayy āveśita-cetasām ||7||"
+            },
+            "hindi": {
+                "devanagari": "हे पार्थ! मुझमें चित्त लगाए हुए उन लोगों का मैं मृत्यु-संसार-सागर से शीघ्र ही उद्धारकर्ता बनता हूँ।",
+                "hinglish": "He Parth! Mujhme chitta lagae hue un logon ka main mrityu-sansaar-saagar se sheeghra hi uddhaar-karta banta hoon.",
+                "translation": "हे पार्थ! मुझमें चित्त लगाए हुए उन लोगों का मैं मृत्यु-संसार-सागर से शीघ्र ही उद्धारकर्ता बन जाता हूँ।",
+                "explanation": "'मृत्युसंसारसागरात्' — यह तीन-शब्द समास गीता की सबसे काव्यात्मक और गहरी उक्तियों में से एक है: 'मृत्यु-संसार का सागर' — मृत्यु से भरे जन्म-मरण के चक्र का विशाल सागर। इस सागर में जो डूब रहे हैं, उनका उद्धार करने वाला कौन? 'अहं समुद्धर्ता' = मैं उद्धारकर्ता। 'न चिरात्' = शीघ्र ही, अधिक समय नहीं। 'मय्यावेशितचेतसाम्' = जिन्होंने अपना चित्त मुझमें आविष्ट किया है। यह वचन असाधारण है: ईश्वर स्वयं उद्धार का दायित्व लेते हैं। भक्त का काम केवल एक है — मन को कृष्ण में लगाए रखना; बाकी सब कृष्ण का काम है।"
+            },
+            "english": {
+                "translation": "O Pārtha, for those whose consciousness is absorbed in Me (mayy āveśita-cetasām), I become their swift deliverer (samuddhartā) from the ocean of death-bound existence (mṛtyu-saṃsāra-sāgarāt).",
+                "explanation": "'Mṛtyu-saṃsāra-sāgarāt' — this three-word compound is one of the Gita's most haunting images: the 'ocean of the world of death,' the vast, dark sea of compelled birth and death that has no horizon the unaided swimmer can reach. 'Teṣām ahaṃ samuddhartā bhavāmi' (I become their deliverer) — Krishna takes personal responsibility. Not 'I will show the way' but 'I will lift them out.' 'Na cirāt' (not after a long time, swiftly) — the rescue is not delayed; the promise is urgent. 'Mayy āveśita-cetasām' (those whose consciousness is immersed in Me) — the single condition: the mind absorbed in Krishna. This verse contains the entire theology of grace in two lines: the devotee offers the mind; the Lord delivers the soul."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 8,
+            "global_verse_id": 477,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "मय्येव मन आधत्स्व मयि बुद्धिं निवेशय ।\nनिवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः ॥ ८ ॥",
+                "iast": "mayy eva mana ādhatsva mayi buddhiṃ niveśaya |\nnivasisyasi mayy eva ata ūrdhvaṃ na saṃśayaḥ ||8||"
+            },
+            "hindi": {
+                "devanagari": "मुझमें ही मन स्थिर करो, मुझमें ही बुद्धि को लगाओ। इसके बाद तुम मुझमें ही निवास करोगे — इसमें कोई संशय नहीं।",
+                "hinglish": "Mujhme hi man sthir karo, mujhme hi buddhi ko lagao. Iske baad tum mujhme hi nivas karoge — isme koi sanshay nahi.",
+                "translation": "मुझमें ही मन को स्थिर करो; मुझमें ही बुद्धि को स्थापित करो। इसके पश्चात् तुम मुझमें ही निवास करोगे — इसमें संशय नहीं।",
+                "explanation": "'मय्येव' = मुझमें ही — 'एव' (ही) पर विशेष बल है: केवल मुझमें। दो क्रियाएँ: (१) 'मन आधत्स्व' = मन को स्थापित करो — मन को कृष्ण में रखो; (२) 'बुद्धिं निवेशय' = बुद्धि को लगाओ — विवेक-शक्ति को भी कृष्ण की ओर मोड़ो। मन और बुद्धि — दोनों। 'निवसिष्यसि मय्येव' = मुझमें ही निवास करोगे — यह आश्वासन है: जब मन और बुद्धि दोनों कृष्ण-मुखी हों, तो जीवन स्वयं कृष्ण-निवास बन जाता है। 'अत ऊर्ध्वम्' = इसके बाद — वह अवस्था स्थायी हो जाती है। यह श्लोक गीता-साधना का सबसे सरल और सीधा सूत्र है।"
+            },
+            "english": {
+                "translation": "Fix your mind on Me alone; place your intellect in Me. Hereafter you shall dwell in Me alone — of this there is no doubt.",
+                "explanation": "'Mayy eva mana ādhatsva' (fix the mind on Me alone) — the simplest possible instruction: place the mind in Krishna. Not a complex technique but a single direction. 'Mayi buddhiṃ niveśaya' (place the intellect in Me) — two faculties are addressed: manas (the emotive, associative mind) and buddhi (the discriminative, deciding intellect). Both are to be turned toward the divine. When both the emotional and the rational faculties orient themselves to Krishna, the whole person is unified in devotion. 'Nivasisyasi mayy eva' (you shall dwell in Me alone) — the result is assured: not 'you might' but 'you shall.' 'Ata ūrdhvam na saṃśayaḥ' (from this point forward, there is no doubt) — certainty is offered, not probability. This verse is the Gita's simplest and most complete instruction."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 9,
+            "global_verse_id": 478,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अथ चित्तं समाधातुं न शक्नोषि मयि स्थिरम् ।\nअभ्यासयोगेन ततो मामिच्छाप्तुं धनञ्जय ॥ ९ ॥",
+                "iast": "atha cittaṃ samādhātuṃ na śaknoṣi mayi sthiram |\nabhyāsa-yogena tato mām icchāptuṃ dhanañjaya ||9||"
+            },
+            "hindi": {
+                "devanagari": "हे धनञ्जय! यदि मुझमें चित्त को स्थिर करने में असमर्थ हो, तो अभ्यासयोग के द्वारा मुझे प्राप्त करने की इच्छा करो।",
+                "hinglish": "He Dhananjay! Yadi mujhme chitta ko sthir karne mein asamarth ho, to abhyas-yoga ke dwara mujhe praapt karne ki ichchha karo.",
+                "translation": "हे धनञ्जय! यदि तुम मुझमें चित्त को स्थिर रखने में असमर्थ हो, तो अभ्यासयोग के द्वारा मुझे पाने की इच्छा करो।",
+                "explanation": "यहाँ से 12.12 तक कृष्ण एक उपयोगी क्रमिक सीढ़ी देते हैं — यदि एक कठिन हो तो दूसरे पर जाओ। 8.8 में अभ्यासयोग की बात थी; यहाँ वह दूसरे विकल्प के रूप में आता है। 'अथ' = यदि। 'चित्तं समाधातुम् न शक्नोषि' = यदि चित्त को मुझमें स्थिर नहीं कर सकते — यह ईमानदारी है। 'अभ्यासयोग' = बार-बार दोहराने का अभ्यास — यह धीरे-धीरे, नियमित रूप से मन को वापस लाना है। 'मामिच्छाप्तुम्' = मुझे प्राप्त करने की इच्छा — इच्छा भी पर्याप्त प्रारम्भ है। कृष्ण कहीं भी असफलता पर नाराज नहीं होते — वे हर स्तर से उठने का उपाय देते हैं।"
+            },
+            "english": {
+                "translation": "O Dhanañjaya, if you are unable to hold the mind steady in Me, then seek to attain Me through the yoga of practice (abhyāsa-yoga).",
+                "explanation": "Krishna now offers a graduated ladder for the earnest but struggling seeker. 'Atha' (but if) — the conditional opens the compassionate alternative. The highest teaching of 12.8 (fix the mind directly in Me) is given first; now the fallback for those who cannot immediately achieve that direct absorption. 'Abhyāsa-yoga' (the yoga of repeated practice) — the systematic, disciplined, patient return of the wandering mind to its chosen divine object. Not a burst of spiritual effort but sustained, unglamorous practice: sit, remember, return, repeat. 'Mām icchāptum' (desiring to attain Me) — even the desire to reach Krishna is a valid and sufficient beginning. The phrase is remarkably gentle: even the aspiration, even the turning of one's wanting toward the divine, counts as a step. Krishna does not demand immediate perfection."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 10,
+            "global_verse_id": 479,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अभ्यासेऽप्यसमर्थोऽसि मत्कर्मपरमो भव ।\nमदर्थमपि कर्माणि कुर्वन्सिद्धिमवाप्स्यसि ॥ १० ॥",
+                "iast": "abhyāse 'py asamartho 'si mat-karma-paramo bhava |\nmad-artham api karmāṇi kurvan siddhim avāpsyasi ||10||"
+            },
+            "hindi": {
+                "devanagari": "यदि अभ्यास में भी असमर्थ हो, तो मेरे कर्म को परम (प्रधान) मानो। मेरे लिए कर्म करते हुए भी तुम सिद्धि को प्राप्त करोगे।",
+                "hinglish": "Yadi abhyas mein bhi asamarth ho, to mere karm ko param (pradhan) maano. Mere liye karm karte hue bhi tum siddhi ko praapt karoge.",
+                "translation": "यदि अभ्यास में भी असमर्थ हो, तो मेरे कर्म को परम माना करो। मेरे लिए कर्म करते हुए भी सिद्धि को प्राप्त करोगे।",
+                "explanation": "सीढ़ी का तीसरा पायदान। 'अभ्यासेऽपि असमर्थः' = यदि नियमित ध्यान-अभ्यास भी नहीं कर सकते। तो क्या? 'मत्कर्मपरमः भव' = मेरे कर्म को सर्वोच्च मानो — अर्थात् ईश्वर के लिए कर्म करो, उनकी सेवा करो। यह कर्मयोग का भक्तिपूर्ण रूप है। 'मदर्थम् अपि' = मेरे लिए भी — यह 'अपि' (भी) फिर महत्त्वपूर्ण है: केवल मेरे लिए कर्म करना भी पर्याप्त है। 'सिद्धिम् अवाप्स्यसि' = सिद्धि प्राप्त करोगे। यह तीसरा विकल्प व्यावहारिक है: जो ध्यान-अभ्यास नहीं कर सकते, वे सेवा कर सकते हैं — मन्दिर, समाज, परिवार — सब में ईश्वर की सेवा।"
+            },
+            "english": {
+                "translation": "If you are even incapable of practice (abhyāsa), then be devoted to performing actions for My sake. Even performing actions for My sake, you shall attain perfection (siddhi).",
+                "explanation": "The third rung of the compassionate ladder. 'Abhyāse 'py asamarthaḥ' (even incapable of practice) — the third concession, each one more accommodating than the last. For those who cannot sustain systematic meditation practice: 'mat-karma-paramah bhava' (be devoted to actions for My sake, consider My service the highest) — this is karma-yoga infused with bhakti. Every act of service — to the temple, to the community, to suffering beings, to one's family — performed with the awareness of serving Krishna, becomes a form of worship. 'Mad-artham api karmāṇi kurvan' (even performing actions for My sake) — the 'api' (even) is tender: even this, even just the orientation of one's actions toward the divine, is sufficient. 'Siddhim avāpsyasi' (you shall attain perfection) — the promise holds at every level."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 11,
+            "global_verse_id": 480,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अथैतदप्यशक्तोऽसि कर्तुं मद्योगमाश्रितः ।\nसर्वकर्मफलत्यागं ततः कुरु यतात्मवान् ॥ ११ ॥",
+                "iast": "athaitad apy aśakto 'si kartuṃ mad-yogam āśritaḥ |\nsarva-karma-phala-tyāgaṃ tataḥ kuru yatātmavān ||11||"
+            },
+            "hindi": {
+                "devanagari": "यदि यह भी करने में असमर्थ हो, तो मद्योग का आश्रय लेकर, आत्म-संयमी होकर समस्त कर्मों के फल का त्याग करो।",
+                "hinglish": "Yadi yeh bhi karne mein asamarth ho, to mad-yoga ka aashray lekar, aatma-sanyami hokar samast karmon ke phal ka tyaag karo.",
+                "translation": "यदि यह भी करने में असमर्थ हो, तो मद्योग का आश्रय लेकर, संयमित आत्मा होकर, समस्त कर्म-फलों का त्याग करो।",
+                "explanation": "सीढ़ी का चौथा और अन्तिम पायदान — जो सबसे सुलभ है। 'अथ एतदपि अशक्तः' = यदि यह भी नहीं कर सकते। 'मद्योगम् आश्रितः' = मेरे योग का आश्रय लेते हुए — कृष्ण को आधार बनाते हुए। 'यतात्मवान्' = आत्म-संयमी — भीतर से नियन्त्रित। 'सर्वकर्मफलत्यागम् कुरु' = समस्त कर्मों के फलों का त्याग करो — यह 2.47 का 'मा फलेषु कदाचन' है। यह सबसे सरल साधना है: जो भी करो, फल की आशा छोड़ दो। गीता यहाँ असाधारण रूप से लोकतान्त्रिक है: हर स्तर के साधक के लिए, हर क्षमता के लिए — एक मार्ग है।"
+            },
+            "english": {
+                "translation": "If you are unable to do even this, then, taking refuge in My yoga, with a controlled self (yatātmavān), renounce the fruits of all actions.",
+                "explanation": "The fourth and final rung — the most universally accessible. 'Athaitad apy aśaktaḥ' (if incapable even of this) — the concessions accumulate with extraordinary generosity: Krishna does not demand that every seeker start at the top. 'Mad-yogam āśritaḥ' (taking refuge in My yoga) — even this minimal practice is grounded in the divine; it is done with Krishna as the supporting context. 'Yatātmavān' (with a disciplined, controlled self) — whatever the level, inner self-governance is required. 'Sarva-karma-phala-tyāgam... kuru' (renounce the fruits of all actions) — this is karma-yoga's foundational practice: not the abandonment of action but the relinquishment of ownership over outcomes. This is the simplest possible practice, available to everyone in every circumstance. The ladder is complete: absorption → practice → service → fruit-renunciation."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 12,
+            "global_verse_id": 481,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते ।\nध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् ॥ १२ ॥",
+                "iast": "śreyo hi jñānam abhyāsāj jñānād dhyānaṃ viśiṣyate |\ndhyānāt karma-phala-tyāgas tyāgāc chāntir anantaram ||12||"
+            },
+            "hindi": {
+                "devanagari": "अभ्यास से ज्ञान श्रेष्ठ है; ज्ञान से ध्यान विशिष्ट है; ध्यान से कर्मफल-त्याग श्रेष्ठ है; और त्याग से तत्काल शान्ति मिलती है।",
+                "hinglish": "Abhyas se gyaan shreshtha hai; gyaan se dhyaan vishisht hai; dhyaan se karma-phal-tyaag shreshtha hai; aur tyaag se tatkal shaanti milti hai.",
+                "translation": "अभ्यास से ज्ञान श्रेष्ठ है; ज्ञान से ध्यान विशिष्ट है; ध्यान से कर्मफल-त्याग श्रेष्ठ है; और त्याग से तत्काल (अनन्तर) शान्ति।",
+                "explanation": "यह श्लोक क्रमिक श्रेष्ठता की एक सुन्दर कड़ी है जो 12.9–11 की सीढ़ी से जोड़ती है किन्तु उसके क्रम को उलटती है। 'अभ्यासात् ज्ञानम् श्रेयः' = यान्त्रिक अभ्यास से ज्ञान (समझ) श्रेष्ठ है। 'ज्ञानात् ध्यानम् विशिष्यते' = ज्ञान से ध्यान और भी विशिष्ट है — ज्ञान को जीने की क्षमता ध्यान से आती है। 'ध्यानात् कर्मफलत्यागः' = ध्यान से भी कर्मफल-त्याग श्रेष्ठ है — क्योंकि वह जीवन के हर पल में उपलब्ध है। 'त्यागात् शान्तिः अनन्तरम्' = त्याग के तत्काल बाद शान्ति — 'अनन्तरम्' = तुरन्त, बिना देर किए। त्याग और शान्ति के बीच एक पल का भी अन्तराल नहीं।"
+            },
+            "english": {
+                "translation": "Knowledge is better than practice (abhyāsa); meditation is superior to knowledge; renunciation of the fruits of action (karma-phala-tyāga) is superior to meditation; and from renunciation, peace follows immediately (anantaram).",
+                "explanation": "'Śreyo hi jñānam abhyāsāt' — mechanical practice without understanding is less than practice informed by real knowledge. 'Jñānād dhyānaṃ viśiṣyate' — even knowledge, if merely conceptual, is less than meditation, where knowledge is embodied and lived from the inside. 'Dhyānāt karma-phala-tyāgaḥ' — yet even meditation, as a specific practice, can be superseded by the constant orientation of fruit-renunciation, which operates in every action throughout the day. 'Tyāgāc chāntir anantaram' (from renunciation, peace immediately after) — this is the verse's startling payoff: the word 'anantaram' means without any interval, without delay, immediately. When the knot of fruit-craving is released, peace is not a future reward; it is the present state that was always there beneath the tension. Renunciation does not produce peace; it reveals it."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 13,
+            "global_verse_id": 482,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च ।\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी ॥ १३ ॥",
+                "iast": "adveṣṭā sarva-bhūtānāṃ maitraḥ karuṇa eva ca |\nnirmamo nirahaṃkāraḥ sama-duḥkha-sukhaḥ kṣamī ||13||"
+            },
+            "hindi": {
+                "devanagari": "जो समस्त प्राणियों से द्वेष नहीं करता, मित्रभाव और करुणा से युक्त है, ममता और अहंकार से रहित है, सुख-दुःख में सम है और क्षमाशील है —",
+                "hinglish": "Jo samast praniyon se dvesh nahi karta, mitrabhav aur karuna se yukt hai, mamata aur ahankaar se rahit hai, sukh-dukh mein sam hai aur kshamasheel hai —",
+                "translation": "जो समस्त प्राणियों से द्वेष नहीं करता, मित्रभावपूर्ण और करुणामय है, निर्मम और निरहंकार है, सुख-दुःख में सम है और क्षमाशील है —",
+                "explanation": "यहाँ से अध्याय का उत्तरार्ध और गीता का सबसे प्रिय भाग आरम्भ होता है — 'प्रिय भक्त' का लक्षण-वर्णन। यह और अगला श्लोक (12.14) मिलकर एक वाक्य बनाते हैं जो 'स मे प्रियः' पर समाप्त होता है। आठ गुण: (१) 'अद्वेष्टा सर्वभूतानाम्' = किसी भी प्राणी से द्वेष नहीं — यह सबसे पहला और मूलभूत गुण; (२) 'मैत्रः' = मित्रता का भाव — सब में मित्र; (३) 'करुणः' = करुणामय; (४) 'निर्ममः' = ममता-रहित; (५) 'निरहंकारः' = अहंकार-रहित; (६) 'समदुःखसुखः' = सुख-दुःख में सम; (७) 'क्षमी' = क्षमाशील। ये सात गुण मिलकर उस भक्त का प्रारम्भिक चित्र बनाते हैं जो कृष्ण को अत्यन्त प्रिय है।"
+            },
+            "english": {
+                "translation": "One who harbors no hatred toward any being (adveṣṭā sarva-bhūtānām), who is friendly (maitraḥ) and compassionate (karuṇaḥ), free from the sense of 'mine' (nirmamaḥ), free from ego (nirahaṃkāraḥ), equanimous in pain and pleasure (sama-duḥkha-sukhaḥ), and forgiving (kṣamī) —",
+                "explanation": "With this verse, the Gita enters its most beloved passage — the extended portrait of the devotee who is dearest to Krishna (12.13–20). This verse and the next form one sentence, ending in 'sa me priyaḥ.' Seven qualities are enumerated in this verse: 'adveṣṭā sarva-bhūtānām' (harboring no hatred toward any being) — this is foundational: the devotee of the all-pervading divine cannot despise any expression of that divine. 'Maitraḥ' (friendly, one whose disposition is friendship) — active goodwill toward all. 'Karuṇaḥ' (compassionate) — moved by the suffering of others. 'Nirmamaḥ' (without sense of 'mine') — no possessive claim over anything. 'Nirahaṃkāraḥ' (without ego) — the false 'I' dissolved. 'Sama-duḥkha-sukhaḥ' (equanimous in pain and pleasure) — not driven by the hedonic calculus. 'Kṣamī' (forgiving, patient) — absorbing offense without retaliation."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 14,
+            "global_verse_id": 483,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः ।\nमय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ॥ १४ ॥",
+                "iast": "santuṣṭaḥ satataṃ yogī yatātmā dṛḍha-niścayaḥ |\nmayy arpita-mano-buddhir yo mad-bhaktaḥ sa me priyaḥ ||14||"
+            },
+            "hindi": {
+                "devanagari": "जो सदा सन्तुष्ट, योगी, यतात्मा, दृढनिश्चयी है और मुझमें मन-बुद्धि अर्पित किए हुए है — वह मेरा भक्त मुझे प्रिय है।",
+                "hinglish": "Jo sada santushta, yogi, yataatma, dridhanishchayi hai aur mujhme man-buddhi arpit kiye hue hai — woh mera bhakt mujhe priya hai.",
+                "translation": "जो सदा सन्तुष्ट, योगी, यतात्मा, दृढ़निश्चयी और मुझमें मन-बुद्धि अर्पित किए हुए है — वह मेरा भक्त मुझे प्रिय है।",
+                "explanation": "'स मे प्रियः' — यह तीन शब्द इस श्लोक की और पिछले (12.13) की समग्र गुण-माला का फल हैं। ईश्वर कहते हैं: वह मुझे प्रिय है। पाँच और गुण: (८) 'सततं सन्तुष्टः' = सदा सन्तुष्ट — किसी भी परिस्थिति में असन्तुष्ट नहीं; (९) 'योगी' = योगयुक्त, ईश्वर से जुड़ा; (१०) 'यतात्मा' = संयमित आत्मा, आत्म-नियन्त्रित; (११) 'दृढनिश्चयः' = दृढ़ संकल्प वाला — जिसका आध्यात्मिक संकल्प अटूट हो; (१२) 'मय्यर्पितमनोबुद्धिः' = मुझमें मन और बुद्धि अर्पित — यह 12.8 का ही दोहराव है, यहाँ वह फल-स्वरूप आता है। जब ये सब गुण हों, तो वह भक्त 'मे प्रिय' = मुझे प्रिय है।"
+            },
+            "english": {
+                "translation": "Who is always content, a yogī, self-controlled (yatātmā), of firm conviction (dṛḍha-niścayaḥ), with mind and intellect offered to Me — that devotee of Mine is dear to Me (sa me priyaḥ).",
+                "explanation": "'Sa me priyaḥ' — these three words are the emotional center of the entire chapter. The divine speaks as a person who has preferences, who has dearest ones, who is moved by qualities. Five more attributes complete the portrait from verse 13: 'santuṣṭaḥ satatam' (always content) — contentment that is not circumstance-dependent but a permanent inner condition; 'yogī' (one united with the divine); 'yatātmā' (self-governed, with the self under inner discipline); 'dṛḍha-niścayaḥ' (of firm resolution) — the unshakeable commitment of one who has chosen the path and will not be turned from it; 'mayy arpita-mano-buddhiḥ' (with mind and intellect surrendered to Me) — echoing 12.8, here it appears as a description of the devotee rather than an instruction to Arjuna. When all these qualities are present, this is the person the Lord calls dear."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 15,
+            "global_verse_id": 484,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः ।\nहर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः ॥ १५ ॥",
+                "iast": "yasmān nodvijate loko lokān nodvijate ca yaḥ |\nharṣāmarṣa-bhayodvegair mukto yaḥ sa ca me priyaḥ ||15||"
+            },
+            "hindi": {
+                "devanagari": "जिससे कोई भी प्राणी उद्विग्न नहीं होता और जो किसी भी प्राणी से उद्विग्न नहीं होता; जो हर्ष, अमर्ष (ईर्ष्या), भय और उद्वेग से मुक्त है — वह मुझे प्रिय है।",
+                "hinglish": "Jisse koi bhi praani udvigna nahi hota aur jo kisi bhi praani se udvigna nahi hota; jo harsha, amarsha (eershya), bhay aur udveg se mukta hai — woh mujhe priya hai.",
+                "translation": "जिससे कोई प्राणी उद्विग्न नहीं होता और जो किसी से भी उद्विग्न नहीं होता; जो हर्ष, अमर्ष, भय और उद्वेग से मुक्त है — वह मुझे प्रिय है।",
+                "explanation": "'यस्मान्न उद्विजते लोकः' = जिससे संसार (लोग) उद्विग्न नहीं होते — यह पहला मापदण्ड है: क्या अन्य लोग उस व्यक्ति के आसपास सहज अनुभव करते हैं? 'लोकान्न उद्विजते यः' = जो संसार से उद्विग्न नहीं होता — यह दूसरा मापदण्ड: वह स्वयं विचलित नहीं होता। 'हर्षामर्षभयोद्वेगैः मुक्तः' = हर्ष (अत्यधिक उत्साह), अमर्ष (ईर्ष्या/क्रोध), भय और उद्वेग (उत्तेजना/घबराहट) — इन चारों से मुक्त। यह एक ऐसी स्थिरता है जो न तो बाहर की चीजों से उत्तेजित होती है और न ही बाहर की चीजों को उत्तेजित करती है। 'स च मे प्रियः' = वह भी मुझे प्रिय है।"
+            },
+            "english": {
+                "translation": "One from whom the world is not distressed, and who is not distressed by the world; who is free from joy, envy, fear, and agitation (harṣāmarṣa-bhayodvegaiḥ) — that one is also dear to Me.",
+                "explanation": "'Yasmān nodvijate lokaḥ' (from whom the world is not distressed) — the first test faces outward: does this person's presence create anxiety, disturbance, or threat in others? The sage whose inner stillness has become so complete that they emanate only safety. 'Lokān nodvijate ca yaḥ' (who is also not distressed by the world) — the second test faces inward: is this person moved to distress by what others do? 'Harṣāmarṣa-bhayodvegaiḥ muktaḥ' (freed from elation, envy, fear, and agitation) — four reactive emotional states that keep most people perpetually unsettled: harṣa (excessive elation at pleasant events), amarṣa (jealousy, indignation), bhaya (fear), udvega (anxious agitation). Freedom from all four — not suppression but genuine absence. 'Sa ca me priyaḥ' — and this one too is dear to Me."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 16,
+            "global_verse_id": 485,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अनपेक्षः शुचिर्दक्ष उदासीनो गतव्यथः ।\nसर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः ॥ १६ ॥",
+                "iast": "anapekṣaḥ śucir dakṣa udāsīno gata-vyathaḥ |\nsarvārambha-parityāgī yo mad-bhaktaḥ sa me priyaḥ ||16||"
+            },
+            "hindi": {
+                "devanagari": "जो अनपेक्ष (निःस्पृह), शुचि (शुद्ध), दक्ष (कुशल), उदासीन (तटस्थ), व्यथा-रहित और सभी आरम्भों का परित्यागी है — वह मेरा भक्त मुझे प्रिय है।",
+                "hinglish": "Jo anapeksha (nihspriha), shuchi (shuddh), daksha (kushal), udaaseen (tatastha), vyatha-rahit aur sabhi aarambhon ka parityagi hai — woh mera bhakt mujhe priya hai.",
+                "translation": "जो अनपेक्ष (निःस्पृह), शुचि, दक्ष, उदासीन, गतव्यथ और सर्वारम्भ-परित्यागी है — वह मेरा भक्त मुझे प्रिय है।",
+                "explanation": "छः और गुण: (१) 'अनपेक्षः' = अनपेक्ष — किसी से कोई अपेक्षा नहीं, निःस्पृह; (२) 'शुचिः' = शुद्ध — बाहर और भीतर दोनों से; (३) 'दक्षः' = कुशल, दक्ष — अपने कर्मों में निपुण; (४) 'उदासीनः' = उदासीन — तटस्थ, न किसी का पक्षधर न विरोधी — इसका अर्थ उदासीनता नहीं, अपितु समत्व है; (५) 'गतव्यथः' = व्यथा-मुक्त — जिसे कोई व्यथा नहीं सताती; (६) 'सर्वारम्भपरित्यागी' = सभी आरम्भों का परित्यागी — अहंकार-प्रेरित नए उद्यमों का त्यागी। 'सर्वारम्भ' = ego-driven initiatives, वे उद्यम जो 'मैं कुछ करूँगा' की भावना से उठते हैं। 'स मे प्रियः' — वह मुझे प्रिय है।"
+            },
+            "english": {
+                "translation": "One who is without expectation (anapekṣaḥ), pure (śuciḥ), capable (dakṣaḥ), impartial (udāsīnaḥ), free from anguish (gata-vyathaḥ), who has abandoned all ego-driven undertakings (sarvārambha-parityāgī) — that devotee of Mine is dear to Me.",
+                "explanation": "Six more qualities define the beloved devotee: 'anapekṣaḥ' (without expectation, without dependency on outcomes or others) — the person who is genuinely self-sufficient in the ātman, needing nothing from anyone; 'śuciḥ' (pure) — in both outer conduct and inner intention; 'dakṣaḥ' (capable, skillful, adept) — an important quality: the devotee is not withdrawn and inept but fully competent in the world; 'udāsīnaḥ' (impartial, not taking sides unnecessarily) — not the absence of caring but the absence of partisan bias; 'gata-vyathaḥ' (from whom anguish has departed) — suffering has left its natural home in this person; 'sarvārambha-parityāgī' (one who has renounced all ego-driven enterprises) — 'ārambha' here refers specifically to initiatives born from ego-ambition, not to action itself. This person acts but does not initiate self-aggrandizing projects."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 17,
+            "global_verse_id": 486,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति ।\nशुभाशुभपरित्यागी भक्तिमान्यः स मे प्रियः ॥ १७ ॥",
+                "iast": "yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati |\nśubhāśubha-parityāgī bhaktimān yaḥ sa me priyaḥ ||17||"
+            },
+            "hindi": {
+                "devanagari": "जो न हर्षित होता है, न द्वेष करता है, न शोक करता है, न आकांक्षा करता है; जो शुभ-अशुभ का परित्यागी है — वह भक्तिमान् मुझे प्रिय है।",
+                "hinglish": "Jo na harsit hota hai, na dvesh karta hai, na shok karta hai, na aakanksha karta hai; jo shubh-ashubha ka parityagi hai — woh bhaktimaan mujhe priya hai.",
+                "translation": "जो न हर्षित होता है, न द्वेष करता है, न शोक करता है, न आकांक्षा करता है; जो शुभ और अशुभ दोनों का परित्यागी है — वह भक्तिमान् मुझे प्रिय है।",
+                "explanation": "'यो न हृष्यति' = जो हर्षातिरेक से नहीं कूदता — यह 2.56 का 'न हृष्यति' है, यहाँ 'प्रिय भक्त' के सन्दर्भ में। चार न: न हर्ष, न द्वेष, न शोक, न आकांक्षा। ये चारों भावनात्मक अतिरेक हैं जो मन को विचलित करते हैं। 'शुभाशुभपरित्यागी' = शुभ और अशुभ दोनों का परित्यागी — यह अत्यन्त गहरा है। केवल बुरे का नहीं, शुभ का भी आसक्तिरहित होना। शुभ से आसक्ति भी बन्धन है। 'भक्तिमान्' = भक्ति से सम्पन्न — यह पहली बार इस खण्ड में 'भक्त' के स्थान पर 'भक्तिमान्' शब्द आया। 'स मे प्रियः' = वह मुझे प्रिय है।"
+            },
+            "english": {
+                "translation": "One who neither rejoices (na hṛṣyati) nor hates, neither grieves nor desires; who has renounced both the auspicious and the inauspicious — that devotee, full of bhakti (bhaktimān), is dear to Me.",
+                "explanation": "'Yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati' — four negations that describe the freedom from the four fundamental reactive states: excessive elation (hṛṣyati), hatred (dveṣṭi), grief (śocati), and craving (kāṅkṣati). These four represent the poles of the emotional pendulum that govern the ordinary mind: it swings between pleasure (elation, craving) and pain (hatred, grief). The devotee described here has stepped off the pendulum. 'Śubhāśubha-parityāgī' (renouncer of both the auspicious and the inauspicious) — this is subtler than simply avoiding evil: even attachment to what is good, virtuous, or meritorious is released. Not that the devotee does evil — but they are not bound even to goodness as a personal possession. 'Bhaktimān' — the beautiful word that closes the description: all these qualities flow from bhakti, not from willpower."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 18,
+            "global_verse_id": 487,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "समः शत्रौ च मित्रे च तथा मानापमानयोः ।\nशीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः ॥ १८ ॥",
+                "iast": "samaḥ śatrau ca mitre ca tathā mānāpamānayoḥ |\nśītoṣṇa-sukha-duḥkheṣu samaḥ saṅga-vivarjitaḥ ||18||"
+            },
+            "hindi": {
+                "devanagari": "जो शत्रु और मित्र में सम है, मान और अपमान में सम है; शीत, उष्ण, सुख और दुःख में सम है, और आसक्ति से रहित है —",
+                "hinglish": "Jo shatru aur mitra mein sam hai, maan aur apamaan mein sam hai; sheet, ushna, sukh aur dukh mein sam hai, aur asakti se rahit hai —",
+                "translation": "जो शत्रु और मित्र में सम है, तथा मान और अपमान में भी सम है; शीत, उष्ण, सुख और दुःख में सम है, और संग-विवर्जित (आसक्तिरहित) है —",
+                "explanation": "यह श्लोक और अगला (12.19) मिलकर एक पूर्ण वाक्य बनाते हैं जो 'स मे प्रियः' पर समाप्त होता है। 'समत्व' के चार आयाम: (१) 'शत्रौ च मित्रे च समः' = शत्रु और मित्र में समान दृष्टि — यह साधारण समभाव नहीं; यह यह जानना है कि दोनों में एक ही ब्रह्म है; (२) 'मानापमानयोः समः' = मान-अपमान में सम — सम्मान से फूलता नहीं, अपमान से टूटता नहीं; (३) 'शीतोष्णसुखदुःखेषु समः' = शीत-उष्ण और सुख-दुःख में सम — शरीर की संवेदनाएँ और मानसिक अनुभव दोनों। (४) 'सङ्गविवर्जितः' = आसक्ति-रहित। यह स्थितप्रज्ञ के लक्षण (2.55–72) का ही भक्ति-रूप है।"
+            },
+            "english": {
+                "translation": "One who is equal to enemy and friend, equal in honor and dishonor; equal in cold, heat, pleasure and pain; free from attachment (saṅga-vivarjitaḥ) —",
+                "explanation": "This verse and the next form one complete sentence. Four dimensions of equanimity (samatā): 'samaḥ śatrau ca mitre ca' (equal toward enemy and friend) — not the absence of relationship but the absence of differential valuation of beings based on their relation to one's ego. The enemy receives the same fundamental goodwill as the friend because both are expressions of the same Brahman. 'Tathā mānāpamānayoḥ' (equal in honor and dishonor) — the social valuation that others place on us is not internalized as the basis of self-worth. 'Śītoṣṇa-sukha-duḥkheṣu samaḥ' (equal in cold and heat, in pleasure and pain) — equanimity extends from the existential to the sensory; neither physical discomfort nor comfort disturbs the inner state. 'Saṅga-vivarjitaḥ' (free from attachment) — the absence of the sticky clinging that turns every pleasant experience into a craving and every unpleasant one into an aversion."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 19,
+            "global_verse_id": 488,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित् ।\nअनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः ॥ १९ ॥",
+                "iast": "tulya-nindā-stutir maunī santuṣṭo yena kenacit |\naniketaḥ sthira-matir bhaktimān me priyo naraḥ ||19||"
+            },
+            "hindi": {
+                "devanagari": "जो निन्दा-स्तुति में समान है, मौनी है, जो भी मिले उससे सन्तुष्ट है, गृहासक्ति-रहित (अनिकेत) है, स्थिरमति है — वह भक्तिमान् मनुष्य मुझे प्रिय है।",
+                "hinglish": "Jo ninda-stuti mein saman hai, mauni hai, jo bhi mile usse santushta hai, grihasakt-rahit (aniket) hai, sthir-mati hai — woh bhaktimaan manushya mujhe priya hai.",
+                "translation": "जो निन्दा और स्तुति में समान है, मौनी है, जो कुछ भी मिले उससे सन्तुष्ट है, अनिकेत (गृह-आसक्ति-रहित) है, स्थिरमति है — वह भक्तिमान् पुरुष मुझे प्रिय है।",
+                "explanation": "पाँच और गुण: (१) 'तुल्यनिन्दास्तुतिः' = निन्दा और स्तुति में समान — न प्रशंसा से फूलता है, न निन्दा से सिकुड़ता है। यह एक असाधारण स्वतन्त्रता है — दूसरों की राय से मुक्ति; (२) 'मौनी' = मौन रहने वाला — वाणी का संयम, आवश्यकता से अधिक न बोलना; (३) 'सन्तुष्टः येन केनचित्' = जो कुछ भी मिले (भोजन, वस्तु, परिस्थिति) उससे सन्तुष्ट — अलादीन-चिराग की नहीं चाहिए; (४) 'अनिकेतः' = अनिकेत — घर या स्थान में आसक्ति नहीं; वह जहाँ भी हो, सन्तुष्ट है; (५) 'स्थिरमतिः' = स्थिर-बुद्धि — जिसकी समझ अटल है। 'मे प्रियो नरः' = वह पुरुष मुझे प्रिय है — 'नर' शब्द से यह सहज मनुष्य के लिए भी उपलब्ध है।"
+            },
+            "english": {
+                "translation": "Equal in praise and blame (tulya-nindā-stutiḥ), silent (maunī), content with whatever comes (santuṣṭo yena kenacit), homeless (aniketaḥ), of steady mind (sthira-matiḥ), full of devotion — that person is dear to Me.",
+                "explanation": "'Tulya-nindā-stutiḥ' (equal in blame and praise) — perhaps the most practically demanding quality on the entire list: to remain genuinely unaffected by both criticism and flattery is the mark of a self that draws its identity from the ātman rather than from social validation. 'Maunī' (the silent one) — silence here encompasses both outer restraint of speech and inner quietness; words are offered only when necessary and purposeful. 'Santuṣṭo yena kenacit' (content with whatever comes) — the antithesis of consumer desire; this person receives each situation as exactly sufficient. 'Aniketaḥ' (without a fixed home, homeless) — not necessarily literally without a house but without attachment to any particular place as 'mine'; the whole world is equally home. 'Sthira-matiḥ' (of steady, unwavering wisdom) — the climactic quality: all the others rest on this foundation of unshakeable inner clarity. 'Me priyo naraḥ' — this human being is dear to Me."
+            }
+        },
+        {
+            "chapter": 12,
+            "verse_number": 20,
+            "global_verse_id": 489,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते ।\nश्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः ॥ २० ॥",
+                "iast": "ye tu dharmyāmṛtam idaṃ yathoktaṃ paryupāsate |\nśraddadhānā mat-paramā bhaktās te 'tīva me priyāḥ ||20||"
+            },
+            "hindi": {
+                "devanagari": "किन्तु जो इस धर्ममय अमृत को जैसा कहा गया है उसी प्रकार श्रद्धापूर्वक, मुझे ही परम मानकर उपासते हैं — वे भक्त मुझे अतीव (अत्यधिक) प्रिय हैं।",
+                "hinglish": "Kintu jo is dharmamay amrit ko jaisa kaha gaya hai usi prakar shraddhapurvak, mujhe hi param maankar upaste hain — woh bhakt mujhe ativ (atyadhik) priya hain.",
+                "translation": "किन्तु जो इस धर्ममय अमृत को जैसा कहा गया है, वैसे ही श्रद्धापूर्वक, मुझे ही परम मानकर उपासते हैं — वे भक्त मुझे अत्यधिक (अतीव) प्रिय हैं।",
+                "explanation": "'धर्म्यामृतम्' — यह दो शब्दों का एक अनूठा समास है: 'धर्म्य' = धर्म के अनुसार + 'अमृत' = अमृत, अमरता का अमृत। इस अध्याय 12 में जो गुण-माला वर्णित हुई — वह 'धर्म-रूपी अमृत' है। 'यथोक्तम्' = जैसा कहा गया — ठीक इसी प्रकार, बिना परिवर्तन किए। 'पर्युपासते' = उपासना करते हैं। 'श्रद्दधानाः' = श्रद्धापूर्वक — श्रद्धा इस सम्पूर्ण अध्याय की आधारशिला है (12.2 में 'परया श्रद्धया' से शुरू होकर यहाँ भी)। 'मत्परमाः' = जो मुझे ही परम मानते हैं। 'अतीव मे प्रियाः' = अत्यधिक प्रिय हैं — 'प्रिय' से 'प्रियतर' और अन्त में 'अतीव प्रिय' — यह तीव्रता का चरमोत्कर्ष है। अध्याय का अन्तिम वचन ईश्वर का प्रेम-प्रमाण है।"
+            },
+            "english": {
+                "translation": "But those who with faith (śraddadhānāḥ), holding Me as the Supreme (mat-paramāḥ), worship this dharmic nectar (dharmyāmṛtam) as expounded — those devotees are exceedingly (atīva) dear to Me.",
+                "explanation": "'Dharmyāmṛtam idaṃ' — these words name what the entire chapter has described: 'the nectar of dharma,' the immortalizing ambrosia of righteous devotion. Not a set of rules but a living substance — the qualities enumerated from verse 13 onward constitute an elixir that, when lived, transmutes ordinary human existence into something immortal. 'Yathoktam paryupāsate' (who worship as it has been taught, fully and precisely) — not selective adoption of convenient virtues but the whole portrait, lived completely. 'Śraddadhānā' (those who have faith) — śraddhā, the willing and receptive openness to the divine, is the vessel that holds the nectar. 'Mat-paramā' (holding Me as the Supreme) — the final, non-negotiable condition: Krishna as the ultimate reality, the highest value, the first and last priority. 'Atīva me priyāḥ' (exceedingly dear to Me) — the chapter closes not with a doctrinal statement but with a declaration of love. The Lord's last word to the devoted seeker is: you are dear to me. Exceedingly dear."
+            }
+        }
+    ],
+    "colophon": {
+        "sanskrit": "इति श्रीमद्भगवद्गीतासूपनिषत्सु ब्रह्मविद्यायां योगशास्त्रे श्रीकृष्णार्जुनसंवादे भक्तियोगो नाम द्वादशोऽध्यायः ॥",
+        "iast": "iti śrīmadbhagavadgītāsūpaniṣatsu brahmavidyāyāṃ yogaśāstre śrīkṛṣṇārjunasaṃvāde bhakti-yogo nāma dvādaśo 'dhyāyaḥ ||",
+        "hindi": "इस प्रकार श्रीमद्भगवद्गीतारूपी उपनिषद् में, ब्रह्मविद्या और योगशास्त्र विषयक, श्रीकृष्ण और अर्जुन के संवाद में, 'भक्तियोग' नामक द्वादश अध्याय समाप्त होता है।",
+        "english": "Thus ends the Twelfth Chapter, named 'Bhakti-yoga' (The Yoga of Devotion), in the Upaniṣad known as the Śrīmad Bhagavad Gītā, the scripture of Brahma-vidyā and Yoga, in the dialogue between Śrī Kṛṣṇa and Arjuna.",
+        "note": "The colophon is not counted as a verse. Global verse count after Chapter 12: 489 (Ch.1: 47 + Ch.2: 72 + Ch.3: 43 + Ch.4: 42 + Ch.5: 29 + Ch.6: 47 + Ch.7: 30 + Ch.8: 28 + Ch.9: 34 + Ch.10: 42 + Ch.11: 55 + Ch.12: 20 = 489)."
+    }
+}

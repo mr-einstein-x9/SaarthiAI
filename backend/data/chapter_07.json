@@ -1,0 +1,623 @@
+{
+    "chapter_number": 7,
+    "chapter_title": {
+        "sanskrit": "ज्ञानविज्ञानयोगः",
+        "iast": "Jñāna-vijñāna-yogaḥ",
+        "hindi": "ज्ञान-विज्ञान योग",
+        "english": "Jnana-Vijnana Yoga — The Yoga of Knowledge and Wisdom"
+    },
+    "chapter_summary": {
+        "hindi": "सातवाँ अध्याय गीता के सबसे रहस्यमय और ऐश्वर्यपूर्ण अध्यायों में से एक है। यहाँ श्रीकृष्ण अपनी दिव्य प्रकृति का विस्तार से उद्घाटन करते हैं। वे अपनी दो प्रकृतियों — अपरा (आठ तत्त्वों वाली भौतिक प्रकृति) और परा (जीवन-शक्ति, चेतना) — का वर्णन करते हैं और कहते हैं कि वे ही इस समस्त सृष्टि का मूल कारण हैं। फिर ईश्वर का विभूति-वर्णन: जल में रस, सूर्य-चन्द्र में प्रकाश, पृथ्वी में गन्ध, अग्नि में तेज — वे सब कुछ में व्याप्त हैं। त्रिगुणात्मक माया के विषय में: तीनों गुणों से निर्मित संसार मनुष्य को मोहित करता है और यह माया दुस्तर है। फिर चार प्रकार के भक्तों का वर्णन और चार प्रकार के अभक्तों का। ज्ञानी भक्त को कृष्ण 'स्वयं अपनी आत्मा' कहते हैं — यह गीता का परमोच्च भक्ति-वचन है। माया के आवरण से देवताओं की ओर जाने वाले भक्तों और उनकी परिणामी सीमाओं का विवरण। अन्त में अधिभूत, अधिदैव और अधियज्ञ का परिचय — जो अगले अध्याय (8) के प्रश्नों का आधार बनेगा।",
+        "english": "Chapter 7 is among the Gita's most majestic and philosophically rich chapters. Krishna here reveals his divine nature comprehensively. He describes his two prakṛtis — the aparā (the eightfold material nature) and the parā (the life-principle, consciousness itself) — and declares himself the single source and ground of all existence. He then maps his presence in creation: the taste of water, the light of sun and moon, the fragrance of earth, the vitality in beings — divinity pervades everything. The analysis of māyā follows: the three-guṇa-constituted world enchants all beings, and this divine illusion is nearly impossible to cross — except by those who take refuge in Krishna alone. Four types of virtuous devotees are described, culminating in the jñānī whom Krishna declares to be 'my very Self' — the Gita's most intimate statement of divine-human identity. The chapter also explains why those in the grip of desire worship other gods and receive finite rewards. It closes with the first introduction of adhibhūta, adhidaiva, and adhiyajña — the cosmological concepts that Arjuna will ask about at the opening of Chapter 8."
+    },
+    "total_verses": 30,
+    "verses": [
+        {
+            "chapter": 7,
+            "verse_number": 1,
+            "global_verse_id": 281,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रीभगवानुवाच ।\nमय्यासक्तमनाः पार्थ योगं युञ्जन्मदाश्रयः ।\nअसंशयं समग्रं मां यथा ज्ञास्यसि तच्छृणु ॥ १ ॥",
+                "iast": "śrī-bhagavān uvāca |\nmayy āsakta-manāḥ pārtha yogaṃ yuñjan mad-āśrayaḥ |\nasaṃśayaṃ samagraṃ māṃ yathā jñāsyasi tac chṛṇu ||1||"
+            },
+            "hindi": {
+                "devanagari": "श्रीभगवान् बोले — हे पार्थ! मुझमें आसक्त मन वाला, मेरे आश्रय में रहते हुए योग का अभ्यास करते हुए तू जिस प्रकार सम्पूर्णतः और असंशय मुझे जानेगा, वह सुन।",
+                "hinglish": "Shri Bhagwan bole — He Parth! Mujhme aasakt man wala, mere aashray mein rehte hue yog ka abhyas karte hue tu jis prakar sampoornatah aur asanshay mujhe janega, woh sun.",
+                "translation": "श्रीभगवान् ने कहा — हे पार्थ! मुझमें आसक्त मन से, मेरे आश्रय में रहकर योग का अभ्यास करते हुए तू जिस प्रकार सम्पूर्ण और निःसन्देह मुझे जानेगा, वह सुन।",
+                "explanation": "यह अध्याय 7 का उद्घाटन श्लोक है और यह घोषणा करता है कि यहाँ 'समग्र' (सम्पूर्ण) ज्ञान दिया जाएगा। तीन पूर्वशर्तें हैं: (१) 'मय्यासक्तमनाः' = मुझमें लीन मन — केवल बौद्धिक जिज्ञासा नहीं, हृदय से लगाव; (२) 'मदाश्रयः' = मेरे आश्रय में — कृष्ण को ही एकमात्र आधार मानकर; (३) 'योगं युञ्जन्' = योग का अभ्यास करते हुए। 'असंशयम्' = निःसन्देह — यहाँ संशय के लिए कोई स्थान नहीं रहेगा। 'समग्रम्' = सम्पूर्णतः — यह अध्याय 7 का वादा है: आंशिक नहीं, पूर्ण ज्ञान। यह 'तच्छृणु' (वह सुनो) के साथ श्रोता को ध्यानपूर्वक सुनने के लिए आमन्त्रित करता है।"
+            },
+            "english": {
+                "translation": "The Blessed Lord said: O Pārtha, with mind attached to Me, practicing yoga taking refuge in Me — hear how you shall know Me completely and without doubt.",
+                "explanation": "This opening verse of Chapter 7 makes a solemn promise: what follows will be 'samagram' (complete, total, without remainder) knowledge of the divine. Three preconditions are stipulated for the student: 'mayy āsakta-manāḥ' (mind devoted and attached to Me) — not mere intellectual curiosity but genuine love and orientation; 'mad-āśrayaḥ' (taking refuge in Me alone) — no divided allegiance; 'yogaṃ yuñjan' (practicing yoga) — sustained, disciplined effort. 'Asaṃśayam' (without doubt) — this knowledge, properly received, dissolves doubt entirely. 'Samagram' (wholly, completely) — Chapter 7 promises the full self-disclosure of the Absolute, not a fragment. The combination of devotion, surrender, and practice constitutes the readiness required to receive it."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 2,
+            "global_verse_id": 282,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "ज्ञानं तेऽहं सविज्ञानमिदं वक्ष्याम्यशेषतः ।\nयज्ज्ञात्वा नेह भूयोऽन्यज्ज्ञातव्यमवशिष्यते ॥ २ ॥",
+                "iast": "jñānaṃ te 'haṃ sa-vijñānam idaṃ vakṣyāmy aśeṣataḥ |\nyaj jñātvā neha bhūyo 'nyaj jñātavyam avaśiṣyate ||2||"
+            },
+            "hindi": {
+                "devanagari": "मैं तुम्हें विज्ञान सहित इस ज्ञान को सम्पूर्णतः बताऊँगा, जिसे जानकर यहाँ फिर और कुछ भी जानना शेष नहीं रहता।",
+                "hinglish": "Main tumhe vijyaan sahit is gyaan ko sampoornatah bataoonga, jise jankar yahan phir aur kuch bhi jaanana shesh nahi rehta.",
+                "translation": "मैं तुम्हें विज्ञान-सहित यह ज्ञान सम्पूर्णतः बताऊँगा, जिसे जान लेने पर यहाँ फिर कुछ भी जानने योग्य शेष नहीं रहता।",
+                "explanation": "'ज्ञानम्' = सैद्धान्तिक ज्ञान, शास्त्र-ज्ञान; 'विज्ञानम्' = प्रत्यक्ष अनुभव-ज्ञान, साक्षात्कार। दोनों का भेद महत्त्वपूर्ण है: ज्ञान वह है जो सुनकर या पढ़कर आता है; विज्ञान वह है जो भीतर से जागता है — अनुभव की आग में परिपक्व। 'अशेषतः' = बिना किसी शेष के, पूर्णतः। 'नेह भूयोऽन्यज्ज्ञातव्यम्' — यह वचन अत्यन्त साहसपूर्ण है: इसे जानने के बाद और कुछ जानना शेष नहीं रहता। यह परब्रह्म-ज्ञान है — जो सबका आधार है, उसे जानने पर सब जाना जाता है। उपनिषदों में भी यही कहा गया: 'कस्मिन्नु भगवो विज्ञाते सर्वमिदं विज्ञातं भवति?'"
+            },
+            "english": {
+                "translation": "I will declare to you this knowledge (jñāna) along with wisdom (vijñāna) completely, without remainder — knowing which, nothing else here remains to be known.",
+                "explanation": "'Jñānam' (theoretical knowledge) and 'vijñānam' (experiential wisdom, direct realization) together constitute the complete knowing that the Gita offers. Jñāna is the conceptual map; vijñāna is the direct experience of the territory itself. Both are needed: jñāna without vijñāna remains intellectual; vijñāna without jñāna lacks discriminative clarity. 'Aśeṣataḥ' (without any remainder, completely) — nothing is held back. 'Neha bhūyo 'nyaj jñātavyam avaśiṣyate' (nothing else here remains to be known) — a declaration mirroring the Upaniṣadic proclamation: 'By knowing what, is everything else known?' (Muṇḍaka 1.1.3). To know the ground of being is to know all that rests upon it."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 3,
+            "global_verse_id": 283,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये ।\nयततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ॥ ३ ॥",
+                "iast": "manuṣyāṇāṃ sahasreṣu kaścid yatati siddhaye |\nyatatām api siddhānāṃ kaścin māṃ vetti tattvataḥ ||3||"
+            },
+            "hindi": {
+                "devanagari": "हजारों मनुष्यों में कोई एक सिद्धि के लिए यत्न करता है; और यत्न करने वाले सिद्धों में भी कोई एक ही मुझे तत्त्वतः जानता है।",
+                "hinglish": "Hazaron manushyon mein koi ek siddhi ke liye yatna karta hai; aur yatna karne wale siddhaon mein bhi koi ek hi mujhe tattvataah jaanta hai.",
+                "translation": "हजारों मनुष्यों में से कोई एक सिद्धि के लिए यत्न करता है; और यत्न करने वाले सिद्धों में से भी कोई एक ही मुझे तत्त्वतः जानता है।",
+                "explanation": "यह श्लोक आत्मज्ञान की दुर्लभता को तीन स्तरों में रखता है: (१) हजारों में एक साधना की ओर मुड़ता है — अधिकांश मनुष्य संसार में ही डूबे रहते हैं; (२) साधना करने वालों में से कुछ सिद्धि की ओर बढ़ते हैं; (३) किन्तु उन सिद्धों में भी कोई एक ही 'तत्त्वतः' — यथार्थ रूप से — मुझे जानता है। 'तत्त्वतः' = तत्त्व की दृष्टि से, वास्तविक स्वरूप में — यह केवल बौद्धिक जानकारी नहीं, सीधा साक्षात्कार है। यह श्लोक निराशावादी नहीं है; यह श्रोता को इस दुर्लभ ज्ञान की कीमत और महत्त्व की याद दिलाता है।"
+            },
+            "english": {
+                "translation": "Among thousands of human beings, perhaps one strives for perfection (siddhi); and among those who strive and succeed, perhaps one knows Me in truth (tattvataḥ).",
+                "explanation": "This verse establishes the rarity of genuine self-knowledge in three ascending stages: of all human beings, only a rare few even begin seeking liberation; of those seekers, fewer still attain siddhi (spiritual accomplishment); and even among the accomplished, perhaps one knows Krishna 'tattvataḥ' — in his true, essential nature, not conceptually or partially but directly and completely. This is not pessimism; it is the Gita calibrating the student's understanding of what is being offered. The very rarity of this knowledge elevates what follows. It also explains why, despite millennia of human civilization, such wisdom has always been precious and uncommon — it requires an exceptional convergence of preparation, sincerity, and grace."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 4,
+            "global_verse_id": 284,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च ।\nअहङ्कार इतीयं मे भिन्ना प्रकृतिरष्टधा ॥ ४ ॥",
+                "iast": "bhūmir āpo 'nalo vāyuḥ khaṃ mano buddhir eva ca |\nahaṃkāra itīyaṃ me bhinnā prakṛtir aṣṭadhā ||4||"
+            },
+            "hindi": {
+                "devanagari": "पृथ्वी, जल, अग्नि, वायु, आकाश, मन, बुद्धि और अहंकार — यह मेरी आठ प्रकार से विभक्त अपरा प्रकृति है।",
+                "hinglish": "Prithvi, jal, agni, vayu, aakash, man, buddhi aur ahankaar — yeh meri aath prakar se vibhakt apara prakriti hai.",
+                "translation": "पृथ्वी, जल, अग्नि, वायु, आकाश, मन, बुद्धि और अहंकार — यह मेरी आठ भागों में विभक्त अपरा प्रकृति है।",
+                "explanation": "यह कृष्ण की 'अपरा प्रकृति' का वर्णन है — निम्नतर, भौतिक प्रकृति। आठ तत्त्व: पाँच महाभूत (पृथ्वी, जल, अग्नि, वायु, आकाश) + तीन अन्तःकरण (मन, बुद्धि, अहंकार)। 'भिन्ना' = विभक्त, भिन्न-भिन्न — यद्यपि अलग-अलग दिखते हैं, ये सब कृष्ण की एक प्रकृति के विभाजन हैं। 'अपरा' = निम्नतर (परा के विपरीत)। इन आठ तत्त्वों से समस्त भौतिक जगत् और जीव का बाह्य उपकरण (शरीर-मन-बुद्धि) बना है। यह सांख्य दर्शन की अष्टविध प्रकृति का ईश्वरीय संस्करण है।"
+            },
+            "english": {
+                "translation": "Earth, water, fire, air, ether, mind, intellect, and ego — this is My nature divided eightfold, the lower nature (aparā prakṛti).",
+                "explanation": "'Aparā prakṛti' (the lower nature) constitutes the totality of material existence — both outer and inner. The five gross elements (pañca mahābhūtas): earth (bhūmi), water (āpaḥ), fire (anala), air (vāyu), and ether (kha); and the three instruments of inner experience: mind (manas, the processing faculty), intellect (buddhi, the discriminating faculty), and ego (ahaṃkāra, the individualizing faculty). 'Bhinnā... aṣṭadhā' (divided eightfold) — though appearing multiple and diverse, these eight are one continuous nature emanating from a single source. This aligns with Sāṃkhya cosmology but situates it within theistic Vedānta: these are not independent realities but expressions of the divine."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 5,
+            "global_verse_id": 285,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम् ।\nजीवभूतां महाबाहो ययेदं धार्यते जगत् ॥ ५ ॥",
+                "iast": "apareyam itas tv anyāṃ prakṛtiṃ viddhi me parām |\njīva-bhūtāṃ mahābāho yayedaṃ dhāryate jagat ||5||"
+            },
+            "hindi": {
+                "devanagari": "हे महाबाहो! यह (अपरा प्रकृति) निम्नतर है। इससे भिन्न मेरी परा प्रकृति को जानो — जो जीव-स्वरूप है और जिसके द्वारा यह जगत् धारण किया जाता है।",
+                "hinglish": "He Mahabaho! Yeh (apara prakriti) nimnatara hai. Isse bhinn meri para prakriti ko jaano — jo jeev-swaroop hai aur jiske dwara yeh jagat dharan kiya jaata hai.",
+                "translation": "हे महाबाहो! यह (अपरा प्रकृति) निम्नतर है। इससे भिन्न, मेरी परा प्रकृति को जानो — जो जीवभूता (जीव-स्वरूपा) है और जिससे यह सम्पूर्ण जगत् धारण किया जाता है।",
+                "explanation": "'परा प्रकृति' = उच्चतर, श्रेष्ठ प्रकृति। 'जीवभूताम्' = जीव-स्वरूप, चेतना का तत्त्व। यह परा प्रकृति वह चेतना-शक्ति है जो जड़ पदार्थ (अपरा) में प्रवेश करके उसे जीवन्त बनाती है। 'ययेदं धार्यते जगत्' = जिसके द्वारा यह समस्त जगत् धारण किया जाता है। दो प्रकृतियों का यह भेद गहन है: अपरा = जड़ (matter), परा = चेतन (consciousness). वास्तव में यही आधुनिक दर्शन का 'hard problem of consciousness' है — जड़ तत्त्वों से चेतना कैसे? गीता का उत्तर: चेतना एक स्वतन्त्र 'परा प्रकृति' है जो जड़ से भिन्न और श्रेष्ठ है।"
+            },
+            "english": {
+                "translation": "O mighty-armed one, this (aparā) is the lower nature. Know My other nature — the higher (parā), which is the life-principle (jīva-bhūtā), by which this entire world is sustained.",
+                "explanation": "'Parā prakṛti' (the higher nature) is the conscious, living principle — the jīva-element — that animates and sustains the inert material of aparā prakṛti. 'Jīva-bhūtām' (having become the jīva, i.e., the individualized life-force and consciousness in all beings) — this higher nature is what makes matter come alive, what turns a biological body into a living, experiencing being. 'Yayedaṃ dhāryate jagat' (by which this world is sustained) — without this conscious principle, the material world would have no principle of coherence or purpose. This Gita doctrine anticipates and answers the philosophical 'hard problem of consciousness': consciousness (parā) is not reducible to matter (aparā); it is a fundamentally distinct and higher principle."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 6,
+            "global_verse_id": 286,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "एतद्योनीनि भूतानि सर्वाणीत्युपधारय ।\nअहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा ॥ ६ ॥",
+                "iast": "etad-yonīni bhūtāni sarvāṇīty upadhāraya |\nahaṃ kṛtsnasya jagataḥ prabhavaḥ pralayas tathā ||6||"
+            },
+            "hindi": {
+                "devanagari": "समझो कि समस्त प्राणियों का उद्भव इन दोनों (प्रकृतियों) से है। मैं ही सम्पूर्ण जगत् का उद्गम (प्रभव) और प्रलय (विनाश) हूँ।",
+                "hinglish": "Samjho ki samast praniyon ka udbhav in donon (prakritiyon) se hai. Main hi sampurna jagat ka udgam (prabhav) aur pralay (vinaash) hoon.",
+                "translation": "यह जानो कि सभी प्राणियों का उद्भव इन दोनों (अपरा और परा प्रकृति) से है। मैं ही सम्पूर्ण जगत् का उद्गम (प्रभव) और प्रलय हूँ।",
+                "explanation": "'एतद्योनीनि' = इन दोनों प्रकृतियों से उत्पन्न। प्रत्येक प्राणी में दो तत्त्व हैं: जड़ शरीर (अपरा) और चेतना (परा) — दोनों मिलकर जीव बनाते हैं। 'अहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा' — यह श्लोक का केन्द्रीय उद्घोष है। 'प्रभव' = उद्गम, जन्म का कारण; 'प्रलय' = विनाश, अन्त का कारण। मैं ही दोनों हूँ — सृष्टि और संहार दोनों का मूल। यह न केवल ईश्वर की सर्वव्यापकता है, अपितु उनकी अनिवार्यता भी: जगत् में कुछ भी उनके बिना नहीं — न आरम्भ, न अन्त।"
+            },
+            "english": {
+                "translation": "Know that all beings have their womb (origin) in these two natures. I am the source (prabhava) and dissolution (pralaya) of the entire universe.",
+                "explanation": "'Etad-yonīni bhūtāni sarvāṇi' (all beings have their womb in these two natures) — every living being is a combination of aparā (body-mind complex) and parā (the conscious life-principle). These two prakṛtis together constitute the matrix of all existence. 'Ahaṃ kṛtsnasya jagataḥ prabhavaḥ pralayas tathā' — this is one of the Gita's grandest statements: Krishna declares himself the source and the dissolution of the entire universe. Not merely a deity within the universe, but the very ground from which it arises and into which it returns. This is the monotheistic heart of the Gita's theology: one absolute reality as both efficient and material cause of all existence."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 7,
+            "global_verse_id": 287,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय ।\nमयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ॥ ७ ॥",
+                "iast": "mattaḥ parataraṃ nānyat kiñcid asti dhanañjaya |\nmayi sarvam idaṃ protaṃ sūtre maṇi-gaṇā iva ||7||"
+            },
+            "hindi": {
+                "devanagari": "हे धनञ्जय! मुझसे परे और कुछ भी नहीं है। यह सब जगत् मुझमें इस प्रकार पिरोया हुआ है जैसे माला के धागे में मणियाँ।",
+                "hinglish": "He Dhananjay! Mujhse pare aur kuch bhi nahi hai. Yeh sab jagat mujhme is prakar piroya hua hai jaise maala ke dhaage mein maniyan.",
+                "translation": "हे धनञ्जय! मुझसे परे कुछ भी नहीं है। यह सम्पूर्ण जगत् मुझमें इस प्रकार पिरोया हुआ है जैसे धागे में मणियाँ।",
+                "explanation": "'मत्तः परतरं नान्यत् किञ्चित्' — यह गीता का एक परम वाक्य है: मुझसे ऊँचा, मुझसे परे, मुझसे बाहर कुछ भी नहीं। यह अद्वैत की घोषणा है। 'सूत्रे मणिगणा इव' — धागे में पिरोई मणियों का रूपक अत्यन्त सुन्दर है। मणियाँ अनेक हैं, भिन्न-भिन्न रंग-रूप वाली — किन्तु सब एक ही धागे में। उसी प्रकार जगत् में विविधता है, किन्तु सबका आधार एक — ब्रह्म/कृष्ण। 'प्रोतम्' = पिरोया हुआ, अनुस्यूत। 'धनञ्जय' = अर्जुन। इस रूपक से ईश्वर की सर्वव्यापकता और सम्पूर्ण सृष्टि की एकता दोनों स्पष्ट होती हैं।"
+            },
+            "english": {
+                "translation": "O Dhananjaya, there is nothing whatsoever higher than Me. All this is strung on Me as pearls are strung on a thread.",
+                "explanation": "'Mattaḥ parataraṃ nānyat kiñcid asti' — this is one of the Gita's most absolute metaphysical declarations: nothing exists beyond, above, or outside of Krishna. He is the ultimate ground of all being — not one entity among others, but the very substratum of existence itself. The simile 'sūtre maṇi-gaṇā iva' (like gems strung on a thread) is one of Sanskrit literature's most luminous images: the gems (the multiplicity of beings and phenomena in the world) are all individually distinct, beautiful, and varied — yet all threaded on a single string (Brahman/Krishna). The string is invisible within the gems but sustains them all. Unity within diversity; the Absolute within the relative — this is the Gita's central vision."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 8,
+            "global_verse_id": 288,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "रसोऽहमप्सु कौन्तेय प्रभास्मि शशिसूर्ययोः ।\nप्रणवः सर्ववेदेषु शब्दः खे पौरुषं नृषु ॥ ८ ॥",
+                "iast": "raso 'ham apsu kaunteya prabhāsmi śaśi-sūryayoḥ |\npraṇavaḥ sarva-vedeṣu śabdaḥ khe pauruṣaṃ nṛṣu ||8||"
+            },
+            "hindi": {
+                "devanagari": "हे कौन्तेय! मैं जल में रस हूँ, चन्द्र और सूर्य में प्रकाश हूँ; सम्पूर्ण वेदों में प्रणव (ॐ) हूँ, आकाश में शब्द हूँ और मनुष्यों में पुरुषत्व (सामर्थ्य) हूँ।",
+                "hinglish": "He Kaunteya! Main jal mein ras hoon, chandra aur surya mein prakash hoon; sampoorna Vedon mein Pranav (OM) hoon, aakash mein shabd hoon aur manushyon mein purushattv (samarthya) hoon.",
+                "translation": "हे कौन्तेय! जल में मैं रस हूँ, चन्द्र-सूर्य में प्रकाश हूँ; समस्त वेदों में प्रणव (ॐ) हूँ, आकाश में शब्द हूँ और मनुष्यों में पुरुषत्व हूँ।",
+                "explanation": "यहाँ से सात श्लोकों तक (7.8–7.11) कृष्ण अपनी विभूतियों का वर्णन करते हैं — प्रत्येक तत्त्व में जो सार या श्रेष्ठतम है, वह मैं हूँ। यह पूर्ण पैंथेइज्म नहीं — कृष्ण सब-कुछ नहीं हैं, बल्कि प्रत्येक वस्तु का सार (essence) हैं। 'रसः' = जल का मूल गुण, जो प्यास बुझाता है; 'प्रभा' = प्रकाश (चन्द्र-सूर्य का); 'प्रणव' = ॐ — वेदों का बीज-मन्त्र; 'शब्दः खे' = आकाश में शब्द (स्पन्दन); 'पौरुषम्' = वह शक्ति-तत्त्व जो मनुष्य को उत्कृष्ट बनाती है। प्रत्येक में जो सर्वोत्तम और मूलभूत है — वह ईश्वर की उपस्थिति है।"
+            },
+            "english": {
+                "translation": "O Kaunteya, I am the taste in water, the light in the moon and sun; I am the sacred syllable Om in all the Vedas, sound in ether, and the virility in human beings.",
+                "explanation": "Beginning here and extending through 7.11, Krishna maps his presence through the essential quality of each element and phenomenon — not claiming to be everything, but to be the essence, the defining quality, the 'isness' of each thing. 'Rasaḥ' (taste) in water — water's fundamental nature that distinguishes it as life-sustaining; 'prabhā' (light) in moon and sun — the luminosity that makes them what they are; 'praṇava' (Om) in all Vedas — the primordial sound-vibration from which all sacred knowledge flows; 'śabdaḥ' (sound) in ether — the element of ether whose defining quality is its capacity to carry sound; 'pauruṣam' (virility, strength, vital capacity) in human beings — the animating force of human excellence. The divine is the irreducible quality in each thing."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 9,
+            "global_verse_id": 289,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "पुण्यो गन्धः पृथिव्यां च तेजश्चास्मि विभावसौ ।\nजीवनं सर्वभूतेषु तपश्चास्मि तपस्विषु ॥ ९ ॥",
+                "iast": "puṇyo gandhaḥ pṛthivyāṃ ca tejaś cāsmi vibhāvasau |\njīvanaṃ sarva-bhūteṣu tapaś cāsmi tapasviṣu ||9||"
+            },
+            "hindi": {
+                "devanagari": "मैं पृथ्वी में पवित्र गन्ध हूँ, अग्नि में तेज हूँ, समस्त प्राणियों में जीवन हूँ और तपस्वियों में तप हूँ।",
+                "hinglish": "Main prithvi mein pavitra gandh hoon, agni mein tej hoon, samast praniyon mein jeevan hoon aur tapasviyon mein tap hoon.",
+                "translation": "मैं पृथ्वी में पवित्र गन्ध हूँ, अग्नि में तेज हूँ; समस्त प्राणियों में जीवन हूँ और तपस्वियों में तप हूँ।",
+                "explanation": "'पुण्यो गन्धः' = पवित्र, श्रेष्ठ गन्ध — पृथ्वी की गन्ध (मिट्टी की खुशबू जो वर्षा के बाद आती है) में ईश्वर की उपस्थिति। 'विभावसौ' = अग्नि में; 'तेजः' = प्रकाश और ऊर्जा। 'जीवनम्' = सम्पूर्ण प्राणियों में जो जीवन-शक्ति है, वह मैं हूँ — यह परा प्रकृति का व्यावहारिक रूप है। 'तपस्विषु तपः' = तपस्वियों में जो तप की ऊर्जा है — वह भी मैं हूँ। इन विभूतियों के माध्यम से कृष्ण यह सिखाते हैं कि समस्त अनुभव में — भौतिक, नैतिक, और आध्यात्मिक — ईश्वर की उपस्थिति पहचानी जा सकती है। यही ईश्वर-दर्शन की योग्यता है।"
+            },
+            "english": {
+                "translation": "I am the sacred fragrance of the earth and the brilliance in fire; I am the life in all beings and the austerity (tapas) in ascetics.",
+                "explanation": "'Puṇyo gandhaḥ pṛthivyāṃ' (the sacred fragrance of the earth) — the primal, nourishing scent of earth (particularly the petrichor after rain) that connects all living beings to their planetary home. 'Tejaś cāsmi vibhāvasau' (the brilliance in fire) — fire's defining quality of heat and light, its transformative capacity. 'Jīvanaṃ sarva-bhūteṣu' (life in all beings) — not merely biological life but the animating principle itself, the parā prakṛti incarnate in every living being. 'Tapaś cāsmi tapasviṣu' (tapas in ascetics) — the heat of spiritual discipline, the concentrated effort of transformation that austerity generates. In each case, the divine is the functional core — that without which the thing would not be itself."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 10,
+            "global_verse_id": 290,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "बीजं मां सर्वभूतानां विद्धि पार्थ सनातनम् ।\nबुद्धिर्बुद्धिमतामस्मि तेजस्तेजस्विनामहम् ॥ १० ॥",
+                "iast": "bījaṃ māṃ sarva-bhūtānāṃ viddhi pārtha sanātanam |\nbuddhir buddhimatām asmi tejas tejasvinām aham ||10||"
+            },
+            "hindi": {
+                "devanagari": "हे पार्थ! मुझे समस्त प्राणियों का सनातन बीज जानो। मैं बुद्धिमानों की बुद्धि हूँ और तेजस्वियों का तेज हूँ।",
+                "hinglish": "He Parth! Mujhe samast praniyon ka sanatan beej jaano. Main buddhimaaanon ki buddhi hoon aur tejasviyon ka tej hoon.",
+                "translation": "हे पार्थ! समस्त प्राणियों का सनातन बीज मुझे जानो। मैं बुद्धिमानों की बुद्धि हूँ और तेजस्वियों का तेज हूँ।",
+                "explanation": "'बीजं सनातनम्' = सनातन (शाश्वत) बीज — जैसे बीज में वृक्ष की सम्भावना होती है, वैसे ही समस्त प्राणियों की सम्भावना कृष्ण में है। यह 'बीज' रूपक गहरा है: बीज में वृक्ष दिखता नहीं, किन्तु वह वहाँ है। ईश्वर भी सृष्टि में प्रकट नहीं (पर्दे के पीछे), किन्तु सब-कुछ उनसे ही अंकुरित है। 'बुद्धिमतां बुद्धिः' = बुद्धिमानों में जो विवेक-शक्ति है; 'तेजस्विनां तेजः' = तेजस्वियों का तेज (ओज, प्रभामण्डल, आभा)। प्रत्येक मनुष्य में जो श्रेष्ठतम क्षमता है, वह ईश्वर का अंश है।"
+            },
+            "english": {
+                "translation": "Know Me as the eternal seed of all beings, O Pārtha. I am the intelligence of the intelligent and the brilliance of the brilliant.",
+                "explanation": "'Bījaṃ... sanātanam' (the eternal seed of all beings) — the seed metaphor is profound: the entire potential of the tree exists invisibly within the seed. Brahman/Krishna is the eternal, inexhaustible potential from which all beings arise, each unfolding their specific nature as a tree unfolds from its seed. The seed is not the tree, yet the tree is entirely implicit in the seed. 'Buddhir buddhimatām' (the intelligence of the intelligent) — wherever genuine discriminative wisdom functions, that is Krishna's presence. 'Tejas tejasvinām' (the brilliance of the brilliant) — the luminous quality, the natural authority and radiance, of those who possess genuine vitality and spiritual power. The best in every being is a window to the divine."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 11,
+            "global_verse_id": 291,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "बलं बलवतां चाहं कामरागविवर्जितम् ।\nधर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ ॥ ११ ॥",
+                "iast": "balaṃ balavatāṃ cāhaṃ kāma-rāga-vivarjitam |\ndharamāviruddho bhūteṣu kāmo 'smi bharatarṣabha ||11||"
+            },
+            "hindi": {
+                "devanagari": "हे भरतर्षभ! मैं बलवानों का कामना और राग से रहित बल हूँ; और प्राणियों में धर्म के अनुकूल काम हूँ।",
+                "hinglish": "He Bharatarshaba! Main balavaaanon ka kaamna aur raag se rahit bal hoon; aur praniyon mein dharm ke anukool kaam hoon.",
+                "translation": "हे भरतर्षभ! मैं बलवानों का काम और राग से रहित बल हूँ; और प्राणियों में धर्म के विरुद्ध न होने वाली कामना हूँ।",
+                "explanation": "यह श्लोक एक महत्त्वपूर्ण सूक्ष्मता को स्पष्ट करता है। 'कामरागविवर्जितम् बलम्' = वह बल जो कामना और आसक्ति से मुक्त है — शुद्ध शक्ति, जो किसी स्वार्थ के लिए नहीं। 'धर्माविरुद्धः काम' = धर्म के अनुकूल काम (इच्छा, प्रेम)। यहाँ कृष्ण सांसारिक सुखों को नकारते नहीं — वे कहते हैं कि धर्मसम्मत इच्छा और प्रेम भी मेरी ही अभिव्यक्ति है। यह गीता का अनुग्रहपूर्ण दृष्टिकोण है: जीवन के सभी सात्त्विक अनुभव ईश्वर की उपस्थिति के माध्यम हैं। 'भरतर्षभ' = भरत वंश के श्रेष्ठ।"
+            },
+            "english": {
+                "translation": "O best of the Bharatas, I am the strength of the strong that is devoid of desire and passion; and in beings I am the desire that is not opposed to dharma.",
+                "explanation": "'Balaṃ... kāma-rāga-vivarjitam' (strength devoid of desire and passion) — pure power uncorrupted by selfish motive; strength in service of what is right rather than what is wanted. This is the strength of the truly mighty. 'Dharmāviruddho bhūteṣu kāmo 'smi' (I am the desire in beings that is not contrary to dharma) — this is a gracious acknowledgment: not all desire is the enemy named in Chapter 3. Desire aligned with dharma — the wish for knowledge, for love, for meaningful work, for rightful family life — is itself a manifestation of the divine. The Gita does not demand the annihilation of all desire, only the sublimation of desire contrary to dharma. Life lived rightly is itself sacred."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 12,
+            "global_verse_id": 292,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "ये चैव सात्त्विका भावा राजसास्तामसाश्च ये ।\nमत्त एवेति तान्विद्धि न त्वहं तेषु ते मयि ॥ १२ ॥",
+                "iast": "ye caiva sāttvikā bhāvā rājasās tāmasāś ca ye |\nmatta eveti tān viddhi na tv ahaṃ teṣu te mayi ||12||"
+            },
+            "hindi": {
+                "devanagari": "जो भी सात्त्विक, राजसिक और तामसिक भाव हैं — उन्हें मुझसे ही उत्पन्न जानो। किन्तु वास्तव में मैं उनमें नहीं हूँ, वे मुझमें हैं।",
+                "hinglish": "Jo bhi sattvik, rajasik aur tamsik bhaav hain — unhe mujhse hi utpann jaano. Kintu vastav mein main unme nahi hoon, woh mujhme hain.",
+                "translation": "जो भी सात्त्विक, राजसिक और तामसिक भाव हैं — उन्हें मुझसे उत्पन्न जानो। किन्तु मैं उनमें नहीं हूँ, वे मुझमें हैं।",
+                "explanation": "यह श्लोक ईश्वर और जगत् के सम्बन्ध की सबसे सूक्ष्म और महत्त्वपूर्ण परिभाषा देता है। तीनों गुणों से उत्पन्न समस्त भाव (अवस्थाएँ) — चाहे सात्त्विक (ज्ञान, सुख), राजसिक (क्रिया, वासना) या तामसिक (अज्ञान, जड़ता) — सब 'मत्त एव' = मुझसे ही। किन्तु 'न त्वहं तेषु' = मैं उनमें नहीं हूँ — ईश्वर गुणों से बँधे नहीं, गुण ईश्वर में हैं। 'ते मयि' = वे मुझमें हैं। यह भेद अद्वैत और द्वैत के बीच का सेतु है: ईश्वर सर्वव्यापी होते हुए भी सब से परे हैं — इमानेन्ट और ट्रान्सेन्डेन्ट दोनों।"
+            },
+            "english": {
+                "translation": "Whatever states exist — sāttvic, rājasic, and tāmasic — know that all of them proceed from Me alone. Yet I am not in them; they are in Me.",
+                "explanation": "This verse articulates one of the Gita's most philosophically precise formulations of the divine-world relationship. All three categories of phenomenal existence (the guṇa-states) proceed from Krishna — he is their source. Yet 'na tv ahaṃ teṣu' (I am not in them) — he is not defined, limited, or conditioned by any of them. 'Te mayi' (they are in Me) — the world is in the divine, not the divine reduced to the world. This is the classic Vedāntic position: the Absolute is the ground of the relative, yet transcends it. Like space containing all objects but not being limited by any object; like consciousness containing all experiences but not being identified with any experience. Immanent yet transcendent — both simultaneously."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 13,
+            "global_verse_id": 293,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "त्रिभिर्गुणमयैर्भावैरेभिः सर्वमिदं जगत् ।\nमोहितं नाभिजानाति मामेभ्यः परमव्ययम् ॥ १३ ॥",
+                "iast": "tribhir guṇamayair bhāvair ebhiḥ sarvam idaṃ jagat |\nmohitaṃ nābhijānāti māmebhyaḥ param avyayam ||13||"
+            },
+            "hindi": {
+                "devanagari": "इन तीनों गुणमय भावों से मोहित यह सम्पूर्ण संसार मुझे — इनसे परे, अव्यय (अविनाशी) को — नहीं जान पाता।",
+                "hinglish": "In teenon gunamay bhaavon se mohit yeh sampurna sansaar mujhe — inse pare, avyaya (avinaashi) ko — nahi jaan paata.",
+                "translation": "इन तीनों गुणों से निर्मित भावों से मोहित यह सम्पूर्ण जगत् मुझे — इनसे परे, अव्यय को — नहीं जान पाता।",
+                "explanation": "'त्रिभिर्गुणमयैः' = तीन गुणों से बने — सत्त्व, रजस्, तमस्। इन्हीं से सारा अनुभव-जगत् बना है। 'मोहितम्' = मोहग्रस्त, मायाग्रस्त। समस्त जगत् इन गुणों में इतना लीन हो जाता है कि जो इनसे परे है — 'माम् परम् अव्ययम्' — अविनाशी, अपरिवर्तनीय चेतना — उसे नहीं जान पाता। 'अव्यय' = जो क्षीण नहीं होता, शाश्वत। यहाँ माया का वर्णन है: माया गुणों का संयोजन है जो वास्तविकता को ढक देती है। यही अगले श्लोक में और स्पष्ट होगा।"
+            },
+            "english": {
+                "translation": "Deluded by these three guṇa-constituted states, this entire world fails to recognize Me — who am beyond them, imperishable (avyaya).",
+                "explanation": "'Tribhir guṇamayair bhāvaiḥ' (by these three guṇa-made states) — the entire phenomenal universe, including the human mind, is constituted by the interplay of sattva, rajas, and tamas. This is not just the physical world but the whole domain of thought, feeling, perception, and experience. 'Mohitam' (deluded, bewildered) — the guṇas create a totalizing enchantment; the mind caught in guṇa-experience mistakes the guṇas for ultimate reality. 'Māmebhyaḥ param avyayam' (Me, who is beyond these, imperishable) — the eternal, unchanging ground of Consciousness that is Krishna's true nature remains invisible to the guṇa-bound mind. This is the function of māyā: not an illusion that does not exist, but a real power that prevents us from seeing what is most real."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 14,
+            "global_verse_id": 294,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "दैवी ह्येषा गुणमयी मम माया दुरत्यया ।\nमामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ॥ १४ ॥",
+                "iast": "daivī hy eṣā guṇamayī mama māyā duratyayā |\nmām eva ye prapadyante māyām etāṃ taranti te ||14||"
+            },
+            "hindi": {
+                "devanagari": "यह मेरी गुणमयी दैवी माया दुस्तर है। जो केवल मुझे ही शरण लेते हैं, वे इस माया को पार कर जाते हैं।",
+                "hinglish": "Yeh meri gunamayee daivi maya dustara hai. Jo keval mujhe hi sharan lete hain, woh is maya ko paar kar jaate hain.",
+                "translation": "यह मेरी गुणमयी दैवी माया दुस्तर है। किन्तु जो केवल मुझे ही शरण लेते हैं, वे इस माया को पार कर जाते हैं।",
+                "explanation": "'दैवी माया' = दिव्य माया — यह कोई मानवीय कृत्रिम भ्रम नहीं, ईश्वर की अपनी शक्ति है। 'गुणमयी' = तीन गुणों से बनी। 'दुरत्यया' = पार करना अत्यन्त कठिन — माया इतनी शक्तिशाली है कि सामान्य प्रयासों से इसे पार नहीं किया जा सकता। 'मामेव ये प्रपद्यन्ते' = जो केवल मुझे ही शरण लेते हैं — 'एव' (केवल) और 'प्रपद्यन्ते' (पूर्ण समर्पण) दोनों महत्त्वपूर्ण हैं। माया से मुक्ति का एकमात्र उपाय: जो माया का स्रोत है, उसी के पास शरण जाना। यह भक्ति का चरम तर्क है: ईश्वर की माया से ईश्वर ही बचाते हैं।"
+            },
+            "english": {
+                "translation": "Indeed, this divine māyā of Mine, constituted of the guṇas, is difficult to cross. But those who take refuge in Me alone — they cross beyond this māyā.",
+                "explanation": "'Daivī' (divine) — māyā is not a human error or an intellectual mistake; it is a cosmic power (śakti) that belongs to the divine itself. 'Duratyayā' (exceedingly difficult to cross) — māyā cannot be overcome by willpower, intellect, or asceticism alone; it is the Lord's own power and only the Lord can withdraw it. 'Mām eva ye prapadyante' (those who take refuge in Me alone) — 'eva' (alone, exclusively) and 'prapadyante' (fully surrender, take complete refuge) indicate that the resolution requires genuine, undivided orientation toward the divine. The logic is perfect: māyā is Krishna's power; only Krishna can lift it. No outside agent can deliver what only the source can give. This verse is the theological heart of the Gita's path of surrender."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 15,
+            "global_verse_id": 295,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "न मां दुष्कृतिनो मूढाः प्रपद्यन्ते नराधमाः ।\nमाययापहृतज्ञाना आसुरं भावमाश्रिताः ॥ १५ ॥",
+                "iast": "na māṃ duṣkṛtino mūḍhāḥ prapadyante narādhamāḥ |\nmāyayāpahṛta-jñānā āsuraṃ bhāvam āśritāḥ ||15||"
+            },
+            "hindi": {
+                "devanagari": "दुष्कर्मी, मूढ़, नराधम और माया द्वारा जिनका ज्ञान हरण हो गया है तथा आसुरी भाव को धारण किए हुए — ऐसे लोग मेरी शरण नहीं लेते।",
+                "hinglish": "Dushkarmi, mudhha, naraadham aur maya dwara jinka gyaan haran ho gaya hai tatha aasuri bhaav ko dharan kiye hue — aise log meri sharan nahi lete.",
+                "translation": "दुष्कर्मी, मूढ़, नराधम और माया द्वारा जिनका ज्ञान अपहृत हो गया है तथा जो आसुरी भाव का आश्रय लेते हैं — ऐसे लोग मुझे शरण नहीं लेते।",
+                "explanation": "14वें श्लोक में कहा गया: जो शरण लेते हैं वे पार होते हैं। स्वाभाविक प्रश्न: तो सब क्यों नहीं लेते? इस श्लोक में चार प्रकार के लोगों का वर्णन है जो शरण नहीं लेते: (१) 'दुष्कृतिनः' = दुष्कर्मी, पापकर्म करने वाले; (२) 'मूढाः' = मूढ़, अज्ञानी; (३) 'नराधमाः' = मनुष्यों में अधम, जो मनुष्यत्व को नष्ट कर चुके हैं; (४) 'माययापहृतज्ञानाः' = माया ने जिनका ज्ञान छीन लिया है। 'आसुरं भावम्' = आसुरी स्वभाव — अहंकार, विद्रोह, 'मैं ही सब-कुछ हूँ' का भाव। ये सब शरण से वंचित नहीं किए गए — वे स्वयं शरण नहीं लेते।"
+            },
+            "english": {
+                "translation": "The evildoers, the foolish, the lowest among men, those whose wisdom has been stripped by māyā, and those who have taken refuge in the demonic nature — they do not take refuge in Me.",
+                "explanation": "After verse 14's promise (those who take refuge are freed), this verse identifies those who do not seek that refuge and why. Four types are named: 'duṣkṛtinaḥ' (evildoers, those whose will is oriented toward harm); 'mūḍhāḥ' (the foolish, those blinded by ignorance); 'narādhamāḥ' (the lowest among humans — those who have squandered their human capacity for wisdom); and 'māyayāpahṛta-jñānāḥ' (those whose knowledge has been stolen by māyā — they may once have had understanding, but habitual wrong-living has dissolved it). 'Āsuraṃ bhāvam āśritāḥ' (those who have taken refuge in the demonic disposition) — pride, denial of the divine, and the conviction of absolute self-sufficiency block the very surrender that liberation requires."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 16,
+            "global_verse_id": 296,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन ।\nआर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ ॥ १६ ॥",
+                "iast": "catur-vidhā bhajante māṃ janāḥ sukṛtino 'rjuna |\nārto jijñāsur arthārthī jñānī ca bharatarṣabha ||16||"
+            },
+            "hindi": {
+                "devanagari": "हे भरतर्षभ अर्जुन! चार प्रकार के सुकृती जन मेरी भक्ति करते हैं — आर्त (दुःखी), जिज्ञासु, अर्थार्थी (धन-कामना वाला) और ज्ञानी।",
+                "hinglish": "He Bharatarshaba Arjun! Chaar prakar ke sukruti jan meri bhakti karte hain — aart (dukhi), jijnasu, arthaarthi (dhan-kaamna wala) aur gyaani.",
+                "translation": "हे भरतर्षभ अर्जुन! चार प्रकार के सुकृती लोग मुझे भजते हैं — आर्त, जिज्ञासु, अर्थार्थी और ज्ञानी।",
+                "explanation": "15वें में जो शरण नहीं लेते उनका वर्णन था; अब जो लेते हैं उनका। 'सुकृतिनः' = पुण्यशाली, जिनके पुण्य-संस्कार हैं। चार प्रकार: (१) 'आर्तः' = दुःखी, पीड़ित — जो संकट में भगवान् को पुकारता है; (२) 'जिज्ञासुः' = जिज्ञासु — जो ईश्वर को जानना चाहता है; (३) 'अर्थार्थी' = धन, समृद्धि, सांसारिक वस्तुओं की कामना करने वाला; (४) 'ज्ञानी' = जो पहले से ब्रह्म को जानता है। ये सब सुकृती हैं — इनकी प्रेरणा भिन्न है, किन्तु सभी किसी-न-किसी रूप में ईश्वर की ओर उन्मुख हैं। यह गीता की महानुभावता है: सभी प्रकार के भक्त स्वीकृत हैं।"
+            },
+            "english": {
+                "translation": "O Bharatarṣabha Arjuna, four kinds of virtuous people (sukṛtinaḥ) worship Me: the distressed (ārta), the seeker of knowledge (jijñāsu), the seeker of wealth (arthārthī), and the wise (jñānī).",
+                "explanation": "'Sukṛtinaḥ' (the meritorious, those of good action) — all four are positively characterized; none are condemned. Their motivations differ in maturity and orientation, but all face toward the divine. The 'ārta' (the distressed, the afflicted) worships out of crisis — this is perhaps the most common entry-point into genuine prayer, when suffering breaks through the ego's self-sufficiency. The 'jijñāsu' (the curious seeker) is motivated by genuine desire to understand reality. The 'arthārthī' (the seeker of worldly welfare) prays for material benefit — still motivated by desire, but directed toward the divine. The 'jñānī' (the wise one) worships out of pure knowledge. All four are embraced — the Gita's spiritual vision is inclusive rather than exclusionary."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 17,
+            "global_verse_id": 297,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "तेषां ज्ञानी नित्ययुक्त एकभक्तिर्विशिष्यते ।\nप्रियो हि ज्ञानिनोऽत्यर्थमहं स च मम प्रियः ॥ १७ ॥",
+                "iast": "teṣāṃ jñānī nitya-yukta eka-bhaktir viśiṣyate |\npriyo hi jñānino 'tyartham ahaṃ sa ca mama priyaḥ ||17||"
+            },
+            "hindi": {
+                "devanagari": "उनमें नित्य-युक्त, एकभक्ति वाला ज्ञानी श्रेष्ठ है। मैं ज्ञानी को अत्यन्त प्रिय हूँ और वह मुझे अत्यन्त प्रिय है।",
+                "hinglish": "Unme nitya-yukt, eka-bhakti wala gyaani shreshtha hai. Main gyaani ko atyant priya hoon aur woh mujhe atyant priya hai.",
+                "translation": "उनमें नित्य-युक्त एक-भक्ति वाला ज्ञानी विशिष्ट है। मैं ज्ञानी को अत्यन्त प्रिय हूँ और वह मुझे अत्यन्त प्रिय है।",
+                "explanation": "चारों में ज्ञानी सर्वोच्च क्यों? 'नित्ययुक्तः' = सदा परमात्मा से जुड़ा हुआ — उसका भजन अवसर-आधारित नहीं, निरन्तर है; 'एकभक्तिः' = एकनिष्ठ भक्ति — केवल परमात्मा में, किसी और में नहीं। यह दोनों गुण ज्ञानी को विशेष बनाते हैं। फिर एक अत्यन्त मार्मिक वचन: 'प्रियो हि ज्ञानिनोऽत्यर्थम् अहम्' = मैं ज्ञानी को अत्यन्त प्रिय हूँ। और 'स च मम प्रियः' = वह मुझे अत्यन्त प्रिय है। यह पारस्परिक प्रेम है — ईश्वर और ज्ञानी के बीच। ईश्वर यहाँ कहते हैं कि वे भी ज्ञानी से प्रेम करते हैं — यह आश्चर्यजनक और हृदयस्पर्शी है।"
+            },
+            "english": {
+                "translation": "Of these, the jñānī who is ever-united (nitya-yukta) and of single-pointed devotion (eka-bhakti) is distinguished. For I am exceedingly dear to the jñānī, and that one is exceedingly dear to Me.",
+                "explanation": "'Nitya-yukta' (ever-united, always connected) — the jñānī's devotion is not situational (crisis, desire, curiosity) but continuous; the divine is always present, always primary. 'Eka-bhakti' (single-pointed devotion) — undivided, without the division of attention across multiple goals and objects. These two qualities make the jñānī's worship qualitatively different from the others — though all four are accepted. What follows is one of the Gita's most intimate moments: 'Priyo hi jñānino 'tyartham aham' (I am exceedingly dear to the jñānī). And in return: 'sa ca mama priyaḥ' (and that one is exceedingly dear to Me). The divine reciprocates love. The absolute cherishes those who truly know it — a statement of extraordinary spiritual intimacy."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 18,
+            "global_verse_id": 298,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "उदाराः सर्व एवैते ज्ञानी त्वात्मैव मे मतम् ।\nआस्थितः स हि युक्तात्मा मामेवानुत्तमां गतिम् ॥ १८ ॥",
+                "iast": "udārāḥ sarva evaite jñānī tv ātmaiva me matam |\nāsthitaḥ sa hi yuktātmā mām evānuttamāṃ gatim ||18||"
+            },
+            "hindi": {
+                "devanagari": "ये सभी उदार हैं; किन्तु ज्ञानी तो मेरे मत में साक्षात् मेरी आत्मा ही है। क्योंकि वह युक्तात्मा मुझे ही सर्वोत्तम गति के रूप में आश्रित करके स्थित है।",
+                "hinglish": "Yeh sab udaar hain; kintu gyaani to mere mat mein saakshat meri aatma hi hai. Kyonki woh yuktaatma mujhe hi sarvottam gati ke roop mein aashrit karke sthit hai.",
+                "translation": "ये सभी उदार हैं; किन्तु ज्ञानी को मैं अपनी आत्मा ही मानता हूँ। वह युक्तात्मा मुझे ही अनुत्तम (सर्वश्रेष्ठ) गति के रूप में आश्रित करके स्थित है।",
+                "explanation": "'उदाराः सर्व एव' = सभी उदार (श्रेष्ठ) हैं — चारों भक्त प्रशंसनीय हैं। किन्तु फिर एक अभूतपूर्व वचन: 'ज्ञानी तु आत्मा एव मे मतम्' = ज्ञानी तो मेरी आत्मा ही है, मेरे मत में। यह गीता का परमोच्च भक्ति-वचन है — ईश्वर ज्ञानी को 'अन्य' नहीं, 'स्वयं' मानते हैं। 'युक्तात्मा' = समाहित आत्मा वाला; 'अनुत्तमां गतिम्' = सर्वश्रेष्ठ, जिससे ऊपर कुछ नहीं — मुझे ही अपनी अन्तिम गति मानकर। यह अभेद-भक्ति का चरम है: भक्त और ईश्वर में कोई अन्तर नहीं रहता।"
+            },
+            "english": {
+                "translation": "All of these are indeed noble; but the jñānī, I hold, is My very Self. For that one, with a unified mind (yuktātmā), abides in Me alone as the supreme goal (anuttamāṃ gatim).",
+                "explanation": "'Udārāḥ sarva evaite' (all of these are indeed noble) — Krishna affirms each of the four devotees from verse 16 without condescension. But then comes the supreme statement: 'jñānī tv ātmaiva me matam' (the jñānī, in My view, is My very Self). This is perhaps the most astonishing claim in the Gita: the fully realized devotee is not separate from the divine but is declared to be the divine's own Self. 'Yuktātmā' (one whose self is unified, integrated) — the jñānī has dissolved the apparent boundary between individual and Absolute. 'Mām evānuttamāṃ gatim' (Me alone as the supreme, unsurpassed goal) — the jñānī has no other refuge, no other aim, no other reality. Complete identity, complete surrender, complete love."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 19,
+            "global_verse_id": 299,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते ।\nवासुदेवः सर्वमिति स महात्मा सुदुर्लभः ॥ १९ ॥",
+                "iast": "bahūnāṃ janmanām ante jñānavān māṃ prapadyate |\nvāsudevaḥ sarvam iti sa mahātmā su-durlabhaḥ ||19||"
+            },
+            "hindi": {
+                "devanagari": "अनेक जन्मों के अन्त में ज्ञानवान् 'वासुदेव ही सब-कुछ है' — इस प्रकार मुझे शरण लेता है। ऐसा महात्मा अत्यन्त दुर्लभ होता है।",
+                "hinglish": "Anek janmon ke ant mein gyaanvaan 'Vasudeva hi sab-kuch hai' — is prakar mujhe sharan leta hai. Aisa mahaatma atyant durlabh hota hai.",
+                "translation": "अनेक जन्मों के अन्त में ज्ञानवान् 'वासुदेव ही सर्वस्व है' — इस प्रकार मुझे शरण लेता है। ऐसा महात्मा अत्यन्त दुर्लभ होता है।",
+                "explanation": "'बहूनां जन्मनामन्ते' = अनेक जन्मों के बाद — आत्मज्ञान एक जन्म में दुर्लभ है; यह अनेक जन्मों की साधना का परिपाक है। 'वासुदेवः सर्वम्' = वासुदेव ही सब-कुछ है — यह चार शब्दों का वाक्य गीता का सर्वोच्च दार्शनिक उद्घोष है। 'वासुदेव' = वसु (समस्त सत्ता) में जो देव, या वसुदेव-पुत्र कृष्ण। 'सर्वम्' = सब-कुछ। यह कहना कि सब-कुछ ब्रह्म है — और यह सत्य अनुभव से जानना, केवल बौद्धिक रूप से नहीं — यही 7.2 का 'विज्ञान' है। 'सुदुर्लभः' = अत्यन्त दुर्लभ — 7.3 की याद दिलाता है।"
+            },
+            "english": {
+                "translation": "At the end of many births, the one possessed of knowledge (jñānavān) takes refuge in Me, realizing 'Vāsudeva is all.' Such a great soul (mahātmā) is exceedingly rare.",
+                "explanation": "'Bahūnāṃ janmanām ante' (at the end of many births) — full realization is the culmination of an entire spiritual evolution, often spanning multiple lifetimes of progressive purification and understanding. 'Vāsudevaḥ sarvam' (Vāsudeva is everything) — these four words constitute the Gita's ultimate philosophical declaration. Not merely 'God exists' or 'God is great,' but the total, unreserved recognition that the divine ground is the entirety of existence — nothing stands outside it. This is not a belief to be held but a living realization to be experienced. 'Su-durlabhaḥ' (exceedingly rare) — echoing verse 7.3, this rarity makes the teaching more precious. Such a mahātmā (great soul) who has crossed the entire ocean of becoming deserves reverence."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 20,
+            "global_verse_id": 300,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "कामैस्तैस्तैर्हृतज्ञानाः प्रपद्यन्तेऽन्यदेवताः ।\nतं तं नियममास्थाय प्रकृत्या नियताः स्वया ॥ २० ॥",
+                "iast": "kāmais tais tair hṛta-jñānāḥ prapadyante 'nya-devatāḥ |\ntaṃ taṃ niyamam āsthāya prakṛtyā niyatāḥ svayā ||20||"
+            },
+            "hindi": {
+                "devanagari": "उन-उन कामनाओं से जिनका ज्ञान हरण हो गया है, वे अपनी-अपनी प्रकृति से नियन्त्रित होकर उन-उन नियमों का पालन करते हुए अन्य देवताओं की शरण लेते हैं।",
+                "hinglish": "Un-un kaamnaon se jinka gyaan haran ho gaya hai, woh apni-apni prakriti se niyantrit hokar un-un niyamon ka palan karte hue anya devtaon ki sharan lete hain.",
+                "translation": "उन-उन कामनाओं से जिनका ज्ञान अपहृत हो गया है, वे अपनी-अपनी प्रकृति से नियन्त्रित होकर उन-उन नियमों का अनुसरण करते हुए अन्य देवताओं की शरण लेते हैं।",
+                "explanation": "19वें में बताया: ज्ञानी 'वासुदेव सर्वम्' कहकर परम की शरण लेता है। अब 20वें में: जो ऐसा नहीं करते, वे क्यों? 'कामैः हृतज्ञानाः' = विभिन्न कामनाओं (धन, स्वास्थ्य, पुत्र, शक्ति आदि) से जिनका ज्ञान छिन गया है। 'प्रकृत्या नियताः' = अपनी-अपनी प्रकृति (संस्कार) से बँधे। 'अन्यदेवताः' = अन्य देवता — विशेष फल देने वाले देव। यह निन्दा नहीं है — यह विश्लेषण है। ऐसे लोग सुकृती भी हो सकते हैं (जैसे 7.16 में अर्थार्थी), किन्तु उनकी दृष्टि परम तक नहीं पहुँची। कामना ही दृष्टि को सीमित रखती है।"
+            },
+            "english": {
+                "translation": "Those whose wisdom has been carried away by various desires take refuge in other gods, following this or that rule (of worship), governed by their own nature.",
+                "explanation": "'Kāmais tais tair hṛta-jñānāḥ' (whose wisdom has been carried away by various desires) — specific desires (for health, wealth, progeny, power, victory) narrow the scope of the devotional gaze. Unable to see the Absolute behind all appearances, such seekers project their specific needs onto specific divine powers and worship accordingly. 'Tām tam niyamam āsthāya' (following this or that prescribed rule) — they observe the specific rituals and disciplines of particular deities. 'Prakṛtyā niyatāḥ svayā' (governed by their own nature) — their saṃskāras and guṇa-constitution determine which deity they approach. This is not condemnation — these worshippers are sincere (7.21-22 shows their faith is valid and their wishes are fulfilled) — but their path leads to a limited destination."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 21,
+            "global_verse_id": 301,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति ।\nतस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम् ॥ २१ ॥",
+                "iast": "yo yo yāṃ yāṃ tanuṃ bhaktaḥ śraddhayārcitum icchati |\ntasya tasyācalāṃ śraddhāṃ tām eva vidadhāmy aham ||21||"
+            },
+            "hindi": {
+                "devanagari": "जो भक्त जिस-जिस देव-स्वरूप को श्रद्धा से पूजना चाहता है, उस-उस की उसी देव-स्वरूप में अचल श्रद्धा को मैं ही दृढ़ करता हूँ।",
+                "hinglish": "Jo bhakt jis-jis dev-swaroop ko shraddha se pujna chahata hai, us-us ki usi dev-swaroop mein achal shraddha ko main hi dridh karta hoon.",
+                "translation": "जो भक्त जिस-जिस देव-रूप को श्रद्धापूर्वक पूजना चाहता है, उस-उस की उस देव-रूप में अचल श्रद्धा को मैं ही दृढ़ करता हूँ।",
+                "explanation": "यह श्लोक अत्यन्त महत्त्वपूर्ण है। जो भक्त अन्य देवों की ओर जाते हैं (7.20) — उनकी श्रद्धा को भी कृष्ण ही दृढ़ करते हैं। 'तनुम्' = देव-स्वरूप, शरीर। 'अचलां श्रद्धाम्' = स्थिर, अविचल श्रद्धा। 'विदधामि अहम्' = मैं ही करता हूँ — यह ईश्वर की सर्वव्यापकता है: प्रत्येक धर्म में, प्रत्येक उपासना-पद्धति में, वे ही अन्दर से श्रद्धा को प्रवर्तित करते हैं। यह उदारता का वचन है: ईश्वर किसी भी श्रद्धालु को निराश नहीं करते, चाहे वह किसी भी रूप की उपासना करे।"
+            },
+            "english": {
+                "translation": "Whatever form a devotee wishes to worship with faith — I make that same faith of that devotee unwavering.",
+                "explanation": "'Yo yo yāṃ yāṃ tanuṃ bhaktaḥ śraddhayārcitum icchati' (whatever form any devotee wishes to worship with faith) — the divine does not restrict itself to one approach. 'Tasyācalāṃ śraddhāṃ tām eva vidadhāmy aham' (I make that very devotee's faith in that form steady and unwavering) — Krishna is the hidden sustainer of all genuine faith. Every sincere act of devotion, whatever its form or direction, is ultimately sustained by the universal divine ground. This verse reveals the extraordinary inclusiveness of the Gita's theology: the Absolute works through every authentic religious impulse. The diversity of worship paths does not separate devotees from the divine — it is the divine itself that animates and sustains each path from within."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 22,
+            "global_verse_id": 302,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "स तया श्रद्धया युक्तस्तस्याराधनमीहते ।\nलभते च ततः कामान्मयैव विहितान्हि तान् ॥ २२ ॥",
+                "iast": "sa tayā śraddhayā yuktas tasyārādhanam īhate |\nlabhate ca tataḥ kāmān mayaiva vihitān hi tān ||22||"
+            },
+            "hindi": {
+                "devanagari": "वह उस श्रद्धा से युक्त होकर उस देव की आराधना करता है और उस देव से अपनी मनोवांछित वस्तुएँ प्राप्त करता है — जो वास्तव में मेरे द्वारा ही विहित (प्रदत्त) होती हैं।",
+                "hinglish": "Woh us shraddha se yukt hokar us dev ki araadhan karta hai aur us dev se apni manovanchhit vastuen praapt karta hai — jo vastav mein mere dwara hi vihit (pratt) hoti hain.",
+                "translation": "वह उस श्रद्धा से युक्त होकर उस देव की आराधना करता है और उससे अपनी कामनाओं को प्राप्त करता है — जो वास्तव में मेरे ही द्वारा विहित होती हैं।",
+                "explanation": "'मयैव विहितान्' = मेरे ही द्वारा नियत, मेरे ही विधान से। यह श्लोक 21वें का विस्तार है। भक्त किसी भी देव की उपासना करे, फल अन्ततः कृष्ण के विधान से आता है — देव केवल माध्यम हैं। यह ईश्वर की एकता और सर्वोपरिता का एक सूक्ष्म प्रमाण है: यदि अन्य देव स्वतन्त्र रूप से फल देते, तो वे ईश्वर के समान होते। किन्तु 'मयैव' = मेरे द्वारा ही — सभी फल-दान का अन्तिम स्रोत एक है। भक्त की श्रद्धा और उपासना सार्थक है; फल मिलता है; किन्तु वह फल सीमित है — यह अगले श्लोक में स्पष्ट होगा।"
+            },
+            "english": {
+                "translation": "Endowed with that faith, that devotee worships that deity and obtains the desired objects from it — which are in fact granted by Me alone.",
+                "explanation": "'Mayaiva vihitān hi tān' (which are in fact ordained by Me alone) — this is the Gita's subtle and important clarification: the various gods are not independent dispensers of boons but channels of the one divine will. The devotee's faith is real, the worship is genuine, the results materialize — but the ultimate source of all fulfillment is the one Absolute. No deity acts independently of Krishna's universal will. This maintains both the validity of diverse worship and the supremacy of the ultimate divine. The bhakta is not wrong to worship other forms — the divine accepts all sincere worship — but understanding the ultimate source leads to a fuller and more liberating relationship."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 23,
+            "global_verse_id": 303,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अन्तवत्तु फलं तेषां तद्भवत्यल्पमेधसाम् ।\nदेवान्देवयजो यान्ति मद्भक्ता यान्ति मामपि ॥ २३ ॥",
+                "iast": "antavat tu phalaṃ teṣāṃ tad bhavaty alpa-medhasām |\ndevān deva-yajo yānti mad-bhaktā yānti mām api ||23||"
+            },
+            "hindi": {
+                "devanagari": "किन्तु उन अल्पबुद्धि लोगों का वह फल नाशवान होता है। देवताओं को पूजने वाले देवताओं को जाते हैं; मेरे भक्त मुझे ही प्राप्त होते हैं।",
+                "hinglish": "Kintu un alpbuddhi logon ka woh phal naashvaan hota hai. Devtaon ko pujne wale devtaon ko jaate hain; mere bhakt mujhe hi praapt hote hain.",
+                "translation": "किन्तु उन अल्पमेधा लोगों का वह फल अन्तवाला (नाशवान) होता है। देवों को पूजने वाले देवों को प्राप्त होते हैं; मेरे भक्त मुझे ही प्राप्त होते हैं।",
+                "explanation": "'अन्तवत् फलम्' = अन्त वाला फल — नाशवान, अनित्य। देवताओं की पूजा से स्वर्ग और सांसारिक सुख मिलते हैं, किन्तु ये सब अनित्य हैं — अन्त में समाप्त होते हैं। 'अल्पमेधसाम्' = अल्प बुद्धि वालों का — जो परम को नहीं, केवल तात्कालिक फल को देखते हैं। 'देवान् देवयजो यान्ति' = देवपूजक देवों को जाते हैं। 'मद्भक्ताः मामपि' = मेरे भक्त मुझे प्राप्त होते हैं। 'अपि' = भी — अर्थात् देवपूजकों को फल मिलता है; मेरे भक्तों को भी फल मिलता है, किन्तु उनका फल अनन्त है। यह भक्ति के मूल्य का प्रतिपादन है।"
+            },
+            "english": {
+                "translation": "But that fruit of those small-minded ones is finite (antavat). Those who worship the gods go to the gods; My devotees come to Me.",
+                "explanation": "'Antavat tu phalam' (but the fruit is finite, has an end) — this is the crucial distinction. The gods deliver their promised rewards — health, wealth, victory, progeny, pleasurable afterlife states — but all of these are temporary. They exist within the realm of time and causation, and what begins must end. 'Alpa-medhasām' (of the small-minded) — not a moral condemnation but a cognitive observation: their vision doesn't reach to the eternal. 'Devān deva-yajo yānti' (those who worship gods go to gods) — they arrive at their destination but it is a relative destination. 'Mad-bhaktā yānti mām api' (My devotees come to Me) — the destination is Krishna himself, the Absolute, from which there is no further journey because it is the ground of all being. This is the difference between arriving at a station and arriving home."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 24,
+            "global_verse_id": 304,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अव्यक्तं व्यक्तिमापन्नं मन्यन्ते मामबुद्धयः ।\nपरं भावमजानन्तो ममाव्ययमनुत्तमम् ॥ २४ ॥",
+                "iast": "avyaktaṃ vyaktim āpannaṃ manyante mām abuddhayaḥ |\nparaṃ bhāvam ajānanto mamāvyayam anuttamam ||24||"
+            },
+            "hindi": {
+                "devanagari": "अबुद्धि लोग मुझे — अव्यक्त को — व्यक्त हुआ समझते हैं। वे मेरे अव्यय और सर्वोत्तम परम भाव को नहीं जानते।",
+                "hinglish": "Abuddhi log mujhe — avyakt ko — vyakt hua samajhte hain. Woh mere avyaya aur sarvottam param bhaav ko nahi jaante.",
+                "translation": "अबुद्धि लोग मुझ अव्यक्त को व्यक्त (देहधारी) हो गया मानते हैं। वे मेरे अव्यय और अनुत्तम परम भाव को नहीं जानते।",
+                "explanation": "'अव्यक्तं व्यक्तिमापन्नम्' = जो अव्यक्त (निराकार, अप्रकट) है उसे व्यक्त (साकार) हो गया समझना। 'अबुद्धयः' = बुद्धि-विहीन, अविवेकी। यह श्लोक एक गहन भ्रान्ति को दूर करता है: कुछ लोग कृष्ण को एक साधारण मनुष्य की तरह देखते हैं जो प्रकट हुआ हो — वे नहीं जानते कि यह प्रकट रूप उनके अव्यय (अविनाशी) परम भाव का एक आंशिक दर्शन मात्र है। 'परं भावम् अव्ययम् अनुत्तमम्' = अव्यय (कभी क्षीण न होने वाला), अनुत्तम (जिससे ऊपर कुछ नहीं)। कृष्ण केवल मनुष्य-रूप नहीं — वे परम सत्ता का साक्षात् अवतार हैं।"
+            },
+            "english": {
+                "translation": "The unintelligent (abuddhayaḥ) think that I, the Unmanifest, have come into manifestation. They do not know My supreme, imperishable, unsurpassed nature.",
+                "explanation": "'Avyaktaṃ vyaktim āpannaṃ manyante mām abuddhayaḥ' — those without discriminative understanding see Krishna's human form and conclude that he is simply an exceptionally gifted human being who has 'become' divine, or that the Absolute has been reduced to a finite physical form. This misses the entire point. 'Paraṃ bhāvam ajānanto mamāvyayam anuttamam' (not knowing My supreme, imperishable, unsurpassed nature) — Krishna's physical form is a window to his infinite nature, not a limitation of it. The divine did not become finite; the infinite chose to manifest a finite expression while remaining wholly itself. This is the Gita's understanding of avatāra: not reduction of the Absolute but its gracious, purposeful self-disclosure."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 25,
+            "global_verse_id": 305,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "नाहं प्रकाशः सर्वस्य योगमायासमावृतः ।\nमूढोऽयं नाभिजानाति लोको मामजमव्ययम् ॥ २५ ॥",
+                "iast": "nāhaṃ prakāśaḥ sarvasya yoga-māyā-samāvṛtaḥ |\nmūḍho 'yaṃ nābhijānāti loko mām ajam avyayam ||25||"
+            },
+            "hindi": {
+                "devanagari": "मैं योगमाया से आवृत होने के कारण सबको प्रकट नहीं होता। यह मूढ़ जगत् मुझ अज और अव्यय को नहीं जान पाता।",
+                "hinglish": "Main yogamaya se aavrit hone ke kaaran sabko prakat nahi hota. Yeh mudhh jagat mujh aja aur avyaya ko nahi jaan paata.",
+                "translation": "मैं योगमाया से आवृत होने के कारण सभी के लिए प्रकट नहीं होता। यह मूढ़ जगत् मुझ अज (अजन्मा) और अव्यय को नहीं जान पाता।",
+                "explanation": "'योगमाया' = ईश्वर की वह शक्ति जो उनकी वास्तविकता को सामान्य जनों से छिपाती है। यह 7.14 की 'दैवी माया' का ही विशेष रूप है। 'न अहं प्रकाशः सर्वस्य' = मैं सबके लिए प्रकट नहीं हूँ — ईश्वर सर्वत्र हैं, किन्तु सबको अनुभव नहीं होते। 'अजम्' = अजन्मा — जिसका जन्म नहीं, शाश्वत। 'अव्ययम्' = अविनाशी। 'मूढः लोकः' = मूढ़ संसार। माया की आवरण-शक्ति इतनी प्रबल है कि बिना कृपा और साधना के ईश्वर-साक्षात्कार असम्भव है। यह योगमाया ही ईश्वर की लीला को सम्भव बनाती है।"
+            },
+            "english": {
+                "translation": "Veiled by My yoga-māyā, I am not manifest to all. This deluded world does not know Me — the unborn (aja), the imperishable (avyaya).",
+                "explanation": "'Yoga-māyā-samāvṛtaḥ' (veiled by My yoga-māyā) — yoga-māyā is Krishna's own power of concealment, distinct from the ordinarily binding māyā of verse 7.14. It is the veil that keeps the divine from being casually perceived by those not prepared to receive the revelation. 'Na ahaṃ prakāśaḥ sarvasya' (I am not visible to everyone) — the divine is omnipresent but not omnipercipient; it takes a prepared consciousness to receive the divine disclosure. 'Aja' (unborn) and 'avyaya' (imperishable) — these two epithets affirm that Krishna's true nature is beyond the cycle of birth and death, beyond time. The world's delusion (mūḍha) consists precisely in failing to recognize the eternal in what appears temporal."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 26,
+            "global_verse_id": 306,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "वेदाहं समतीतानि वर्तमानानि चार्जुन ।\nभविष्याणि च भूतानि मां तु वेद न कश्चन ॥ २६ ॥",
+                "iast": "vedāhaṃ samatītāni vartamānāni cārjuna |\nbhaviṣyāṇi ca bhūtāni māṃ tu veda na kaścana ||26||"
+            },
+            "hindi": {
+                "devanagari": "हे अर्जुन! मैं भूतकाल के, वर्तमान के और भविष्य के सभी प्राणियों को जानता हूँ; किन्तु मुझे कोई नहीं जानता।",
+                "hinglish": "He Arjun! Main bhootkaal ke, vartamaan ke aur bhavishy ke sabhi praniyon ko jaanta hoon; kintu mujhe koi nahi jaanta.",
+                "translation": "हे अर्जुन! मैं भूत, वर्तमान और भविष्य के समस्त प्राणियों को जानता हूँ; किन्तु मुझे कोई नहीं जानता।",
+                "explanation": "यह सर्वज्ञता और अज्ञेयता का एक अद्भुत संयोग है। 'वेद अहम्' = मैं जानता हूँ — त्रिकालदर्शिता। कृष्ण भूत, वर्तमान और भविष्य — तीनों काल के समस्त प्राणियों को जानते हैं। यह ईश्वरीय सर्वज्ञता है। किन्तु 'मां तु वेद न कश्चन' = मुझे कोई नहीं जानता — यह 25वें के 'योगमाया' का परिणाम है। ईश्वर सर्वज्ञ हैं; जगत् ईश्वर को नहीं जान पाता। यह असम्मिति (asymmetry) मार्मिक है: जानने वाला सब जानता है, किन्तु जो जाने जाते हैं वे जानने वाले को नहीं जानते। इसीलिए कृपा और गुरु-उपदेश अनिवार्य हैं।"
+            },
+            "english": {
+                "translation": "O Arjuna, I know all beings — past, present, and future — but no one knows Me.",
+                "explanation": "'Vedāhaṃ samatītāni vartamānāni... bhaviṣyāṇi ca bhūtāni' (I know all beings — past, present, future) — omniscience across all three dimensions of time. The divine holds all of history and all of possibility in a single, timeless awareness. But 'māṃ tu veda na kaścana' (but no one knows Me) — the divine knows everything; beings know the divine as little as fish know the ocean they live in. This asymmetry is the precise problem that the Gita exists to address: the teaching exists to give beings the knowledge of the divine that they lack, the knowledge that the divine already has of them. Grace is the bridge across this gap — which is why 7.14's instruction to 'take refuge in Me' is the practical solution."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 27,
+            "global_verse_id": 307,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "इच्छाद्वेषसमुत्थेन द्वन्द्वमोहेन भारत ।\nसर्वभूतानि सम्मोहं सर्गे यान्ति परन्तप ॥ २७ ॥",
+                "iast": "icchā-dveṣa-samutthena dvandva-mohena bhārata |\nsarva-bhūtāni sammohaṃ sarge yānti parantapa ||27||"
+            },
+            "hindi": {
+                "devanagari": "हे भारत! हे परन्तप! इच्छा और द्वेष से उत्पन्न द्वन्द्व-मोह से सभी प्राणी जन्म के समय से ही सम्मोह (भ्रम) को प्राप्त हो जाते हैं।",
+                "hinglish": "He Bharat! He Parantap! Ichchha aur dvesh se utpann dvandva-moh se sabhi praani janma ke samay se hi sammoh (bhram) ko praapt ho jaate hain.",
+                "translation": "हे भारत! हे परन्तप! इच्छा और द्वेष से उत्पन्न द्वन्द्व-मोह से समस्त प्राणी सृष्टि (जन्म) में ही सम्मोह को प्राप्त हो जाते हैं।",
+                "explanation": "'इच्छाद्वेषसमुत्थेन' = इच्छा (चाहना) और द्वेष (न चाहना) से उत्पन्न। 'द्वन्द्वमोह' = द्वन्द्वों का मोह — सुख-दुःख, लाभ-हानि, मान-अपमान जैसे विरोधी जोड़े। 'सर्गे' = सृष्टि में, जन्म के साथ ही। यह अत्यन्त महत्त्वपूर्ण है: यह मोह जन्मजात है। जैसे ही चेतना इन्द्रियों के माध्यम से जगत् से सम्पर्क करती है, इच्छा और द्वेष उठते हैं और द्वन्द्व-मोह छा जाता है। 'परन्तप' = शत्रुओं को तपाने वाले — कृष्ण अर्जुन को याद दिलाते हैं कि असली शत्रु बाहर नहीं, भीतरी द्वन्द्व में है।"
+            },
+            "english": {
+                "translation": "O Bhārata, O Parantapa, all beings fall into complete delusion at birth through the delusion of the pairs of opposites (dvandva-moha) arising from desire and aversion.",
+                "explanation": "'Icchā-dveṣa-samutthena' (arising from desire and aversion) — the root cause of dvandva-moha (the delusion produced by the pairs of opposites). Desire pulls toward the pleasant; aversion pushes away from the unpleasant. This dual movement of attraction and rejection is the operating system of the ego-conditioned mind. 'Dvandva-mohena' (by the delusion of pairs) — pleasure-pain, gain-loss, honor-dishonor, friend-enemy: all existence appears to the conditioned mind through this binary filter. 'Sarge yānti' (they fall into this at birth) — this is the primordial condition, the existential starting point of embodied consciousness. Not a moral failure but a structural given — which the Gita's teaching exists to transcend."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 28,
+            "global_verse_id": 308,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "येषां त्वन्तगतं पापं जनानां पुण्यकर्मणाम् ।\nते द्वन्द्वमोहनिर्मुक्ता भजन्ते मां दृढव्रताः ॥ २८ ॥",
+                "iast": "yeṣāṃ tv anta-gataṃ pāpaṃ janānāṃ puṇya-karmaṇām |\nte dvandva-moha-nirmuktā bhajante māṃ dṛḍha-vratāḥ ||28||"
+            },
+            "hindi": {
+                "devanagari": "किन्तु जिन पुण्यकर्मा मनुष्यों का पाप समाप्त हो गया है, वे द्वन्द्व-मोह से मुक्त होकर दृढ़व्रत से मुझे भजते हैं।",
+                "hinglish": "Kintu jin punyakarmaa manushyon ka paap samapt ho gaya hai, woh dvandva-moh se mukta hokar dridhavrat se mujhe bhajate hain.",
+                "translation": "किन्तु जिन पुण्यकर्मा मनुष्यों का पाप अन्त को प्राप्त हो गया है, वे द्वन्द्व-मोह से मुक्त होकर दृढ़-व्रत से मुझे भजते हैं।",
+                "explanation": "27वें का उत्तर — तो फिर द्वन्द्व-मोह से मुक्ति कैसे? 'येषां अन्तगतं पापम्' = जिनका पाप (दुष्कर्म-संस्कार) समाप्त हो गया है। यह क्रमिक प्रक्रिया है: पुण्यकर्म करने से पाप-संस्कार कमजोर होते हैं। 'पुण्यकर्मणाम्' = जिन्होंने श्रेष्ठ कर्म किए। 'द्वन्द्वमोहनिर्मुक्ताः' = द्वन्द्वों के मोह से मुक्त। 'दृढव्रताः' = दृढ़ संकल्प वाले, अटल। 'भजन्ते माम्' = मुझे भजते हैं। यह अनुक्रम महत्त्वपूर्ण है: पाप का क्षय → द्वन्द्व-मोह से मुक्ति → दृढ़ भक्ति। शुद्धि पहले, ज्ञान बाद में — यह गीता का व्यावहारिक मार्ग है।"
+            },
+            "english": {
+                "translation": "But those persons of virtuous deeds whose sin has come to an end — freed from the delusion of pairs of opposites, they worship Me with unwavering resolve (dṛḍha-vratāḥ).",
+                "explanation": "The resolution to dvandva-moha (verse 27) lies in the progressive purification of the moral-karmic field. 'Anta-gataṃ pāpam' (sin that has reached its end, been exhausted) — accumulated negative saṃskāras and karmic impurities gradually dissolve through 'puṇya-karmaṇām' (virtuous action). As the inner field is purified, the grip of dvandva-moha loosens. 'Dvandva-moha-nirmuktāḥ' (freed from the delusion of pairs) — no longer yanked between desire and aversion, between like and dislike as absolute governors of action. 'Dṛḍha-vratāḥ' (with firm resolve, unwavering vow) — the purified person's devotion is stable, not fluctuating with circumstances. The sequence: virtuous action → purification → freedom from duality → firm devotion — is the Gita's practical roadmap."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 29,
+            "global_verse_id": 309,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "जरामरणमोक्षाय मामाश्रित्य यतन्ति ये ।\nते ब्रह्म तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम् ॥ २९ ॥",
+                "iast": "jarā-maraṇa-mokṣāya mām āśritya yatanti ye |\nte brahma tad viduḥ kṛtsnam adhyātmaṃ karma cākhilam ||29||"
+            },
+            "hindi": {
+                "devanagari": "जो मेरे आश्रय लेकर जरा और मृत्यु से मोक्ष के लिए यत्न करते हैं, वे उस ब्रह्म को, सम्पूर्ण अध्यात्म को और सम्पूर्ण कर्म को जानते हैं।",
+                "hinglish": "Jo mere aashray lekar jara aur mrityu se moksha ke liye yatna karte hain, woh us Brahma ko, sampurna adhyatm ko aur sampurna karm ko jaante hain.",
+                "translation": "जो मेरे आश्रय में रहकर जरा और मृत्यु से मोक्ष के लिए प्रयत्न करते हैं, वे उस ब्रह्म को, सम्पूर्ण अध्यात्म को और सम्पूर्ण कर्म को जानते हैं।",
+                "explanation": "'जरामरणमोक्षाय' = जरा (वृद्धावस्था) और मरण (मृत्यु) से मोक्ष के लिए — यह मानव जीवन का सर्वोच्च लक्ष्य है। 'मामाश्रित्य यतन्ति' = मेरे आश्रय से प्रयत्न करते हैं। इन्हें तीन ज्ञान प्राप्त होते हैं: (१) 'ब्रह्म' = परब्रह्म — परम सत्ता; (२) 'अध्यात्मम्' = आत्म-विद्या, अधिभूत और अधिदैव सहित; (३) 'कर्म' = कर्म का सम्पूर्ण रहस्य। यह श्लोक अगले अध्याय (8) में अर्जुन के प्रश्नों का पूर्वाभास कराता है: 'ब्रह्म क्या है? अध्यात्म क्या है? कर्म क्या है?'"
+            },
+            "english": {
+                "translation": "Those who strive for liberation from old age and death, taking refuge in Me — they know that Brahman in full, the adhyātman, and all about karma.",
+                "explanation": "'Jarā-maraṇa-mokṣāya' (for liberation from old age and death) — this is the fundamental human aspiration framed with complete honesty: the desire to be free from the inexorable deterioration and dissolution of the body. 'Mām āśritya yatanti' (striving with Me as refuge) — the combination of personal effort and divine shelter. Such seekers come to know three comprehensive domains: 'Brahma' (the Absolute, the ultimate reality); 'adhyātmam' (the self-discipline, the science of the Self in relation to body, mind, and cosmos); and 'karma' — the full understanding of action, its nature, its binding power, and its transcendence. These three form the complete intellectual and experiential map of liberation. This verse also prepares the ground for Arjuna's opening questions in Chapter 8."
+            }
+        },
+        {
+            "chapter": 7,
+            "verse_number": 30,
+            "global_verse_id": 310,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "साधिभूताधिदैवं मां साधियज्ञं च ये विदुः ।\nप्रयाणकालेऽपि च मां ते विदुर्युक्तचेतसः ॥ ३० ॥",
+                "iast": "sādhibhūtādhidaivaṃ māṃ sādhiyajñaṃ ca ye viduḥ |\nprayāṇa-kāle 'pi ca māṃ te vidur yukta-cetasaḥ ||30||"
+            },
+            "hindi": {
+                "devanagari": "जो मुझे अधिभूत और अधिदैव सहित, तथा अधियज्ञ सहित जानते हैं — वे युक्तचित्त लोग प्रयाण-काल (मृत्यु के समय) में भी मुझे जानते हैं।",
+                "hinglish": "Jo mujhe adhibhoot aur adhidaiv sahit, tatha adhiyagya sahit jaante hain — woh yuktachitta log prayan-kaal (mrityu ke samay) mein bhi mujhe jaante hain.",
+                "translation": "जो मुझे अधिभूत और अधिदैव-सहित तथा अधियज्ञ-सहित जानते हैं — वे युक्तचेतस् लोग प्रयाण-काल (मृत्यु के समय) में भी मुझे जानते हैं।",
+                "explanation": "यह अध्याय 7 का समापन-श्लोक है और अध्याय 8 का आमुख भी। तीन नए पद: 'अधिभूत' = भूत (प्राणी) से सम्बन्धित, क्षर-स्वभाव; 'अधिदैव' = देव से सम्बन्धित, हिरण्यगर्भ; 'अधियज्ञ' = यज्ञ का अधिष्ठाता, अन्तर्यामी विष्णु। इन्हें जानने का महत्त्वपूर्ण परिणाम: 'प्रयाणकालेऽपि' = मृत्यु के समय भी — वे मुझे भूलते नहीं। 'युक्तचेतसः' = समाहित चित्त वाले। यह जीवन का परम लक्ष्य है: मृत्यु-काल में भी परमात्मा का स्मरण। अगला अध्याय अर्जुन के प्रश्नों से आरम्भ होगा जो इन्हीं पदों को लेकर हैं।"
+            },
+            "english": {
+                "translation": "Those who know Me together with adhibhūta (the material domain), adhidaiva (the divine domain), and adhiyajña (the domain of sacrifice) — those of integrated consciousness (yukta-cetasaḥ) know Me even at the time of death (prayāṇa-kāle).",
+                "explanation": "This closing verse of Chapter 7 simultaneously concludes the chapter and opens the door to Chapter 8. Three cosmological domains are introduced without yet being defined — they will be Arjuna's first questions at 8.1: 'adhibhūta' (that which pertains to all perishable beings, the realm of material existence); 'adhidaiva' (that which pertains to the divine cosmic powers, the realm of subtle governing intelligences); and 'adhiyajña' (the inner lord of all sacrifice, the Puruṣa within the heart). 'Prayāṇa-kāle 'pi' (even at the moment of departure, i.e., at death) — this is the ultimate test and the ultimate fruit: one whose realization is complete carries that knowledge through the threshold of death itself. 'Yukta-cetasaḥ' (those whose consciousness is united, integrated) — the quality that makes this possible. Chapter 8 will explore what happens at death and why this knowledge is the highest preparation."
+            }
+        }
+    ],
+    "colophon": {
+        "sanskrit": "इति श्रीमद्भगवद्गीतासूपनिषत्सु ब्रह्मविद्यायां योगशास्त्रे श्रीकृष्णार्जुनसंवादे ज्ञानविज्ञानयोगो नाम सप्तमोऽध्यायः ॥",
+        "iast": "iti śrīmadbhagavadgītāsūpaniṣatsu brahmavidyāyāṃ yogaśāstre śrīkṛṣṇārjunasaṃvāde jñāna-vijñāna-yogo nāma saptamo 'dhyāyaḥ ||",
+        "hindi": "इस प्रकार श्रीमद्भगवद्गीतारूपी उपनिषद् में, ब्रह्मविद्या और योगशास्त्र विषयक, श्रीकृष्ण और अर्जुन के संवाद में, 'ज्ञानविज्ञानयोग' नामक सप्तम अध्याय समाप्त होता है।",
+        "english": "Thus ends the Seventh Chapter, named 'Jñāna-vijñāna-yoga' (The Yoga of Knowledge and Wisdom), in the Upaniṣad known as the Śrīmad Bhagavad Gītā, the scripture of Brahma-vidyā and Yoga, in the dialogue between Śrī Kṛṣṇa and Arjuna.",
+        "note": "The colophon is not counted as a verse. Global verse count after Chapter 7: 310 (Ch.1: 47 + Ch.2: 72 + Ch.3: 43 + Ch.4: 42 + Ch.5: 29 + Ch.6: 47 + Ch.7: 30 = 310)."
+    }
+}

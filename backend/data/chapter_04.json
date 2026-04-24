@@ -1,0 +1,863 @@
+{
+    "chapter_number": 4,
+    "chapter_title": {
+        "sanskrit": "ज्ञानकर्मसंन्यासयोगः",
+        "iast": "Jñāna-karma-sannyāsa-yogaḥ",
+        "hindi": "ज्ञान-कर्म-संन्यास योग",
+        "english": "The Yoga of Knowledge, Action, and Renunciation"
+    },
+    "chapter_summary": {
+        "hindi": "चतुर्थ अध्याय गीता के दार्शनिक केन्द्र की ओर एक महत्त्वपूर्ण प्रवेश-द्वार है। श्रीकृष्ण इस योग की प्राचीन परम्परा का उद्घाटन करते हैं — सूर्य (विवस्वान्), मनु और इक्ष्वाकु तक जाने वाली परम्परा-श्रृंखला। फिर वे अपने दिव्य जन्म और कर्म का रहस्य खोलते हैं: 'यदा यदा हि धर्मस्य' — यह गीता का सर्वाधिक प्रसिद्ध सन्दर्भ है जिसमें ईश्वर का अवतार-सिद्धान्त प्रतिपादित होता है। फिर ज्ञान, कर्म और अकर्म की गहन विवेचना आती है — कर्म में अकर्म और अकर्म में कर्म देखना ही प्रकृत ज्ञान है। विविध यज्ञों का वर्णन करते हुए कृष्ण बताते हैं कि सभी यज्ञों में ज्ञानयज्ञ सर्वश्रेष्ठ है। ज्ञान प्राप्त करने का मार्ग — प्रणिपात, परिप्रश्न और सेवा। ज्ञान की अग्नि सम्पूर्ण कर्मों को भस्म कर देती है। श्रद्धा और संयम से ज्ञान मिलता है, संशय से पतन होता है। अन्त में कृष्ण का आह्वान: ज्ञान की तलवार से हृदय के अज्ञानजन्य संशय को काटो और योग में स्थित होकर उठ खड़े हो।",
+        "english": "Chapter 4 opens a crucial gateway into the philosophical heart of the Gita. Krishna establishes the ancient lineage of this yoga — traced through Vivasvān (the Sun-god), Manu, and Ikṣvāku — asserting that this timeless wisdom has been periodically lost and must be revived. He then reveals the profound mystery of divine birth and action: the celebrated 'yadā yadā hi dharmasya' verses articulate the doctrine of avatāra — the Lord's deliberate descent whenever dharma declines. The chapter then turns to a subtle philosophical analysis of karma (action), akarma (non-action), and vikarma (forbidden action), culminating in the radical paradox: the wise one sees non-action in action and action in non-action. A catalogue of diverse yajñas (sacrifices) follows — from ritual worship to prāṇāyāma to jñāna-yajña — all forms of the one sacrificial principle that sustains the cosmos. The climactic teaching is the supremacy of jñāna-yajña over all material sacrifices, for all action finds its completion and liberation in knowledge. The chapter ends with the Gita's most urgent existential call: take up the sword of knowledge, cut through the doubt born of ignorance lodged in the heart, and rise."
+    },
+    "total_verses": 42,
+    "verses": [
+        {
+            "chapter": 4,
+            "verse_number": 1,
+            "global_verse_id": 163,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रीभगवानुवाच ।\nइमं विवस्वते योगं प्रोक्तवानहमव्ययम् ।\nविवस्वान्मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत् ॥ १ ॥",
+                "iast": "śrī-bhagavān uvāca |\nimaṃ vivasvate yogaṃ proktavān aham avyayam |\nvivasvān manave prāha manur ikṣvākave 'bravīt ||1||"
+            },
+            "hindi": {
+                "devanagari": "श्रीभगवान् ने कहा — मैंने इस अव्यय (अविनाशी) योग को विवस्वान् (सूर्यदेव) को बताया था; विवस्वान् ने मनु को बताया; और मनु ने इक्ष्वाकु को बताया।",
+                "hinglish": "Shri Bhagwan ne kaha — Maine is avyay (avinaashi) yog ko Vivasvaan (Suryadev) ko bataya tha; Vivasvaan ne Manu ko bataya; aur Manu ne Ikshvaaku ko bataya.",
+                "translation": "श्रीभगवान् ने कहा — मैंने इस अव्यय योग को विवस्वान् को उपदेश दिया था; विवस्वान् ने मनु को बताया, और मनु ने इक्ष्वाकु को कहा।",
+                "explanation": "'अव्ययम्' = अविनाशी, शाश्वत — यह योग काल और देश की सीमाओं से परे है। यहाँ कृष्ण एक चौंकाने वाला दावा करते हैं: यह योग उन्होंने सृष्टि के आरम्भ में सूर्यदेव को बताया था। विवस्वान् → मनु → इक्ष्वाकु — यह परम्परा-श्रृंखला (guru-śiṣya-paramparā) इस ज्ञान की वैदिक प्रामाणिकता स्थापित करती है। इक्ष्वाकु सूर्यवंश के प्रथम राजा थे जिनसे भगवान राम की वंश-परम्परा चली। कृष्ण का यह कथन अर्जुन को यह बोध कराता है कि वह जो सुन रहा है, वह नई शिक्षा नहीं — यह वही प्राचीन ज्ञान है जो सृष्टि के साथ उत्पन्न हुआ।"
+            },
+            "english": {
+                "translation": "The Blessed Lord said: I taught this imperishable yoga to Vivasvān (the Sun-god); Vivasvān told it to Manu; and Manu declared it to Ikṣvāku.",
+                "explanation": "'Avyayam' (imperishable, eternal) — this yoga is not bound by time or circumstance; it is sanātana (eternal). Krishna's startling declaration — that he personally imparted this teaching to the Sun-god at the dawn of creation — is not mythology but a statement about the metaphysical source of all wisdom. The lineage Vivasvān → Manu → Ikṣvāku establishes a guru-paramparā (teacher-disciple succession) that grounds this yoga in the most ancient Vedic tradition. Ikṣvāku was the founding king of the Solar Dynasty from which Lord Rāma descended — making this teaching the foundation of dharmic kingship itself. Krishna signals to Arjuna that what he is receiving is not novel philosophy but the eternal science of action that has sustained civilization from the beginning."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 2,
+            "global_verse_id": 164,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः ।\nस कालेनेह महता योगो नष्टः परन्तप ॥ २ ॥",
+                "iast": "evaṃ paramparā-prāptam imaṃ rājarṣayo viduḥ |\nsa kāleneha mahatā yogo naṣṭaḥ paraṃtapa ||2||"
+            },
+            "hindi": {
+                "devanagari": "इस प्रकार परम्परा से प्राप्त इस योग को राजर्षियों ने जाना; परन्तु हे परन्तप! बहुत काल बीत जाने से यह योग यहाँ (इस लोक में) नष्टप्राय हो गया।",
+                "hinglish": "Is prakar parampara se prapt is yog ko rajarshhiyon ne jaana; parantu He Parantap! Bahut kaal beet jaane se yeh yog yahan nashtapraay ho gaya.",
+                "translation": "इस प्रकार परम्परा से चले आते इस योग को राजर्षियों ने जाना; किन्तु हे परन्तप! बहुत समय बीत जाने के कारण यह योग यहाँ (पृथ्वी पर) लुप्तप्राय हो गया।",
+                "explanation": "'राजर्षयः' = राजर्षि — वे राजा जो ऋषि के समान ज्ञानी भी थे। प्राचीन काल में राजा केवल शासक नहीं, धर्मरक्षक और ज्ञानी भी होते थे। 'स कालेन महता नष्टः' = वह योग बड़े काल के प्रवाह में नष्ट हो गया। यह ज्ञान का एक स्वाभाविक नियम है — परम्परा के विच्छेद से ज्ञान क्षीण हो जाता है। यही कारण है कि अवतार की आवश्यकता पड़ती है। 'परन्तप' = शत्रुओं को तपाने वाले — यह सम्बोधन अर्जुन को याद दिलाता है कि यह ज्ञान उन जैसे वीरों के लिए ही है।"
+            },
+            "english": {
+                "translation": "In this manner, transmitted through an unbroken succession, the royal sages knew this yoga. But through the passage of a long period of time, O Parantapa, this yoga became lost in this world.",
+                "explanation": "'Rājarṣayaḥ' (royal sages) represents the ideal integration of wisdom and governance — rulers who were simultaneously masters of spiritual knowledge. Their understanding of this yoga enabled them to govern with dharma. 'Sa kālena mahatā naṣṭaḥ' — the yoga was lost not through any single act of negligence but through the gradual corrosion of time (mahā-kāla). This is the Gita's explanation for why scripture must be periodically renewed: transmission without realized understanding becomes mere repetition, and the living essence fades. The use of 'Paraṃtapa' (scorcher of enemies) subtly reminds Arjuna that this teaching belongs to warriors who can also be contemplatives — men of action who know the deeper truth."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 3,
+            "global_verse_id": 165,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः ।\nभक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम् ॥ ३ ॥",
+                "iast": "sa evāyaṃ mayā te 'dya yogaḥ proktaḥ purātanaḥ |\nbhakto 'si me sakhā ceti rahasyaṃ hy etad uttamam ||3||"
+            },
+            "hindi": {
+                "devanagari": "वही यह पुरातन योग आज मेरे द्वारा तुम्हें बताया जा रहा है; क्योंकि तुम मेरे भक्त और मित्र हो — और यह परम उत्तम रहस्य है।",
+                "hinglish": "Wahi yeh puraatan yog aaj mere dwara tumhe bataya ja raha hai; kyunki tum mere bhakt aur mitra ho — aur yeh param uttam rahasya hai.",
+                "translation": "वही यह पुरातन योग आज मैंने तुम्हें बताया है; क्योंकि तुम मेरे भक्त और मित्र हो — और यह उत्तम रहस्य है।",
+                "explanation": "'पुरातनः' = अत्यन्त प्राचीन, सनातन। 'भक्तोऽसि मे सखा च' — यह गीता के सर्वाधिक स्पर्शस्पद वाक्यों में से एक है। कृष्ण का यह कहना कि 'तुम मेरे भक्त भी हो और मित्र भी' — यह उस विशेष पात्रता को बताता है जो इस ज्ञान को प्राप्त करने के लिए चाहिए। 'रहस्यम् उत्तमम्' = सर्वोत्तम रहस्य — यह ज्ञान सबके लिए नहीं; केवल उस पात्र शिष्य के लिए जो भक्ति और मैत्री दोनों से योग्य हो। भक्ति अर्पण है, मैत्री समता है — इन दोनों के संयोग से शिष्य ज्ञान का सही अधिकारी बनता है।"
+            },
+            "english": {
+                "translation": "That same ancient yoga has been declared by me to you today; for you are my devotee and my friend — and this is indeed the supreme secret.",
+                "explanation": "'Purātanaḥ' (most ancient) — the yoga being imparted is not Krishna's invention but the eternal truth now freshly re-articulated. The declaration 'bhakto 'si me sakhā ca' (you are my devotee and my friend) is among the Gita's most intimate statements. It identifies the two qualifications for receiving the highest teaching: bhakti (devotion, surrender, openness of heart) and sakhā (friendship, equality of relationship, mutual trust). Without devotion, the teaching remains intellectual information; without friendship, it cannot be freely shared. 'Rahasyam uttamam' (supreme secret) — this is not secret in the sense of being withheld, but secret in the sense that only those with the right inner disposition can truly receive and live it."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 4,
+            "global_verse_id": 166,
+            "speaker": "Arjuna",
+            "sanskrit": {
+                "devanagari": "अर्जुन उवाच ।\nअपरं भवतो जन्म परं जन्म विवस्वतः ।\nकथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति ॥ ४ ॥",
+                "iast": "arjuna uvāca |\naparaṃ bhavato janma paraṃ janma vivasvataḥ |\nkatham etad vijānīyāṃ tvam ādau proktavān iti ||4||"
+            },
+            "hindi": {
+                "devanagari": "अर्जुन बोले — आपका जन्म तो हाल का (अर्वाचीन) है और विवस्वान् का जन्म पूर्व (प्राचीन) था — तो मैं यह कैसे समझूँ कि आपने ही आदि में (उन्हें) यह उपदेश दिया था?",
+                "hinglish": "Arjun bole — Aapka janm to haal ka (arvaacheen) hai aur Vivasvaan ka janm poorv (praacheen) tha — to main yeh kaise samjhun ki aapne hi aadi mein (unhe) yeh updesh diya tha?",
+                "translation": "अर्जुन ने कहा — आपका जन्म तो हाल का है, और विवस्वान् का जन्म तो आदिकाल का था — फिर मैं यह कैसे जानूँ कि आपने ही प्रारम्भ में यह उपदेश दिया था?",
+                "explanation": "अर्जुन का यह प्रश्न स्वाभाविक तर्कसम्मत है और अत्यन्त महत्त्वपूर्ण है। यह केवल जिज्ञासा नहीं — यह उस मूल प्रश्न को उठाता है जिसका उत्तर अगले कई श्लोकों में दिया जाएगा: कृष्ण का स्वरूप क्या है? वे साधारण मनुष्य हैं या कुछ और? 'अपरम् भवतः जन्म' = आपका जन्म तो परवर्ती है। 'परं जन्म विवस्वतः' = विवस्वान् का जन्म पूर्ववर्ती है। यहाँ 'पर' और 'अपर' का प्रयोग क्रमशः 'पूर्व/आदि' और 'परवर्ती/अर्वाचीन' के अर्थ में है। यह प्रश्न कृष्ण को अपनी परम सत्ता का उद्घाटन करने का अवसर देता है।"
+            },
+            "english": {
+                "translation": "Arjuna said: Your birth is recent, and the birth of Vivasvān was in ancient times — how then am I to understand that you declared this yoga to him in the beginning?",
+                "explanation": "Arjuna's question is a logically rigorous challenge, and it is the most important question in this chapter. He is applying ordinary human epistemology to what Krishna has just said: from a historical standpoint, the Sun-god Vivasvān precedes Krishna's birth by vast cosmic ages. How could a contemporary human being have taught an ancient god? 'Aparam bhavataḥ janma' (your birth is recent) and 'paraṃ janma vivasvataḥ' (the birth of Vivasvān is ancient) frame a genuine paradox. This question is the essential setup for the avatāra doctrine — Krishna's revelation in verses 5–9 of his transcendence over ordinary birth and death. Without this question, one of the Gita's greatest metaphysical passages would lack its context."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 5,
+            "global_verse_id": 167,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रीभगवानुवाच ।\nबहूनि मे व्यतीतानि जन्मानि तव चार्जुन ।\nतान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप ॥ ५ ॥",
+                "iast": "śrī-bhagavān uvāca |\nbahūni me vyatītāni janmāni tava cārjuna |\ntāny ahaṃ veda sarvāṇi na tvaṃ vettha paraṃtapa ||5||"
+            },
+            "hindi": {
+                "devanagari": "श्रीभगवान् ने कहा — हे अर्जुन! मेरे और तुम्हारे बहुत से जन्म बीत चुके हैं। उन सबको मैं जानता हूँ, परन्तु हे परन्तप! तुम नहीं जानते।",
+                "hinglish": "Shri Bhagwan ne kaha — He Arjun! Mere aur tumhare bahut se janm beet chuke hain. Un sabko main jaanta hun, parantu He Parantap! Tum nahin jaante.",
+                "translation": "श्रीभगवान् ने कहा — हे अर्जुन! मेरे और तुम्हारे अनेकों जन्म बीत चुके हैं। उन सबको मैं जानता हूँ; परन्तु हे परन्तप! तुम नहीं जानते।",
+                "explanation": "यह श्लोक दो मौलिक तथ्य स्थापित करता है: (१) अर्जुन ने भी पूर्वजन्म लिए हैं — यह पुनर्जन्म के सिद्धान्त की पुष्टि है। (२) कृष्ण के जन्म उनके जन्मों से मौलिक रूप से भिन्न हैं: कृष्ण सब जन्म जानते हैं क्योंकि वे साक्षी-चेतना हैं; अर्जुन नहीं जानते क्योंकि वे देहाभिमान से आवृत हैं। 'वेद' = जानता हूँ (वर्तमान काल में, पूर्ण ज्ञान सूचक)। 'न त्वं वेत्थ' = तुम नहीं जानते। यहाँ ईश्वर और जीव की चेतना का मूलभूत अन्तर प्रकट होता है: एक नित्य-ज्ञाता है, दूसरा माया-आवृत।"
+            },
+            "english": {
+                "translation": "The Blessed Lord said: Many births of mine have passed, as well as yours, O Arjuna. I know them all, but you do not know them, O Parantapa.",
+                "explanation": "This verse simultaneously confirms two foundational truths: (1) Arjuna, like all embodied beings, has passed through innumerable past births — the doctrine of rebirth is here stated as matter-of-fact. (2) Krishna's relationship to his births is categorically different from Arjuna's. 'Tāny ahaṃ veda sarvāṇi' (I know all of them) — Krishna's consciousness is not bounded by any particular body or lifetime; he is the eternal witness-consciousness. 'Na tvaṃ vettha' (you do not know) — Arjuna's awareness is veiled by māyā and deha-abhimāna (identification with the body). This asymmetry between the all-knowing Lord and the forgetful embodied soul is the essential difference between Īśvara and jīva — and is the ground for the avatāra teaching that follows."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 6,
+            "global_verse_id": 168,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन् ।\nप्रकृतिं स्वामधिष्ठाय सम्भवाम्यात्ममायया ॥ ६ ॥",
+                "iast": "ajo 'pi sann avyayātmā bhūtānām īśvaro 'pi san |\nprakṛtiṃ svām adhiṣṭhāya sambhavāmy ātma-māyayā ||6||"
+            },
+            "hindi": {
+                "devanagari": "यद्यपि मैं अजन्मा हूँ, मेरी आत्मा अव्यय है और मैं समस्त प्राणियों का ईश्वर हूँ — फिर भी अपनी (योगमाया) प्रकृति को अधिष्ठित करके अपनी आत्ममाया से मैं प्रकट होता हूँ।",
+                "hinglish": "Yadyapi main ajamma hun, meri aatma avyay hai aur main samast praniyon ka Ishwar hun — phir bhi apni (yogamaya) prakriti ko adhisthit karke apni aatmamaya se main prakat hota hun.",
+                "translation": "यद्यपि मैं अजन्मा हूँ, मेरी आत्मा अविनाशी है और मैं समस्त भूतों का ईश्वर हूँ — तथापि अपनी प्रकृति को अधिकार में रखकर अपनी आत्ममाया से प्रकट होता हूँ।",
+                "explanation": "यह अवतार-सिद्धान्त का दार्शनिक आधार-श्लोक है। तीन विशेषण: (१) 'अजः' = अजन्मा — सामान्य जन्म के नियम से परे। (२) 'अव्ययात्मा' = अविनाशी आत्मा वाले — जो शरीर लेते हैं वह नाशवान, किन्तु आत्मस्वरूप शाश्वत। (३) 'भूतानाम् ईश्वरः' = सम्पूर्ण प्राणियों के स्वामी। 'आत्ममायया' = अपनी ही माया से — यह माया जीव की माया नहीं जो उसे बाँधती है; यह योगमाया है जो ईश्वर की स्वतन्त्र शक्ति है। यहाँ ईश्वर का अवतार साधारण जन्म से मौलिक रूप से भिन्न सिद्ध होता है: वे बन्धन में नहीं, स्वेच्छा से आते हैं।"
+            },
+            "english": {
+                "translation": "Although I am unborn and my Self is imperishable, although I am the Lord of all beings — yet by presiding over my own prakṛti, I manifest through my own māyā (yoga-śakti).",
+                "explanation": "This is the philosophical cornerstone of the avatāra doctrine. Three attributes define the Lord's transcendence: (1) 'Ajaḥ' (unborn) — not subject to the ordinary cycle of birth, which is a consequence of karma; (2) 'avyayātmā' (imperishable Self) — the body assumed may be finite, but the consciousness inhabiting it is not diminished or altered; (3) 'bhūtānām Īśvaraḥ' (Lord of all beings) — the one in whom all beings inhere. 'Ātma-māyayā' (through his own māyā) is crucial: the Lord's māyā is Yoga-māyā — not the binding, obscuring māyā that veils the jīva, but the free, sovereign creative power by which the Infinite willingly takes finite form. The avatāra is not compelled by karma; it is a sovereign act of divine freedom and grace."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 7,
+            "global_verse_id": 169,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत ।\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥ ७ ॥",
+                "iast": "yadā yadā hi dharmasya glānir bhavati bhārata |\nabhyutthānam adharmasya tadātmānaṃ sṛjāmy aham ||7||"
+            },
+            "hindi": {
+                "devanagari": "हे भारत! जब-जब धर्म की हानि और अधर्म की वृद्धि होती है, तब-तब मैं स्वयं को प्रकट करता हूँ।",
+                "hinglish": "He Bharat! Jab-jab dharm ki haani aur adharm ki vriddhi hoti hai, tab-tab main swayam ko prakat karta hun.",
+                "translation": "हे भारत! जब-जब धर्म की ग्लानि (क्षय) होती है और अधर्म का उत्थान होता है, तब-तब मैं अपने आप को प्रकट करता हूँ।",
+                "explanation": "'यदा यदा' = जब भी, बार-बार — यह किसी एक विशेष काल की बात नहीं, बल्कि एक सनातन नियम की घोषणा है। 'धर्मस्य ग्लानिः' = धर्म का क्षय, विकृति, मन्दता। 'अभ्युत्थानम् अधर्मस्य' = अधर्म का ऊपर उठना, प्रबल होना। 'तदात्मानं सृजामि अहम्' = तब मैं स्वयं को सृजित करता हूँ, प्रकट करता हूँ। 'सृजामि' शब्द में एक सूक्ष्मता है — यह 'जन्म लेता हूँ' नहीं; यह 'सृजित करता हूँ' है — पूर्ण स्वातन्त्र्य से। यह गीता का सर्वाधिक प्रसिद्ध श्लोक-युगल है जो अवतार-तत्त्व को अभूतपूर्व सरलता और गहराई से व्यक्त करता है।"
+            },
+            "english": {
+                "translation": "Whenever there is a decline of dharma, O Bhārata, and a rise of adharma — then I project myself forth.",
+                "explanation": "'Yadā yadā' (whenever, as often as) — this is not a prophecy about a single historical event but a statement of cosmic law. 'Dharmasya glāniḥ' (decline of dharma) — glāni implies not mere violation but systemic erosion: when the very fabric of righteous order loses vitality, when dharma becomes weakened in the hearts of people. 'Abhyutthānam adharmasya' (rise of adharma) — adharma rising means the cosmic imbalance has tipped past a critical threshold. 'Tadātmānaṃ sṛjāmy aham' — the word 'sṛjāmi' (I create, I project) rather than 'jāyate' (I am born) is philosophically precise: the Lord does not undergo birth as a compelled event; he actively projects a form through sovereign creative will. This verse, paired with the next, constitutes the Gita's definitive statement on avatāra."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 8,
+            "global_verse_id": 170,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् ।\nधर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥ ८ ॥",
+                "iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām |\ndharma-saṃsthāpanārthāya sambhavāmi yuge yuge ||8||"
+            },
+            "hindi": {
+                "devanagari": "साधुओं की रक्षा के लिए, दुष्कर्मियों के विनाश के लिए और धर्म की पुनः स्थापना के लिए — मैं युग-युग में प्रकट होता हूँ।",
+                "hinglish": "Sadhoon ki raksha ke liye, dushkarmiyon ke vinaash ke liye aur dharm ki punah sthapna ke liye — main yug-yug mein prakat hota hun.",
+                "translation": "साधुओं के परित्राण के लिए, दुष्कर्मियों के विनाश के लिए और धर्म की सम्यक् स्थापना के लिए — मैं युग-युग में प्रकट होता हूँ।",
+                "explanation": "तीन प्रयोजन — यह गीता की सर्वाधिक प्रसिद्ध पंक्ति है। (१) 'परित्राणाय साधूनाम्' = साधुओं का परित्राण — 'साधु' वे हैं जो सद्मार्ग पर हैं, धर्म में स्थित हैं। उनकी रक्षा अवतार का पहला उद्देश्य है। (२) 'विनाशाय च दुष्कृताम्' = दुष्कर्मियों का विनाश — 'दुष्कृत्' वे जो सचेत रूप से अधर्म करते हैं। (३) 'धर्मसंस्थापनार्थाय' = धर्म की पुनर्स्थापना — केवल रक्षा और विनाश नहीं; सकारात्मक लक्ष्य है धर्म को पुनः प्रतिष्ठित करना। 'युगे युगे' = युग-युग में — यह चक्र बार-बार होता है। यह श्लोक भगवान के अवतरण का पूर्ण और त्रिगुणात्मक प्रयोजन-कथन है।"
+            },
+            "english": {
+                "translation": "For the protection of the good, for the destruction of the wicked, and for the firm establishment of righteousness — I come into being age after age.",
+                "explanation": "This verse is the Gita's most famous declaration, and its three-fold purpose is both comprehensive and balanced. (1) 'Paritrāṇāya sādhūnām' (for the protection of the good) — 'sādhu' refers not merely to monks but to all those who live in accordance with dharma and truth; their protection is the first positive duty of the divine descent. (2) 'Vināśāya ca duṣkṛtām' (for the destruction of the wicked) — not punishment for its own sake, but the removal of forces that systematically destroy dharmic order. (3) 'Dharma-saṃsthāpanārthāya' (for the re-establishment of dharma) — this is the supreme constructive purpose: not merely to protect and destroy, but to re-found dharmic civilization. 'Yuge yuge' (age after age) — this is not a one-time event but the rhythm of cosmic history."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 9,
+            "global_verse_id": 171,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः ।\nत्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन ॥ ९ ॥",
+                "iast": "janma karma ca me divyam evaṃ yo vetti tattvataḥ |\ntyaktvā dehaṃ punar janma naiti mām eti so 'rjuna ||9||"
+            },
+            "hindi": {
+                "devanagari": "हे अर्जुन! जो मेरे जन्म और कर्म को इस प्रकार तत्त्वतः (वास्तविकता से) दिव्य जानता है, वह शरीर छोड़ने के बाद पुनर्जन्म को प्राप्त नहीं होता — वह मुझे प्राप्त होता है।",
+                "hinglish": "He Arjun! Jo mere janm aur karm ko is prakar tattvatah (vaastvikata se) divya jaanta hai, wah sharir chhodne ke baad punarjanm ko prapt nahin hota — wah mujhe prapt hota hai.",
+                "translation": "हे अर्जुन! जो मेरे जन्म और कर्म को इस प्रकार तत्त्वतः दिव्य जानता है, वह देह त्यागने पर पुनर्जन्म को प्राप्त नहीं होता; वह मुझे ही प्राप्त होता है।",
+                "explanation": "'दिव्यम्' = दिव्य, अलौकिक, अतींद्रिय — यह शब्द पिछले श्लोकों के संदर्भ में स्पष्ट होता है: ईश्वर का जन्म कर्मजन्य नहीं, ज्ञानमय और स्वेच्छाजन्य है। 'तत्त्वतः' = तत्त्व से, यथार्थ रूप में — यह केवल बौद्धिक जानकारी नहीं, अनुभवात्मक ज्ञान है। 'न पुनर्जन्म' = पुनर्जन्म से मुक्ति — यह मोक्ष का वर्णन है। 'माम् एति' = मुझे प्राप्त होता है — ईश्वर-प्राप्ति ही परम पुरुषार्थ है। यह श्लोक अवतार-ज्ञान को सोतेरियोलॉजिकल (मुक्तिदायक) आयाम देता है: ईश्वर के स्वरूप को जानना मात्र ही मुक्ति का साधन है।"
+            },
+            "english": {
+                "translation": "O Arjuna, one who knows my birth and action as thus divine — having left the body, he is not reborn; he comes to me.",
+                "explanation": "'Divyam' (divine, transcendental) — not in a vague devotional sense but in precise philosophical terms: the Lord's birth is not driven by karma, not constrained by ignorance, not subject to ordinary causal chains. 'Tattvataḥ' (in truth, in essence) — not mere intellectual acknowledgment but realized understanding, as when the knower becomes identical with the known. The soteriological consequence is direct: 'punar janma naiti' (he is not reborn) — freedom from the cycle of saṃsāra. 'Mām eti' (he comes to me) — the positive formulation of liberation as divine union, not mere cessation. This verse is the Gita's earliest explicit statement that jñāna (knowledge of the Lord's nature) is itself a path to mokṣa."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 10,
+            "global_verse_id": 172,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः ।\nबहवो ज्ञानतपसा पूता मद्भावमागताः ॥ १० ॥",
+                "iast": "vīta-rāga-bhaya-krodhā man-mayā mām upāśritāḥ |\nbahavo jñāna-tapasā pūtā mad-bhāvam āgatāḥ ||10||"
+            },
+            "hindi": {
+                "devanagari": "राग, भय और क्रोध से रहित, मुझमें तन्मय, मेरे आश्रित हुए बहुत से लोग ज्ञान-तप से पवित्र होकर मेरे भाव (स्वरूप) को प्राप्त हो चुके हैं।",
+                "hinglish": "Raag, bhay aur krodh se rahit, mujh mein tanmay, mere aashrit hue bahut se log gyaan-tap se pavitra hokar mere bhaav (swaroop) ko praapt ho chuke hain.",
+                "translation": "राग, भय और क्रोध से मुक्त, मुझमें तन्मय होकर और मेरी शरण में आकर, बहुत लोग ज्ञान-तप से पवित्र होकर मेरे भाव को प्राप्त हो चुके हैं।",
+                "explanation": "तीन विमुक्तियाँ जो साधना की परिपक्वता दर्शाती हैं: 'वीतरागः' = राग (आसक्ति) से मुक्त, 'वीतभयः' = भय से मुक्त, 'वीतक्रोधः' = क्रोध से मुक्त। ये तीनों अन्तःकरण के वे विक्षेप हैं जो ज्ञान को आच्छादित करते हैं। 'मन्मयाः' = मुझसे परिपूर्ण, मुझमें ही जिनकी चेतना है। 'ज्ञानतपसा पूताः' = ज्ञान-रूपी तप से पवित्र — ज्ञान स्वयं एक तप है जो अन्तःकरण को शुद्ध करता है। 'मद्भावम् आगताः' = मेरे भाव को प्राप्त हुए — यहाँ 'मद्भाव' का अर्थ है ईश्वर का अपना स्वभाव — सत्-चित्-आनन्द। यह श्लोक पुष्टि करता है कि यह मार्ग पूर्व-सिद्ध है — अनेक साधकों ने इसे पाया है।"
+            },
+            "english": {
+                "translation": "Freed from desire, fear, and anger, absorbed in me, taking refuge in me — many have been purified by the tapas of knowledge and have attained my state of being.",
+                "explanation": "Three inner freedoms mark the matured seeker: freedom from rāga (desire, clinging), freedom from bhaya (fear, insecurity), and freedom from krodha (anger, reactivity). These are not random virtues but precisely the three distortions that prevent the mind from remaining clear and still enough to know the Self. 'Man-mayāḥ' (absorbed in me) — their consciousness has become saturated with the divine; they no longer experience themselves as separate from the Lord. 'Jñāna-tapasā pūtāḥ' — jñāna is itself a tapas (austerity); it purifies by burning away accumulated ignorance and conditioning. 'Mad-bhāvam āgatāḥ' (attained my state of being) — not merely union with the Lord but participation in the Lord's own nature: consciousness-bliss-existence (sac-cid-ānanda). This verse assures the seeker that the path is walked and the goal is real."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 11,
+            "global_verse_id": 173,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम् ।\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ॥ ११ ॥",
+                "iast": "ye yathā māṃ prapadyante tāṃs tathaiva bhajāmy aham |\nmama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ ||11||"
+            },
+            "hindi": {
+                "devanagari": "हे पार्थ! जो लोग जिस भाव से मेरी शरण लेते हैं, मैं भी उन्हें उसी भाव से भजता हूँ (स्वीकार करता हूँ); क्योंकि सब प्रकार से मनुष्य मेरे ही मार्ग का अनुसरण करते हैं।",
+                "hinglish": "He Parth! Jo log jis bhaav se meri sharan lete hain, main bhi unhe usi bhaav se bhajta hun (sweekar karta hun); kyunki sab prakar se manushya mere hi maarg ka anusaran karte hain.",
+                "translation": "हे पार्थ! जो लोग जिस भाव से मेरी शरण लेते हैं, मैं भी उन्हें उसी प्रकार से भजता हूँ; क्योंकि मनुष्य सब प्रकार से मेरे ही मार्ग का अनुसरण करते हैं।",
+                "explanation": "यह श्लोक गीता की सार्वभौमिकता का आधार है। 'ये यथा मां प्रपद्यन्ते' = जो जैसे मेरी शरण लेते हैं। 'तांस्तथैव भजाम्यहम्' = मैं उन्हें उसी भाव से भजता हूँ। ईश्वर का यह गुण उन्हें एक दर्पण बनाता है: वे जिस भाव से पुकारे जाते हैं, उसी भाव में प्रकट होते हैं। इसीलिए निर्गुण ज्ञानी को निर्गुण ब्रह्म मिलता है, सगुण भक्त को प्रिय भगवान। 'मम वर्त्मानुवर्तन्ते मनुष्याः सर्वशः' = सब मनुष्य किसी न किसी रूप में मेरे ही मार्ग पर चलते हैं — क्योंकि सभी मार्ग उसी परम सत्ता की ओर जाते हैं। यह एकत्व-दर्शन गीता की धार्मिक समावेशिता का मूल है।"
+            },
+            "english": {
+                "translation": "In whatever way people take refuge in me, in that very way do I respond to them, O Pārtha. Human beings follow my path in every direction.",
+                "explanation": "This verse is among the Gita's most profound statements on divine impartiality and universal inclusion. 'Ye yathā māṃ prapadyante' — the Lord responds to each seeker in the mode in which they approach: the jñānī seeking formless Brahman finds the formless; the bhakta seeking a personal Lord finds the personal. 'Tāṃs tathaiva bhajāmy aham' — God meets each person exactly where they are. This is not relativism (all paths equally lead anywhere) but the recognition that the one Reality appears in the form most appropriate to the seeker's nature and readiness. 'Mama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ' — all human paths — whether of knowledge, devotion, action, or renunciation — are ultimately paths within the divine reality, for there is nowhere else to go."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 12,
+            "global_verse_id": 174,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः ।\nक्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा ॥ १२ ॥",
+                "iast": "kāṃkṣantaḥ karmaṇāṃ siddhiṃ yajanta iha devatāḥ |\nkṣipraṃ hi mānuṣe loke siddhir bhavati karmajā ||12||"
+            },
+            "hindi": {
+                "devanagari": "कर्मों की सिद्धि की कामना करने वाले लोग इस लोक में देवताओं का यजन करते हैं; क्योंकि मनुष्य-लोक में कर्म से उत्पन्न सिद्धि शीघ्र मिलती है।",
+                "hinglish": "Karmon ki siddhi ki kamna karne wale log is lok mein devataon ka yajan karte hain; kyunki manushya-lok mein karm se utpann siddhi shighra milti hai.",
+                "translation": "कर्मों की सिद्धि की इच्छा रखने वाले इस मनुष्य-लोक में देवताओं का यजन करते हैं; क्योंकि मानव-लोक में कर्म से उत्पन्न सिद्धि शीघ्र प्राप्त होती है।",
+                "explanation": "यह श्लोक एक व्यावहारिक सत्य का कथन है: जो लोग कर्मफल की इच्छा से — धन, स्वास्थ्य, सन्तान, विजय आदि — उपासना करते हैं, वे देवताओं की शरण में जाते हैं। 'क्षिप्रम्' = शीघ्र — मानव जन्म में कर्म का फल त्वरित मिलता है क्योंकि यहाँ इच्छाशक्ति, कर्मशक्ति और भाग्य का एक विशेष संयोग है। इस श्लोक में कृष्ण देवता-उपासना को अस्वीकार नहीं करते — वे केवल यह बताते हैं कि यह फल-कामना से प्रेरित मार्ग है। 11वें श्लोक से तुलना करें: उस मार्ग में परम प्राप्ति है, इस मार्ग में क्षणिक सिद्धि।"
+            },
+            "english": {
+                "translation": "Those who desire the fruits of their actions worship the gods here in this world; for in the human realm, success born of action comes swiftly.",
+                "explanation": "This verse makes a pragmatic observation about human religiosity: those motivated by desire for specific results — wealth, progeny, health, victory — naturally turn to the devas (cosmic powers governing these domains). 'Kṣipraṃ hi' (indeed swiftly) — the human plane is uniquely positioned for rapid fruition because intention, action, and cosmic responsiveness align here in a particularly direct way. Krishna does not condemn deva-worship; he simply locates it within the hierarchy of motivations. The contrast with verse 11 is instructive: verse 11 describes the highest path where the Lord himself responds to all seekers; verse 12 acknowledges the legitimate but lower path of seeking specific results through specific deities. Both are real; they are not equally ultimate."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 13,
+            "global_verse_id": 175,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः ।\nतस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम् ॥ १३ ॥",
+                "iast": "cātur-varṇyaṃ mayā sṛṣṭaṃ guṇa-karma-vibhāgaśaḥ |\ntasya kartāram api māṃ viddhy akartāram avyayam ||13||"
+            },
+            "hindi": {
+                "devanagari": "गुण और कर्म के विभाग के अनुसार मेरे द्वारा चार वर्णों की व्यवस्था रची गई है। यद्यपि मैं इसका कर्ता हूँ, तथापि मुझे अव्यय (अविनाशी) अकर्ता जानो।",
+                "hinglish": "Guṇ aur karm ke vibhaag ke anusaar mere dwara chaar varṇon ki vyavastha rachi gayi hai. Yadyapi main iska karta hun, tathapi mujhe avyay (avinaashi) akarta jaano.",
+                "translation": "गुण और कर्म के अनुसार विभाजित चातुर्वर्ण्य मेरे द्वारा सृजित है; यद्यपि मैं इसका कर्ता हूँ, तथापि मुझे अव्यय और अकर्ता जानो।",
+                "explanation": "'चातुर्वर्ण्यम्' — चार वर्णों की व्यवस्था: ब्राह्मण, क्षत्रिय, वैश्य, शूद्र। 'गुणकर्मविभागशः' = गुण (सत्त्व-रजस्-तमस्) और कर्म (स्वभाव-प्रकृति) के विभाग के अनुसार। यहाँ मूल बात यह है कि वर्ण-व्यवस्था जन्म-आधारित नहीं, गुण-कर्म-आधारित है। 'कर्तारम् अपि मां विद्धि अकर्तारम्' = मैं कर्ता होते हुए भी अकर्ता हूँ। यह गीता का केन्द्रीय विरोधाभास है जिसे अगले श्लोकों में स्पष्ट किया जाएगा: जो फल की स्पृहा और अहंकार के बिना कर्म करता है, वह कर्म करते हुए भी 'अकर्ता' है। कृष्ण अपने उदाहरण से ही इस सिद्धान्त को प्रतिपादित करते हैं।"
+            },
+            "english": {
+                "translation": "The fourfold order was created by me according to the division of qualities (guṇas) and action (karma). Though I am its creator, know me to be the imperishable non-doer.",
+                "explanation": "'Cātur-varṇyam' — the fourfold social order (brāhmaṇa, kṣatriya, vaiśya, śūdra). The critical qualifier is 'guṇa-karma-vibhāgaśaḥ' (according to the division of qualities and action) — the ordering principle is based on psychological disposition and natural aptitude (guṇa) and the kind of action one is drawn to perform (karma), not birth. This is a key hermeneutic note: the verse explicitly says the division is by guṇa and karma, not by jāti (birth-group). The second half pivots to the deeper teaching: even as the creator of this order, Krishna declares himself 'akartāram' (non-doer). This is the paradox that will govern the next several verses: action performed without ego-identification, without desire for results, leaves no karmic residue — the actor remains unbound even while acting."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 14,
+            "global_verse_id": 176,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा ।\nइति मां योऽभिजानाति कर्मभिर्न स बध्यते ॥ १४ ॥",
+                "iast": "na māṃ karmāṇi limpanti na me karma-phale spṛhā |\niti māṃ yo 'bhijānāti karmabhir na sa badhyate ||14||"
+            },
+            "hindi": {
+                "devanagari": "कर्म मुझे लिप्त नहीं करते, और मुझे कर्मफल की स्पृहा (इच्छा) नहीं है। इस प्रकार जो मुझे जानता है, वह भी कर्मों से नहीं बँधता।",
+                "hinglish": "Karm mujhe lipt nahin karte, aur mujhe karmaphal ki spriha (ichchha) nahin hai. Is prakar jo mujhe jaanta hai, wah bhi karmon se nahin bandhta.",
+                "translation": "कर्म मुझे लिप्त नहीं करते, और न ही मुझे कर्मफल की इच्छा है। जो मुझे इस प्रकार जानता है, वह भी कर्मों से नहीं बँधता।",
+                "explanation": "यहाँ कृष्ण अकर्म का रहस्य उद्घाटित करते हैं: (१) 'न मां कर्माणि लिम्पन्ति' = कर्म मुझे स्पर्श नहीं करते, मैं लिप्त नहीं होता। लिप्त होने का कारण है फल की इच्छा और अहंकार। जहाँ ये नहीं, वहाँ कर्म छाप नहीं छोड़ता। (२) 'न मे कर्मफले स्पृहा' = मुझे फल की इच्छा नहीं। 'स्पृहा' = गहरी लालसा, तृष्णा। (३) 'इति मां योऽभिजानाति' = जो मुझे इस रूप में जानता है। यह ज्ञान केवल सैद्धान्तिक नहीं — यह अनुभवात्मक अभिज्ञान है। 'कर्मभिः न बध्यते' = कर्मों से नहीं बँधता। यह कर्मयोग का सार: सही ज्ञान के साथ की गई क्रिया बन्धन नहीं बनती।"
+            },
+            "english": {
+                "translation": "Actions do not taint me; nor do I have any longing for the fruits of action. One who knows me thus is not bound by actions.",
+                "explanation": "This verse reveals the precise mechanism by which the Lord remains untainted by action — and how the knowing devotee replicates this freedom. 'Na māṃ karmāṇi limpanti' (actions do not cling to me) — karmic adhesion requires two conditions: ego-identification as the doer and desire for the result. Where neither is present, no karma accrues. 'Na me karma-phale spṛhā' (I have no longing for fruits) — 'spṛhā' is a strong word denoting deep craving, not mere preference. The liberating consequence: 'iti māṃ yo 'bhijānāti karmabhir na sa badhyate' — one who truly understands this about the Lord internalizes the same principle. This is not metaphorical: the jñāni who acts with identical non-attachment to results replicates the Lord's own freedom from karmic bondage. Knowledge of the Lord's nature becomes the direct means of the seeker's liberation."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 15,
+            "global_verse_id": 177,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः ।\nकुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम् ॥ १५ ॥",
+                "iast": "evaṃ jñātvā kṛtaṃ karma pūrvair api mumukṣubhiḥ |\nkuru karmaiva tasmāt tvaṃ pūrvaiḥ pūrvataraṃ kṛtam ||15||"
+            },
+            "hindi": {
+                "devanagari": "पूर्वकाल के मुमुक्षुओं ने भी इस प्रकार जानकर ही कर्म किया था। इसलिए तुम भी उन पूर्वजों द्वारा सदा से किए जाते आए उस कर्म को ही करो।",
+                "hinglish": "Poorvkaal ke mumukshuon ne bhi is prakar jaankar hi karm kiya tha. Isliye tum bhi un poorvajon dwara sada se kiye jaate aaye us karm ko hi karo.",
+                "translation": "पूर्वकाल के मुमुक्षुओं ने भी इस प्रकार जानकर कर्म किया था। इसलिए तुम भी पूर्वजों द्वारा सदा से किए जाते कर्म को ही करो।",
+                "explanation": "'मुमुक्षुभिः' = मुमुक्षु, मुक्ति के अभिलाषियों ने। यह अत्यन्त महत्त्वपूर्ण है: ये केवल सांसारिक लोग नहीं थे जिन्होंने कर्म किया — वे मुमुक्षु थे, और उन्होंने भी ज्ञानपूर्वक कर्म किया। 'एवं ज्ञात्वा' = इस प्रकार जानकर — फल और अहंकार से रहित। 'पूर्वैः पूर्वतरं कृतम्' = पूर्वजों द्वारा पूर्व से (अनादि काल से) किया जाता रहा है। कृष्ण अर्जुन को परम्परा का बोध कराते हैं: यह कर्म केवल तुम्हारा व्यक्तिगत दायित्व नहीं — यह एक महान परम्परा का हिस्सा है। अतः निडर होकर करो।"
+            },
+            "english": {
+                "translation": "Even the ancient seekers of liberation performed action with this understanding. Therefore, you too perform action just as those predecessors did from ancient times.",
+                "explanation": "'Mumukṣubhiḥ' (seekers of liberation) — not ordinary people driven by results, but those specifically aspiring to mokṣa. Yet even they acted. This is a crucial argument against the misunderstanding that liberation-seekers should abandon all action. 'Evaṃ jñātvā kṛtaṃ karma' — they acted with knowledge of what Krishna has just articulated: no ego as doer, no desire for results. 'Pūrvaiḥ pūrvataraṃ kṛtam' (done by predecessors from time immemorial) — Krishna grounds Arjuna in the weight of the tradition. This is not a new or experimental path; it is the ancient and tested way of those who achieved liberation while acting fully in the world. Arjuna is being asked to join that unbroken stream of dharmic action."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 16,
+            "global_verse_id": 178,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः ।\nतत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ॥ १६ ॥",
+                "iast": "kiṃ karma kim akarma iti kavayo 'py atra mohitāḥ |\ntat te karma pravakṣyāmi yaj jñātvā mokṣyase 'śubhāt ||16||"
+            },
+            "hindi": {
+                "devanagari": "कर्म क्या है और अकर्म क्या है — इस विषय में कवि (विद्वान) भी मोहित हैं। इसलिए मैं तुम्हें वह कर्म बताऊँगा, जिसे जानकर तुम अशुभ (बन्धन) से मुक्त हो जाओगे।",
+                "hinglish": "Karm kya hai aur akarm kya hai — is vishay mein kavi (vidwaan) bhi mohit hain. Isliye main tumhe wah karm bataunga, jise jaankar tum ashubh (bandhan) se mukt ho jaoge.",
+                "translation": "कर्म क्या है और अकर्म क्या है — इस विषय में विद्वान लोग भी मोहित हैं। अतः वह कर्म मैं तुम्हें बताऊँगा जिसे जानकर तुम अशुभ से मुक्त हो जाओगे।",
+                "explanation": "'कवयः अपि' = विद्वान लोग भी — यह कहना गम्भीर है। कर्म-अकर्म का विवेक इतना सूक्ष्म है कि साधारण विद्वत्ता पर्याप्त नहीं। 'अत्र मोहिताः' = इस विषय में मोहग्रस्त। 'अशुभात् मोक्ष्यसे' = अशुभ से मुक्त होगे — यहाँ 'अशुभ' का अर्थ है कर्मबन्धन, पाप, अज्ञान। 'तत् ते कर्म प्रवक्ष्यामि' = वह कर्म मैं तुम्हें बताऊँगा। यहाँ कृष्ण एक पूर्व-घोषणा करते हैं — आगे आने वाले 16-18 तक के श्लोकों में कर्म-अकर्म-विकर्म का गहन विवेचन होगा। यह प्रस्तावना पाठक को सतर्क करती है।"
+            },
+            "english": {
+                "translation": "What is action and what is non-action? — Even the learned are confused about this. I shall declare to you that action, knowing which you will be freed from inauspiciousness.",
+                "explanation": "'Kavayo 'py atra mohitāḥ' (even the wise are confused here) — this acknowledgment of the depth of the problem is itself a teaching: the distinction between karma, akarma, and vikarma is not intuitive; it requires precise philosophical insight. The confusion of even learned people is not intellectual failure but testimony to the subtlety of the subject. 'Tat te karma pravakṣyāmi' (I shall declare that action to you) — this is a formal preface, signaling that what follows in verses 17–18 is the crux of the whole karmayoga teaching. 'Yaj jñātvā mokṣyase 'śubhāt' — the fruit promised is not a ritual reward but liberation from the very root of karmic bondage. The knowledge of true karma is itself mokṣa-sādhana (a means of liberation)."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 17,
+            "global_verse_id": 179,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः ।\nअकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः ॥ १७ ॥",
+                "iast": "karmaṇo hy api boddhavyaṃ boddhavyaṃ ca vikarmaṇaḥ |\nakarmaṇaś ca boddhavyaṃ gahanā karmaṇo gatiḥ ||17||"
+            },
+            "hindi": {
+                "devanagari": "कर्म को भी जानना चाहिए, विकर्म को भी जानना चाहिए और अकर्म को भी जानना चाहिए — क्योंकि कर्म की गति (रहस्य) अत्यन्त गहन है।",
+                "hinglish": "Karm ko bhi jaanna chahiye, vikarm ko bhi jaanna chahiye aur akarm ko bhi jaanna chahiye — kyunki karm ki gati (rahasya) atyant gahan hai.",
+                "translation": "कर्म के विषय में भी जानना चाहिए, विकर्म के विषय में भी जानना चाहिए, और अकर्म के विषय में भी जानना चाहिए — क्योंकि कर्म की गति अत्यन्त गहन (दुर्गम) है।",
+                "explanation": "तीन श्रेणियाँ: (१) 'कर्म' = विहित (शास्त्रानुसार) कर्म — वह कार्य जो करणीय है। (२) 'विकर्म' = निषिद्ध कर्म — वह कार्य जो वर्जित है, पाप है। (३) 'अकर्म' = न कर्म — यह केवल निष्क्रियता नहीं। गीता में 'अकर्म' का अर्थ है वह कर्म जो किया तो जाता है किन्तु कर्मफल नहीं उत्पन्न करता — क्योंकि वह अहंकार और फलाकांक्षा से रहित है। 'गहना कर्मणो गतिः' = कर्म की गति अत्यन्त गहन है — यह स्वीकृति है कि यह ज्ञान सरल नहीं। अगले श्लोक में इसका व्यावहारिक सार दिया जाएगा।"
+            },
+            "english": {
+                "translation": "One must understand the nature of action, the nature of forbidden action (vikarma), and also the nature of non-action (akarma) — for the path of action is deep and difficult to understand.",
+                "explanation": "Three categories of action are defined: (1) 'Karma' — prescribed, right action: what ought to be done, in accordance with one's dharma and śāstra. (2) 'Vikarma' — prohibited action: what is forbidden, action that generates sin and bondage. (3) 'Akarma' — non-action: in the Gita's precise technical sense, this is not idleness or inaction but action performed without ego-identification and without desire for results, which therefore leaves no karmic impression. 'Gahanā karmaṇo gatiḥ' — the admission that karma's workings are deep and impenetrable is itself a teaching: this is not a topic to be understood by surface thinking alone. The following verse (4.18) will give the definitive and paradoxical formulation of akarma."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 18,
+            "global_verse_id": 180,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः ।\nस बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ॥ १८ ॥",
+                "iast": "karmaṇy akarma yaḥ paśyed akarmaṇi ca karma yaḥ |\nsa buddhimān manuṣyeṣu sa yuktaḥ kṛtsna-karma-kṛt ||18||"
+            },
+            "hindi": {
+                "devanagari": "जो कर्म में अकर्म देखता है और अकर्म में कर्म देखता है — वह मनुष्यों में बुद्धिमान है, वह युक्त (योगी) है और वह समस्त कर्मों का कर्ता है।",
+                "hinglish": "Jo karm mein akarm dekhta hai aur akarm mein karm dekhta hai — wah manushyon mein buddhimaan hai, wah yukt (yogi) hai aur wah samast karmon ka karta hai.",
+                "translation": "जो कर्म में अकर्म देखता है और अकर्म में कर्म देखता है — वह मनुष्यों में बुद्धिमान है, वह युक्त है और सम्पूर्ण कर्मों का कर्ता है।",
+                "explanation": "यह गीता के सर्वाधिक दार्शनिक श्लोकों में से एक है। 'कर्मणि अकर्म' = कर्म में अकर्म — क्रिया करते हुए भी अकर्ता रहना; बाहर से व्यस्त, भीतर से मुक्त। 'अकर्मणि च कर्म' = अकर्म में कर्म — जो केवल बैठा रहता है किन्तु मन में फल-कामना और अहंकार है, वह 'कर्ता' ही है। वास्तविक अकर्म बाहरी नहीं, आन्तरिक अवस्था है। 'बुद्धिमान्' = वास्तविक प्रज्ञावान्। 'युक्तः' = योगी, ब्रह्म से युक्त। 'कृत्स्नकर्मकृत्' = सम्पूर्ण कर्मों का कर्ता — विरोधाभासी दिखता है: युक्त होते हुए भी सब कर्म करता है! यही कर्मयोग का चमत्कार है।"
+            },
+            "english": {
+                "translation": "One who sees non-action in action and action in non-action — he is wise among humans; he is the one united in yoga, the doer of all actions.",
+                "explanation": "This is one of the Gita's most celebrated and philosophically demanding verses. 'Karmaṇy akarma yaḥ paśyet' (who sees non-action in action) — the person who is externally fully engaged in the world's work, yet internally unidentified with the doing: there is no ego-agent behind the action and no desire for results. In this inner sense, they are an 'akartā' (non-doer) even while acting. 'Akarmaṇi ca karma yaḥ' (who sees action in non-action) — one who withdraws from external activity but remains mentally driven by desire and ego is still a 'kartā' (doer) in the meaningful sense: their inner action continues to generate karma. True akarma is not the stillness of the body but the stillness of the ego. 'Sa buddhimān... sa yuktaḥ... kṛtsna-karma-kṛt' — this person is genuinely wise, genuinely unified with the Supreme, and paradoxically the most complete doer of all — free action, free actor, free result."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 19,
+            "global_verse_id": 181,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यस्य सर्वे समारम्भाः कामसङ्कल्पवर्जिताः ।\nज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः ॥ १९ ॥",
+                "iast": "yasya sarve samārambhāḥ kāma-saṅkalpa-varjitāḥ |\njñānāgni-dagdha-karmāṇaṃ tam āhuḥ paṇḍitaṃ budhāḥ ||19||"
+            },
+            "hindi": {
+                "devanagari": "जिसके सभी कर्म-आरम्भ काम (इच्छा) और संकल्प (कामना के निश्चय) से रहित हैं, जिसके कर्म ज्ञानाग्नि से दग्ध हो गए हैं — उसे ज्ञानी जन पण्डित कहते हैं।",
+                "hinglish": "Jiske sabhi karm-aarambh kaam (ichchha) aur sankalp (kaamna ke nishchay) se rahit hain, jiske karm gyaanaagni se dagdh ho gaye hain — use gyaani jan pandit kehte hain.",
+                "translation": "जिसके सभी कर्म-प्रारम्भ काम और संकल्प से वर्जित हैं, जिसके कर्म ज्ञान की अग्नि से जल गए हैं — उसे ज्ञानीजन पण्डित कहते हैं।",
+                "explanation": "'समारम्भाः' = सभी उद्यम, कर्म-आरम्भ। 'कामसङ्कल्पवर्जिताः' = काम (इच्छा) और संकल्प (उस इच्छा का निश्चय) से रहित। सामान्य कर्म दो जड़ों से उगते हैं: पहले इच्छा (कामना), फिर उसे पूर्ण करने का संकल्प (resolution)। जब ये दोनों जड़ें नहीं हैं, तब कर्म 'अकर्म' बन जाता है। 'ज्ञानाग्निदग्धकर्माणम्' = ज्ञान की अग्नि से जले हुए कर्मों वाला — यहाँ ज्ञान को अग्नि की उपमा दी गई है जो संचित कर्मों को जला देती है। 'पण्डितम्' = सच्चे अर्थों में पण्डित — बाह्य विद्वत्ता नहीं, अन्तःकरण की शुद्धता।"
+            },
+            "english": {
+                "translation": "One whose every undertaking is free from desire and deliberate intention — whose actions are burned by the fire of knowledge — him the wise call a paṇḍita (truly learned).",
+                "explanation": "'Samārambhāḥ' (undertakings, endeavours) — every initiative of the jñānī. 'Kāma-saṅkalpa-varjitāḥ' (free from desire and deliberate intention) — two roots of ordinary action: first kāma (desire, wanting a particular result), then saṅkalpa (the deliberate intention formed to secure that result). When these two are absent, action no longer generates binding karma. 'Jñānāgni-dagdha-karmāṇam' — the image of knowledge as fire burning karma is central to Chapter 4 (it will return powerfully in verse 37). The fire of knowledge does not destroy the person's capacity for action; it destroys the ego-fuel and desire-fuel that would otherwise make those actions binding. 'Paṇḍitam' — the Gita's standard for true learning: not scholarship about texts but inner freedom from the mechanisms of compulsive wanting."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 20,
+            "global_verse_id": 182,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः ।\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः ॥ २० ॥",
+                "iast": "tyaktvā karma-phalāsaṅgaṃ nitya-tṛpto nirāśrayaḥ |\nkarmaṇy abhipravṛtto 'pi naiva kiñcit karoti saḥ ||20||"
+            },
+            "hindi": {
+                "devanagari": "कर्मफल में आसक्ति को छोड़कर, नित्य तृप्त और किसी के आश्रय में न रहने वाला — वह कर्म में लगा रहने पर भी वास्तव में कुछ नहीं करता।",
+                "hinglish": "Karmaphal mein asakti ko chhōdkar, nitya tript aur kisi ke aashray mein na rahne wala — wah karm mein laga rahne par bhi vastaav mein kuch nahin karta.",
+                "translation": "कर्मफल में आसक्ति को त्यागकर, नित्यतृप्त और निराश्रय — वह कर्म में अभिप्रवृत्त होने पर भी वास्तव में कुछ भी नहीं करता।",
+                "explanation": "तीन विशेषण इस मुक्त-कर्मी की पहचान करते हैं: (१) 'त्यक्त्वा कर्मफलासङ्गम्' = कर्मफल में आसक्ति का त्याग — यह गीता के 2.47 की पुनरावृत्ति है, किन्तु अब इसे व्यावहारिक जीवन में दिखाया जा रहा है। (२) 'नित्यतृप्तः' = सदा सन्तुष्ट, किसी बाह्य पदार्थ की तृप्ति पर निर्भर नहीं। (३) 'निराश्रयः' = बिना किसी आश्रय के — आत्मा के अतिरिक्त किसी को अपना आधार नहीं मानता। 'नैव किञ्चित् करोति सः' = वह वास्तव में कुछ भी नहीं करता — बाहर से व्यस्त है, भीतर से अकर्ता है। यह 4.18 का व्यावहारिक स्वरूप है।"
+            },
+            "english": {
+                "translation": "Having abandoned attachment to the fruits of action, always contented, depending on nothing — even while being fully engaged in action, he truly does nothing at all.",
+                "explanation": "Three attributes characterize this liberated actor: (1) 'Tyaktvā karma-phalāsaṅgam' — total relinquishment of attachment to results; not merely tolerance of failure but genuine non-investment in outcomes, paralleling 2.47. (2) 'Nitya-tṛptaḥ' (ever content) — his contentment is not situational (dependent on circumstances going well) but structural: grounded in the Self which is already complete. (3) 'Nirāśrayaḥ' (without refuge/support) — not socially isolated, but not dependent on any external support for his inner stability. 'Naiva kiñcit karoti saḥ' — 'he truly does nothing': this is the experiential report of the ego-less actor. From the outside, he acts; from the inside, there is no 'one' performing the action. This is the living embodiment of verse 4.18."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 21,
+            "global_verse_id": 183,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः ।\nशारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम् ॥ २१ ॥",
+                "iast": "nirāśīr yata-cittātmā tyakta-sarva-parigrahaḥ |\nśārīraṃ kevalaṃ karma kurvan nāpnoti kilbiṣam ||21||"
+            },
+            "hindi": {
+                "devanagari": "आशा-रहित, वश में किए हुए चित्त और आत्मा वाले, सब प्रकार के परिग्रह को त्यागने वाले — केवल शरीर-निर्वाह के लिए कर्म करते हुए पाप को प्राप्त नहीं होते।",
+                "hinglish": "Aasha-rahit, vash mein kiye hue chitt aur aatma wale, sab prakar ke parigrah ko tyagne wale — keval sharir-nirvah ke liye karm karte hue paap ko prapt nahin hote.",
+                "translation": "आशा-रहित, वश में किए मन और आत्मा वाले, सब प्रकार के परिग्रह का त्याग करके — केवल शारीरिक कर्म करते हुए पाप को प्राप्त नहीं होता।",
+                "explanation": "'निराशीः' = इच्छाओं से रहित — निर् + आशा। 'यतचित्तात्मा' = वश में किए हुए चित्त और आत्मा वाले — चित्त (मन) और आत्मा (अन्तःकरण) दोनों संयमित। 'त्यक्तसर्वपरिग्रहः' = सभी परिग्रह का त्याग। 'परिग्रह' का अर्थ है वह सब जो संचय किया जाता है — न केवल वस्तुएं, बल्कि अनुभव, सम्बन्ध, पहचान — सब कुछ। 'शारीरं केवलं कर्म' = केवल शरीर-सम्बन्धी कर्म — जीवन-धारण के लिए आवश्यक न्यूनतम कर्म। 'न आप्नोति किल्बिषम्' = पाप को प्राप्त नहीं होता। यह कर्म-अकर्म के भेद का व्यावहारिक परिणाम है।"
+            },
+            "english": {
+                "translation": "Without aspiration, with mind and self restrained, having abandoned all possessiveness — performing action only for the body's sake, he incurs no sin.",
+                "explanation": "'Nirāśīḥ' (free from hope/aspiration) — not pessimism but the absence of self-interested craving; every action is undertaken without investing one's identity in the outcome. 'Yata-cittātmā' (with restrained mind and self) — both the cognitive faculty (citta) and the deeper self (ātmā here meaning the inner person as a whole) are disciplined and directed. 'Tyakta-sarva-parigrahaḥ' — 'parigraha' (accumulation, grasping) covers not just material possessions but the whole habit of psychological accumulation: storing experiences as identity, clinging to roles and self-images. 'Śārīraṃ kevalaṃ karma' (action only for the body) — the minimum necessary for sustaining the instrument of service. 'Nāpnoti kilbiṣam' (incurs no sin) — no karmic residue accumulates, because the engine of karmic binding — desire + ego-identification — is absent."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 22,
+            "global_verse_id": 184,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः ।\nसमः सिद्धावसिद्धौ च कृत्वापि न निबध्यते ॥ २२ ॥",
+                "iast": "yadṛcchā-lābha-santuṣṭo dvandvātīto vimatsaraḥ |\nsamaḥ siddhāv asiddhau ca kṛtvāpi na nibadhyate ||22||"
+            },
+            "hindi": {
+                "devanagari": "बिना माँगे जो कुछ मिले उसी में सन्तुष्ट, द्वन्द्वों से परे, ईर्ष्या-रहित और सिद्धि-असिद्धि में सम — वह कर्म करने पर भी नहीं बँधता।",
+                "hinglish": "Bina maange jo kuch mile usi mein santusht, dwandwon se pare, irshya-rahit aur siddhi-asiddhi mein sam — wah karm karne par bhi nahin bandhta.",
+                "translation": "बिना याचना किए प्राप्त वस्तु में सन्तुष्ट, द्वन्द्वों से परे, ईर्ष्यारहित और सफलता-असफलता में समभाव रखने वाला — वह कर्म करने पर भी नहीं बँधता।",
+                "explanation": "यह श्लोक स्थितप्रज्ञ के कर्म-सम्बन्धी वर्णन है — चार विशेषण: (१) 'यदृच्छालाभसन्तुष्टः' = बिना प्रयास किए जो मिले उसमें सन्तोष — यह 'अदृष्ट-संग्रह' का भाव है; भाग्य से जो आए वही पर्याप्त है। (२) 'द्वन्द्वातीतः' = सुख-दुःख, मान-अपमान, शीत-उष्ण — सभी द्वन्द्वों से ऊपर। (३) 'विमत्सरः' = मत्सर (ईर्ष्या) से रहित — दूसरों की सफलता पर खेद नहीं। (४) 'समः सिद्धौ असिद्धौ' = सफलता और असफलता में समान — यह 2.48 की 'योगस्थः कुरु कर्माणि' की पुनरावृत्ति है। 'न निबध्यते' = बन्धन को प्राप्त नहीं होता।"
+            },
+            "english": {
+                "translation": "Content with whatever comes unsought, beyond the pairs of opposites, free from envy, and equal in success and failure — even having acted, he is not bound.",
+                "explanation": "Four qualities define the liberated actor: (1) 'Yadṛcchā-lābha-santuṣṭaḥ' (content with unsolicited gain) — accepting whatever arrives through circumstance without having calculated and pursued it; the mind's default is contentment, not craving. (2) 'Dvandvātītaḥ' (beyond the pairs of opposites) — the dvandvas (heat-cold, pleasure-pain, honor-dishonor) no longer produce reactivity; they are experienced but not grasped or resisted. (3) 'Vimatsaraḥ' (free from envy) — no comparison, no diminishment felt at another's success. (4) 'Samaḥ siddhāv asiddhau' (equal in success and failure) — the outcome of action does not alter the inner state. 'Kṛtvāpi na nibadhyate' — this is the practical definition of karma-yoga's liberation: continuous action in the world with no bondage accumulating."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 23,
+            "global_verse_id": 185,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः ।\nयज्ञायाचरतः कर्म समग्रं प्रविलीयते ॥ २३ ॥",
+                "iast": "gata-saṅgasya muktasya jñānāvasthita-cetasaḥ |\nyajñāyācarataḥ karma samagraṃ pravilīyate ||23||"
+            },
+            "hindi": {
+                "devanagari": "जिसकी आसक्ति (संग) चली गई है, जो मुक्त है, जिसका चित्त ज्ञान में स्थित है — उस यज्ञ के लिए कर्म करने वाले का सम्पूर्ण कर्म विलीन हो जाता है।",
+                "hinglish": "Jis ki asakti (sang) chali gayi hai, jo mukt hai, jiska chitt gyaan mein sthit hai — us yagya ke liye karm karne wale ka sampurn karm vileen ho jaata hai.",
+                "translation": "जिसकी आसक्ति चली गई है, जो मुक्त है, ज्ञान में स्थित चित्त वाला — यज्ञ के लिए कर्म करने वाले का सम्पूर्ण कर्म विलीन हो जाता है।",
+                "explanation": "यह श्लोक कर्म-विमुक्ति का सर्वोत्तम सूत्र है। तीन आन्तरिक अवस्थाएं: (१) 'गतसङ्गः' = संग (आसक्ति) गई — परिणाम के प्रति लगाव नहीं। (२) 'मुक्तः' = मुक्त — यहाँ जीवन्मुक्त: देह में रहते हुए भी बन्धन से मुक्त। (३) 'ज्ञानावस्थितचेतः' = ज्ञान में स्थित चेतना — चित्त सत्य में प्रतिष्ठित है। जब ये तीनों हों और कर्म 'यज्ञाय' = यज्ञ के लिए (समर्पण-भाव से) किया जाए, तब 'समग्रं प्रविलीयते' = सम्पूर्ण कर्म विलीन हो जाता है। यह 'विलीन होना' कर्म का लोप नहीं — कर्म के बन्धनकारी प्रभाव का विलोप है।"
+            },
+            "english": {
+                "translation": "For one whose attachment is gone, who is liberated, whose mind is established in knowledge — acting for the sake of sacrifice (yajña), his entire karma dissolves away.",
+                "explanation": "This verse synthesizes the preceding teachings into a single comprehensive statement of the path. Three inner conditions: (1) 'Gata-saṅgasya' (one whose attachment has gone) — not suppressed or controlled but organically dissolved through understanding. (2) 'Muktasya' (liberated) — jīvan-mukta: free even while embodied, not waiting for death to experience liberation. (3) 'Jñānāvasthita-cetasaḥ' (mind established in knowledge) — awareness grounded in the truth of the Self, not oscillating with circumstances. When combined with 'yajñāyācarataḥ' (acting as an act of sacrifice, as an offering) — all action as cosmic service rather than personal gain — 'samagraṃ pravilīyate' (the entire karma dissolves). The dissolution is not of the actions themselves but of their binding power."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 24,
+            "global_verse_id": 186,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम् ।\nब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ॥ २४ ॥",
+                "iast": "brahmārpaṇaṃ brahma havir brahmāgnau brahmaṇā hutam |\nbrahmaiva tena gantavyaṃ brahma-karma-samādhinā ||24||"
+            },
+            "hindi": {
+                "devanagari": "अर्पण (स्रुवा) भी ब्रह्म है, हवि भी ब्रह्म है, ब्रह्मरूपी अग्नि में ब्रह्म के द्वारा ही आहुति दी जाती है — ब्रह्ममय कर्म में समाहित उस (योगी) द्वारा ब्रह्म को ही प्राप्त किया जाता है।",
+                "hinglish": "Arpaṇ (sruva) bhi Brahm hai, havi bhi Brahm hai, Brahmrupi agni mein Brahm ke dwara hi aahuti di jaati hai — Brahmmay karm mein samaahit us (yogi) dwara Brahm ko hi prapt kiya jaata hai.",
+                "translation": "अर्पण भी ब्रह्म है, हवि भी ब्रह्म है, ब्रह्म-रूपी अग्नि में ब्रह्म के द्वारा आहुति दी जाती है — ब्रह्म-कर्म-समाधि से वह ब्रह्म को ही प्राप्त होता है।",
+                "explanation": "यह गीता का अत्यन्त गहन और काव्यात्मक श्लोक है — 'ब्रह्म' शब्द पाँच बार आता है। यज्ञ-क्रिया के प्रत्येक घटक को ब्रह्म कहा गया है: (१) 'ब्रह्मार्पणम्' = यज्ञ-पात्र (स्रुवा) ब्रह्म है। (२) 'ब्रह्म हविः' = आहुति ब्रह्म है। (३) 'ब्रह्माग्नौ' = ब्रह्म-रूपी अग्नि में। (४) 'ब्रह्मणा हुतम्' = ब्रह्म के द्वारा आहुति। जब साधक की चेतना इस स्तर पर पहुँचती है कि वह कर्ता, क्रिया, उपकरण, फल — सब में ब्रह्म देखता है, तब वह ब्रह्मकर्मसमाधि में है। 'ब्रह्मैव गन्तव्यम्' = उसका गन्तव्य ब्रह्म ही है। यह वेदान्त-दृष्टि से कर्म का परमोच्च रूप है।"
+            },
+            "english": {
+                "translation": "The instrument of offering is Brahman; the oblation is Brahman; Brahman offers into the fire of Brahman — Brahman alone is to be reached by one who is absorbed in Brahman-action.",
+                "explanation": "This is one of the Gita's most profound and poetically elevated verses, with the word 'Brahman' appearing five times. The entire structure of the yajña (sacrifice) is declared to be Brahman: the ladle (brahmārpaṇam) is Brahman; the oblation (brahma haviḥ) is Brahman; the fire (brahmāgnau) is Brahman; the one who offers (brahmaṇā) is Brahman. When the practitioner's awareness reaches this level — perceiving the instrument, the action, the material, the agent, and the fire all as expressions of the one reality — they are in brahma-karma-samādhi (absorption in Brahman-action). 'Brahmaiva tena gantavyam' — such a practitioner reaches Brahman, because they are already in Brahman; the journey and the destination are identical. This verse describes the highest possible orientation toward all action."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 25,
+            "global_verse_id": 187,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "दैवमेवापरे यज्ञं योगिनः पर्युपासते ।\nब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति ॥ २५ ॥",
+                "iast": "daivaṃ evāpare yajñaṃ yoginaḥ paryupāsate |\nbrahmāgnāv apare yajñaṃ yajñenaivopajuhvati ||25||"
+            },
+            "hindi": {
+                "devanagari": "कुछ योगीजन देवताओं की उपासना के रूप में यज्ञ करते हैं; और अन्य ब्रह्म-रूपी अग्नि में यज्ञ के द्वारा ही यज्ञ को आहुति देते हैं।",
+                "hinglish": "Kuch yogijan devtaon ki upasana ke roop mein yagya karte hain; aur anya Brahm-roop agni mein yagya ke dwara hi yagya ko aahuti dete hain.",
+                "translation": "कुछ योगीजन दैवयज्ञ (देवताओं के लिए यज्ञ) की उपासना करते हैं; और अन्य ब्रह्म-रूपी अग्नि में यज्ञ के द्वारा ही यज्ञ को अर्पित करते हैं।",
+                "explanation": "यहाँ से यज्ञों की एक विस्तृत सूची आरम्भ होती है (श्लोक 25-30)। दो प्रकार के साधक: (१) 'दैवयज्ञ' — देवताओं की उपासना के रूप में यज्ञ करने वाले; ये सगुण-उपासक हैं जो विभिन्न देवताओं को आहुति देते हैं। (२) 'ब्रह्माग्नौ यज्ञेन यज्ञम्' — जो ब्रह्म-रूपी अग्नि में यज्ञ के द्वारा ही यज्ञ की आहुति देते हैं; यह जिज्ञासु का ज्ञान-यज्ञ है। दूसरे प्रकार के साधक यह देखते हैं कि यज्ञ-कर्ता, यज्ञ-क्रिया और यज्ञ-फल — सब ब्रह्म ही हैं (जैसा श्लोक 4.24 में कहा गया)। यह उच्चतर साधना है।"
+            },
+            "english": {
+                "translation": "Some yogīs offer worship to the deities as sacrifice; others offer the sacrifice itself into the fire of Brahman by means of sacrifice.",
+                "explanation": "This verse opens a celebrated catalogue of yajñas (sacrifices) spanning verses 25-30, demonstrating that the principle of yajña encompasses all forms of disciplined spiritual practice. Two types are presented here: (1) 'Daivaṃ yajñam' — ritual worship of deities; these practitioners approach the infinite through particular divine forms. (2) 'Brahmāgnau yajñenaivopajuhvati' — offering sacrifice into the fire of Brahman by means of sacrifice itself. This second type represents the contemplative who has internalized the insight of 4.24 — perceiving the instrument of offering, the offering, and the fire all as Brahman — so that the very act of worship dissolves into the recognition of non-dual reality. Both are valid paths; the second is the more advanced."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 26,
+            "global_verse_id": 188,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रोत्रादीनीन्द्रियाण्यन्ये संयमाग्निषु जुह्वति ।\nशब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति ॥ २६ ॥",
+                "iast": "śrotrādīnīndriyāṇy anye saṃyamāgniṣu juhvati |\nśabdādīn viṣayān anya indriyāgniṣu juhvati ||26||"
+            },
+            "hindi": {
+                "devanagari": "अन्य लोग श्रोत्र आदि इन्द्रियों को संयम-रूपी अग्नि में आहुति देते हैं; और अन्य शब्द आदि विषयों को इन्द्रिय-रूपी अग्नियों में आहुति देते हैं।",
+                "hinglish": "Anya log shrotr aadi indriyon ko sanyam-roop agni mein aahuti dete hain; aur anya shabd aadi vishyon ko indriya-roop agniyon mein aahuti dete hain.",
+                "translation": "कुछ लोग श्रोत्र आदि इन्द्रियों को संयम-रूपी अग्नि में होम करते हैं; और अन्य शब्द आदि विषयों को इन्द्रिय-रूपी अग्नि में होम करते हैं।",
+                "explanation": "दो और प्रकार के साधक: (१) पहले साधक इन्द्रियों (श्रोत्र, त्वचा, नेत्र, जिह्वा, नासिका) को 'संयम-अग्नि' में होम करते हैं — अर्थात् इन्द्रियों को संयमित करना ही उनका यज्ञ है। यह प्रत्याहार (इन्द्रियों का विषयों से खिंचाव) का अभ्यास है। (२) दूसरे साधक विषयों (शब्द, स्पर्श, रूप, रस, गन्ध) को इन्द्रिय-रूपी अग्नि में होम करते हैं — अर्थात् इन्द्रियों के विषयों का भोग करते हुए भी आसक्ति नहीं रखते। पहले प्रकार में इन्द्रियों का निरोध, दूसरे में विषयों का निर्लिप्त अनुभव — दोनों यज्ञ हैं।"
+            },
+            "english": {
+                "translation": "Others offer the senses — hearing and the rest — into the fires of self-restraint; others offer sound and other sense-objects into the fires of the senses.",
+                "explanation": "Two more forms of inner sacrifice: (1) Those who offer the senses (śrotra — hearing, skin — touch, eyes — sight, tongue — taste, nose — smell) into the fire of self-restraint (saṃyama). This is the yoga of sense-withdrawal (pratyāhāra) — pulling the senses inward away from their objects, treating the restraint itself as the highest offering. (2) Those who offer sense-objects (sound, touch, form, taste, smell) into the fires of the senses — engaging the senses in experience but without clinging; the objects are 'consumed' without leaving residue in the mind. Both are legitimate yajñas: one restrains the senses, the other uses them without bondage. Together they represent the full spectrum of sensory yoga."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 27,
+            "global_verse_id": 189,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे ।\nआत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते ॥ २७ ॥",
+                "iast": "sarvāṇīndriya-karmāṇi prāṇa-karmāṇi cāpare |\nātma-saṃyama-yogāgnau juhvati jñāna-dīpite ||27||"
+            },
+            "hindi": {
+                "devanagari": "अन्य लोग इन्द्रियों की समस्त क्रियाओं और प्राण की समस्त क्रियाओं को ज्ञान से प्रज्वलित आत्म-संयम-योग-रूपी अग्नि में आहुति देते हैं।",
+                "hinglish": "Anya log indriyon ki samast kriyaon aur praan ki samast kriyaon ko gyaan se prajwalit atma-sanyam-yog-roop agni mein aahuti dete hain.",
+                "translation": "अन्य लोग समस्त इन्द्रिय-क्रियाओं और प्राण-क्रियाओं को ज्ञान से प्रज्वलित आत्म-संयम-योग-अग्नि में आहुति देते हैं।",
+                "explanation": "यह यज्ञ-श्रृंखला का उच्चतम स्तर है — समस्त इन्द्रिय-कर्म और प्राण-कर्म को 'आत्मसंयम-योगाग्नि' में होम करना। 'आत्मसंयमयोगाग्नि' = आत्म-संयम-योग-रूपी अग्नि — यह ध्यान की गहरी अवस्था है। 'ज्ञानदीपिते' = ज्ञान से प्रज्वलित — इस अग्नि को ज्ञान ने प्रकाशित किया है। जब ज्ञान का प्रकाश हो और साधक समस्त इन्द्रिय-व्यापार एवं प्राण-क्रियाओं को इस ध्यान-अग्नि में समर्पित कर दे — यह समाधि की अवस्था है। इस स्तर पर कोई स्वतन्त्र 'कर्ता' नहीं बचता।"
+            },
+            "english": {
+                "translation": "Others offer all the activities of the senses and all the activities of the vital breath (prāṇa) into the fire of the yoga of self-restraint, kindled by knowledge.",
+                "explanation": "'Ātma-saṃyama-yoga-agnau' (the fire of the yoga of self-mastery) represents the most interior of all sacrifices — the entire field of sensory and vital activity is surrendered into the flame of yogic absorption. 'Jñāna-dīpite' (kindled by knowledge) is crucial: this fire is not mere suppression or mortification, but a luminous interior restraint illumined by the direct recognition of the Self. When the yogi's understanding of the Self is stable, the activities of the senses and prāṇas (the five vital airs: prāṇa, apāna, samāna, vyāna, udāna) lose their autonomy and are naturally offered into the stillness of awareness. This describes the highest form of contemplative yoga — closest to samādhi."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 28,
+            "global_verse_id": 190,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे ।\nस्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः ॥ २८ ॥",
+                "iast": "dravya-yajñās tapo-yajñā yoga-yajñās tathāpare |\nsvādhyāya-jñāna-yajñāś ca yatayaḥ saṃśita-vratāḥ ||28||"
+            },
+            "hindi": {
+                "devanagari": "कुछ तीव्र व्रतधारी यत्नशील लोग द्रव्ययज्ञ, तपोयज्ञ, योगयज्ञ करते हैं; तथा अन्य स्वाध्याय और ज्ञानयज्ञ करते हैं।",
+                "hinglish": "Kuch teevra vratadhaaree yatnasheel log dravya-yagya, tapo-yagya, yoga-yagya karte hain; tatha anya swadhyay aur gyaan-yagya karte hain.",
+                "translation": "तीव्र व्रत वाले साधक द्रव्ययज्ञ, तपोयज्ञ तथा योगयज्ञ करते हैं; और अन्य स्वाध्यायज्ञान तथा ज्ञानयज्ञ करते हैं।",
+                "explanation": "पाँच और यज्ञों का वर्णन: (१) 'द्रव्ययज्ञ' = भौतिक सम्पत्ति का दान — धन, अन्न, वस्त्र आदि का समर्पण। (२) 'तपोयज्ञ' = तप का यज्ञ — शरीर, वाणी और मन से तप। (३) 'योगयज्ञ' = अष्टाङ्ग-योग का अभ्यास — योग ही यज्ञ। (४) 'स्वाध्यायज्ञान' = स्वाध्याय — शास्त्र-पाठ, वेद-पारायण, मन्त्र-जप। (५) 'ज्ञानयज्ञ' = आत्म-ज्ञान का यज्ञ — अध्यात्म-विचार। 'यतयः संशितव्रताः' = तीव्र व्रत वाले श्रमशील साधक। यहाँ 'यत' (प्रयत्नशील) और 'संशितव्रत' (तेज धार वाले व्रत — जैसे तेज की हुई तलवार) पदों पर ध्यान दें। ज्ञानयज्ञ इन सबमें सर्वोच्च है (4.33)।"
+            },
+            "english": {
+                "translation": "Some ascetics, who are of sharpened vows, perform the sacrifice of material wealth (dravya-yajña), the sacrifice of austerity (tapo-yajña), and the sacrifice of yoga (yoga-yajña); others perform the sacrifice of scriptural study (svādhyāya) and the sacrifice of knowledge (jñāna-yajña).",
+                "explanation": "Five more yajñas are enumerated, each representing a complete spiritual path: (1) Dravya-yajña — the sacrifice of material possessions; giving away wealth, food, clothing, serving others. (2) Tapo-yajña — austerity as sacrifice; the deliberate disciplines of body (kāya-tapas), speech (vāk-tapas), and mind (manas-tapas). (3) Yoga-yajña — the sacrifice of systematic yoga practice (aṣṭāṅga-yoga, dhyāna, etc.). (4) Svādhyāya — Vedic recitation, scripture study, mantra japa, self-study. (5) Jñāna-yajña — the sacrifice of knowledge; deep inquiry into the nature of reality and the Self. 'Yatayaḥ saṃśita-vratāḥ' — 'ascetics of sharpened vows' (saṃśita = sharpened like a blade) indicates the intensity required. Jñāna-yajña, established as supreme in 4.33, is the culmination of all."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 29,
+            "global_verse_id": 191,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे ।\nप्राणापानगती रुद्ध्वा प्राणायामपरायणाः ॥ २९ ॥",
+                "iast": "apāne juhvati prāṇaṃ prāṇe 'pānaṃ tathāpare |\nprāṇāpāna-gatī ruddhvā prāṇāyāma-parāyaṇāḥ ||29||"
+            },
+            "hindi": {
+                "devanagari": "प्राणायाम में तत्पर साधक प्राण को अपान में और अपान को प्राण में आहुति देते हैं; और कुछ प्राण तथा अपान की गति को रोककर (कुम्भक में) स्थित होते हैं।",
+                "hinglish": "Pranayam mein tatpar sadhak praan ko apaan mein aur apaan ko praan mein aahuti dete hain; aur kuch praan tatha apaan ki gati ko rokkar (kumbhak mein) sthit hote hain.",
+                "translation": "प्राणायाम में निरत साधक प्राण को अपान में और अपान को प्राण में होम करते हैं; तथा प्राण और अपान की गति को रोककर स्थित होते हैं।",
+                "explanation": "यह श्लोक प्राणायाम की तान्त्रिक दृष्टि से व्याख्या करता है। प्राण-वायु का तन्त्र: 'प्राण' = ऊपर की ओर जाने वाली प्राण-शक्ति (श्वास-प्रश्वास की उर्ध्वगति)। 'अपान' = नीचे की ओर जाने वाली प्राण-शक्ति (श्वास-प्रश्वास की अधोगति)। (१) प्राण को अपान में आहुति = पूरक (श्वास लेना) — प्राण-वायु को अपान से मिलाना। (२) अपान को प्राण में आहुति = रेचक (श्वास छोड़ना) — अपान को प्राण से मिलाना। (३) 'प्राणापानगती रुद्ध्वा' = कुम्भक — दोनों को रोककर मध्य में स्थित होना। यह कुम्भक (श्वास का रोकना) ध्यान की गहरी अवस्था में प्रवेश कराता है। प्राणायाम यहाँ यज्ञ-रूप में प्रस्तुत है।"
+            },
+            "english": {
+                "translation": "Those devoted to prāṇāyāma offer the outgoing breath (prāṇa) into the incoming breath (apāna), and the incoming into the outgoing; and having restrained the movement of both prāṇa and apāna, they are fixed in breath retention.",
+                "explanation": "This verse presents prāṇāyāma (regulation of vital breath) as a complete yajña in itself. The physiology: 'Prāṇa' is the upward-moving vital air (exhalation tendency, associated with the heart); 'apāna' is the downward-moving vital air (inhalation tendency, associated with the base). Three phases of prāṇāyāma as sacrifice: (1) Offering prāṇa into apāna — pūraka (inhalation), drawing the outer breath inward. (2) Offering apāna into prāṇa — recaka (exhalation), releasing the inner breath outward. (3) 'Prāṇāpāna-gatī ruddhvā' — kumbhaka (retention), suspending both movements at the midpoint. In kumbhaka, the mental oscillation produced by the breath naturally ceases, and the meditator enters a still, expansive awareness. Prāṇāyāma is thus framed not as mere physical breathing exercise but as the deepest inner fire-ritual."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 30,
+            "global_verse_id": 192,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अपरे नियताहाराः प्राणान्प्राणेषु जुह्वति ।\nसर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः ॥ ३० ॥",
+                "iast": "apare niyatāhārāḥ prāṇān prāṇeṣu juhvati |\nsarve 'py ete yajña-vido yajña-kṣapita-kalmaṣāḥ ||30||"
+            },
+            "hindi": {
+                "devanagari": "अन्य नियमित आहार करने वाले साधक प्राणों को प्राणों में ही होम करते हैं। ये सभी यज्ञ के ज्ञाता हैं और यज्ञ के द्वारा इनके पाप नष्ट हो गए हैं।",
+                "hinglish": "Anya niyamit aahaar karne wale sadhak praanon ko praanon mein hi hom karte hain. Ye sabhi yagya ke gyaata hain aur yagya ke dwara inke paap nasht ho gaye hain.",
+                "translation": "अन्य नियमित आहार करने वाले लोग प्राणों को प्राणों में आहुति देते हैं। ये सभी यज्ञ के ज्ञाता हैं, जिनके पाप यज्ञ से नष्ट हो गए हैं।",
+                "explanation": "अन्तिम यज्ञ-प्रकार: 'नियताहाराः' = जिन्होंने आहार का नियमन कर लिया है। 'प्राणान् प्राणेषु जुह्वति' = प्राणों को प्राणों में आहुति — यहाँ विभिन्न व्याख्याएं हैं: (क) नियमित भोजन से सभी पाँच प्राणों (प्राण, अपान, समान, उदान, व्यान) को जीवित रखना यज्ञ है। (ख) प्राण-शक्ति को उसके मूल स्रोत (परम-प्राण) में विलीन करना। यह योग का अन्तिम चरण है — अहं-प्राण को परम-प्राण में होम करना। फिर आता है इस यज्ञ-वर्णन का उपसंहार: 'सर्वेऽप्येते यज्ञविदः' = ये सभी यज्ञ के ज्ञाता हैं। 'यज्ञक्षपितकल्मषाः' = यज्ञ ने इनके कल्मष (पाप, अशुद्धि) को क्षीण कर दिया है। यज्ञ का सार: यह ज्ञान कि मैं कर्ता नहीं हूँ — समर्पण ही यज्ञ है।"
+            },
+            "english": {
+                "translation": "Others, who have regulated their diet, offer prāṇas into prāṇas. All these, indeed, are knowers of sacrifice, and their impurities (sins) have been destroyed by sacrifice.",
+                "explanation": "'Niyatāhārāḥ' (those who have regulated their diet) — the discipline of āhāra (what one consumes — food, sense impressions, thoughts) is itself a yajña. 'Prāṇān prāṇeṣu juhvati' — offering prāṇas into prāṇas: the individual vital force is offered into the universal Prāṇa, the cosmic life-force. This represents the final dissolution of the personal into the universal at the level of prāṇic energy. The verse then closes the entire yajña-catalogue with a unifying statement: 'sarve 'py ete yajña-vidaḥ' — all of these practitioners, regardless of their specific path, are 'knowers of sacrifice.' Their diversity of method does not divide them; all converge in the understanding that dedicated offering purifies. 'Yajña-kṣapita-kalmaṣāḥ' — sacrifice has destroyed their impurities (karmic residues, mental conditioning, ego-identification)."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 31,
+            "global_verse_id": 193,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम् ।\nनायं लोकोऽस्त्ययज्ञस्य कुतोऽन्यः कुरुसत्तम ॥ ३१ ॥",
+                "iast": "yajña-śiṣṭāmṛta-bhujo yānti brahma sanātanam |\nnāyaṃ loko 'sty ayajñasya kuto 'nyaḥ kuru-sattama ||31||"
+            },
+            "hindi": {
+                "devanagari": "यज्ञ के उपरान्त बचे हुए अमृत को भोगने वाले सनातन ब्रह्म को प्राप्त होते हैं। हे कुरुश्रेष्ठ! जो यज्ञ नहीं करता, उसके लिए यह लोक भी नहीं है — तो फिर अन्य लोक की बात ही क्या?",
+                "hinglish": "Yagya ke uparaant bache hue amrit ko bhogane wale sanaatan Brahm ko prapt hote hain. He Kuru-sattam! Jo yagya nahin karta, uske liye yah lok bhi nahin hai — to phir anya lok ki baat hi kya?",
+                "translation": "यज्ञ-शेष अमृत का भोग करने वाले सनातन ब्रह्म को प्राप्त होते हैं। हे कुरुश्रेष्ठ! यज्ञ न करने वाले के लिए यह लोक भी नहीं है — फिर अन्य लोक कहाँ से होगा?",
+                "explanation": "'यज्ञशिष्टामृत' = यज्ञ के उपरान्त जो शेष बचे वह अमृत है। यज्ञ में सबसे पहले देवताओं को अर्पण, फिर अतिथि-सत्कार, फिर साधक अपना भाग लेता है। यह 'शेष' = प्रसाद है — यह अमृत तुल्य है। आध्यात्मिक अर्थ: ज्ञान-यज्ञ का 'शेष' = शुद्ध चेतना है, जो समस्त अहंकार-कर्म-बन्धन से मुक्त है। ऐसे साधक 'ब्रह्म सनातनम्' को प्राप्त होते हैं। नकारात्मक पहलू: 'अयज्ञस्य' = जो यज्ञ नहीं करता, अर्थात् जो केवल अपने लिए जीता है, जो कोई समर्पण नहीं करता — उसके लिए 'नायं लोकः' = यह लोक भी सुखमय नहीं। समर्पण के बिना जीवन अर्थहीन है।"
+            },
+            "english": {
+                "translation": "Those who eat the nectar-like remnant of sacrifice go to the eternal Brahman. This world is not (joyful) for one who performs no sacrifice, O best of Kurus — how then the next world?",
+                "explanation": "'Yajña-śiṣṭāmṛta' — the nectar-like remnant after sacrifice. In Vedic ritual, one first offers to the gods, then to guests, then partakes of what remains — this prasāda is considered amṛta (deathless substance). At the philosophical level, what remains after the ego's offerings are consumed in jñāna-yajña is pure consciousness itself — the recognition of the immortal Self. 'Yānti brahma sanātanam' — they reach the eternal Brahman; not merely a better life but liberation itself. The negative formulation is powerful: 'Nāyaṃ loko 'sty ayajñasya' — for the one who lives in pure self-interest, performing no sacrifice of any kind (no seva, no practice, no offering), even this world does not go well. The logic: the universe runs on yajña (mutual giving); one who only takes without offering violates the cosmic law and suffers accordingly."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 32,
+            "global_verse_id": 194,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे ।\nकर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे ॥ ३२ ॥",
+                "iast": "evaṃ bahu-vidhā yajñā vitatā brahmaṇo mukhe |\nkarma-jān viddhi tān sarvān evaṃ jñātvā vimokṣyase ||32||"
+            },
+            "hindi": {
+                "devanagari": "इस प्रकार बहुत प्रकार के यज्ञ वेद-वाणी में विस्तृत हैं। उन सबको कर्म से उत्पन्न जानो — इस प्रकार जानने से तुम मुक्त हो जाओगे।",
+                "hinglish": "Is prakar bahut prakar ke yagya Ved-vaani mein vistrit hain. Un sabko karm se utpann jaano — is prakar jaanne se tum mukt ho jaoge.",
+                "translation": "इस प्रकार बहुत प्रकार के यज्ञ ब्रह्म के मुख (वेद) में विस्तृत हैं। उन सबको कर्म से उत्पन्न जानो; इस प्रकार जानकर तुम मुक्त हो जाओगे।",
+                "explanation": "'ब्रह्मणो मुखे' = ब्रह्म के मुख में — वेद ब्रह्म का श्वास है, इसलिए वेद में विस्तृत। 'कर्मजान्' = कर्म से उत्पन्न — ये सभी यज्ञ कर्म-प्रक्रियाएं हैं। इनका ज्ञान होना आवश्यक है। 'एवं ज्ञात्वा विमोक्ष्यसे' = इस प्रकार जानकर मुक्त हो जाओगे। यह महत्त्वपूर्ण है: केवल यज्ञ करने से नहीं, बल्कि यज्ञ के तत्त्व को जानने से मुक्ति होती है। यज्ञ का ज्ञान = यह समझना कि सब कर्म भगवान के लिए हैं, कि 'मैं कर्ता नहीं' — यही विमोचन का मार्ग है। यह श्लोक यज्ञ-विवेचन का उपसंहार है और अगले श्लोक (ज्ञान-यज्ञ की श्रेष्ठता) की भूमिका तैयार करता है।"
+            },
+            "english": {
+                "translation": "Thus many kinds of sacrifices are spread out in the mouth of Brahman (the Vedas). Know them all to be born from action; knowing this thus, you shall be liberated.",
+                "explanation": "'Brahmaṇo mukhe' (in the mouth of Brahman) — the Vedas are declared to be Brahman's own utterance (niḥśvāsa); the yajña-catalogue is thus rooted in eternal cosmic law, not human invention. 'Karma-jān viddhi tān sarvān' — know all these yajñas to be born of karma (action). This is not a limitation but a recognition: every spiritual practice is a form of conscious action, and as such participates in the field of transformation. 'Evaṃ jñātvā vimokṣyase' — the liberating insight is not merely knowing about the yajñas but understanding their common root: all offering leads to the dissolution of the ego's claim to ownership. When the practitioner truly comprehends that all action is sacrifice and all sacrifice is Brahman's, the knot of binding karma loosens. The next verse explains why knowledge-sacrifice surpasses all."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 33,
+            "global_verse_id": 195,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप ।\nसर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते ॥ ३३ ॥",
+                "iast": "śreyān dravya-mayād yajñāj jñāna-yajñaḥ parantapa |\nsarvaṃ karmākhilaṃ pārtha jñāne parisamāpyate ||33||"
+            },
+            "hindi": {
+                "devanagari": "हे परन्तप! द्रव्यमय यज्ञ की अपेक्षा ज्ञानयज्ञ श्रेष्ठ है। हे पार्थ! सम्पूर्ण कर्म ज्ञान में परिसमाप्त होते हैं।",
+                "hinglish": "He Parantap! Dravyamay yagya ki apeksha gyaan-yagya shreshth hai. He Parth! Sampurn karm gyaan mein parisamaapt hote hain.",
+                "translation": "हे परन्तप! द्रव्यमय यज्ञ की अपेक्षा ज्ञानयज्ञ श्रेष्ठ है। हे पार्थ! सम्पूर्ण कर्म ज्ञान में परिसमाप्त होते हैं।",
+                "explanation": "यह गीता का एक निर्णायक कथन है। 'द्रव्यमयाद् यज्ञात्' = भौतिक सामग्री से किए गए यज्ञ से — चाहे सोना हो, अन्न हो, पशु हो। 'ज्ञानयज्ञः श्रेयान्' = ज्ञानयज्ञ श्रेष्ठ है — कारण: द्रव्ययज्ञ सीमित फल देता है और समाप्त होता है; ज्ञानयज्ञ अनन्त फल देता है और कभी समाप्त नहीं होता। 'सर्वं कर्माखिलं ज्ञाने परिसमाप्यते' = सम्पूर्ण कर्म ज्ञान में परिसमाप्त होते हैं। 'परिसमाप्त' = पूर्णतः समाप्त, कुल्हाड़ी की धार की तरह — ज्ञान से कर्म का बन्धन पूर्णतः कट जाता है। यह वेदान्त का मूल सिद्धान्त है: अज्ञान ही बन्धन है, ज्ञान ही मोक्ष है। सभी साधनाएं — यज्ञ, तप, दान — अन्ततः ज्ञान में परिणत होने पर मुक्ति देती हैं।"
+            },
+            "english": {
+                "translation": "Superior to the sacrifice made of material wealth is the sacrifice of knowledge, O Parantapa. All action in its entirety, O Pārtha, reaches its culmination and fulfillment in knowledge.",
+                "explanation": "This is one of the Gita's most decisive philosophical statements. 'Dravya-mayāt yajñāt' — material sacrifice: however elaborate the ritual, it operates within the finite (dravya = matter). Its effects are therefore also finite. 'Jñāna-yajñaḥ śreyān' — the sacrifice of knowledge is superior because knowledge is not a finite commodity; it destroys the very root of ignorance that generates bondage. 'Sarvaṃ karmākhilaṃ pārtha jñāne parisamāpyate' — all action, without exception, finds its ultimate completion (parisamāpyate — complete termination) in knowledge. This does not mean action is worthless, but that action performed with full understanding eventually dissolves the actor's identification with doership — which is liberation. All karma is a journey toward this knowing; jñāna-yajña is the destination itself."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 34,
+            "global_verse_id": 196,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया ।\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ॥ ३४ ॥",
+                "iast": "tad viddhi praṇipātena paripraśnena sevayā |\nupadekṣyanti te jñānaṃ jñāninas tattva-darśinaḥ ||34||"
+            },
+            "hindi": {
+                "devanagari": "उस (ज्ञान) को तुम प्रणिपात, परिप्रश्न और सेवा द्वारा जानो। तत्त्वदर्शी ज्ञानीजन तुम्हें उस ज्ञान का उपदेश देंगे।",
+                "hinglish": "Us (gyaan) ko tum pranipaata, pariprashna aur seva dwara jaano. Tattvadarshi gyaanijan tumhein us gyaan ka upadesh denge.",
+                "translation": "उस ज्ञान को प्रणिपात (नमस्कार), परिप्रश्न (जिज्ञासा-प्रश्न) और सेवा द्वारा जानो। तत्त्वदर्शी ज्ञानीजन तुम्हें उस ज्ञान का उपदेश देंगे।",
+                "explanation": "यह गीता का गुरु-शिष्य सम्बन्ध का सर्वाधिक उद्धृत श्लोक है। तीन साधन: (१) 'प्रणिपात' = प्रणाम, साष्टाङ्ग प्रणाम — यह अहंकार के समर्पण का प्रतीक है। ज्ञान तभी मिलता है जब अहंकार झुकता है। (२) 'परिप्रश्न' = चारों ओर से प्रश्न — पूर्ण, गहरी जिज्ञासा से प्रश्न करना; न शंका से, न चुनौती देने के लिए — बल्कि सच्ची जिज्ञासा से। (३) 'सेवा' = सेवा — गुरु की, मानवता की; सेवा से चित्त शुद्ध होता है। 'तत्त्वदर्शिनः' = जिन्होंने तत्त्व (परम सत्य) का साक्षात्कार किया है। ऐसे गुरु की पहचान: वे केवल शास्त्र-पाठी नहीं, साक्षात्कारी हैं।"
+            },
+            "english": {
+                "translation": "Know that (knowledge) by prostration (praṇipāta), by sincere questioning (paripraśna), and by service (sevā); the wise who are seers of truth will teach you that knowledge.",
+                "explanation": "This verse encodes the entire Vedantic guru-śiṣya relationship in three words. (1) 'Praṇipāta' (complete prostration) — not a mere physical gesture but the surrender of the ego's claim to know-it-already. The single greatest obstacle to wisdom is the assumption that one already understands; praṇipāta dissolves this. (2) 'Paripraśna' (comprehensive questioning) — not argumentative cross-examination, not idle curiosity, but sustained, authentic inquiry. 'Pari' means thorough, from all sides; the student who questions from genuine perplexity (like Arjuna) creates the opening for transmission. (3) 'Sevā' (service) — serving the teacher and the teaching purifies the receiver's heart; the instrument of knowing (the mind) must be clean for knowledge to settle. 'Tattva-darśinaḥ' — seers of truth, not merely scholars; only one who has directly seen can transmit the living fire."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 35,
+            "global_verse_id": 197,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव ।\nयेन भूतान्यशेषाणि द्रक्ष्यस्यात्मन्यथो मयि ॥ ३५ ॥",
+                "iast": "yaj jñātvā na punar moham evaṃ yāsyasi pāṇḍava |\nyena bhūtāny aśeṣāṇi drakṣyasy ātmany atho mayi ||35||"
+            },
+            "hindi": {
+                "devanagari": "जिसे जानकर तुम इस प्रकार के मोह को फिर नहीं प्राप्त होगे, हे पाण्डव! और जिससे तुम सम्पूर्ण भूतों को आत्मा में और फिर मुझमें देखोगे।",
+                "hinglish": "Jise jaankar tum is prakar ke moh ko phir nahin prapt honge, He Pandava! Aur jisse tum sampurn bhooton ko aatma mein aur phir mujh mein dekhoge.",
+                "translation": "जिसे जानकर हे पाण्डव! तुम पुनः इस प्रकार मोह को प्राप्त नहीं होगे — और जिस ज्ञान से तुम सम्पूर्ण प्राणियों को आत्मा में और फिर मुझमें देखोगे।",
+                "explanation": "ज्ञान का फल दो चरणों में: (१) 'न पुनः मोहम् एवं यास्यसि' = फिर इस प्रकार के मोह को प्राप्त नहीं होगे। 'एवं' = इस प्रकार — इस विशेष मोह का, जो अर्जुन को अभी है (स्वजन-प्रेम और कर्तव्य के बीच का संशय)। (२) 'भूतान्यशेषाणि द्रक्ष्यसि आत्मनि' = सम्पूर्ण प्राणियों को आत्मा में देखोगे। यह द्वैत की समाप्ति है — सभी में एक आत्मा का दर्शन। 'अथो मयि' = और फिर मुझमें — यह उच्चतर अवस्था है: सब कुछ परमात्मा में देखना। यह अद्वैत का पूर्ण अनुभव है: पहले सभी में आत्मा, फिर आत्मा में सब, फिर सब परमात्मा में।"
+            },
+            "english": {
+                "translation": "Knowing which, O Pāṇḍava, you shall not again fall into delusion like this — and by which you shall see all beings without exception in the Self, and then in Me.",
+                "explanation": "The fruit of jñāna is stated in two ascending realizations. (1) 'Na punar moham evaṃ yāsyasi' — liberation from this specific delusion (the crisis of Chapter 1). 'Evam' — this kind: the confusion that arises when the ego mistakenly identifies with roles, relationships, and bodies. True knowledge does not merely dissolve one particular confusion; it removes the root of all confusion. (2) 'Bhūtāny aśeṣāṇi drakṣyasy ātmany' — you will see all beings without exception in the Self. This is the direct recognition of unity — the same consciousness in all forms. 'Atho mayi' — and then in Me: the final dissolution where even 'the Self as witness' is recognized as Kṛṣṇa's (the Supreme's) nature. The progression: individual self → universal Self → Absolute. This is the summit of Vedantic realization."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 36,
+            "global_verse_id": 198,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः ।\nसर्वं ज्ञानप्लवेनैव वृजिनं सन्तरिष्यसि ॥ ३६ ॥",
+                "iast": "api ced asi pāpebhyaḥ sarvebhyaḥ pāpa-kṛttamaḥ |\nsarvaṃ jñāna-plavenaiva vṛjinaṃ santariṣyasi ||36||"
+            },
+            "hindi": {
+                "devanagari": "यदि तुम सब पापियों में भी सबसे अधिक पाप करने वाले हो, तो भी ज्ञान-रूपी नौका से ही तुम सम्पूर्ण पाप-समुद्र को पार कर जाओगे।",
+                "hinglish": "Yadi tum sab paapiyon mein bhi sabse adhik paap karne wale ho, to bhi gyaan-roop nauka se hi tum sampurn paap-samudr ko paar kar jaoge.",
+                "translation": "यदि तुम सभी पापियों में सबसे अधिक पापी भी हो, तो भी ज्ञान-रूपी नौका से सम्पूर्ण पाप-समुद्र को पार कर जाओगे।",
+                "explanation": "यह श्लोक ज्ञान की असीमित पवित्र शक्ति का उद्घोष है। 'पापेभ्यः सर्वेभ्यः पापकृत्तमः' = सब पापियों में सबसे महापापी। यह अतिशयोक्ति अलंकार है जो ज्ञान की पूर्णता को व्यक्त करता है। 'ज्ञानप्लवेन' = ज्ञान-रूपी नाव से। 'प्लव' = नौका, बेड़ा। 'वृजिनम्' = पाप का समुद्र। 'सन्तरिष्यसि' = पूर्णतः पार हो जाओगे। ज्ञान क्यों इतना शक्तिशाली है? क्योंकि पाप का मूल अज्ञान है। जब अज्ञान नष्ट होता है, तो पाप का मूल ही कट जाता है — जो वृक्ष की जड़ काट दी जाए तो सारी शाखाएं स्वयं सूख जाती हैं। यह आशा का महान सन्देश है — कोई भी, कभी भी, ज्ञान के माध्यम से मुक्त हो सकता है।"
+            },
+            "english": {
+                "translation": "Even if you were the most sinful of all sinners, you shall indeed cross the entire ocean of sin by the boat of knowledge alone.",
+                "explanation": "This verse proclaims the absolute supremacy and universality of jñāna with extraordinary force. 'Pāpa-kṛttamaḥ' — the superlative: the greatest sinner among all sinners. This rhetorical hyperbole does not encourage sin but declares that the capacity of knowledge is so vast that no quantum of karmic accumulation can withstand it. 'Jñāna-plavena' — the metaphor of the boat (plava): a boat does not avoid contact with water; it transforms the relationship with it — the waters that would drown become the medium of passage. 'Vṛjinam santariṣyasi' — the entire ocean of sin is crossed. Why? Because sin (pāpa) is rooted in avidyā (fundamental ignorance of one's nature). When the root is severed by knowledge — the realization that one is the limitless Self — the accumulation of past karma loses its power to define identity. This is the Gita's most inclusive and liberating promise."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 37,
+            "global_verse_id": 199,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन ।\nज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा ॥ ३७ ॥",
+                "iast": "yathaidhāṃsi samiddho 'gnir bhasmasāt kurute 'rjuna |\njñānāgniḥ sarva-karmāṇi bhasmasāt kurute tathā ||37||"
+            },
+            "hindi": {
+                "devanagari": "जैसे प्रज्वलित अग्नि समिधाओं (लकड़ियों) को भस्म कर देती है, हे अर्जुन! उसी प्रकार ज्ञान-रूपी अग्नि सम्पूर्ण कर्मों को भस्म कर देती है।",
+                "hinglish": "Jaise prajwalit agni samidhaaon (lakdiyon) ko bhasma kar deti hai, He Arjun! Usi prakar gyaan-roop agni sampurn karmon ko bhasma kar deti hai.",
+                "translation": "जैसे प्रज्वलित अग्नि समिधाओं को भस्मसात् कर देती है, हे अर्जुन! वैसे ही ज्ञानाग्नि समस्त कर्मों को भस्मसात् कर देती है।",
+                "explanation": "गीता का सर्वाधिक शक्तिशाली उपमा-प्रयोग। 'यथा' (जैसे) — 'तथा' (वैसे): यह 'उपमालंकार' है। 'एधांसि' = समिधाएं (यज्ञ की लकड़ियाँ)। 'समिद्धः अग्निः' = प्रज्वलित अग्नि। 'भस्मसात्' = भस्म कर देती है — अग्नि लकड़ी में कुछ नहीं छोड़ती, राख भी उड़ जाती है। 'ज्ञानाग्निः' = ज्ञान-रूपी अग्नि — यह बाहरी नहीं, आन्तरिक अग्नि है। 'सर्वकर्माणि' = समस्त कर्म — संचित, प्रारब्ध, क्रियमाण सभी। ज्ञान की अग्नि कर्म के 'बीज' को जला देती है — जैसे जले हुए बीज में अंकुरण-शक्ति नहीं रहती, ज्ञान के बाद कर्म फल देने में समर्थ नहीं रहते। यह वेदान्त की मूल स्थापना है।"
+            },
+            "english": {
+                "translation": "Just as a blazing fire reduces its fuel (kindling) to ashes, O Arjuna, so the fire of knowledge reduces all karma to ashes in the same way.",
+                "explanation": "The Gita's most vivid metaphor for the relationship between jñāna and karma. The comparison is precise: fire leaves nothing of the wood — not even the ash persists once the fire is fully blazing. 'Jñānāgniḥ' — the fire of knowledge is not a slow erosion but a complete annihilation. 'Sarva-karmāṇi' — all karma: this includes saṃcita (accumulated past karma), prārabdha (karma currently bearing fruit), and āgāmī (karma being created now). Vedantic commentary clarifies: once the Self is known as the pure witness beyond all action, the sense that 'I am the doer' dissolves. With the 'doer' gone, no new karma accumulates; and past karma loses its power to produce new identity. The fire metaphor is especially apt: fire does not debate with the wood, does not partially burn it — knowledge, when complete, is equally total and unconditional."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 38,
+            "global_verse_id": 200,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते ।\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ॥ ३८ ॥",
+                "iast": "na hi jñānena sadṛśaṃ pavitram iha vidyate |\ntat svayaṃ yoga-saṃsiddhaḥ kālenātmani vindati ||38||"
+            },
+            "hindi": {
+                "devanagari": "इस संसार में ज्ञान के समान पवित्र करने वाला निश्चय ही कोई और नहीं है। योग में संसिद्ध व्यक्ति उसे कालक्रम से स्वयं अपने आत्मा में पाता है।",
+                "hinglish": "Is sansaar mein gyaan ke samaan pavitra karne wala nishchay hi koi aur nahin hai. Yog mein sansiddh vyakti use kalkram se swayam apne aatma mein paata hai.",
+                "translation": "निश्चय ही इस संसार में ज्ञान के समान पवित्र करने वाला कुछ भी नहीं है। योग में पूर्ण हुआ साधक उसे कालक्रम से अपने आत्मा में स्वयं प्राप्त करता है।",
+                "explanation": "'न हि ज्ञानेन सदृशं पवित्रम्' = ज्ञान के समान पवित्र करने वाला कुछ नहीं। 'पवित्र' = जो पाप-मल को हटाए। गंगा, तीर्थ, व्रत, तप — ये सब बाह्य पवित्रता के साधन हैं; ज्ञान भीतरी पवित्रता का साधन है। आन्तरिक अशुद्धि (अज्ञान) को केवल ज्ञान ही हटा सकता है। दूसरा भाग: 'योगसंसिद्धः' = योग में परिपक्व/सिद्ध हुआ। 'कालेन' = काल से — कुछ समय लगता है; यह रातोरात नहीं होता। 'आत्मनि विन्दति' = अपने आत्मा में ही पाता है। यह महत्त्वपूर्ण है: ज्ञान बाहर से नहीं आता — यह आत्मा में ही छिपा है। साधक उसे खोजता नहीं, पाता है — क्योंकि यह सदा उसके भीतर था।"
+            },
+            "english": {
+                "translation": "Truly, nothing in this world is as purifying as knowledge. One who is perfected in yoga discovers it by himself within the Self in due course of time.",
+                "explanation": "'Na hi jñānena sadṛśam pavitram' — the absolute declaration: nothing is as purifying as knowledge. All external purifying agents (sacred waters, pilgrimage, fasting, ritual) clean the external instrument; jñāna alone removes the root impurity — avidyā (ignorance of the Self's nature). 'Yoga-saṃsiddhaḥ' — one who has attained perfection in yoga (not just one chapter of practice, but the ripening of sustained, sincere practice over time). 'Kālena' — in due time; spiritual maturation follows its own timing; forcing or rushing it is impossible. 'Ātmani vindati' — discovers it WITHIN the Self. The key teaching: knowledge of the Self is not imported from outside; it is always already present as the ground of one's own being. The entire spiritual journey is the removal of what obscures what was never absent."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 39,
+            "global_verse_id": 201,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः ।\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ॥ ३९ ॥",
+                "iast": "śraddhāvāṁl labhate jñānaṃ tat-paraḥ saṃyatendriyaḥ |\njñānaṃ labdhvā parāṃ śāntim acireṇādhigacchati ||39||"
+            },
+            "hindi": {
+                "devanagari": "श्रद्धावान्, उसमें तत्पर, और इन्द्रियों को संयत किए हुए मनुष्य ज्ञान प्राप्त करता है; ज्ञान प्राप्त करके शीघ्र ही परम शान्ति को प्राप्त होता है।",
+                "hinglish": "Shraddhawaan, usme tatpar, aur indriyon ko sanyat kiye hue manushya gyaan prapt karta hai; gyaan prapt karke sheeghri hi param shaanti ko prapt hota hai.",
+                "translation": "श्रद्धावान्, तत्पर और संयतेन्द्रिय मनुष्य ज्ञान प्राप्त करता है; ज्ञान प्राप्त करके शीघ्र ही परम शान्ति को प्राप्त होता है।",
+                "explanation": "ज्ञान-प्राप्ति की तीन शर्तें: (१) 'श्रद्धावान्' = श्रद्धा वाला। श्रद्धा = आस्था, विश्वास — न आँख मूँदकर, न तर्क-विरोधी — बल्कि समझ से उत्पन्न विश्वास। (२) 'तत्परः' = उसमें (ज्ञान में) तत्पर — एकाग्र लक्ष्य, समर्पण। (३) 'संयतेन्द्रियः' = इन्द्रियों का संयम — बिखरी इन्द्रियों वाले मन में ज्ञान ठहरता नहीं। फल: 'ज्ञानं लब्ध्वा' = ज्ञान मिलने पर 'परां शान्तिम्' = परम शान्ति। यह शान्ति बाह्य परिस्थितियों पर निर्भर नहीं — यह आत्म-स्वरूप की शान्ति है। 'अचिरेण' = शीघ्र — इसका अर्थ यह नहीं कि तुरंत; बल्कि ज्ञान होते ही देर नहीं लगती — क्योंकि शान्ति आत्मा का स्वभाव है, बाहर से लाने की नहीं।"
+            },
+            "english": {
+                "translation": "One who has faith, who is devoted to it, and who has mastered the senses, attains knowledge; having attained knowledge, he quickly reaches supreme peace.",
+                "explanation": "Three essential prerequisites for the receipt of jñāna are stated precisely: (1) 'Śraddhāvān' — faith. Śraddhā in the Gita is not blind belief but the confident, open receptivity that trusts the validity of the path before all its fruits have been experienced. It is the antidote to cynicism, without being opposed to inquiry. (2) 'Tat-paraḥ' — devoted to That, making knowledge the supreme priority. A mind divided between many competing interests cannot sustain the sustained attention that jñāna requires. (3) 'Saṃyatendriyaḥ' — senses under governance; a mind whose attention is perpetually scattered by sensory stimulation cannot receive or retain subtle knowledge. 'Parāṃ śāntim' — the supreme peace is not a feeling-state but the settled recognition of one's own nature as unmoving awareness. 'Acireṇa' — without delay: once knowledge is real, liberation follows immediately because peace is the Self's own nature."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 40,
+            "global_verse_id": 202,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति ।\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः ॥ ४० ॥",
+                "iast": "ajñaś cāśraddadhānaś ca saṃśayātmā vinaśyati |\nnāyaṃ loko 'sti na paro na sukhaṃ saṃśayātmanaḥ ||40||"
+            },
+            "hindi": {
+                "devanagari": "अज्ञानी, श्रद्धारहित और संशयात्मा — ये नष्ट हो जाते हैं। संशयात्मा के लिए न यह लोक है, न परलोक है और न सुख है।",
+                "hinglish": "Agyaani, shraddhaarahit aur sanshaayaatma — ye nasht ho jaate hain. Sanshaayaatma ke liye na yah lok hai, na parlok hai aur na sukh hai.",
+                "translation": "अज्ञानी, श्रद्धारहित और संशयात्मा का विनाश होता है। संशयात्मा को न यह लोक है, न परलोक है, न सुख है।",
+                "explanation": "विपरीत (नकारात्मक) पहलू: तीन प्रकार के असफल साधक: (१) 'अज्ञः' = अज्ञानी — जिसे आत्म-ज्ञान की जिज्ञासा ही नहीं। (२) 'अश्रद्दधानः' = श्रद्धारहित — जो साधन-प्रक्रिया पर विश्वास नहीं करता। (३) 'संशयात्मा' = संशयात्मा — जिसका स्वभाव ही संशय है; जो हर बात को शंका की दृष्टि से देखता है, कोई निर्णय नहीं ले पाता। सबसे खतरनाक है संशयात्मा: 'विनश्यति' = नष्ट हो जाता है — यहाँ 'विनाश' आत्म-विनाश नहीं (आत्मा अविनाशी है), बल्कि अवसर का विनाश। 'नायं लोकः... न परः... न सुखम्' = न इस लोक में, न परलोक में, कहीं भी सुख नहीं। संशय एक ऐसा मानसिक राज्य है जहाँ कोई भी अनुभव पूर्ण नहीं होता — सब अनिर्णीत।"
+            },
+            "english": {
+                "translation": "The ignorant, the faithless, and the doubting self perishes. For the doubting self there is neither this world, nor the next, nor any happiness.",
+                "explanation": "The threefold obstruction is stated with the finality of a medical diagnosis: (1) 'Ajñaḥ' — the ignorant: one in whom neither the question of the Self has arisen, nor the recognition that their fundamental confusion about life has a solution. (2) 'Aśraddadhānaḥ' — the faithless: one who encounters the teaching but cannot open to it; cynicism prevents the receptivity required for transformation. (3) 'Saṃśayātmā' — the one whose very nature is doubt. This is the most serious condition: not productive inquiry-doubt that leads to resolution, but an existential paralysis of indecision. Such a person cannot commit to action, cannot complete a spiritual practice, cannot trust any guidance. 'Vinaśyati' — perishes (not annihilation of the ātman, which is eternal, but ruin of all opportunity). 'Na ayaṃ lokaḥ' — even ordinary life does not go well; the doubter cannot enjoy or act effectively anywhere. Doubt without resolution is the antithesis of the peace described in the previous verse."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 41,
+            "global_verse_id": 203,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "योगसन्न्यस्तकर्माणं ज्ञानसञ्छिन्नसंशयम् ।\nआत्मवन्तं न कर्माणि निबध्नन्ति धनञ्जय ॥ ४१ ॥",
+                "iast": "yoga-sannyasta-karmāṇaṃ jñāna-sañchinna-saṃśayam |\nātmavantaṃ na karmāṇi nibadhnanti dhanañjaya ||41||"
+            },
+            "hindi": {
+                "devanagari": "हे धनञ्जय! जिसने योग द्वारा समस्त कर्मों का त्याग किया है, जिसका संशय ज्ञान से कट गया है, और जो आत्म-स्थित है — उसे कर्म नहीं बाँधते।",
+                "hinglish": "He Dhananjaya! Jisne yog dwara samast karmon ka tyaag kiya hai, jiska sanshay gyaan se kat gaya hai, aur jo aatm-sthit hai — use karm nahin baandhte.",
+                "translation": "हे धनञ्जय! जिसने योग द्वारा कर्मों का त्याग किया है, जिसका संशय ज्ञान से छिन्न हो गया है, और जो आत्मवान् है — उसे कर्म नहीं बाँधते।",
+                "explanation": "पिछले श्लोक में संशयात्मा का विनाश बताया; अब इसका विपरीत: मुक्त साधक के तीन लक्षण: (१) 'योगसन्न्यस्तकर्मा' = जिसने योग से कर्म-त्याग किया है। यह बाह्य संन्यास नहीं — यह कर्म के फल का, कर्ता-भाव का त्याग है। (२) 'ज्ञानसञ्छिन्नसंशयः' = जिसका संशय ज्ञान से छिन्न (काटा) गया है। 'सञ्छिन्न' = पूर्णतः काटा हुआ — अर्थात् संशय की जड़ काट दी गई है। (३) 'आत्मवान्' = आत्म-स्थित। 'आत्मवत्' = जो आत्मा में स्थित है, जो 'मैं आत्मा हूँ' — इस भाव में जीता है। 'न कर्माणि निबध्नन्ति' = कर्म नहीं बाँधते। क्यों? क्योंकि बन्धन के लिए 'बाँधने वाला' अहंकार चाहिए — और जो 'आत्मवान्' है, उसका अहंकार विलीन है।"
+            },
+            "english": {
+                "translation": "Actions do not bind one who has renounced actions through yoga, whose doubts have been completely severed by knowledge, and who is established in the Self, O Dhanañjaya.",
+                "explanation": "The portrait of the liberated actor — the answer to Chapter 3's question of who acts without bondage. Three characteristics, each indispensable: (1) 'Yoga-sannyasta-karmāṇam' — one who has renounced actions through yoga. Not external renunciation (abandoning duties) but the inner surrender of the claim to results; acting while releasing ownership of action and fruit. (2) 'Jñāna-sañchinna-saṃśayam' — doubts completely severed by knowledge. 'Sañchinna' — cut through completely, not merely suppressed. When the Self is known, the fundamental doubt ('who am I? Am I the body? The mind? The doer?') is resolved at its root. (3) 'Ātmavantam' — established in the Self; the center of gravity has permanently shifted from the ego-personality to the unmoving Self. 'Na karmāṇi nibadhnanti' — actions do not bind because there is no longer an ego claiming to be the agent of those actions. Bondage requires a binder and a bound; knowledge dissolves both."
+            }
+        },
+        {
+            "chapter": 4,
+            "verse_number": 42,
+            "global_verse_id": 204,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः ।\nछित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत ॥ ४२ ॥",
+                "iast": "tasmād ajñāna-sambhūtaṃ hṛt-sthaṃ jñānāsinātmanaḥ |\nchittvainaṃ saṃśayaṃ yogam ātiṣṭhottiṣṭha bhārata ||42||"
+            },
+            "hindi": {
+                "devanagari": "इसलिए हे भारत! हृदय में स्थित, अज्ञान से उत्पन्न इस संशय को आत्म-ज्ञान-रूपी तलवार से काटकर योग में स्थित हो जाओ — उठो!",
+                "hinglish": "Isliye He Bharat! Hriday mein sthit, agyaan se utpann is sanshay ko aatma-gyaan-roop talwaar se kaatkar yog mein sthit ho jaao — utho!",
+                "translation": "इसलिए हे भारत! हृदय में स्थित इस अज्ञानजन्य संशय को ज्ञान-रूपी तलवार से काटकर योग में स्थित होकर उठ खड़े हो।",
+                "explanation": "यह चतुर्थ अध्याय का समापन श्लोक है — और सम्पूर्ण गीता के सबसे उत्साह-प्रेरक वाक्यों में से एक। 'अज्ञानसम्भूतम्' = अज्ञान से उत्पन्न। संशय का मूल क्या है? अज्ञान — अपने स्वरूप का अज्ञान। 'हृत्स्थम्' = हृदय में स्थित — यह बुद्धि का नहीं, हृदय का संशय है। बुद्धि का संशय तर्क से हल होता है; हृदय के संशय का समाधान केवल अनुभव से। 'ज्ञानासिना' = ज्ञान-रूपी तलवार से। आत्म-ज्ञान तलवार की तरह काटता है — त्वरित, तीक्ष्ण, सम्पूर्ण। 'छित्त्वा' = काटकर — अर्धकार्य नहीं, पूर्ण कार्य। 'योगमातिष्ठ' = योग में स्थित हो। 'उत्तिष्ठ' = उठ खड़े हो! यह एकाक्षरी आदेश — उत्तिष्ठ — सम्पूर्ण गीता का सार है। ज्ञान ग्रहण करके क्रिया में लौटो — यही कर्मयोग है।"
+            },
+            "english": {
+                "translation": "Therefore, having cut with the sword of Self-knowledge this doubt born of ignorance, which dwells in your heart — stand firm in yoga and rise up, O Bhārata!",
+                "explanation": "The magnificent closing verse of Chapter 4 — among the most electrifying calls to action in world spiritual literature. 'Ajñāna-sambhūtam' — born of ignorance: the doubt that paralyzes Arjuna (Chapter 1) is not an intellectual puzzle requiring more information; it is rooted in avidyā — the fundamental misconception of one's identity. 'Hṛt-stham' — dwelling in the heart: unlike intellectual doubt which yields to argument, this existential doubt lives in the heart and can only be resolved by direct experiential knowledge. 'Jñānāsinā' — with the sword of knowledge. The sword metaphor is deliberate: a sword cuts cleanly, completely, once. The half-severed is not severed; jñāna that is merely intellectual is no sword. 'Chittvā' — having cut: the imperative of complete action. 'Yogam ātiṣṭha' — be established in yoga. Then — 'Uttiṣṭha bhārata' — RISE! The ultimate imperative. Knowledge is not meant to produce passivity but the most effective, fearless, liberated action. This is the chapter's — and the Gita's — essence."
+            }
+        }
+    ],
+    "colophon": {
+        "sanskrit": "इति श्रीमद्भगवद्गीतासूपनिषत्सु ब्रह्मविद्यायां योगशास्त्रे श्रीकृष्णार्जुनसंवादे ज्ञानकर्मसंन्यासयोगो नाम चतुर्थोऽध्यायः ॥",
+        "iast": "iti śrīmadbhagavadgītāsūpaniṣatsu brahmavidyāyāṃ yogaśāstre śrīkṛṣṇārjunasaṃvāde jñāna-karma-sannyāsa-yogo nāma caturtho 'dhyāyaḥ ||",
+        "hindi": "इस प्रकार श्रीमद्भगवद्गीतारूपी उपनिषद् में, ब्रह्मविद्या और योगशास्त्र विषयक, श्रीकृष्ण-अर्जुन-संवाद में, 'ज्ञान-कर्म-संन्यासयोग' नामक चतुर्थ अध्याय समाप्त होता है।",
+        "english": "Thus ends the Fourth Chapter, named 'Jñāna-karma-sannyāsa Yoga' (The Yoga of Knowledge, Action, and Renunciation), in the Upaniṣad known as the Śrīmad Bhagavad Gītā, the scripture of Brahma-vidyā and Yoga, in the dialogue between Śrī Kṛṣṇa and Arjuna.",
+        "note": "Colophon is not counted as a verse. Global verse count through Chapter 4: 204 (Ch1: 47 + Ch2: 72 + Ch3: 43 + Ch4: 42)."
+    }
+}

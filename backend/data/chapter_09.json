@@ -1,0 +1,703 @@
+{
+    "chapter_number": 9,
+    "chapter_title": {
+        "sanskrit": "राजविद्याराजगुह्ययोगः",
+        "iast": "Rāja-vidyā-rāja-guhya-yogaḥ",
+        "hindi": "राज विद्या राज गुह्य योग",
+        "english": "The Yoga of Royal Knowledge and Royal Secret"
+    },
+    "chapter_summary": {
+        "hindi": "नवम अध्याय गीता का हृदय-केन्द्र है। श्रीकृष्ण यहाँ अर्जुन को 'राजविद्या' — सर्वोच्च विज्ञान — और 'राजगुह्य' — परम रहस्य — का उपदेश देते हैं। वे अपने अव्यक्त स्वरूप से समस्त जगत को व्याप्त रहने, फिर भी उसमें न रहने के विलक्षण तत्त्व को समझाते हैं। सृष्टि और प्रलय की प्रक्रिया, मूढ़ों द्वारा उनकी मानवीय देह को न पहचानने की भूल, और महात्माओं की भक्ति का वर्णन किया गया है। तीन-वेद-ज्ञान से स्वर्ग पाकर लौट आना और अनन्य भक्ति का योग-क्षेम — इन दोनों की तुलना की गई है। अध्याय का शिखर है वह प्रतिज्ञा कि एक दुराचारी भी यदि अनन्य भाव से भजे, तो वह साधु ही माना जाएगा और उसका पतन न होगा। अन्त में कृष्ण 'मन्मना भव' — मुझमें मन लगाओ — की चतुर्विध साधना बताकर अध्याय समाप्त करते हैं।",
+        "english": "The Ninth Chapter is the philosophical heart of the Bhagavad Gita. Krishna here reveals 'rāja-vidyā' — the sovereign knowledge — and 'rāja-guhyam' — the royal secret — to Arjuna. He explains the paradox of pervading the entire universe through his unmanifest nature while not being contained within it, comparing this to the way the wind pervades space without space being affected. The mechanisms of cosmic creation and dissolution, the error of fools who mistake his human form for ordinary humanity, and the devoted worship of great souls are described. The chapter contrasts those who follow the three Vedas and gain heaven only to return, with those in unbroken devotion for whom Krishna personally ensures welfare and security. The chapter's most revolutionary declaration is that even the worst sinner, if he worships Krishna with undivided devotion, must be considered righteous. The chapter closes with the fourfold discipline: 'Fix your mind on Me, be devoted to Me, worship Me, bow to Me — and you shall come to Me.'"
+    },
+    "total_verses": 34,
+    "verses": [
+        {
+            "chapter": 9,
+            "verse_number": 1,
+            "global_verse_id": 339,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रीभगवानुवाच ।\nइदं तु ते गुह्यतमं प्रवक्ष्याम्यनसूयवे ।\nज्ञानं विज्ञानसहितं यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ॥ १ ॥",
+                "iast": "śrī bhagavān uvāca |\nidaṃ tu te guhyatamaṃ pravakṣyāmy anasūyave |\njñānaṃ vijñānasahitaṃ yaj jñātvā mokṣyase 'śubhāt ||1||"
+            },
+            "hindi": {
+                "devanagari": "श्रीभगवान् बोले — तुझ निन्दाभाव-रहित भक्त के लिए मैं इस परम गुह्य ज्ञान को, विज्ञान के सहित, सम्पूर्ण रूप से कहूँगा, जिसे जानकर तू अशुभ से मुक्त हो जाएगा।",
+                "hinglish": "Shri Bhagwan bole — Tujh nindabhaav-rahit bhakt ke liye main is param guhya gyaan ko, vigyaan ke sahit, sampurna roop se kahunga, jise jankar tu ashubh se mukt ho jaayega.",
+                "translation": "श्रीभगवान् ने कहा — हे अनसूयु (ईर्ष्या-रहित) अर्जुन! मैं तुझे इस परम गुह्य ज्ञान को विज्ञान के सहित पूर्णतः बताऊँगा, जिसे जानने के बाद तू समस्त अशुभ से मुक्त हो जाएगा।",
+                "explanation": "'गुह्यतमम्' = सर्वाधिक गोपनीय। अध्याय 7 में 'गुह्य' ज्ञान था, यहाँ वह 'गुह्यतम' है — सर्वोच्च। 'अनसूयवे' — जो ईर्ष्या, दोषदृष्टि और अहंकार से रहित हो, केवल उसी के लिए यह ज्ञान है। संसय-ग्रस्त या अहंकारी शिष्य को यह ज्ञान नहीं दिया जा सकता। 'विज्ञानसहितम्' = अनुभव-सहित सैद्धान्तिक ज्ञान — सिद्धान्त (jñāna) और साक्षात्कार (vijñāna) दोनों। 'अशुभ' = जन्म-मृत्यु का चक्र, कर्म-बन्धन। इस प्रवेश-श्लोक में कृष्ण पात्रता की शर्त भी बताते हैं और वरदान भी — मुक्ति।"
+            },
+            "english": {
+                "translation": "The Blessed Lord said: To you who are free from envy, I shall now fully declare this most secret knowledge combined with direct realization, knowing which you shall be liberated from all that is inauspicious.",
+                "explanation": "'Guhyatamam' — the most secret, surpassing even what was called 'guhyam' in Chapter 7. The qualifier 'anasūyave' (to one without envy or fault-finding) is crucial: this supreme knowledge is not withheld due to secrecy but because it can only be received by a mind free of ego-distortion, jealousy, and skepticism. 'Jñānaṃ vijñānasahitam' — theoretical knowledge (jñāna) united with direct, experiential realization (vijñāna): both scripture and inner recognition. 'Aśubhāt' — from all inauspiciousness, meaning the entire cycle of birth, death, and bondage. With this opening, Krishna simultaneously states the qualification of the student and the promise of the teaching: come without ego, and receive liberation."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 2,
+            "global_verse_id": 340,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम् ।\nप्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम् ॥ २ ॥",
+                "iast": "rājavidyā rājaguhyaṃ pavitram idam uttamam |\npratyakṣāvagamaṃ dharmyaṃ susukhaṃ kartum avyayam ||2||"
+            },
+            "hindi": {
+                "devanagari": "यह (ज्ञान) सब विद्याओं का राजा, सब गुह्यों का राजा, परम पवित्र, अत्युत्तम, प्रत्यक्ष अनुभव से जानने योग्य, धर्मयुक्त, अभ्यास करने में अत्यन्त सुगम और अविनाशी है।",
+                "hinglish": "Yeh gyaan sab vidyaon ka raja, sab guhyon ka raja, param pavitra, atyuttam, pratyaksh anubhav se janane yogya, dharmayukt, abhyas karne mein atyant sugam aur avinaashi hai.",
+                "translation": "यह ज्ञान सम्पूर्ण विद्याओं में श्रेष्ठ (राजविद्या), सम्पूर्ण रहस्यों में परम (राजगुह्य), अत्यन्त पवित्र, उत्तम, प्रत्यक्ष अनुभव द्वारा जाना जाने वाला, धर्मसंगत, अभ्यास में अत्यन्त सुखकर और अविनाशी है।",
+                "explanation": "छह विशेषणों से इस ज्ञान की महिमा — (१) 'राजविद्या' = विद्याओं का राजा, जैसे राजा सबका स्वामी होता है। (२) 'राजगुह्यम्' = रहस्यों में सर्वोच्च। (३) 'पवित्रम्' = मन को शुद्ध करने वाला। (४) 'प्रत्यक्षावगमम्' = केवल शास्त्र से नहीं, साक्षात अनुभव से जानने योग्य — यह अनुमान की नहीं, दर्शन की बात है। (५) 'सुसुखं कर्तुम्' = इसका अभ्यास अत्यन्त सुगम है — भक्ति किसी विशेष योग्यता की माँग नहीं करती। (६) 'अव्ययम्' = एक बार जान लिया तो यह ज्ञान नष्ट नहीं होता। यह अध्याय का शीर्षक-श्लोक भी है।"
+            },
+            "english": {
+                "translation": "This is the sovereign knowledge, the sovereign secret, the supreme purifier; directly perceptible, in accordance with dharma, very easy to practice, and imperishable.",
+                "explanation": "Six majestic qualities define this teaching: (1) 'Rājavidyā' — king among all sciences, the master-knowledge that illuminates all else; (2) 'Rājaguhyam' — the king of all secrets, not withheld but simply beyond the reach of the unready; (3) 'Pavitram' — supremely purifying, cleansing the mind of all ignorance-stains; (4) 'Pratyakṣāvagamam' — directly perceivable through one's own experience, not merely inferred or accepted on authority; (5) 'Susukhaṃ kartum' — delightfully easy to practice, for devotion requires no special caste, scholarship, or austerity; (6) 'Avyayam' — imperishable, what is once realized cannot be lost. This verse also gives the chapter its title and sets the tone: the teaching that follows is at once the highest and the most accessible."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 3,
+            "global_verse_id": 341,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप ।\nअप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि ॥ ३ ॥",
+                "iast": "aśraddadhānāḥ puruṣā dharmasyāsya parantapa |\naprāpya māṃ nivartante mṛtyusaṃsāravartmani ||3||"
+            },
+            "hindi": {
+                "devanagari": "हे परन्तप! इस धर्म में श्रद्धा न रखने वाले पुरुष मुझे न प्राप्त होकर, मृत्यु-संसार के मार्ग पर ही लौट जाते हैं।",
+                "hinglish": "He Parantap! Is dharm mein shraddha na rakhne wale purush mujhe na prapt hokar, mrityu-sansaar ke marg par hi laut jaate hain.",
+                "translation": "हे परन्तप! इस धर्म (भक्ति-मार्ग) में जिन पुरुषों की श्रद्धा नहीं है, वे मुझे प्राप्त न करके मृत्यु और संसार के चक्र में ही लौट जाते हैं।",
+                "explanation": "'अश्रद्दधानाः' — श्रद्धाहीन। श्रद्धा यहाँ केवल विश्वास नहीं, वह आन्तरिक ग्रहणशीलता है जो सत्य को आत्मसात् करने देती है। बिना श्रद्धा के ज्ञान केवल बौद्धिक खेल रहता है। 'मृत्युसंसारवर्त्मनि' = जन्म-मृत्यु के चक्र में। पिछले दो श्लोकों में इस ज्ञान की महिमा बताई, अब कहते हैं कि अयोग्य (श्रद्धाहीन) मनुष्य इससे वंचित रहकर संसार में ही घूमता रहता है। यह भय या दण्ड नहीं, प्रकृति का नियम है — जो ग्रहण नहीं करता, उसे नहीं मिलता।"
+            },
+            "english": {
+                "translation": "O scorcher of foes, those persons who have no faith in this dharma, not attaining Me, return to the path of death and rebirth.",
+                "explanation": "'Aśraddadhānāḥ' — those without śraddhā. Śraddhā here is not mere intellectual belief but the receptive orientation of the heart that allows truth to penetrate and transform. Without this inner openness, even the highest teaching remains merely decorative knowledge. 'Mṛtyu-saṃsāra-vartmani' — the path of death and worldly cycling. Having extolled this teaching in verses 1–2, Krishna now shows the consequence of rejecting it: not punishment, but the natural continuation of ignorance. Those who do not receive cannot receive — this is not condemnation but cosmic logic. The word 'nivartante' (they return) implies they had a chance but chose to turn back."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 4,
+            "global_verse_id": 342,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना ।\nमत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः ॥ ४ ॥",
+                "iast": "mayā tatam idaṃ sarvaṃ jagad avyaktamūrtinā |\nmatsthāni sarvabhūtāni na cāhaṃ teṣv avasthitaḥ ||4||"
+            },
+            "hindi": {
+                "devanagari": "मेरे अव्यक्त स्वरूप से यह सम्पूर्ण जगत् व्याप्त है। सब प्राणी मुझमें स्थित हैं, परन्तु मैं उनमें नहीं हूँ।",
+                "hinglish": "Mere avyakt swaroop se yeh sampurna jagat vyaapt hai. Sab praani mujhme sthit hain, parantu main unme nahin hun.",
+                "translation": "मेरे अव्यक्त स्वरूप से यह सम्पूर्ण जगत् व्याप्त है। सभी प्राणी मुझमें स्थित हैं, परन्तु मैं उनमें स्थित नहीं हूँ।",
+                "explanation": "यह वेदान्त का सर्वाधिक गहन विरोधाभास है — 'मत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः'। सब कुछ ईश्वर में है, फिर भी ईश्वर किसी में नहीं। 'अव्यक्तमूर्तिना' — कृष्ण की देह प्रकट है, परन्तु उनका वास्तविक स्वरूप अव्यक्त, निराकार, सर्वव्यापी है। जैसे आकाश सब घड़ों में है, पर घड़े आकाश को सीमित नहीं कर सकते — वैसे ही सब प्राणी ईश्वर में हैं, पर ईश्वर उनमें बद्ध नहीं। यह 'immanence' (अन्तर्व्याप्ति) और 'transcendence' (परापरता) का एक साथ निरूपण है।"
+            },
+            "english": {
+                "translation": "By Me, in My unmanifest form, this entire universe is pervaded. All beings exist in Me, yet I am not contained within them.",
+                "explanation": "This verse states one of the most profound paradoxes in all philosophy: 'All beings are in Me, yet I am not in them.' 'Avyakta-mūrtinā' — by My unmanifest aspect, my formless, all-pervading nature (not the form of Krishna standing before Arjuna, but the infinite Consciousness underlying it). The paradox is not a contradiction but a pointer beyond ordinary spatial logic: just as all waves are in the ocean but the ocean is not in any individual wave, all existence is contained within the Infinite, yet the Infinite is not limited by or contained within any finite thing. This is the simultaneous teaching of divine immanence (God within all) and divine transcendence (God beyond all)."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 5,
+            "global_verse_id": 343,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "न च मत्स्थानि भूतानि पश्य मे योगमैश्वरम् ।\nभूतभृन्न च भूतस्थो ममात्मा भूतभावनः ॥ ५ ॥",
+                "iast": "na ca matsthāni bhūtāni paśya me yogam aiśvaram |\nbhūtabhṛn na ca bhūtastho mamātmā bhūtabhāvanaḥ ||5||"
+            },
+            "hindi": {
+                "devanagari": "और सच पूछो तो प्राणी मुझमें भी नहीं हैं — मेरे ईश्वरीय योग को देखो! मेरा आत्मा प्राणियों को उत्पन्न और धारण करता है, फिर भी प्राणियों में नहीं है।",
+                "hinglish": "Aur sach puchho to praani mujhme bhi nahin hain — mere Ishwariya yog ko dekho! Mera Atma praaniyon ko utpann aur dharan karta hai, phir bhi praaniyon mein nahin hai.",
+                "translation": "और वास्तव में प्राणी मुझमें भी नहीं हैं — मेरे ईश्वरीय योग (शक्ति) को देखो। मेरा आत्मा प्राणियों को धारण और उत्पन्न करता है, फिर भी प्राणियों में स्थित नहीं है।",
+                "explanation": "पिछले श्लोक में कहा — प्राणी मुझमें हैं। अब यहाँ पूरा करते हैं — 'न च मत्स्थानि भूतानि' — वास्तव में प्राणी मुझमें भी नहीं! यह विरोधाभास जानबूझकर है। दोनों कथन एक साथ सत्य हैं क्योंकि 'होना' (existence) और 'सीमित होना' (containment) अलग हैं। 'भूतभृत्' = सबको धारण करने वाला; 'भूतस्थः' = प्राणियों में सीमित। 'भूतभावनः' = प्राणियों को जन्म देने वाला। ईश्वर का 'योगमैश्वरम्' — उनकी दिव्य शक्ति इस विरोधाभास को सम्भव बनाती है। यह तर्क से नहीं, अनुभव से जानने की बात है।"
+            },
+            "english": {
+                "translation": "Nor do beings rest in Me — behold My divine mystery (yoga)! My Self, which brings forth and sustains all beings, does not dwell within them.",
+                "explanation": "Having said in verse 4 that all beings rest in Me, Krishna now adds the complement: 'nor do they rest in Me' — and calls this apparent contradiction his divine yoga (aiśvara yoga), his sovereign mystery. This is not logical inconsistency but a pointer to the nature of infinite Consciousness, which transcends the categories of 'in' and 'out.' 'Bhūtabhṛt' — the sustainer of all; 'bhūtabhāvanaḥ' — the originator of all; 'na bhūtasthaḥ' — yet not located within any being as a part within a whole. The Infinite contains the finite without being reduced to it; it sustains without being modified. This is the essence of the non-dual teaching: Brahman alone is, appearing as all, yet remaining unaltered."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 6,
+            "global_verse_id": 344,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यथाकाशस्थितो नित्यं वायुः सर्वत्रगो महान् ।\nतथा सर्वाणि भूतानि मत्स्थानीत्युपधारय ॥ ६ ॥",
+                "iast": "yathākāśasthito nityaṃ vāyuḥ sarvatrago mahān |\ntathā sarvāṇi bhūtāni matsthānīty upadhāraya ||6||"
+            },
+            "hindi": {
+                "devanagari": "जैसे सर्वत्र विचरण करने वाला महान् वायु सदा आकाश में ही स्थित रहता है, उसी प्रकार सभी प्राणी मुझमें ही स्थित हैं — ऐसा जानो।",
+                "hinglish": "Jaise sarvatra vicharan karne wala mahan Vayu sada Akash mein hi sthit rehta hai, usi prakar sabhi praani mujhme hi sthit hain — aisa jano.",
+                "translation": "जिस प्रकार सर्वत्र विचरण करने वाला महान् वायु नित्य आकाश में ही स्थित रहता है, उसी प्रकार समस्त प्राणी मुझमें स्थित हैं — ऐसा समझो।",
+                "explanation": "पिछले दो श्लोकों के विरोधाभास को समझाने के लिए कृष्ण एक अद्भुत दृष्टान्त देते हैं — वायु और आकाश का। वायु सदा आकाश में है — आकाश वायु को धारण करता है — फिर भी आकाश, वायु से अप्रभावित रहता है। वायु आकाश को छू सकती है, पर सीमित नहीं कर सकती। 'सर्वत्रगो महान्' = सर्वव्यापी, महान् — वायु कितनी भी शक्तिशाली हो, आकाश से बड़ी नहीं। इसी प्रकार, समस्त सृष्टि ईश्वर में है, पर ईश्वर को छाँट नहीं सकती। यह उपमा साधक के लिए ध्यान का विषय भी है।"
+            },
+            "english": {
+                "translation": "Just as the mighty wind, moving everywhere, eternally abides in space (ākāśa), so understand that all beings abide in Me.",
+                "explanation": "To resolve the apparent paradox of verses 4–5, Krishna offers a luminous analogy: wind and space. The great wind (vāyu) — powerful, all-moving, vast — is always within space (ākāśa). Space holds the wind, sustains it, is its ground. Yet the wind does not affect space; space is not altered, compressed, or moved by the wind's force. 'Sarvatragaḥ mahān' — however mighty and pervasive the wind, it remains smaller than space. Similarly, all creation, however vast and dynamic, exists within the Infinite Consciousness — moves within it, is sustained by it — without diminishing or modifying it in the slightest. This analogy is not only philosophical explanation; in Vedantic meditation, space (ākāśa) is traditionally used as a symbol and gateway to realize Brahman."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 7,
+            "global_verse_id": 345,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम् ।\nकल्पक्षये पुनस्तानि कल्पादौ विसृजाम्यहम् ॥ ७ ॥",
+                "iast": "sarvabhūtāni kaunteya prakṛtiṃ yānti māmikām |\nkalpakṣaye punas tāni kalpādau visṛjāmy aham ||7||"
+            },
+            "hindi": {
+                "devanagari": "हे कौन्तेय! कल्प के अन्त में समस्त प्राणी मेरी प्रकृति को प्राप्त होते हैं और कल्प के आदि में मैं उन्हें पुनः रचता हूँ।",
+                "hinglish": "He Kaunteya! Kalp ke ant mein samast praani meri prakriti ko prapt hote hain aur kalp ke aadi mein main unhe punah rachta hun.",
+                "translation": "हे कौन्तेय! कल्प के अन्त में सभी प्राणी मेरी प्रकृति में लीन हो जाते हैं और कल्प के आरम्भ में मैं उन्हें पुनः सृजित करता हूँ।",
+                "explanation": "'कल्प' = ब्रह्मा का एक दिन, जो ४.३२ अरब वर्षों के बराबर है। 'कल्पक्षये' = कल्प के अन्त में — प्रलय के समय। 'मामिकाम् प्रकृतिम्' = मेरी अपनी प्रकृति में — यहाँ प्रकृति का अर्थ ईश्वर की मूल शक्ति, न स्वतन्त्र तत्त्व। सब कुछ अव्यक्त में लीन होकर 'सोता' है, फिर कल्पारम्भ में पुनः प्रकट होता है। यह ब्रह्माण्डीय श्वास-क्रम है — सृष्टि और प्रलय। इससे यह भी स्पष्ट होता है कि ईश्वर ही एकमात्र कारण है, जीव मात्र प्रकट और अप्रकट होते हैं।"
+            },
+            "english": {
+                "translation": "O son of Kunti, all beings merge into My nature at the end of a kalpa (cosmic cycle), and at the beginning of the next kalpa, I send them forth again.",
+                "explanation": "A kalpa is one day of Brahmā, approximately 4.32 billion years — vast cosmic time cycles that dwarf all human conceptions of history. At the end of each kalpa, there is mahā-pralaya (great dissolution): all beings return to their unmanifest state within Krishna's own nature (māmikāṃ prakṛtim), not annihilated but dormant like seeds. At the dawn of the next cycle, creation begins again. This is the cosmic rhythm — the universe breathing in and out. 'Visṛjāmi aham' — 'I project them forth' — establishes that Krishna/Brahman is the sole ultimate cause of all creation, not a secondary creator. Beings do not truly cease to exist; they rest in their source and are re-expressed."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 8,
+            "global_verse_id": 346,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "प्रकृतिं स्वामवष्टभ्य विसृजामि पुनः पुनः ।\nभूतग्राममिमं कृत्स्नमवशं प्रकृतेर्वशात् ॥ ८ ॥",
+                "iast": "prakṛtiṃ svām avaṣṭabhya visṛjāmi punaḥ punaḥ |\nbhūtagrāmam imaṃ kṛtsnam avaśaṃ prakṛter vaśāt ||8||"
+            },
+            "hindi": {
+                "devanagari": "अपनी प्रकृति को आश्रय देकर मैं बार-बार इस सम्पूर्ण प्राणि-समूह को, जो प्रकृति के वशीभूत है और इसलिए परतन्त्र है, सृजित करता हूँ।",
+                "hinglish": "Apni prakriti ko aashray dekar main baar-baar is sampurna praani-samuh ko, jo prakriti ke vashibhoot hai aur isliye paratantra hai, srujit karta hun.",
+                "translation": "अपनी प्रकृति को आश्रय बनाकर मैं बार-बार इस समस्त प्राणि-समूह को, जो प्रकृति के अधीन (परतन्त्र) है, सृजित करता हूँ।",
+                "explanation": "'अवष्टभ्य' = अधिष्ठाता बनकर, नियन्त्रण में लेकर। कृष्ण प्रकृति को अपनी शक्ति के रूप में 'धारण' करके सृष्टि की प्रक्रिया चलाते हैं। 'भूतग्राम' = प्राणियों का समूह — सम्पूर्ण चराचर सृष्टि। 'अवशम्' = परतन्त्र, स्वतन्त्र इच्छाशक्ति-रहित — प्रकृति के नियमों के अनुसार जीना अनिवार्य है। 'पुनः पुनः' = बार-बार — यह एक बार की घटना नहीं, अनन्त चक्र है। ईश्वर स्वयं इसमें बँधे नहीं — वे 'अवष्टभ्य' (आधार देकर) करते हैं, स्वयं इसमें नहीं डूबते।"
+            },
+            "english": {
+                "translation": "Presiding over My own nature, I project forth again and again this entire multitude of beings, which are helpless, being subject to the force of nature (prakṛti).",
+                "explanation": "'Avaṣṭabhya' — holding, presiding, acting as the sovereign ground. Krishna does not personally manufacture each being but presides over His prakṛti — His creative power — as its conscious substratum, enabling the creative force to flow. 'Bhūtagrāmam kṛtsnam' — the entire aggregate of beings, the full scope of creation. 'Avaśam prakṛter vaśāt' — helpless under the power of prakṛti: beings do not choose the moment of their birth or their fundamental conditioning — they arise from and are governed by cosmic nature. Yet the key word is 'punaḥ punaḥ' — again and again — this is an eternal process, not a one-time event. Krishna is the conscious witness and ground of the process, not bound by it, as the next verse will clarify."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 9,
+            "global_verse_id": 347,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "न च मां तानि कर्माणि निबध्नन्ति धनञ्जय ।\nउदासीनवदासीनमसक्तं तेषु कर्मसु ॥ ९ ॥",
+                "iast": "na ca māṃ tāni karmāṇi nibadhnanti dhanañjaya |\nudāsīnavad āsīnam asaktaṃ teṣu karmasu ||9||"
+            },
+            "hindi": {
+                "devanagari": "हे धनञ्जय! वे कर्म मुझे नहीं बाँधते, क्योंकि मैं उन कर्मों में उदासीन की भाँति आसक्ति-रहित हूँ।",
+                "hinglish": "He Dhananjay! Woh karm mujhe nahin baandhte, kyunki main un karmon mein udaaseen ki bhaanti asakti-rahit hun.",
+                "translation": "हे धनञ्जय! वे कर्म मुझे नहीं बाँधते, क्योंकि मैं उन कर्मों में उदासीन जैसा (अर्थात् आसक्ति-रहित) बैठा रहता हूँ।",
+                "explanation": "'निबध्नन्ति' = बाँधते नहीं — सृष्टि और प्रलय जैसे महाकर्म भी कृष्ण को कर्म-बन्धन में नहीं डालते। 'उदासीनवत्' = उदासीन की भाँति — एकदम तटस्थ, जैसे कोई दर्शक। यह 'उदासीन' = indifference नहीं, बल्कि कर्म में रहते हुए भी उसके फल में अनासक्त रहना है। यही 'नैष्कर्म्य' का रहस्य है — कर्म करो पर बाँधने मत दो। कृष्ण स्वयं आदर्श 'कर्मयोगी' हैं — सम्पूर्ण सृष्टि चलाते हैं, फिर भी अलिप्त। यह अर्जुन के लिए शिक्षा भी है — तुम भी युद्ध करते हुए अलिप्त रहो।"
+            },
+            "english": {
+                "translation": "And these actions do not bind Me, O Dhanañjaya, for I remain seated as one indifferent (udāsīnavat), unattached to those actions.",
+                "explanation": "The cosmic acts of creation and dissolution — described in verses 7–8 as recurring endlessly — generate no karmic bondage for Krishna. 'Udāsīnavat' is a precise and important word: it does not mean 'indifferent' in the sense of uncaring, but rather 'seated above' the action, like a witness who is present but uninvested in the outcomes. 'Asaktam' — utterly unattached. This is the living demonstration of karma yoga's deepest principle: action performed without ego-identification and desire for fruit leaves no karmic residue. Krishna is the cosmic exemplar of this. Arjuna is being told, implicitly: fight as I create — fully, without personal attachment to result, and no bondage will follow."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 10,
+            "global_verse_id": 348,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "मयाध्यक्षेण प्रकृतिः सूयते सचराचरम् ।\nहेतुनानेन कौन्तेय जगद्विपरिवर्तते ॥ १० ॥",
+                "iast": "mayādhyakṣeṇa prakṛtiḥ sūyate sacarācaram |\nhetunānena kaunteya jagad viparivartate ||10||"
+            },
+            "hindi": {
+                "devanagari": "हे कौन्तेय! मेरी अध्यक्षता में प्रकृति चराचर सहित सम्पूर्ण जगत् को उत्पन्न करती है। इसी कारण से यह जगत् परिवर्तित होता रहता है।",
+                "hinglish": "He Kaunteya! Meri adhyakshata mein Prakriti charachar sahit sampurna jagat ko utpann karti hai. Isi kaaran se yeh jagat parivartit hota rehta hai.",
+                "translation": "हे कौन्तेय! मेरी अध्यक्षता (निगरानी) में प्रकृति चर और अचर सहित सम्पूर्ण जगत् को प्रकट करती है। इसी हेतु से यह संसार परिवर्तित होता रहता है।",
+                "explanation": "'मयाध्यक्षेण' = मेरी अध्यक्षता में — अधिष्ठाता-चेतना के रूप में। प्रकृति स्वयं सक्रिय है, परन्तु उसकी शक्ति का स्रोत ईश्वर-चेतना है। जैसे सूर्य की उपस्थिति मात्र से पृथ्वी पर जीवन चलता है — सूर्य कुछ 'करता' नहीं, पर उसकी उपस्थिति अनिवार्य है। 'सचराचरम्' = चर (गतिशील) और अचर (स्थावर) — पूरी सृष्टि। 'हेतुनानेन' = इसी कारण से — अर्थात् ईश्वर की अध्यक्षता ही सृष्टि के परिवर्तन का मूल कारण है। यह श्लोक Vedanta की 'निमित्त कारण' (efficient cause) की अवधारणा को स्पष्ट करता है।"
+            },
+            "english": {
+                "translation": "Under My superintendence, O Kaunteya, Nature (prakṛti) brings forth the moving and the unmoving. By this reason the world revolves (is constantly in flux).",
+                "explanation": "'Mayādhyakṣeṇa' — under My oversight, with Me as the supreme witness-superintendent. Prakṛti has its own laws, forces, and processes; yet it is not autonomous. Just as sunlight enables all activity on earth without the sun 'doing' anything directly — its mere presence is the enabling cause — so Krishna's Consciousness is the ultimate enabling ground of all that prakṛti does. 'Sacarācaram' — all moving (mobile life: animals, humans, wind, water) and non-moving (immobile: mountains, rocks, earth) creation. 'Viparivartate' — is constantly in motion, revolving through its cycles. This verse establishes Krishna as the nimittakāraṇa (efficient cause) of the universe, while prakṛti is the upādāna-kāraṇa (material cause)."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 11,
+            "global_verse_id": 349,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम् ।\nपरं भावमजानन्तो मम भूतमहेश्वरम् ॥ ११ ॥",
+                "iast": "avajānanti māṃ mūḍhā mānuṣīṃ tanum āśritam |\nparaṃ bhāvam ajānanto mama bhūtamaheśvaram ||11||"
+            },
+            "hindi": {
+                "devanagari": "मूढ़ लोग मनुष्य-शरीर धारण किए हुए मुझे तुच्छ समझते हैं, क्योंकि वे मेरे उस परम स्वरूप को नहीं जानते जो सम्पूर्ण प्राणियों का महान् ईश्वर है।",
+                "hinglish": "Moodh log manushya-sharir dhaaran kiye hue mujhe tuchchha samajhte hain, kyunki woh mere us param swaroop ko nahin jaante jo sampurna praaniyon ka mahan Ishwar hai.",
+                "translation": "मूढ़ लोग मनुष्य-देह आश्रित मुझे तुच्छ मानते हैं क्योंकि वे प्राणियों के महान् ईश्वर, मेरे परम स्वरूप को नहीं जानते।",
+                "explanation": "'अवजानन्ति' = अवमानना करते हैं, तुच्छ समझते हैं। 'मूढाः' = अज्ञानी, भ्रमित। जो लोग श्रीकृष्ण को केवल एक मानव — यशोदा का पुत्र, गोपाल, रथचालक — मानते हैं और उनके दिव्य स्वरूप से अनभिज्ञ हैं, वे सबसे बड़ी भूल करते हैं। 'मानुषीं तनुम्' = मनुष्य-शरीर — यह देह लेना कृष्ण की सीमा नहीं, उनकी लीला है। 'परं भावम्' = परम तत्त्व, जो सम्पूर्ण ब्रह्माण्ड का अधिपति है। यह श्लोक 'अवतार-तत्त्व' की व्याख्या भी करता है — अवतार में देह सीमित दिखती है, पर सत्ता अनन्त रहती है।"
+            },
+            "english": {
+                "translation": "Fools disregard Me when I dwell in a human form, not knowing My higher nature as the great Lord of all beings.",
+                "explanation": "'Avajānanti' — they look down upon, disregard, dismiss. 'Mūḍhāḥ' — those whose intellect is clouded by ignorance and the veil of the apparent. When Krishna stood before Arjuna as a charioteer-king, many saw a man. The profound error: they saw the form and missed the formless. 'Mānuṣīṃ tanum āśritam' — taking a human form as His vehicle. Taking a body is not a limitation on Krishna's infinite nature but a compassionate self-revelation. 'Paraṃ bhāvam ajānantaḥ' — not knowing His supreme nature as the mahā-īśvara, the great sovereign of all existence. This verse addresses the universal human tendency to limit the Infinite to what can be physically perceived — to see the finger pointing at the moon but miss the moon entirely."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 12,
+            "global_verse_id": 350,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "मोघाशा मोघकर्माणो मोघज्ञाना विचेतसः ।\nराक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः ॥ १२ ॥",
+                "iast": "moghāśā moghakarmāṇo moghajñānā vicetasaḥ |\nrākṣasīm āsurīṃ caiva prakṛtiṃ mohinīṃ śritāḥ ||12||"
+            },
+            "hindi": {
+                "devanagari": "वे व्यर्थ आशाओं वाले, व्यर्थ कर्मों वाले, व्यर्थ ज्ञान वाले विक्षिप्तचित्त लोग, मोहिनी — राक्षसी और आसुरी प्रकृति को प्राप्त हो जाते हैं।",
+                "hinglish": "Woh vyarth aashaon wale, vyarth karmon wale, vyarth gyaan wale vikshipta-chitt log, mohini — Rakshasee aur Asuree prakriti ko prapt ho jaate hain.",
+                "translation": "ऐसे विक्षिप्त-चित्त लोग — जिनकी आशाएँ व्यर्थ हैं, कर्म व्यर्थ हैं और ज्ञान व्यर्थ है — वे मोहिनी राक्षसी और आसुरी प्रकृति को प्राप्त होते हैं।",
+                "explanation": "पिछले श्लोक के 'मूढ़' का परिणाम अब बताया जा रहा है। तीन 'मोघ' (व्यर्थ): (१) 'मोघाशाः' = उनकी इच्छाएँ व्यर्थ हैं क्योंकि बिना ईश्वर-ज्ञान के जो भी प्राप्त हो, अन्ततः छिन जाता है। (२) 'मोघकर्माणः' = उनके कर्म व्यर्थ हैं — ईश्वर-समर्पण के बिना कर्म बन्धन बनाते हैं। (३) 'मोघज्ञानाः' = उनका ज्ञान भी व्यर्थ — जो चेतना के स्रोत को ही नहीं जानता, उसका ज्ञान अधूरा है। 'राक्षसी-आसुरी प्रकृति' = वह स्वभाव जो अहंकार, हिंसा, स्वार्थ, और ईश्वर-विमुखता पर टिका हो।"
+            },
+            "english": {
+                "translation": "Those of bewildered mind take refuge in the deluding nature of demons and fiends — their hopes are vain, their actions vain, their knowledge vain.",
+                "explanation": "The consequence of the error described in verse 11 is now elaborated: three kinds of futility that plague those who deny the divine. 'Moghāśāḥ' — their hopes are vain: without the Divine as the ultimate ground, every aspiration eventually crumbles, for all finite achievements perish. 'Moghakarmāṇaḥ' — their actions are vain: karma performed without awareness of the Infinite perpetuates bondage rather than liberation. 'Moghajñānāḥ' — their knowledge is vain: learning divorced from wisdom about the source of Consciousness is ultimately hollow. 'Rākṣasīm āsurīṃ prakṛtim' — the deluding nature characteristic of rākṣasas and asuras: defined by ego, violence, denial of God, and excessive self-centeredness. This is not a permanent damnation but a description of a quality of being that perpetuates suffering."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 13,
+            "global_verse_id": 351,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "महात्मानस्तु मां पार्थ दैवीं प्रकृतिमाश्रिताः ।\nभजन्त्यनन्यमनसो ज्ञात्वा भूतादिमव्ययम् ॥ १३ ॥",
+                "iast": "mahātmānas tu māṃ pārtha daivīṃ prakṛtim āśritāḥ |\nbhajanti ananyamanaso jñātvā bhūtādim avyayam ||13||"
+            },
+            "hindi": {
+                "devanagari": "परन्तु हे पार्थ! दैवी प्रकृति के आश्रित महात्मा लोग मुझे सम्पूर्ण प्राणियों का अविनाशी आदि-कारण जानकर, अनन्य मन से मेरा भजन करते हैं।",
+                "hinglish": "Parantu He Parth! Daivi prakriti ke aashrit mahaatma log mujhe sampurna praaniyon ka avinaashi aadi-kaaran jaankar, ananya man se mera bhajan karte hain.",
+                "translation": "परन्तु हे पार्थ! दैवी प्रकृति के आश्रित महात्मा, मुझे सब प्राणियों का अविनाशी आदि-स्रोत जानकर, अनन्य मन से मेरा भजन करते हैं।",
+                "explanation": "पिछले श्लोक के विपरीत अब 'महात्माओं' का वर्णन। 'महात्मा' = महान् आत्मा — वे जिनकी आत्मा विकसित है। 'दैवीं प्रकृतिम्' = दिव्य स्वभाव — सत्त्वगुण प्रधान, ईश्वरोन्मुखी चित्त। 'भूतादिम्' = सम्पूर्ण प्राणियों का आदि-कारण — इस ज्ञान के साथ भजन करते हैं, केवल भावनात्मक भक्ति नहीं। 'अनन्यमनसः' = अनन्य मन से — जिनका मन किसी और में नहीं भटकता। यह अनन्य भक्ति का प्रथम उल्लेख यहाँ है। भक्ति का स्तर: जानना + अनन्यता = महात्मा की भक्ति।"
+            },
+            "english": {
+                "translation": "But O Pārtha, great souls (mahātmās), sheltered in the divine nature, worship Me with undivided mind, knowing Me as the imperishable origin of all beings.",
+                "explanation": "'Mahātmānas' — great souls, those whose inner nature has expanded beyond ego-contraction into a vast, inclusive consciousness. 'Daivīṃ prakṛtim āśritāḥ' — sheltered in the divine nature: sāttvika, truth-oriented, God-facing. In contrast to the asuric nature of verse 12 (which turns away from the Divine), the mahātmā's nature naturally moves toward the Source. 'Jñātvā bhūtādim avyayam' — knowing Me as the imperishable, original cause of all beings: their devotion is not blind but rooted in understanding. 'Ananyamanasaḥ' — with undivided mind, without the mind splitting its attention between the Divine and countless worldly desires. This first explicit mention of ananya (undivided) bhakti establishes the gold standard of devotion in the Gita."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 14,
+            "global_verse_id": 352,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "सततं कीर्तयन्तो मां यतन्तश्च दृढव्रताः ।\nनमस्यन्तश्च मां भक्त्या नित्ययुक्ता उपासते ॥ १४ ॥",
+                "iast": "satataṃ kīrtayanto māṃ yatantaś ca dṛḍhavratāḥ |\nnamasyantaś ca māṃ bhaktyā nityayuktā upāsate ||14||"
+            },
+            "hindi": {
+                "devanagari": "सदा मेरा कीर्तन करते हुए, दृढ़ व्रत वाले और प्रयत्नशील रहकर, तथा भक्तिपूर्वक मुझे नमस्कार करते हुए — वे नित्ययुक्त होकर मेरी उपासना करते हैं।",
+                "hinglish": "Sada mera keertan karte hue, dridh vrat wale aur prayatnasheel rahkar, tatha bhaktipoorvak mujhe namaskar karte hue — woh nitya-yukt hokar meri upasana karte hain.",
+                "translation": "वे सदा मेरा कीर्तन करते हुए, दृढ़ संकल्पवाले एवं प्रयत्नशील रहकर, तथा भक्तिभाव से मुझे प्रणाम करते हुए, नित्ययुक्त होकर मेरी उपासना करते हैं।",
+                "explanation": "महात्माओं की भक्ति के चार व्यावहारिक रूप यहाँ बताए गए हैं: (१) 'सततं कीर्तयन्तः' = निरन्तर कीर्तन — मुख से, मन में, जीवन में। (२) 'यतन्तः दृढव्रताः' = दृढ़ संकल्प के साथ प्रयत्न — साधना में शिथिलता नहीं। (३) 'नमस्यन्तः' = प्रणाम करते हुए — अहं का विसर्जन, ईश्वर के प्रति समर्पण। (४) 'नित्ययुक्ताः' = सदा जुड़े हुए — चौबीसों घंटे ईश्वर-स्मरण। 'भक्त्या उपासते' = भक्ति से उपासना — तकनीकी अनुष्ठान नहीं, हृदय का प्रेम। यह श्लोक नवधा भक्ति में से कीर्तन, वन्दन आदि का संकेत देता है।"
+            },
+            "english": {
+                "translation": "Always singing My glories, striving with firm resolve, bowing before Me with devotion — these ever-steadfast ones worship Me.",
+                "explanation": "This verse describes the practical, lived expression of the mahātmā's devotion in four active forms: (1) 'Satataṃ kīrtayantaḥ' — perpetually singing My glories, not only in formal worship but as the natural overflow of a heart saturated with the Divine; (2) 'Yatantaḥ dṛḍhavratāḥ' — striving with firm, unshaken vows — spiritual effort is not passive, it requires committed, sustained practice; (3) 'Namasyantaḥ' — bowing, prostrating — the physical gesture of surrendering the ego; (4) 'Nityayuktāḥ' — ever-yoked, perpetually connected — the continuity of God-remembrance through all activities. 'Bhaktyā upāsate' — they worship with bhakti: not mechanical ritual but the spontaneous movement of love toward its source. This verse maps onto the navadha-bhakti (ninefold devotion) described in the Bhāgavata Purāṇa."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 15,
+            "global_verse_id": 353,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते ।\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम् ॥ १५ ॥",
+                "iast": "jñānayajñena cāpy anye yajanto mām upāsate |\nekatvena pṛthaktvena bahudhā viśvatomukham ||15||"
+            },
+            "hindi": {
+                "devanagari": "और अन्य लोग ज्ञानयज्ञ द्वारा, एकत्व के भाव से, पृथकत्व के भाव से, अथवा अनेक प्रकार से, विश्वाकार मुझे पूजते हुए उपासना करते हैं।",
+                "hinglish": "Aur anya log gyaan-yagya dwara, ekatva ke bhaav se, prithaktva ke bhaav se, athwa anek prakar se, vishwaakar mujhe poojte hue upaasana karte hain.",
+                "translation": "अन्य लोग ज्ञानयज्ञ द्वारा — एकत्व के भाव से, पृथकत्व के भाव से, अथवा बहु प्रकार से विश्वतोमुख (सर्वमुखी) मेरी उपासना करते हैं।",
+                "explanation": "भक्ति के विविध मार्गों का उदार स्वीकार। 'ज्ञानयज्ञ' = ज्ञान को यज्ञ मानकर — उपनिषद् का अध्ययन, श्रवण, मनन। तीन प्रकार की उपासनाएँ: (१) 'एकत्वेन' = अद्वैत भाव से — 'अहं ब्रह्मास्मि' — मैं और ईश्वर एक हैं। (२) 'पृथक्त्वेन' = द्वैत भाव से — भक्त और ईश्वर अलग हैं, इस भाव से भक्ति। (३) 'बहुधा विश्वतोमुखम्' = अनेक रूपों में सर्वमुखी — विश्व के हर रूप में ईश्वर को देखकर। कृष्ण सभी को स्वीकार करते हैं — यही गीता की उदार सार्वभौमिकता है। पथ अनेक, लक्ष्य एक।"
+            },
+            "english": {
+                "translation": "And others, worshipping through the sacrifice of knowledge (jñāna-yajña), worship Me as the One, as the Distinct, and in many forms facing all directions.",
+                "explanation": "Having described the path of devotional bhakti (verses 13–14), Krishna now acknowledges other valid paths of worship. 'Jñāna-yajñena' — through the sacrifice of knowledge: Vedantic inquiry, scriptural study, direct contemplation. Three modalities: (1) 'Ekatvena' — as the One, the non-dual Absolute: the path of Advaita Vedānta — 'I and Brahman are one'; (2) 'Pṛthaktvena' — as the Distinct, worshipping God as a separate, personal deity: the path of dualistic devotion; (3) 'Bahudhā viśvatomukham' — in many forms, seeing the Divine in all faces of the universe: cosmic vision. The Gita's stunning inclusivity: Krishna accepts all sincere paths as approaches to Himself. The methods differ; the destination is one. This demolishes all spiritual exclusivism."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 16,
+            "global_verse_id": 354,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अहं क्रतुरहं यज्ञः स्वधाहमहमौषधम् ।\nमन्त्रोऽहमहमेवाज्यमहमग्निरहं हुतम् ॥ १६ ॥",
+                "iast": "ahaṃ kratur aham yajñaḥ svadhāham aham auṣadham |\nmantro 'ham aham evājyam aham agnir ahaṃ hutam ||16||"
+            },
+            "hindi": {
+                "devanagari": "मैं ही क्रतु हूँ, मैं ही यज्ञ हूँ, मैं ही स्वधा हूँ, मैं ही औषध हूँ, मैं ही मन्त्र हूँ, मैं ही आज्य (घृत) हूँ, मैं ही अग्नि हूँ और मैं ही हवन-क्रिया हूँ।",
+                "hinglish": "Main hi kratu hun, main hi yagya hun, main hi swadha hun, main hi aushadh hun, main hi mantra hun, main hi aajya (ghrit) hun, main hi agni hun aur main hi havan-kriya hun.",
+                "translation": "मैं ही क्रतु हूँ, मैं ही यज्ञ हूँ, मैं ही स्वधा हूँ, मैं ही औषधि हूँ, मैं ही मन्त्र हूँ, मैं ही घृत (आज्य) हूँ, मैं ही अग्नि हूँ और मैं ही आहुति-क्रिया हूँ।",
+                "explanation": "'अहम्...अहम्...अहम्' की आठ बार आवृत्ति — यह कृष्ण का 'मैं हूँ' घोषणापत्र है। (१) क्रतु = श्रौत (वैदिक) यज्ञ। (२) यज्ञ = स्मार्त यज्ञ। (३) स्वधा = पितरों को दी जाने वाली आहुति। (४) औषध = वनस्पतियाँ। (५) मन्त्र = वेदोक्त पवित्र वाक्य। (६) आज्य = घृत — यज्ञाग्नि का ईंधन। (७) अग्नि = यज्ञाग्नि। (८) हुतम् = हवन-क्रिया। अर्थात् यज्ञ में — कर्ता, साधन, विधि, द्रव्य, क्रिया, फल — सब कुछ ईश्वर ही है। यह वेदिक यज्ञ-परम्परा की पुनर्व्याख्या है — यज्ञ ईश्वर को करने की नहीं, ईश्वर के रूप में देखने की साधना है।"
+            },
+            "english": {
+                "translation": "I am the ritual (kratu), I am the sacrifice (yajña), I am the oblation to ancestors (svadhā), I am the medicinal herb (auṣadha), I am the sacred mantra, I am the clarified butter (ājya), I am the sacred fire, and I am the act of offering.",
+                "explanation": "Eight-fold 'I am' declarations encompassing the entire Vedic sacrificial universe. Kratu: the Śrauta (solemn Vedic rite); yajña: the Smārta (household rite); svadhā: the ancestral oblation; auṣadham: the medicinal plant (food offering); mantra: the sacred word; ājya: the clarified butter fed to fire; agni: the sacred fire itself; hutam: the act of offering. The profound implication: in any Vedic yajña, every component — the performer, the instrument, the offering, the recipient fire, the action, the result — all are the Divine. This dissolves the distinction between worshipper and worshipped. The Infinite is not merely honored in the ritual; the Infinite IS the ritual, in all its parts. This is a complete ontological re-visioning of sacrificial practice."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 17,
+            "global_verse_id": 355,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "पिताहमस्य जगतो माता धाता पितामहः ।\nवेद्यं पवित्रमोङ्कार ऋक्साम यजुरेव च ॥ १७ ॥",
+                "iast": "pitāham asya jagato mātā dhātā pitāmahaḥ |\nvedyaṃ pavitram oṃkāra ṛk sāma yajur eva ca ||17||"
+            },
+            "hindi": {
+                "devanagari": "इस जगत् का पिता, माता, धाता (पोषक) और पितामह (प्रपितामह) मैं ही हूँ। जानने योग्य (ब्रह्म) मैं हूँ, पवित्र करने वाला मैं हूँ, ओंकार मैं हूँ, ऋग्वेद, सामवेद और यजुर्वेद भी मैं ही हूँ।",
+                "hinglish": "Is jagat ka pita, mata, dhata (poshak) aur pitamah (pranitamah) main hi hun. Jaanne yogya (Brahma) main hun, pavitra karne wala main hun, Omkar main hun, Rigveda, Samaveda aur Yajurveda bhi main hi hun.",
+                "translation": "इस जगत् का पिता, माता, पोषक और पितामह मैं हूँ। जानने योग्य (ब्रह्म) मैं हूँ, पवित्र करने वाला मैं हूँ, ओंकार मैं हूँ तथा ऋग्वेद, सामवेद और यजुर्वेद भी मैं हूँ।",
+                "explanation": "'पिताहम्' — पिता: सृष्टि का नियामक। 'माता' — माता: पालन करने वाली शक्ति — प्रकृति के रूप में। 'धाता' = पोषक। 'पितामहः' = प्रपितामह — अतीत की जड़ें भी ईश्वर में। फिर ज्ञान-परम्परा से: 'वेद्यम्' = उपनिषदों का जानने योग्य ब्रह्म। 'पवित्रम्' = वह जो सब कुछ शुद्ध करता है — गंगा, मन्त्र, स्मरण। 'ओंकारः' = प्रणव — ब्रह्म का वाचक। 'ऋक्-साम-यजुः' — तीनों मुख्य वेद। चौथा वेद (अथर्ववेद) अलग से उल्लिखित नहीं — परन्तु सभी वेद-विद्याएँ ईश्वर के ही रूप हैं।"
+            },
+            "english": {
+                "translation": "I am the father of this universe, the mother, the sustainer, the grandsire; I am the knowable (vedyam), the purifier, the syllable Oṃ; and I am the Ṛg, the Sāma, and the Yajur Veda.",
+                "explanation": "The 'I am' declarations continue, now moving from ritual to cosmic parenthood and sacred knowledge: Father — the projecting, ruling principle; Mother — the nourishing, protective, sustaining aspect (manifest as Prakṛti); Dhātā (sustainer) — the one who holds cosmic order; Pitāmahaḥ (grandfather, grandsire) — the ancestral root of all lineages and time. Then the knowledge tradition: 'Vedyam' — that which is to be known, the supreme object of all inquiry, Brahman Itself; 'Pavitram' — the ultimate purifier; 'Oṃkāra' — the primordial sound, the name of Brahman, the Praṇava that contains all speech; 'Ṛk, Sāma, Yajus' — the three principal Vedas. All revealed knowledge, all sacred sound, all family bonds — all rooted in the One."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 18,
+            "global_verse_id": 356,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "गतिर्भर्ता प्रभुः साक्षी निवासः शरणं सुहृत् ।\nप्रभवः प्रलयः स्थानं निधानं बीजमव्ययम् ॥ १८ ॥",
+                "iast": "gatir bhartā prabhuḥ sākṣī nivāsaḥ śaraṇaṃ suhṛt |\nprabhavaḥ pralayaḥ sthānaṃ nidhānaṃ bījam avyayam ||18||"
+            },
+            "hindi": {
+                "devanagari": "मैं ही गति हूँ, भर्ता हूँ, प्रभु हूँ, साक्षी हूँ, निवास हूँ, आश्रय हूँ, सुहृद् हूँ, उत्पत्ति हूँ, प्रलय हूँ, स्थान हूँ, निधान (आश्रय) हूँ और अव्यय बीज हूँ।",
+                "hinglish": "Main hi gati hun, bharta hun, prabhu hun, sakshi hun, niwas hun, aashray hun, suhrid hun, utpatti hun, pralay hun, sthan hun, nidhan (aashray) hun aur avyay beej hun.",
+                "translation": "मैं ही गति (लक्ष्य), भर्ता (पोषक), प्रभु (स्वामी), साक्षी, निवास-स्थान, आश्रय, सुहृद् (हितैषी), उत्पत्ति, प्रलय, आधार, निधान (विश्राम-स्थल) और अव्यय बीज हूँ।",
+                "explanation": "बारह महत्त्वपूर्ण नामों से ईश्वर का सम्पूर्ण वर्णन: (१) 'गतिः' = परम लक्ष्य। (२) 'भर्ता' = पोषक, धारण करने वाला। (३) 'प्रभुः' = स्वामी। (४) 'साक्षी' = शाश्वत द्रष्टा — सब देखता है, बाधित नहीं होता। (५) 'निवासः' = सबके भीतर निवास — आत्मा के रूप में। (६) 'शरणम्' = आश्रय — संकट में सबसे विश्वस्त। (७) 'सुहृत्' = बिना किसी स्वार्थ के मित्र। (८) 'प्रभवः' = उत्पत्ति-स्थान। (९) 'प्रलयः' = विनाश का स्थान। (१०) 'स्थानम्' = मध्यावस्था में आधार। (११) 'निधानम्' = विश्राम-स्थल। (१२) 'बीजम् अव्ययम्' = अविनाशी बीज — सम्पूर्ण सृष्टि का अक्षय मूल।"
+            },
+            "english": {
+                "translation": "I am the goal, the sustainer, the Lord, the witness, the abode, the refuge, the selfless friend; I am origin and dissolution, the foundation, the resting place, and the imperishable seed.",
+                "explanation": "Twelve sovereign attributes in a single verse: (1) Gatiḥ — the supreme Goal toward which all paths lead; (2) Bhartā — the sustainer, the one who nourishes and upholds all life; (3) Prabhuḥ — the sovereign Lord; (4) Sākṣī — the eternal Witness, present within all experience, unmoved, untouched; (5) Nivāsaḥ — the inner abode, the ātman dwelling in every heart; (6) Śaraṇam — the refuge, the ultimate shelter when all else fails; (7) Suhṛt — the disinterested friend, who loves without agenda or condition; (8) Prabhavaḥ — the source of creation; (9) Pralayaḥ — the point of dissolution; (10) Sthānam — the unchanging foundation during manifest existence; (11) Nidhānam — the resting repository; (12) Bījam avyayam — the imperishable seed, the undying creative potential within all. This verse is one of the most complete self-descriptions of Brahman in the entire Gita."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 19,
+            "global_verse_id": 357,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "तपाम्यहमहं वर्षं निगृह्णाम्युत्सृजामि च ।\nअमृतं चैव मृत्युश्च सदसच्चाहमर्जुन ॥ १९ ॥",
+                "iast": "tapāmy aham ahaṃ varṣaṃ nigṛhṇāmy utsṛjāmi ca |\namṛtaṃ caiva mṛtyuś ca sad asac cāham arjuna ||19||"
+            },
+            "hindi": {
+                "devanagari": "हे अर्जुन! मैं ही ताप देता हूँ, वर्षा को रोकता हूँ और बरसाता हूँ। मैं ही अमृत हूँ और मृत्यु भी, सत् भी हूँ और असत् भी।",
+                "hinglish": "He Arjun! Main hi taap deta hun, varsha ko rokta hun aur barsata hun. Main hi amrit hun aur mrityu bhi, sat bhi hun aur asat bhi.",
+                "translation": "हे अर्जुन! मैं ही ताप (गर्मी) देता हूँ, वर्षा को रोकता भी हूँ और बरसाता भी हूँ। मैं ही अमृत हूँ और मृत्यु भी, सत् भी हूँ और असत् भी।",
+                "explanation": "ईश्वर की विरोधी शक्तियों में एकता। सूर्य के रूप में ताप देना, मेघ के रूप में वर्षा रोकना और बरसाना — प्रकृति के दोनों पक्ष एक ही चेतना की अभिव्यक्ति हैं। 'अमृतं च मृत्युश्च' — जीवन और मृत्यु दोनों ईश्वरीय। यह द्वन्द्वों का अतिक्रमण है — अच्छा-बुरा, जन्म-मृत्यु, सत्-असत् — सब कुछ ईश्वर के भीतर। 'सत्-असत्' — व्यक्त (अस्तित्व में) और अव्यक्त (संभावना में) — दोनों ईश्वर। यह Vedanta का 'सर्वम् खल्विदम् ब्रह्म' (सब कुछ ब्रह्म है) का व्यावहारिक स्वरूप है।"
+            },
+            "english": {
+                "translation": "I give heat; I withhold and I send forth the rain; I am immortality and also death; I am both being (sat) and non-being (asat), O Arjuna.",
+                "explanation": "The final verse in the 'I am' sequence unites all apparent opposites within the One. As the sun, Krishna radiates heat; as the controller of atmospheric forces, He withholds and sends rain — the cosmic environmental process is His self-expression. 'Amṛtaṃ ca mṛtyuś ca' — He is immortality (the deathless ātman, mokṣa) and also death (the inevitable dissolution of forms): both the continuation of life and its cessation are divine. 'Sad asac ca' — both being (the manifest, existent world) and non-being (the unmanifest, latent state) are He. This is the scriptural fulfillment of 'Sarvam khalv idaṃ Brahma' — all of this is Brahman. The universe of contradictions resolves into a single, seamless Reality."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 20,
+            "global_verse_id": 358,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "त्रैविद्या मां सोमपाः पूतपापा\nयज्ञैरिष्ट्वा स्वर्गतिं प्रार्थयन्ते ।\nते पुण्यमासाद्य सुरेन्द्रलोक-\nमश्नन्ति दिव्यान्दिवि देवभोगान् ॥ २० ॥",
+                "iast": "traividyā māṃ somapāḥ pūtapāpā\nyajñair iṣṭvā svargatiṃ prārthayante |\nte puṇyam āsādya surendralokam\naśnanti divyān divi devabhogān ||20||"
+            },
+            "hindi": {
+                "devanagari": "तीनों वेदों के ज्ञाता, सोमरस पीने वाले, पाप-मुक्त लोग यज्ञों द्वारा मुझे पूजकर स्वर्ग की प्राप्ति के लिए प्रार्थना करते हैं। वे अपने पुण्य से इन्द्रलोक को प्राप्त होकर वहाँ दिव्य देव-भोगों को भोगते हैं।",
+                "hinglish": "Teenon Vedon ke gyaata, Somras peene wale, paap-mukt log yagyon dwara mujhe poojkar swarg ki praapti ke liye prarthana karte hain. Woh apne punya se Indralok ko prapt hokar wahan divya dev-bhogon ko bhogte hain.",
+                "translation": "तीनों वेदों के ज्ञाता, सोमपान करने वाले, पाप-रहित लोग यज्ञों के द्वारा मेरी पूजा करके स्वर्ग की कामना करते हैं। वे अपने पुण्य से इन्द्रलोक को प्राप्त होकर वहाँ दिव्य देव-भोगों का उपभोग करते हैं।",
+                "explanation": "'त्रैविद्याः' = तीन वेदों (ऋक्, साम, यजुः) के जानकार। ये लोग नियमपूर्वक यज्ञ करते हैं, शुद्ध हैं, परन्तु उनका लक्ष्य स्वर्ग-प्राप्ति है — मोक्ष नहीं। 'सोमपाः' = सोमरस पीने वाले — वैदिक अनुष्ठान में सोमयाग का महत्त्व था। 'सुरेन्द्रलोकम्' = इन्द्रलोक — स्वर्गलोक। यह एक सम्मानजनक मार्ग है — धर्मानुसार यज्ञ, फल स्वर्ग। परन्तु यह मोक्ष नहीं — यह साधना का एक स्तर है। अगले श्लोक में इसकी सीमा स्पष्ट होगी।"
+            },
+            "english": {
+                "translation": "The knowers of the three Vedas, who drink the soma and are purified of sin, worship Me through sacrifices, praying for passage to heaven. They reach the holy realm of Indra and enjoy the divine pleasures of the gods in heaven.",
+                "explanation": "This verse and the next form a teaching pair contrasting conditional devotion with unconditional devotion. 'Traividyāḥ' — masters of the three Vedas (Ṛg, Sāma, Yajus). 'Somapāḥ' — drinkers of soma, participants in the solemn Vedic Somayāga (the ritual centered on the sacred soma plant). 'Pūtapāpāḥ' — purified of sin through ritual observance. These are sincere, learned, disciplined practitioners. They worship correctly — 'yajñair iṣṭvā' — through prescribed sacrifices. Yet their orientation is toward 'svargatim' — passage to heaven, the realm of sensory enjoyment on a divine scale. They reach Indra's realm and enjoy celestial pleasures. This is honored as a valid achievement — but it is not the final destination, as verse 21 will show."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 21,
+            "global_verse_id": 359,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "ते तं भुक्त्वा स्वर्गलोकं विशालं\nक्षीणे पुण्ये मर्त्यलोकं विशन्ति ।\nएवं त्रयीधर्ममनुप्रपन्ना\nगतागतं कामकामा लभन्ते ॥ २१ ॥",
+                "iast": "te taṃ bhuktvā svargalokaṃ viśālaṃ\nkṣīṇe puṇye martyalokaṃ viśanti |\nevaṃ trayīdharmam anuprapannā\ngatāgataṃ kāmakāmā labhante ||21||"
+            },
+            "hindi": {
+                "devanagari": "वे उस विशाल स्वर्गलोक को भोगकर, जब पुण्य क्षीण हो जाता है, तो मृत्युलोक (पृथ्वी) में वापस आ जाते हैं। इस प्रकार तीन वेदों में बताए धर्म का अनुसरण करने वाले, कामना करने वाले लोग आवागमन को प्राप्त होते हैं।",
+                "hinglish": "Woh us vishal Svargalok ko bhogkar, jab punya ksheen ho jaata hai, to Martyalok (prithvi) mein wapas aa jaate hain. Is prakar teen Vedon mein bataye dharm ka anusaran karne wale, kamana karne wale log aavaagaman ko prapt hote hain.",
+                "translation": "उस विशाल स्वर्गलोक का उपभोग करके, जब पुण्य क्षीण हो जाता है, तो वे मृत्युलोक में लौट आते हैं। इस प्रकार तीनों वेदों के धर्म का पालन करने वाले और (स्वर्गादि की) कामना रखने वाले लोग आवागमन (जाना और वापस आना) को ही प्राप्त होते हैं।",
+                "explanation": "स्वर्ग का सत्य — यह अनित्य है। 'क्षीणे पुण्ये' = पुण्य समाप्त होने पर — जैसे बैंक में जमा राशि समाप्त होती है। स्वर्ग का सुख पुण्य-कर्मों का फल है, अनन्त नहीं। जब खाता खाली हुआ, वापसी अनिवार्य। 'गतागतम्' = जाना और आना — यही संसार-चक्र है। 'कामकामाः' = कामनाएँ रखने वाले। यह तीव्र वेदान्तिक सन्देश है: जब तक फल की कामना है — चाहे स्वर्ग भी — तब तक आवागमन बना रहेगा। मुक्ति केवल निष्काम भक्ति और ज्ञान से — जहाँ कोई फल नहीं चाहिए, केवल ईश्वर चाहिए।"
+            },
+            "english": {
+                "translation": "Having enjoyed that vast heavenly world, when their merit is exhausted, they re-enter the mortal world. Thus, following the dharma of the three Vedas, those who desire enjoyment attain only the cycle of coming and going.",
+                "explanation": "The critical limitation of heaven-seeking devotion: it is finite. 'Kṣīṇe puṇye' — when the accumulated merit is depleted, like a bank account running dry. Heaven is not eternal; it is the enjoyment of a reward proportional to accumulated virtue. Once consumed, the soul returns to earth — 'martyalokaṃ viśanti.' 'Gatāgatam' — the going and coming, the endless cycle. 'Kāmakāmāḥ' — those who desire desires, whose inner orientation is toward obtaining outcomes rather than union with the Source. This is the Gita's most honest statement about Vedic ritualism: it is valuable, it is purifying, it leads to elevated experience — but so long as desire drives the practice, liberation is not the result. Only desireless devotion — yearning for God Himself, not His gifts — breaks the cycle permanently."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 22,
+            "global_verse_id": 360,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते ।\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ॥ २२ ॥",
+                "iast": "ananyāś cintayanto māṃ ye janāḥ paryupāsate |\nteṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmy aham ||22||"
+            },
+            "hindi": {
+                "devanagari": "जो अनन्यभाव से मेरा चिन्तन करते हुए मेरी उपासना करते हैं, उन नित्य-युक्त भक्तों का योग-क्षेम मैं स्वयं वहन करता हूँ।",
+                "hinglish": "Jo ananya-bhaav se mera chintan karte hue meri upasana karte hain, un nitya-yukt bhakton ka yog-kshema main swayam vahan karta hun.",
+                "translation": "जो अनन्य भाव से मेरा चिन्तन करते हुए मेरी उपासना करते हैं, उन नित्ययुक्त भक्तों का योग-क्षेम मैं स्वयं वहन करता हूँ।",
+                "explanation": "गीता का सर्वाधिक प्रिय और प्रसिद्ध श्लोकों में से एक — 'योगक्षेमं वहाम्यहम्'। 'अनन्याः' = जो किसी और में नहीं जाते — एकमात्र कृष्ण में आश्रय। 'नित्याभियुक्तानाम्' = सदा ईश्वर से जुड़े रहने वाले। 'योगक्षेम' = योग (जो प्राप्त नहीं है उसे दिलाना) + क्षेम (जो प्राप्त है उसकी रक्षा करना) — अर्थात् ईश्वर स्वयं उनकी प्राप्ति और रक्षा दोनों का भार उठाते हैं। 'वहामि' = वहन करता हूँ — स्वयं, बिना किसी माध्यम के। यह एकमात्र स्थान है जहाँ कृष्ण भक्त की ओर से उत्तरदायित्व लेते हैं। इसीलिए यह श्लोक भक्तों के हृदय का आश्रय-मन्त्र बना।"
+            },
+            "english": {
+                "translation": "For those persons who worship Me with undivided devotion, meditating on My transcendental form — to those ever-steadfast ones I personally carry what they lack and preserve what they have (yoga-kṣemam).",
+                "explanation": "One of the most beloved and consoling verses in all spiritual literature. 'Ananyāḥ' — those of undivided, one-pointed devotion, whose entire being is oriented toward the Divine alone. 'Nityābhiyuktānām' — those perpetually yoked to the Divine, in continuous God-remembrance. 'Yogakṣemaṃ vahāmy aham' — 'I personally bear their yoga and kṣema.' Yoga = securing what they have not yet obtained; kṣema = protecting what they already have. This is Krishna's personal guarantee: the devotee who is totally surrendered need not strategize for their security or advancement — the Divine Itself becomes their providential guardian. 'Vahāmi' — I carry: not delegate, not enable — personally carry. This verse has been treasured for millennia as the scriptural foundation of trust in divine grace."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 23,
+            "global_verse_id": 361,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "येऽप्यन्यदेवताभक्ता यजन्ते श्रद्धयान्विताः ।\nतेऽपि मामेव कौन्तेय यजन्त्यविधिपूर्वकम् ॥ २३ ॥",
+                "iast": "ye 'py anyadevatābhaktā yajante śraddhayānvitāḥ |\nte 'pi mām eva kaunteya yajanty avidhipūrvakam ||23||"
+            },
+            "hindi": {
+                "devanagari": "हे कौन्तेय! जो भक्त श्रद्धा से युक्त होकर अन्य देवताओं की पूजा करते हैं, वे भी वास्तव में मेरी ही पूजा करते हैं — परन्तु विधि-विरुद्ध रूप से (अपरिपक्व ज्ञान से)।",
+                "hinglish": "He Kaunteya! Jo bhakt shraddha se yukt hokar anya devtaon ki pooja karte hain, woh bhi vaastav mein meri hi pooja karte hain — parantu vidhi-viruddh roop se (aparipakva gyaan se).",
+                "translation": "हे कौन्तेय! जो श्रद्धायुक्त भक्त अन्य देवताओं की पूजा करते हैं, वे भी वास्तव में मेरी ही पूजा करते हैं — परन्तु अविधिपूर्वक (अशास्त्रीय, अपरिपक्व रूप से)।",
+                "explanation": "'अन्यदेवताभक्ताः' = जो इन्द्र, वरुण, लक्ष्मी, दुर्गा आदि देवताओं की उपासना करते हैं — वे सभी अन्ततः उसी परम शक्ति की उपासना करते हैं जिसकी अभिव्यक्ति ये देव हैं। 'अविधिपूर्वकम्' = अपरिपक्व ज्ञान से, अशास्त्रीय रूप से — यह निन्दा नहीं, बल्कि यह बताना है कि वे अन्तिम सत्य को न जानते हुए भी सत्य की ही उपासना कर रहे हैं। जैसे कोई पिता के घर को पत्र भेजे पर पते में थोड़ी गलती हो — पत्र पहुँचेगा, पर देर से। यह गीता का सर्व-समावेशी दृष्टिकोण है।"
+            },
+            "english": {
+                "translation": "O Kaunteya, even those devotees who, endowed with faith, worship other gods — they too worship Me alone, but in an improper (unregulated) manner.",
+                "explanation": "'Anya-devatābhaktāḥ' — devotees of other divinities: Indra, Varuṇa, Durgā, Lakṣmī, and all manner of divine forms. 'Yajante śraddhayānvitāḥ' — they worship with sincere faith, which is honorable. 'Te 'pi mām eva' — they too worship Me alone — because all divine forms are manifestations or expressions of the One Brahman, the single Consciousness underlying all deities. 'Avidhipūrvakam' — improperly, without complete understanding: not knowing that the ultimate referent of all devotion is the One. This is not condemnation but compassionate acknowledgment: the destination is reached, but the path is indirect and the knowledge incomplete. Like addressing a letter with a slight error — the letter may still arrive. The Gita's universal vision: all sincere devotion reaches the Divine, directly or indirectly."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 24,
+            "global_verse_id": 362,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च ।\nन तु मामभिजानन्ति तत्त्वेनातश्च्यवन्ति ते ॥ २४ ॥",
+                "iast": "ahaṃ hi sarvayajñānāṃ bhoktā ca prabhur eva ca |\nna tu mām abhijānanti tattvenātas cyavanti te ||24||"
+            },
+            "hindi": {
+                "devanagari": "मैं ही सभी यज्ञों का भोक्ता और स्वामी हूँ। परन्तु वे (अन्य देवोपासक) मुझे तत्त्व से नहीं जानते, इसलिए (उनके पुण्य का) पतन होता है।",
+                "hinglish": "Main hi sabhi yagyon ka bhokta aur swami hun. Parantu woh (anya devopasak) mujhe tattva se nahin jaante, isliye (unke punya ka) patan hota hai.",
+                "translation": "मैं ही सब यज्ञों का भोक्ता और स्वामी हूँ। परन्तु वे मुझे तत्त्वतः नहीं जानते, इसीलिए उनका पतन होता है (वे मोक्ष को न पाकर लौट आते हैं)।",
+                "explanation": "'सर्वयज्ञानां भोक्ता' = सब यज्ञों को ग्रहण करने वाला एकमात्र तत्त्व ईश्वर है — देवता माध्यम हैं, भोक्ता नहीं। 'प्रभुः' = स्वामी — सम्पूर्ण यज्ञ-व्यवस्था का अधिष्ठाता। 'तत्त्वेन न अभिजानन्ति' = वे इस सत्य को नहीं जानते कि सभी देव एक ही ईश्वर के रूप हैं। परिणाम: 'च्यवन्ति' = च्युत होते हैं, गिरते हैं — अर्थात् स्वर्ग से वापस लौटते हैं (जैसा 9.21 में बताया)। सही ज्ञान का अभाव — अन्तिम मुक्ति के बजाय आवागमन।"
+            },
+            "english": {
+                "translation": "For I am the only enjoyer and the only Lord of all sacrifices. Those who do not know Me in truth fall down (from their attainment).",
+                "explanation": "'Sarvayajñānāṃ bhoktā' — the sole ultimate receiver of all acts of sacrifice. The devatas (individual deities) may be proximate recipients, channels through whom the offering passes, but the ultimate ground and enjoyer is the single Brahman-Consciousness. 'Prabhuḥ' — the sole sovereign Lord governing the entire sacrificial order. 'Na tu mām abhijānanti tattvena' — they do not know Me in truth: they honor the form but miss the formless ground behind it; they see the river but not the ocean it flows from. 'Atas cyavanti' — therefore they fall: they gain temporary heavenly states but, not being anchored in the Eternal, they eventually return. True knowledge — knowing the One behind all forms — is the difference between temporary elevation and permanent liberation."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 25,
+            "global_verse_id": 363,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यान्ति देवव्रता देवान्पितॄन्यान्ति पितृव्रताः ।\nभूतानि यान्ति भूतेज्या यान्ति मद्याजिनोऽपि माम् ॥ २५ ॥",
+                "iast": "yānti devavratā devān pitṝn yānti pitṛvratāḥ |\nbhūtāni yānti bhūtejyā yānti madyājino 'pi mām ||25||"
+            },
+            "hindi": {
+                "devanagari": "देवताओं को पूजने वाले देवताओं को प्राप्त होते हैं। पितरों को पूजने वाले पितरों को प्राप्त होते हैं। भूतों (प्रेतों/प्रकृति-शक्तियों) को पूजने वाले भूतों को प्राप्त होते हैं। और मेरे भक्त मुझे ही प्राप्त होते हैं।",
+                "hinglish": "Devtaon ko poojne wale devtaon ko prapt hote hain. Pitaron ko poojne wale pitaron ko prapt hote hain. Bhooton ko poojne wale bhooton ko prapt hote hain. Aur mere bhakt mujhe hi prapt hote hain.",
+                "translation": "देवव्रती देवताओं को, पितृव्रती पितरों को, भूत-पूजक भूतों को प्राप्त होते हैं और मेरे भक्त मुझे प्राप्त होते हैं।",
+                "explanation": "एक स्वच्छ और सरल कानून — जो जिसकी उपासना करे, वही उसे प्राप्त होता है। 'देवव्रताः' = देव-उपासक — इन्द्रादि देवलोक। 'पितृव्रताः' = पितृ-उपासक — पितृलोक। 'भूतेज्याः' = भूत-पूजक — उनका साम्राज्य। 'मद्याजिनः' = मेरे भक्त — मुझे। प्रत्येक आत्मा अपनी उपासना का फल पाती है। परन्तु देव, पितर, भूत — सब अनित्य और सीमित हैं। केवल ईश्वर अनन्त हैं, इसलिए मद्याजी ही नित्य और पूर्ण फल प्राप्त करते हैं। साथ ही — मेरी पूजा उतनी ही सरल है — अगले श्लोक में बताएँगे।"
+            },
+            "english": {
+                "translation": "Worshippers of the gods go to the gods; those devoted to ancestors reach the ancestors; those who worship spirits go to the spirits; and those who worship Me come to Me.",
+                "explanation": "A precise cosmological law of spiritual correspondence: the nature of your devotion determines the nature of your destination. 'Devavratāḥ' — vowed to the gods — reach the divine realms; 'pitṛvratāḥ' — devoted to ancestral worship — reach the ancestral worlds; 'bhūtejyāḥ' — worshippers of elemental spirits — reach those planes. 'Madyājinaḥ' — those who sacrifice for Me — reach Me. None of these paths is false or improper in itself; the difference is in the final destination: all worlds other than the Divine are finite — the gods, ancestors, and spirits themselves are bound by time. Only the Infinite is imperishable. The subtle encouragement: come to Me, and you receive what no other destination can offer. And the way to come to Me is revealed in the next verse — simpler than any elaborate ritual."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 26,
+            "global_verse_id": 364,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति ।\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः ॥ २६ ॥",
+                "iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati |\ntad ahaṃ bhaktyupahṛtam aśnāmi prayatātmanaḥ ||26||"
+            },
+            "hindi": {
+                "devanagari": "जो कोई मुझे भक्तिपूर्वक पत्र, पुष्प, फल या जल अर्पण करता है, उस शुद्धात्मा की भक्तिभाव से अर्पित की गई उस भेंट को मैं ग्रहण करता हूँ।",
+                "hinglish": "Jo koi mujhe bhaktipoorvak patra, pushp, phal ya jal arpit karta hai, us shuddhatma ki bhaktibhaav se arpit ki gayi us bhent ko main grahan karta hun.",
+                "translation": "जो कोई भी भक्तिपूर्वक मुझे पत्र, पुष्प, फल या जल अर्पण करता है, उस शुद्धात्मा की भक्ति से अर्पित भेंट को मैं स्वीकार करता हूँ।",
+                "explanation": "गीता का सबसे कोमल और प्रिय श्लोक — 'पत्रं पुष्पं फलं तोयम्'। चार अत्यन्त साधारण वस्तुएँ: पत्ता, फूल, फल, जल। ये सभी प्रकृति में निःशुल्क मिलती हैं — कोई भी निर्धन-से-निर्धन मनुष्य ये अर्पित कर सकता है। ईश्वर को सोना, रत्न, महँगे अनुष्ठान नहीं चाहिए — केवल 'भक्त्या' = भक्ति से अर्पण। 'प्रयतात्मनः' = शुद्ध-हृदय, सरल, ईमानदार। 'अश्नामि' = मैं खाता/ग्रहण करता हूँ — कृष्ण यह मानवीय, सुंदर भाषा में कहते हैं कि भक्ति की भेंट उन्हें वास्तव में प्रसन्न करती है। यह श्लोक भक्ति को लोकतान्त्रिक बनाता है — कोई भी, कहीं भी, किसी भी स्थिति में ईश्वर को प्रसन्न कर सकता है।"
+            },
+            "english": {
+                "translation": "Whoever offers Me with devotion a leaf, a flower, a fruit, or water — that offering of love from the pure-hearted one I accept.",
+                "explanation": "One of the most beloved, tender, and democratizing verses in the Bhagavad Gita. Four of nature's simplest gifts: a leaf, a flower, a fruit, water — available to the poorest person on earth. No gold, no elaborate ritual, no priestly intermediary, no expensive sacrifice. 'Bhaktyā prayacchati' — given with devotion: it is the quality of the inner offering that matters, not its market value. 'Prayatātmanaḥ' — from the pure-hearted: sincerity, cleanness of intention, openness of heart. 'Aśnāmi' — I eat, I accept, I receive: Krishna uses this intimate, personal language — He is moved by the offering of love. This verse is the Gita's declaration that spirituality is not the privilege of the wealthy or the learned. It belongs equally to every sincere human heart, regardless of social position, wealth, or ritual knowledge."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 27,
+            "global_verse_id": 365,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् ।\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ॥ २७ ॥",
+                "iast": "yat karoṣi yad aśnāsi yaj juhoṣi dadāsi yat |\nyat tapasyasi kaunteya tat kuruṣva madarpaṇam ||27||"
+            },
+            "hindi": {
+                "devanagari": "हे कौन्तेय! तू जो कुछ करता है, जो खाता है, जो हवन करता है, जो दान देता है, जो तप करता है — वह सब मुझे ही अर्पण कर।",
+                "hinglish": "He Kaunteya! Tu jo kuch karta hai, jo khata hai, jo havan karta hai, jo daan deta hai, jo tap karta hai — woh sab mujhe hi arpit kar.",
+                "translation": "हे कौन्तेय! तू जो कुछ करे, जो कुछ खाए, जो हवन करे, जो दान दे, जो तपस्या करे — वह सब मुझे अर्पण कर दे।",
+                "explanation": "यह श्लोक सम्पूर्ण कर्मयोग का सार है — 'सब कुछ ईश्वर को समर्पित'। पाँच क्रियाएँ: (१) 'करोषि' = कर्म (दैनिक व्यवहार)। (२) 'अश्नासि' = भोजन (नित्य जीवन)। (३) 'जुहोषि' = यज्ञ/हवन (धार्मिक क्रिया)। (४) 'ददासि' = दान (सेवा)। (५) 'तपस्यसि' = तप (साधना)। इन सभी को 'मदर्पणम्' — मुझे समर्पित करो। जब जीवन की हर क्रिया ईश्वर-अर्पण बन जाए, तो साधक और अनुष्ठान का भेद मिट जाता है। जीवन ही पूजा है, दिन ही यज्ञ है। यह अद्वैत साधना का व्यावहारिक रूप है।"
+            },
+            "english": {
+                "translation": "Whatever you do, whatever you eat, whatever you offer in sacrifice, whatever you give in charity, whatever austerity you practice — O Kaunteya, do that as an offering to Me.",
+                "explanation": "The definitive statement of karma-as-offering: a formula for transforming every moment of life into worship. Five categories encompassing all of human activity: (1) 'Karoṣi' — all actions, all daily work and duty; (2) 'Aśnāsi' — eating, the most ordinary biological necessity; (3) 'Juhoṣi' — ritual offerings, formal spiritual acts; (4) 'Dadāsi' — charitable giving, service to others; (5) 'Tapasyasi' — austerity, disciplined spiritual practice. 'Tat kuruṣva madarpaṇam' — let all of that be an offering to Me. When life itself becomes the offering, the distinction between sacred and secular dissolves. The kitchen becomes a temple, the meal a prasāda, the workplace a field of worship. This is the practical integration that karma yoga aims for — not escape from life, but consecration of life."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 28,
+            "global_verse_id": 366,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "शुभाशुभफलैरेवं मोक्ष्यसे कर्मबन्धनैः ।\nसन्न्यासयोगयुक्तात्मा विमुक्तो मामुपैष्यसि ॥ २८ ॥",
+                "iast": "śubhāśubhaphalair evaṃ mokṣyase karmabandhanaiḥ |\nsannyāsayogayuktātmā vimukto mām upaiṣyasi ||28||"
+            },
+            "hindi": {
+                "devanagari": "इस प्रकार (सब कुछ मुझे अर्पण करने से) तू शुभ-अशुभ फलों वाले कर्म-बन्धनों से मुक्त हो जाएगा। सन्न्यास-योग से युक्त आत्मा होकर, विमुक्त होकर, तू मुझे प्राप्त होगा।",
+                "hinglish": "Is prakar (sab kuch mujhe arpit karne se) tu shubh-ashubh falon wale karm-bandhano se mukt ho jaayega. Sannyaas-yoga se yukt aatma hokar, vimukt hokar, tu mujhe prapt hoga.",
+                "translation": "इस प्रकार सन्न्यास-योग से युक्त आत्मा होकर, तू शुभ और अशुभ फलों वाले कर्म-बन्धनों से मुक्त होकर मुझे प्राप्त होगा।",
+                "explanation": "'एवम्' = इस प्रकार — पिछले श्लोक (9.27) की विधि अपनाने पर। 'शुभाशुभफलैः' = शुभ (पुण्य) और अशुभ (पाप) — दोनों कर्म-फल बन्धन हैं। सोना और लोहे की जंजीर — दोनों जंजीरें हैं। समर्पण से दोनों प्रकार के बन्धन टूटते हैं। 'सन्न्यासयोगयुक्तात्मा' = जिसकी आत्मा सन्न्यास (त्याग) और योग (समर्पण) दोनों से युक्त है। यहाँ 'सन्न्यास' का अर्थ बाह्य गृह-त्याग नहीं, बल्कि फल-त्याग है — आन्तरिक विरक्ति। 'विमुक्तः' = पूर्णतः मुक्त। 'मामुपैष्यसि' = मुझे प्राप्त होगा।"
+            },
+            "english": {
+                "translation": "Thus you shall be liberated from the bondage of actions with their good and evil results. With the spirit disciplined in the yoga of renunciation (sannyāsa-yoga), you shall become free and come to Me.",
+                "explanation": "'Śubhāśubhaphalaḥ' — both good (puṇya) and evil (pāpa) fruits create bondage: golden chains and iron chains are both chains. The offering-surrender described in verse 27 dissolves both. 'Sannyāsa-yoga-yuktātmā' — one whose spirit is united with both sannyāsa (inner renunciation of fruit) and yoga (active dedicated action): not the external renunciation of abandoning home, but the inner renunciation of abandoning personal claim over outcomes. This is the karma-sannyāsa synthesis — full engagement in life, full inner detachment from outcomes. 'Vimukto mām upaiṣyasi' — fully liberated, you shall come to Me. The path: offer everything → internal bondage dissolves → freedom → union with the Divine. The sequence is logically complete."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 29,
+            "global_verse_id": 367,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः ।\nये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ॥ २९ ॥",
+                "iast": "samo 'haṃ sarvabhūteṣu na me dveṣyo 'sti na priyaḥ |\nye bhajanti tu māṃ bhaktyā mayi te teṣu cāpy aham ||29||"
+            },
+            "hindi": {
+                "devanagari": "मैं सभी प्राणियों में समान हूँ — न कोई मुझे अप्रिय है, न कोई प्रिय। परन्तु जो भक्ति से मुझे भजते हैं, वे मुझ में हैं और मैं उनमें हूँ।",
+                "hinglish": "Main sabhi praaniyon mein saman hun — na koi mujhe apriya hai, na koi priya. Parantu jo bhakti se mujhe bhajte hain, woh mujh mein hain aur main unmen hun.",
+                "translation": "मैं सभी प्राणियों के प्रति समभाव रखता हूँ — न कोई मुझे द्वेष्य है, न कोई अतिप्रिय। परन्तु जो भक्तिभाव से मेरा भजन करते हैं, वे मुझमें हैं और मैं उनमें।",
+                "explanation": "दो सत्य एक साथ: (१) ईश्वर का परम समत्व — 'समोऽहम्' = मैं सबके प्रति समान हूँ, सूर्य की तरह जो सब पर समान रूप से चमकता है। 'न मे द्वेष्यः' = कोई मुझे अप्रिय नहीं — कितना भी पापी हो। 'न प्रियः' = कोई विशेष प्रिय भी नहीं — भक्ति के कारण पक्षपात नहीं। (२) भक्त का विशेष अनुभव — 'ये भजन्ति मां भक्त्या' = जो भजन करते हैं। उनमें और ईश्वर में एक विशेष आत्मीयता स्थापित होती है — 'मयि ते' (वे मुझमें), 'तेषु च अहम्' (और मैं उनमें)। यह पक्षपात नहीं — जैसे सूर्य सब पर चमकता है पर जो दर्पण सामने लाए, वह प्रकाश को अधिक पाता है।"
+            },
+            "english": {
+                "translation": "I am equal toward all beings; none is hateful to Me and none is dear. Yet those who worship Me with devotion are in Me, and I am also in them.",
+                "explanation": "Two profound truths in a single verse, apparently in tension but actually complementary. First: 'Samo 'ham sarvabhūteṣu' — I am equidistant from and equal toward all beings, like the sun that shines impartially on all. 'Na me dveṣyaḥ' — no one is hateful to Me, however deeply they may have erred. 'Na priyaḥ' — none is specially dear in a preferential sense. God plays no favorites. Second: 'Ye bhajanti māṃ bhaktyā mayi te teṣu cāpy aham' — yet those who worship with devotion enter into a special mutual indwelling with Me. This is not contradiction: the sun shines equally on all, but only the soul who turns a mirror toward it receives its full focused reflection. Devotion is that turning. God does not change; the devotee's capacity to receive changes."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 30,
+            "global_verse_id": 368,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अपि चेत्सुदुराचारो भजते मामनन्यभाक् ।\nसाधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः ॥ ३० ॥",
+                "iast": "api cet sudurācāro bhajate mām ananyabhāk |\nsādhur eva sa mantavyaḥ samyag vyavasito hi saḥ ||30||"
+            },
+            "hindi": {
+                "devanagari": "यदि कोई अत्यन्त दुराचारी भी अनन्यभाव से मुझे भजता है, तो वह साधु ही मानना चाहिए क्योंकि उसने सम्यक् निश्चय कर लिया है।",
+                "hinglish": "Yadi koi atyant duraachari bhi ananya-bhaav se mujhe bhajata hai, to woh sadhu hi manana chahiye kyunki usne samyak nishchay kar liya hai.",
+                "translation": "यदि कोई अत्यन्त दुराचारी भी अनन्यभाव से मेरा भजन करे, तो उसे साधु ही मानना चाहिए, क्योंकि उसने सम्यक् (सही) निश्चय कर लिया है।",
+                "explanation": "गीता का सबसे क्रान्तिकारी और प्रेमपूर्ण वचन। 'सुदुराचारः' = अत्यन्त बुरे आचरण वाला — सबसे बड़ा पापी भी। 'अनन्यभाक्' = अनन्य भाव से — एकाग्र, एकनिष्ठ भक्ति। तब? 'साधुः एव मन्तव्यः' = साधु ही मानना चाहिए! क्यों? 'सम्यग् व्यवसितः' = उसने सही संकल्प कर लिया — उसने अपना मुख पाप से हटाकर ईश्वर की ओर मोड़ लिया। वह परिवर्तन की दहलीज पर खड़ा है। जैसे दिशा बदलने वाला यात्री उसी क्षण सही रास्ते पर आ जाता है — चाहे अभी मंजिल दूर हो। यह श्लोक घोषणा करता है कि ईश्वर की कृपा किसी के पिछले पापों से बड़ी है।"
+            },
+            "english": {
+                "translation": "Even if a person of very evil conduct worships Me with undivided devotion, he must be regarded as righteous (sādhu), for he has resolved rightly.",
+                "explanation": "One of the most revolutionary and compassionate statements in all of scripture. 'Sudurācāraḥ' — one of the worst conduct, the most thoroughgoing sinner. 'Ananyabhāk' — with undivided, single-pointed devotion. The verdict: 'Sādhur eva sa mantavyaḥ' — he is to be considered a sādhu (righteous person) nonetheless. The reason: 'Samyag vyavasitaḥ' — he has resolved rightly, meaning his inner orientation has decisively turned from wrongness toward the Divine. The pivotal moment is the turning, not the completion of the journey. Like a traveler who reverses direction: in that instant of reversal, they are already on the correct path, even if far from the destination. This verse makes the radical declaration that divine grace is greater than the accumulation of any past wrongdoing. Orientation is destiny."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 31,
+            "global_verse_id": 369,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "क्षिप्रं भवति धर्मात्मा शश्वच्छान्तिं निगच्छति ।\nकौन्तेय प्रतिजानीहि न मे भक्तः प्रणश्यति ॥ ३१ ॥",
+                "iast": "kṣipraṃ bhavati dharmātmā śaśvacchāntiṃ nigacchati |\nkaunteya pratijānīhi na me bhaktaḥ praṇaśyati ||31||"
+            },
+            "hindi": {
+                "devanagari": "वह शीघ्र धर्मात्मा बन जाता है और शाश्वत शान्ति को प्राप्त होता है। हे कौन्तेय! तू दृढ़तापूर्वक कह दे — मेरा भक्त कभी नष्ट नहीं होता।",
+                "hinglish": "Woh sheeghra dharmatma ban jaata hai aur shashwat shanti ko prapt hota hai. He Kaunteya! Tu dridhataapoorvak kah de — mera bhakt kabhi nasht nahin hota.",
+                "translation": "वह शीघ्र ही धर्मात्मा बन जाता है और शाश्वत शान्ति को प्राप्त होता है। हे कौन्तेय! दृढ़तापूर्वक घोषणा करो — मेरा भक्त कभी नष्ट नहीं होता।",
+                "explanation": "'क्षिप्रम्' = शीघ्र ही — परिवर्तन की गति देखो। भक्ति लगाते ही शुद्धि शुरू। 'धर्मात्मा' = धर्मात्मा — जिसकी आत्मा धर्म से युक्त हो। 'शश्वत्शान्तिम्' = शाश्वत शान्ति — न बाधित होने वाली शान्ति, मोक्ष की शान्ति। अब सबसे महत्त्वपूर्ण — 'कौन्तेय प्रतिजानीहि' = अर्जुन! तू स्वयं घोषणा कर। कृष्ण अर्जुन को साक्षी बनाते हैं — यह प्रतिज्ञा ईश्वर की है, मनुष्य के शब्दों में। 'न मे भक्तः प्रणश्यति' = मेरा भक्त कभी नष्ट नहीं होता। यह ईश्वर की शाश्वत गारण्टी है — समस्त गीता में सबसे बड़ा आश्वासन।"
+            },
+            "english": {
+                "translation": "He swiftly becomes a righteous soul and attains everlasting peace. O Kaunteya, declare with certainty: My devotee is never lost.",
+                "explanation": "'Kṣipraṃ bhavati dharmātmā' — swiftly he becomes a soul of dharma: the transformation is rapid because devotion activates a power beyond ordinary moral effort. 'Śaśvacchāntiṃ nigacchati' — he reaches everlasting peace, not temporary relief but the permanent peace of liberation. Now the most solemn moment: 'Kaunteya pratijānīhi' — O Arjuna, YOU declare it — Krishna turns to Arjuna as witness and spokesman, making Arjuna a vehicle of this divine proclamation. 'Na me bhaktaḥ praṇaśyati' — My devotee is never destroyed, never lost, never ultimately fails. This is the supreme divine guarantee of the Gita: not 'perhaps,' not 'if,' but an absolute, unconditional assurance. The devotee may stumble, may err, may even be a great sinner — but the one who holds the Divine will not ultimately perish."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 32,
+            "global_verse_id": 370,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "मां हि पार्थ व्यपाश्रित्य येऽपि स्युः पापयोनयः ।\nस्त्रियो वैश्यास्तथा शूद्रास्तेऽपि यान्ति परां गतिम् ॥ ३२ ॥",
+                "iast": "māṃ hi pārtha vyapāśritya ye 'pi syuḥ pāpayonayaḥ |\nstriyo vaiśyās tathā śūdrās te 'pi yānti parāṃ gatim ||32||"
+            },
+            "hindi": {
+                "devanagari": "हे पार्थ! जो लोग पाप-योनि के हों — स्त्रियाँ, वैश्य और शूद्र भी — वे भी मेरे आश्रय लेकर परम गति को प्राप्त होते हैं।",
+                "hinglish": "He Parth! Jo log paap-yoni ke hon — striyaan, Vaishya aur Shudra bhi — woh bhi mere aashray lekar param gati ko prapt hote hain.",
+                "translation": "हे पार्थ! जो लोग पापयोनि वाले भी हों — स्त्रियाँ, वैश्य और शूद्र भी — वे भी मेरे आश्रय से परम गति को प्राप्त होते हैं।",
+                "explanation": "यह श्लोक तत्कालीन वर्ण-व्यवस्था के सन्दर्भ में एक प्रगतिशील और क्रान्तिकारी घोषणा है। 'पापयोनयः' — इस शब्द की व्याख्या संविधानी या आधुनिक दृष्टि से नहीं — तत्कालीन संस्कृति में जिन्हें निम्न माना जाता था। 'स्त्रियः' = स्त्रियाँ — जिन्हें उस समय वेद-अध्ययन का अधिकार नहीं था। 'वैश्याः' = व्यापारी वर्ग। 'शूद्राः' = सेवा-वर्ग। कृष्ण कहते हैं — ये सब भी 'मां व्यपाश्रित्य' = मेरे आश्रय से 'परां गतिम्' = परम मोक्ष को प्राप्त होते हैं। भक्ति किसी जाति, लिंग, या कुल की बाधा नहीं मानती — यही गीता का समतामूलक सन्देश है।"
+            },
+            "english": {
+                "translation": "O Pārtha, even those who may be born of sinful wombs — women, Vaiśyas, and Śūdras — even they, taking refuge in Me, attain the supreme destination.",
+                "explanation": "This verse must be read in its historical context: the ancient social framework of the Gita's composition, in which access to Vedic study and formal liberation paths was restricted by caste and gender. Within that framework, Krishna's declaration is radical and inclusive. 'Pāpayonayaḥ' — those born in circumstances considered lowly by the prevailing system. 'Striyaḥ' — women, who were denied Vedic study. 'Vaiśyāḥ' — merchants, the third order. 'Śūdrāḥ' — the service class, the fourth. 'Te 'pi yānti parāṃ gatim' — even they attain the supreme destination by taking refuge in Me. The liberating principle: access to the Divine is not mediated by birth, caste, gender, or social rank. Bhakti — the turning of the heart toward the Divine — is the great equalizer. This is the Gita's revolutionary democratization of mokṣa."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 33,
+            "global_verse_id": 371,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "किं पुनर्ब्राह्मणाः पुण्या भक्ता राजर्षयस्तथा ।\nअनित्यमसुखं लोकमिमं प्राप्य भजस्व माम् ॥ ३३ ॥",
+                "iast": "kiṃ punar brāhmaṇāḥ puṇyā bhaktā rājarṣayas tathā |\nanityam asukhaṃ lokam imaṃ prāpya bhajasva mām ||33||"
+            },
+            "hindi": {
+                "devanagari": "फिर पुण्यशाली ब्राह्मण तथा भक्त राजर्षि (राजसी ऋषि) — वे तो निश्चित ही मुझे प्राप्त होंगे। इसलिए इस अनित्य और अशोभन (दुःखपूर्ण) लोक को प्राप्त होकर तू मेरा भजन कर।",
+                "hinglish": "Phir punyashali Brahman tatha bhakt Rajrishi (Rajasi Rishi) — woh to nishchit hi mujhe prapt honge. Isliye is anitya aur ashobhan (dukhpurna) lok ko prapt hokar tu mera bhajan kar.",
+                "translation": "तो फिर पुण्यशाली ब्राह्मण और भक्त राजर्षि (राज-ऋषि) तो निश्चय ही मुझे प्राप्त होंगे। इसलिए इस अनित्य और दुःखपूर्ण लोक को पाकर तू मेरा भजन कर।",
+                "explanation": "'किं पुनः' = तो फिर क्या कहना — अर्थात् यदि निम्न-वर्गीय भी मुक्ति पा सकते हैं, तो 'पुण्याः ब्राह्मणाः' (पवित्र ब्राह्मण) और 'राजर्षयः' (राजा होते हुए ऋषि-जैसे पवित्र) — वे तो और भी निश्चित रूप से पाएँगे। यह 'a fortiori' तर्क है — छोटे में सम्भव, तो बड़े में तो निश्चित। अब कृष्ण अर्जुन को सीधे उपदेश देते हैं: 'अनित्यं असुखं लोकम् इमम् प्राप्य' = इस नाशवान और दुःखपूर्ण लोक में आकर — मानव जीवन की क्षणभंगुरता याद करो। 'भजस्व माम्' = मेरा भजन करो — यह जीवन का सर्वश्रेष्ठ उपयोग है।"
+            },
+            "english": {
+                "translation": "How much more, then, the pure Brāhmaṇas and the devoted royal sages! Having obtained this transient and joyless world, worship Me.",
+                "explanation": "'Kiṃ punaḥ' — 'how much more then' — a rhetorical escalation completing the argument: if even those in the most disadvantaged circumstances by the ancient social system can reach the supreme goal, then the pure Brāhmaṇa (one established in knowledge and virtue) and the rājarṣi (the king who lives as a sage) — they can reach it with even greater certainty. The argument moves from the hardest case to the easiest — from the margins to the center — making liberation universally achievable. Then the pivot: 'Anityam asukhaṃ lokam imaṃ prāpya bhajasva mām' — 'having obtained this transient and joyless world — worship Me.' The human birth is both rare and precarious: rare in its potential for liberation, precarious in its brevity. The urgency is not fear but opportunity. Now is the moment; the instrument (human birth) is in your hands."
+            }
+        },
+        {
+            "chapter": 9,
+            "verse_number": 34,
+            "global_verse_id": 372,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु ।\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः ॥ ३४ ॥",
+                "iast": "manmanā bhava madbhakto madyājī māṃ namaskuru |\nmām evaiṣyasi yuktvaivam ātmānaṃ matparāyaṇaḥ ||34||"
+            },
+            "hindi": {
+                "devanagari": "मुझमें मन लगाओ, मेरे भक्त बनो, मेरे पूजक बनो, मुझे नमस्कार करो — इस प्रकार अपनी आत्मा को मत्परायण करके, मेरे साथ युक्त होकर, तू मुझे ही प्राप्त होगा।",
+                "hinglish": "Mujhme man lagao, mere bhakt bano, mere poojak bano, mujhe namaskar karo — is prakar apni aatma ko matparaayan karke, mere saath yukt hokar, tu mujhe hi prapt hoga.",
+                "translation": "मुझमें मन लगाओ, मेरे भक्त बनो, मेरे पूजक बनो और मुझे नमस्कार करो — इस प्रकार अपने को मत्परायण करके, मुझसे युक्त होकर, तू मुझे ही प्राप्त होगा।",
+                "explanation": "अध्याय 9 का समापन-श्लोक — और एक दिव्य आमन्त्रण। चार साधनाएँ: (१) 'मन्मनाः भव' = मुझमें मन लगाओ — मनोमय साधना। (२) 'मद्भक्तः' = मेरा भक्त बनो — भावमय साधना। (३) 'मद्याजी' = मेरी पूजा करो — क्रियामय साधना। (४) 'मां नमस्कुरु' = मुझे नमन करो — अहं-विसर्जन। 'मत्परायणः' = मुझे ही परम लक्ष्य मानकर। 'युक्त्वा' = युक्त होकर, जोड़कर। 'मामेवैष्यसि' = केवल मुझे ही प्राप्त होगा। यही श्लोक (मामनसाभव...) अध्याय 18.65 में भी दोहराया जाएगा — वहाँ कृष्ण 'परम-रहस्य' कहकर पुनः इसे उद्धृत करेंगे। यह श्लोक गीता के हृदय में बार-बार गूँजता है।"
+            },
+            "english": {
+                "translation": "Fix your mind on Me, be devoted to Me, worship Me, bow down to Me. Having thus disciplined yourself, with Me as your supreme goal, you shall come to Me alone.",
+                "explanation": "The closing verse of the Ninth Chapter is the crystallized essence of the entire Gita's devotional path — four disciplines in a single verse, each progressive and complementary: (1) 'Manmanā bhava' — Let your mind rest in Me: the mind, which is the root instrument of bondage and liberation, directed wholly toward the Divine; (2) 'Madbhaktaḥ' — Be My devotee: not a formal title but an inner orientation of love; (3) 'Madyājī' — Worship Me: external and internal acts of sacred offering; (4) 'Māṃ namaskuru' — Bow to Me: the ego surrenders its claim of separateness. 'Matparāyaṇaḥ' — holding Me as the supreme, ultimate goal — not one among many aims, but the final aim. 'Mām evaiṣyasi' — you shall come to Me alone. This verse is so pivotal that Krishna virtually repeats it in 18.65 at the close of the entire Gita, calling it there 'the highest secret.' It is the Gita's recurring refrain: the path is surrender of the mind, heart, action, and ego — and the destination is the Divine itself."
+            }
+        }
+    ],
+    "colophon": {
+        "sanskrit": "इति श्रीमद्भगवद्गीतासूपनिषत्सु ब्रह्मविद्यायां योगशास्त्रे श्रीकृष्णार्जुनसंवादे राजविद्याराजगुह्ययोगो नाम नवमोऽध्यायः ॥",
+        "iast": "iti śrīmadbhagavadgītāsūpaniṣatsu brahmavidyāyāṃ yogaśāstre śrīkṛṣṇārjunasaṃvāde rājavidyā-rājaguhya-yogo nāma navamo 'dhyāyaḥ ||",
+        "hindi": "इस प्रकार श्रीमद्भगवद्गीतारूपी उपनिषद् में, ब्रह्मविद्या और योगशास्त्र विषयक, श्रीकृष्ण और अर्जुन के संवाद में, 'राजविद्याराजगुह्ययोग' नामक नवम अध्याय समाप्त होता है।",
+        "english": "Thus ends the Ninth Chapter, named 'Rāja-vidyā-rāja-guhya-yoga' (The Yoga of Royal Knowledge and Royal Secret), in the Upaniṣad known as the Śrīmad Bhagavad Gītā, the scripture of Brahma-vidyā and Yoga, in the dialogue between Śrī Kṛṣṇa and Arjuna.",
+        "note": "The colophon is not counted as a verse. Global verse count after Chapter 9: 372 (Ch.1: 47 + Ch.2: 72 + Ch.3: 43 + Ch.4: 42 + Ch.5: 29 + Ch.6: 47 + Ch.7: 30 + Ch.8: 28 + Ch.9: 34 = 372)."
+    }
+}

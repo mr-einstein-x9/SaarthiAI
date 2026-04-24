@@ -2,13 +2,11 @@ import json
 import time
 import os
 import requests
+import string
 from collections import OrderedDict
 
-import numpy as np
-from numpy.linalg import norm
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
 from dotenv import load_dotenv
 
@@ -16,27 +14,32 @@ from dotenv import load_dotenv
 load_dotenv('../.env.local')  # from Next.js project root
 
 # --- SYSTEM INITIALIZATION ---
-print("Initializing SaarthiAI Engine...")
+print("Initializing SaarthiAI Engine (Hybrid Local Search)...")
 start_time = time.time()
 
-# 1. Load Data
-verses_path = os.path.join(os.path.dirname(__file__), '..', 'verses.json')
+def normalize_text(text):
+    """Normalize text by converting to lowercase and removing punctuation."""
+    if not text:
+        return ""
+    text = text.lower()
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    return text
+
+# 1. Load Data (geeta.json loaded once at startup)
+verses_path = os.path.join(os.path.dirname(__file__), 'geeta.json')
 try:
     with open(verses_path, 'r', encoding='utf-8') as f:
         verses_data = json.load(f)
+        
+    # Preprocess all verses at startup to reduce per-request computation
+    for verse in verses_data:
+        verse["translation_clean"] = normalize_text(verse.get("translation", ""))
+        verse["meaning_clean"] = normalize_text(verse.get("meaning", ""))
 except FileNotFoundError:
-    # Dummy fallback in case file is absent
-    verses_data = [{"id": "2.47", "chapter": 2, "verse": 47, "sanskrit": "कर्मण्येवाधिकारस्ते...", "transliteration": "karmaṇy-evādhikāras...", "meaning_en": "You have a right to perform your prescribed duty, but you are not entitled to the fruits of action."}]
+    print("[WARN] geeta.json not found! Using empty dataset.")
+    verses_data = []
 
-# Extract texts (We will map by index)
-verse_texts = [v.get('meaning_en', 'Wisdom is eternal.') for v in verses_data]
-
-# 2. Load Model
-encoder = SentenceTransformer('all-MiniLM-L6-v2')
-print("Embedding verses...")
-verse_embeddings = encoder.encode(verse_texts)
-
-# 3. Setup Gemini
+# 2. Setup Gemini
 api_key = os.environ.get("GEMINI_API_KEY", "dummy_key")
 genai.configure(api_key=api_key)
 gemini_model = genai.GenerativeModel("gemini-2.5-flash")
@@ -44,51 +47,73 @@ gemini_model = genai.GenerativeModel("gemini-2.5-flash")
 print(f"Initialization complete in {time.time() - start_time:.2f}s")
 
 
-# --- TASK 3: BOUNDED SEMANTIC CACHE ---
-class LRUSemanticCache:
-    def __init__(self, max_size=500, threshold=0.85):
-        # OrderedDict maintains insertion order (useful for LRU)
+# --- CACHE ---
+# Simple In-Memory Cache with TTL to prevent memory growth
+class SimpleCache:
+    def __init__(self, max_size=500, ttl_seconds=300): # Default TTL = 5 minutes
         self.cache = OrderedDict()
         self.max_size = max_size
-        self.threshold = threshold
+        self.ttl_seconds = ttl_seconds
 
-    def get(self, query_vector):
-        if not self.cache:
-            return None
+    def get(self, query):
+        if query in self.cache:
+            response_dict, timestamp = self.cache[query]
             
-        # Compare query_vector to all cached vectors
-        cached_items = list(self.cache.items())  # List of tuples: (query, {"vector": [...], "response": GuidanceResponse dict})
-        cached_vectors = [item[1]["vector"] for item in cached_items]
-        
-        # Calculate cosine similarity against cache
-        similarities = [np.dot(query_vector, cv) / (norm(query_vector) * norm(cv)) for cv in cached_vectors]
-        best_idx = int(np.argmax(similarities))
-        best_score = float(similarities[best_idx])
-        
-        if best_score >= self.threshold:
-            print(f"[CACHE] Semantic Cache Hit! (Score: {best_score:.4f})")
-            matched_key = cached_items[best_idx][0]
-            
-            # Move to end to mark as recently used (LRU)
-            self.cache.move_to_end(matched_key)
-            return self.cache[matched_key]["response"]
-            
+            # Check expiry
+            if time.time() - timestamp > self.ttl_seconds:
+                del self.cache[query]
+                return None
+                
+            self.cache.move_to_end(query)
+            return response_dict
         return None
 
-    def put(self, original_query_text, query_vector, response_dict):
-        # If full, drop the first item (least recently used)
+    def put(self, query, response_dict):
         if len(self.cache) >= self.max_size:
             self.cache.popitem(last=False)
+        self.cache[query] = (response_dict, time.time())
+
+query_cache = SimpleCache()
+
+
+# --- SEARCH LOGIC ---
+def search_verses(query, dataset, top_k=3):
+    """
+    Search verses using tokenization and keyword scoring on pre-cleaned fields.
+    Returns the top 'top_k' verses and the highest score.
+    Future Upgrade: Replace keyword search with FAISS (semantic search) to handle synonyms.
+    """
+    norm_query = normalize_text(query)
+    stopwords = {"is", "am", "are", "the", "a", "an", "and", "or", "to", "in", "of", "for", "with", "my", "i", "me", "how", "what", "why", "when", "where", "about", "it", "this", "that"}
+    query_words = [w for w in norm_query.split() if w and w not in stopwords]
+    
+    if not query_words:
+        return [], 0
+        
+    scored_verses = []
+    for verse in dataset:
+        score = 0
+        # Use pre-cleaned fields
+        text_content = f"{verse.get('translation_clean', '')} {verse.get('meaning_clean', '')}".split()
+        
+        # Track score per verse
+        for w in query_words:
+            if w in text_content:
+                score += 1
+        
+        if score > 0:
+            scored_verses.append({"verse": verse, "score": score})
             
-        self.cache[original_query_text] = {
-            "vector": query_vector,
-            "response": response_dict
-        }
+    # Sort by score descending
+    scored_verses.sort(key=lambda x: x["score"], reverse=True)
+    
+    # Strictly limit max results
+    results = [item["verse"] for item in scored_verses[:top_k]]
+    top_score = scored_verses[0]["score"] if scored_verses else 0
+    return results, top_score
 
-semantic_cache = LRUSemanticCache(max_size=500, threshold=0.85)
 
-
-# --- TASK 5: FASTAPI CONTRACT ---
+# --- FASTAPI CONTRACT ---
 app = FastAPI(title="SaarthiAI RAG Engine")
 
 class GuidanceRequest(BaseModel):
@@ -97,8 +122,10 @@ class GuidanceRequest(BaseModel):
 class GuidanceResponse(BaseModel):
     guidance: str
     verse_ref: str
-    confidence_tier: str  # "cache" | "direct" | "local" | "cloud" | "fallback"
+    confidence_tier: str  # "cache" | "direct" | "cloud" | "fallback"
     latency_ms: int
+    source: str = "api"   # "database" OR "api"
+    results: list = []    # Top verses from DB
 
 # --- API ENDPOINT ---
 @app.post("/ask", response_model=GuidanceResponse)
@@ -106,107 +133,89 @@ def get_guidance(req: GuidanceRequest):
     req_start_time = time.time()
     query = req.query.strip()
     
-    # 1. Embed user query locally
-    query_vector = encoder.encode(query)
-    
-    # 2. Check Semantic Cache (Threshold >= 0.85)
-    cached_res = semantic_cache.get(query_vector)
+    # 1. Check Simple Cache
+    cached_res = query_cache.get(query)
     if cached_res:
-        cached_res["confidence_tier"] = "cache" # Update tier so we can trace it
-        # Recalculate latency ms for cache hit
-        cached_res["latency_ms"] = int((time.time() - req_start_time) * 1000)
-        return cached_res
+        print("SOURCE: CACHE")
+        # Ensure we don't mutate the cached object's original reference permanently
+        res_copy = cached_res.copy()
+        res_copy["confidence_tier"] = "cache"
+        res_copy["latency_ms"] = int((time.time() - req_start_time) * 1000)
+        return GuidanceResponse(**res_copy)
 
-    # 3. Retrieve Best Verse
-    similarities = [np.dot(query_vector, tv) / (norm(query_vector) * norm(tv)) for tv in verse_embeddings]
-    best_idx = np.argmax(similarities)
-    best_score = float(similarities[best_idx])
-    best_verse = verses_data[best_idx]
-    verse_ref = f"BG {best_verse.get('chapter', '?')}.{best_verse.get('verse', '?')}"
+    # Short query guard
+    norm_query = normalize_text(query)
+    all_query_words = norm_query.split()
     
-    print(f"Retrieval Score: {best_score:.4f} for {verse_ref}")
+    results = []
+    top_score = 0
+    required_score = 1
+    
+    # 2. Local Keyword Search (Skip DB if query < 2 words or meaningless)
+    if len(all_query_words) >= 2:
+        results, top_score = search_verses(query, verses_data, top_k=3)
+        
+        stopwords = {"is", "am", "are", "the", "a", "an", "and", "or", "to", "in", "of", "for", "with", "my", "i", "me", "how", "what", "why", "when", "where", "about", "it", "this", "that"}
+        meaningful_words = [w for w in all_query_words if w not in stopwords]
+        required_score = max(1, len(meaningful_words) // 2)
+    else:
+        print("[SKIP] Query too short, skipping DB search.")
+
+    # 3. Routing Logic: DB Match vs API Fallback
+    # Safe Fallback: If no results OR score is weak -> fallback to API
+    if results and top_score >= required_score:
+        print("SOURCE: DATABASE")
+        
+        best_verse = results[0]
+        verse_ref = f"BG {best_verse.get('chapter', '?')}.{best_verse.get('verse', '?')}"
+        sanskrit = best_verse.get("text", "").replace("\n", " ")
+        english_trans = best_verse.get("translation", "")
+        
+        final_guidance = f"*{sanskrit}*\n\n**Meaning:** {english_trans}"
+        confidence_tier = "direct"
+        source = "database"
+        
+        # Ensure results have standard keys for frontend display
+        # The frontend can map these to "Chapter X, Verse Y"
+        
+        resp_dict = {
+            "guidance": final_guidance,
+            "verse_ref": verse_ref,
+            "confidence_tier": confidence_tier,
+            "latency_ms": int((time.time() - req_start_time) * 1000),
+            "source": source,
+            "results": results
+        }
+        query_cache.put(query, resp_dict)
+        return GuidanceResponse(**resp_dict)
+
+    # 4. Fallback to Gemini API (Complex queries)
+    print("SOURCE: API")
+    prompt = f"A user asks: '{query}'. Provide abstract, generalized comforting spiritual advice (2 sentences) referencing Bhagavad Gita themes."
     
     final_guidance = ""
-    confidence_tier = ""
+    confidence_tier = "cloud"
+    verse_ref = "Bhagavad Gita"
     
-    # --- TASK 4: 3-TIER FALLBACK CHAIN ---
-    if best_score >= 0.50:
-        # TIER 1: NO-LLM FAST PATH (High Confidence)
-        confidence_tier = "direct"
-        print("[DIRECT] Route: HIGH CONFIDENCE (Direct Fast Path)")
-        
-        # Task 2: No-LLM Response Template (Beautiful, structured formatting locally)
-        sanskrit = best_verse.get("sanskrit", "").replace("\n", " ")
-        english_trans = best_verse.get("meaning_en", "")
-        
-        # Generate predefined intro (Can be fetched from DB, but programmatic here)
-        predefined_intro = "When the mind is steadfast, true perspective emerges."
-        if "sad" in query.lower() or "loss" in query.lower() or "grief" in query.lower():
-            predefined_intro = "The Gita reminds us of the eternal nature of the soul to bring comfort in times of grief."
-        elif "confused" in query.lower():
-            predefined_intro = "In moments of deep confusion, Lord Krishna anchors Arjuna to his righteous duty."
-        
-        final_guidance = f"{predefined_intro}\n\n*\"{sanskrit}\"*\n\n**Meaning:** {english_trans}"
-
-    elif best_score >= 0.30:
-        # TIER 2: LOCAL LLM (Medium Confidence)
-        confidence_tier = "local"
-        print("[LOCAL] Route: MEDIUM CONFIDENCE (Local Ollama)")
-        prompt = f"User is feeling: '{query}'. Provide 2 comforting sentences using principles from {verse_ref}: '{best_verse.get('meaning_en')}'."
-        
-        try:
-            res = requests.post(
-                'http://localhost:11434/api/generate', 
-                json={'model': 'llama3', 'prompt': prompt, 'stream': False}, 
-                timeout=2.0 # 2.0s Timeout Fallback Condition!
-            )
-            res.raise_for_status()
-            final_guidance = res.json()['response'].strip()
-        except Exception as e:
-            print(f"[WARN] Ollama Failed ({str(e)}). Falling back to Cloud LLM...")
-            # Fallback to Cloud
-            confidence_tier = "cloud_fallback"
-            
-            try:
-                cloud_res = gemini_model.generate_content(prompt, request_options={"timeout": 5.0})
-                final_guidance = cloud_res.text.strip()
-            except Exception as e2:
-                print(f"[ERROR] Cloud Fallback Failed ({str(e2)}). Using Static Error Responder.")
-                confidence_tier = "fallback"
-                final_guidance = f"We are experiencing high traffic, but the wisdom of the Gita remains eternal. Seek solace in this teaching ({verse_ref}): {best_verse.get('meaning_en')}"
-
-    else:
-        # TIER 3: CLOUD LLM (Low Confidence / Abstract)
-        confidence_tier = "cloud"
-        print("[CLOUD] Route: LOW CONFIDENCE (Cloud Gemini)")
-        prompt = f"A user asks: '{query}'. Provide abstract, generalized comforting spiritual advice (2 sentences) referencing Bhagavad Gita themes."
-        
-        try:
-            cloud_res = gemini_model.generate_content(prompt, request_options={"timeout": 5.0})
-            final_guidance = cloud_res.text.strip()
-        except Exception as e:
-            print(f"[ERROR] Gemini Failed ({str(e)}). Using Static Error Responder.")
-            confidence_tier = "fallback"
-            final_guidance = "The path may seem unclear and our servers are momentarily disconnected, but peace lies within. Pause, breathe, and find clarity in stillness."
-
-    # Validate final guidance is present
-    if not final_guidance:
+    try:
+        cloud_res = gemini_model.generate_content(prompt, request_options={"timeout": 5.0})
+        final_guidance = cloud_res.text.strip()
+    except Exception as e:
+        print(f"[ERROR] Gemini Failed ({str(e)}). Using Static Error Responder.")
         confidence_tier = "fallback"
-        final_guidance = f"Seek solace in this verse ({verse_ref}): {best_verse.get('meaning_en')}"
+        final_guidance = "The path may seem unclear and our servers are momentarily disconnected, but peace lies within. Pause, breathe, and find clarity in stillness."
 
-    # Calculate latency
-    latency_ms = int((time.time() - req_start_time) * 1000)
-    
-    # Response Object
     resp_dict = {
         "guidance": final_guidance,
         "verse_ref": verse_ref,
         "confidence_tier": confidence_tier,
-        "latency_ms": latency_ms
+        "latency_ms": int((time.time() - req_start_time) * 1000),
+        "source": "api",
+        "results": []
     }
-
-    # Cache the result
-    semantic_cache.put(query, query_vector, resp_dict)
+    
+    # Cache the API result as well
+    query_cache.put(query, resp_dict)
     
     return GuidanceResponse(**resp_dict)
 

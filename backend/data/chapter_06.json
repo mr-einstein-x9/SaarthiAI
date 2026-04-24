@@ -1,0 +1,963 @@
+{
+    "chapter_number": 6,
+    "chapter_title": {
+        "sanskrit": "आत्मसंयमयोगः",
+        "iast": "Ātma-saṃyama-yogaḥ",
+        "hindi": "आत्मसंयम योग",
+        "english": "The Yoga of Self-Restraint and Meditation"
+    },
+    "chapter_summary": {
+        "hindi": "षष्ठ अध्याय गीता के ध्यान-दर्शन का चरमोत्कर्ष है और कर्मयोग की पूर्णता का वर्णन करता है। अध्याय के प्रारम्भ में कृष्ण स्पष्ट करते हैं कि वास्तविक संन्यासी और योगी वे हैं जो कर्म करते हुए भी फल की आकांक्षा नहीं रखते — बाहरी त्याग नहीं, भीतरी वैराग्य। तत्पश्चात् आत्मा को स्वयं का मित्र और शत्रु दोनों बताने वाला महावाक्य आता है: 'उद्धरेदात्मनात्मानम्' — अपने-आप को ऊपर उठाओ, स्वयं को नीचे मत गिराओ। जिसने अपने मन को जीत लिया, उसके लिए मन परम मित्र है; जिसने नहीं जीता, उसके लिए वही शत्रु। अध्याय का मुख्य भाग ध्यानयोग की विस्तृत और व्यावहारिक विधि है: एकान्त स्थान, आसन, भूमि, शरीर-शिर-ग्रीवा की स्थिति, दृष्टि, श्वास, आहार-विहार-निद्रा का संयम — सब कुछ सूक्ष्म विवरण सहित। तदनन्तर वायु-रहित स्थान में दीपक की ज्योति की अत्यन्त प्रसिद्ध उपमा से ध्यानस्थ योगी का चित्रण। समाधि में योगी क्या देखता है, क्या अनुभव करता है — आत्यन्तिक सुख जो बुद्धि से ग्राह्य है किन्तु इन्द्रियों से परे है। इसके बाद अर्जुन का व्यावहारिक प्रश्न: चंचल मन को कैसे वश में करें? कृष्ण का उत्तर: अभ्यास और वैराग्य से। फिर सबसे करुणामय प्रश्न: जो योगी साधना से पतित हो जाए, उसकी क्या गति? और कृष्ण का अभयदान — कल्याण करने वाला कभी दुर्गति को नहीं जाता। पतित योगी पुनः श्रेष्ठ कुल में जन्म लेकर साधना जारी रखता है। अन्त में अध्याय का सर्वोच्च बिन्दु: समस्त योगियों में वह सर्वश्रेष्ठ है जो श्रद्धा से मुझ (कृष्ण) में ध्यान लगाता है — ज्ञान, तप और कर्म से भी बढ़कर।",
+        "english": "Chapter 6 is the crown of the Gita's meditative philosophy and the culmination of karma yoga. It opens by redefining the true sannyāsī and yogī: not one who has abandoned fire and action externally, but one who acts without desire for fruits — inner renunciation, not outer withdrawal. The chapter then delivers one of the Gita's most profound psychological teachings: 'uddhared ātmanātmānam' — let a person lift oneself up by the self; let not the self be degraded. The mind can be one's best friend or one's worst enemy — the conquered mind is a friend, the unconquered mind a foe. The chapter's central section is a detailed, practical manual of dhyāna yoga: solitary place, correct seat and its materials, posture, position of body-head-neck, direction of gaze, regulation of breath, the critical importance of balance in eating, sleep, recreation, and work. Then the famous and luminous simile: a lamp in a windless place that does not flicker — that is the concentrated mind of the meditating yogi. The vision of samādhi is described: a joy that is transcendent, graspable by the intellect yet beyond the senses, in which one neither falls away from truth. Arjuna then raises the most universal and practical of all objections: the mind is restless, turbulent, powerful — how can it be controlled? Krishna's answer: through abhyāsa (repeated practice) and vairāgya (dispassion). Then the most compassionate question in the Gita: what happens to the fallen yogi, the one who strives but fails to reach the goal in this lifetime? Krishna's assurance: no one who has walked the path of good goes to a bad end. The fallen yogi takes a noble rebirth and continues from where they left off — yoga-saṃskāras carry across deaths. The chapter closes with the Gita's supreme declaration: among all yogis, the one who worships Me with inner self absorbed in Me, with faith — that one is most perfectly integrated."
+    },
+    "total_verses": 47,
+    "verses": [
+        {
+            "chapter": 6,
+            "verse_number": 1,
+            "global_verse_id": 234,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रीभगवानुवाच ।\nअनाश्रितः कर्मफलं कार्यं कर्म करोति यः ।\nस संन्यासी च योगी च न निरग्निर्न चाक्रियः ॥ १ ॥",
+                "iast": "śrī-bhagavān uvāca |\nanāśritaḥ karma-phalaṃ kāryaṃ karma karoti yaḥ |\nsa saṃnyāsī ca yogī ca na niragnir na cākriyaḥ ||1||"
+            },
+            "hindi": {
+                "devanagari": "श्रीभगवान् ने कहा — जो व्यक्ति कर्मफल का आश्रय न लेकर, करने योग्य कर्म करता है — वह संन्यासी भी है और योगी भी। न तो वह जो अग्नि-रहित है और न वह जो क्रिया-रहित है।",
+                "hinglish": "Shri Bhagwan ne kaha — Jo vyakti karma-phal ka aashray na lekar, karne yogya karma karta hai — woh sanyaasi bhi hai aur yogi bhi. Na to woh jo agni-rahit hai aur na woh jo kriya-rahit hai.",
+                "translation": "श्रीभगवान् ने कहा — जो व्यक्ति कर्मफल का आश्रय न लेते हुए कर्तव्य-कर्म करता है, वह संन्यासी भी है और योगी भी। न तो केवल अग्नि त्यागने वाला संन्यासी है और न केवल क्रिया-रहित योगी।",
+                "explanation": "षष्ठ अध्याय का प्रारम्भ एक क्रान्तिकारी परिभाषा से होता है। 'अनाश्रितः कर्मफलम्' = कर्मफल का आश्रय न लेने वाला — जो कर्म करते हुए फल की आसक्ति नहीं रखता। 'कार्यं कर्म' = करने योग्य कर्म, कर्तव्य-कर्म। ऐसा व्यक्ति 'संन्यासी च योगी च' = संन्यासी भी है और योगी भी — एक साथ दोनों। इसके विपरीत: 'निरग्निः' = जिसने यज्ञ-अग्नि त्याग दी हो (बाहरी संन्यास का चिह्न), 'अक्रियः' = जो कोई भी क्रिया न करता हो — केवल ये दो लक्षण पर्याप्त नहीं हैं। गीता यहाँ बाहरी त्याग और भीतरी त्याग का भेद स्थापित करती है। सच्चा संन्यास और सच्चा योग दोनों भीतरी स्थिति से परिभाषित होते हैं, बाहरी आचार से नहीं। यह पूरे अध्याय का आधारस्तम्भ है।"
+            },
+            "english": {
+                "translation": "The Blessed Lord said: One who performs the action that ought to be done without depending on the fruit of action — that person is both a sannyāsī and a yogī. Not the one who has abandoned fire, nor the one who has abandoned action.",
+                "explanation": "Chapter 6 opens with a definitional revolution. 'Anāśritaḥ karma-phalam' — one who does not take refuge in, does not lean upon, the fruit of action. 'Kāryaṃ karma' — the action that must be done, one's duty. Such a person is simultaneously 'saṃnyāsī ca yogī ca' — both a renunciant AND a yogi. The negations are equally important: 'niragnir' (one who has merely abandoned the sacrificial fire — the external badge of the sannyāsī) and 'akriyaḥ' (one who has simply ceased all activity) — these external markers alone do not constitute true sannyāsa or yoga. The Gita here cuts through centuries of potential misunderstanding: spiritual identity is determined by inner orientation (non-attachment to results) and not by outer circumstance (robes, rituals abandoned, or inactivity). A soldier, a teacher, a farmer, a homemaker — any of them can be a sannyāsī and yogī simultaneously if they act from duty without grasping for fruit. This is the foundational pillar of the entire chapter."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 2,
+            "global_verse_id": 235,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यं संन्यासमिति प्राहुर्योगं तं विद्धि पाण्डव ।\nन ह्यसंन्यस्तसङ्कल्पो योगी भवति कश्चन ॥ २ ॥",
+                "iast": "yaṃ saṃnyāsam iti prāhur yogaṃ taṃ viddhi pāṇḍava |\nna hy asaṃnyasta-saṅkalpo yogī bhavati kaścana ||2||"
+            },
+            "hindi": {
+                "devanagari": "हे पाण्डव! जिसे संन्यास कहते हैं, उसे ही योग जानो। बिना संकल्प का त्याग किये कोई भी योगी नहीं बन सकता।",
+                "hinglish": "He Pandav! Jise sannyaas kehte hain, use hi yog jaano. Bina sankalp ka tyaag kiye koi bhi yogi nahi ban sakta.",
+                "translation": "हे पाण्डव! जिसे लोग संन्यास कहते हैं, उसी को तुम योग जानो। क्योंकि संकल्पों का त्याग किये बिना कोई भी योगी नहीं होता।",
+                "explanation": "'यं संन्यासमिति प्राहुः' = जिसे लोग संन्यास कहते हैं। 'तं योगं विद्धि' = उसी को तुम योग जानो। यह एक महत्त्वपूर्ण समानता-सूत्र है: संन्यास = योग। दोनों का सार एक ही है। 'असंन्यस्तसंकल्पः' = जिसने संकल्पों का (इच्छाओं का, मानसिक योजनाओं का, 'मुझे यह चाहिए' की वासनाओं का) त्याग नहीं किया। 'कश्चन योगी न भवति' = कोई भी योगी नहीं बन सकता। 'संकल्प' यहाँ गहरा शब्द है — यह केवल इच्छा नहीं, बल्कि मन का वह स्वभाव है जो हर वस्तु के प्रति 'यह मेरा हो' का भाव रखता है। जब तक यह संकल्प-वृत्ति जीवित है, तब तक मन बाहर दौड़ता रहेगा और ध्यान सम्भव नहीं। संकल्प-त्याग ही वास्तविक संन्यास है और योग की पूर्वशर्त।"
+            },
+            "english": {
+                "translation": "O Pāṇḍava! Know that what they call sannyāsa is what is called yoga. For without renouncing the saṅkalpas (desires, intentions), no one ever becomes a yogi.",
+                "explanation": "'Yaṃ saṃnyāsam iti prāhuḥ' — what people call sannyāsa; 'taṃ yogaṃ viddhi' — know that to be the same as yoga. This equation is philosophically precise: genuine sannyāsa and genuine yoga have the same essential content. The key word is 'asaṃnyasta-saṅkalpah' — one who has not renounced 'saṅkalpa.' Saṅkalpa is the mind's tendency to form wishes, intentions, and plans colored by 'I want this, I must have that.' It is the mental act of willing driven by ego-desire. As long as saṅkalpa operates — as long as the mind is perpetually generating desiderative intentions — the mind cannot settle, cannot become still, and yoga (union, integration, meditation) remains impossible. 'Na hi... yogī bhavati kaścana' — no one whatsoever becomes a yogi. The renunciation of saṅkalpa is therefore the inner prerequisite for both formal sannyāsa and functional yoga. It is the cutting of the mind's perpetual outward movement toward desired objects."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 3,
+            "global_verse_id": 236,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते ।\nयोगारूढस्य तस्यैव शमः कारणमुच्यते ॥ ३ ॥",
+                "iast": "ārurukṣor muner yogaṃ karma kāraṇam ucyate |\nyogārūḍhasya tasyaiva śamaḥ kāraṇam ucyate ||3||"
+            },
+            "hindi": {
+                "devanagari": "योग पर आरोहण की इच्छा रखने वाले मुनि के लिए कर्म (कर्मयोग) ही साधन कहा जाता है। और योगारूढ़ हो जाने पर उसी के लिए शम (मन की शान्ति/उपरति) ही साधन कहा जाता है।",
+                "hinglish": "Yog par aarohaN ki ichchha rakhne waale muni ke liye karm (Karmayog) hi saadhan kaha jaata hai. Aur yogaarudh ho jaane par usi ke liye sham (man ki shanti/uprati) hi saadhan kaha jaata hai.",
+                "translation": "योग पर आरूढ़ होने की इच्छा रखने वाले मुनि के लिए कर्म साधन कहा जाता है; और योगारूढ़ हो जाने पर उसी के लिए शम (उपरति) साधन कहा जाता है।",
+                "explanation": "यह श्लोक आध्यात्मिक विकास के दो चरणों को स्पष्ट करता है। 'आरुरुक्षोः' = जो योग पर चढ़ना चाहता है, अर्थात् जो अभी साधनारत है, मार्ग पर है। उस 'मुने' (मनन करने वाले) के लिए 'कर्म कारणम् उच्यते' = कर्म (कर्मयोग, निष्काम कर्म) ही साधन है। क्योंकि कर्मयोग मन को शुद्ध करता है, वासनाओं को कम करता है। दूसरा चरण: 'योगारूढस्य' = जो योगारूढ़ हो गया — अर्थात् जिसका मन शुद्ध हो गया, वासनाएँ क्षीण हो गईं, ध्यान में स्थिरता आ गई। उस अवस्था में 'शमः कारणम् उच्यते' = शम (मन की उपरति, बाहर से हटकर भीतर विश्राम) साधन बन जाता है। यह एक बहुत व्यावहारिक मार्गदर्शन है: आरम्भिक साधक सक्रिय कर्म से शुद्धि करे; परिपक्व साधक शान्त उपरति से गहरे उतरे। एक ही मार्ग के दो सोपान।"
+            },
+            "english": {
+                "translation": "For the sage who desires to ascend to yoga, action is said to be the means. For the same person who has already ascended to yoga, stillness (śama) is said to be the means.",
+                "explanation": "This verse maps the two-phase trajectory of spiritual development with precision. 'Ārurukṣoḥ' — for the one who is 'desirous of ascending,' the one still climbing, the sādhaka who is on the path but has not yet reached the summit. For this seeker-sage (muni), 'karma kāraṇam ucyate' — action is declared the means. Specifically, karma yoga — the disciplined, detached performance of duty — purifies the mind, reduces the density of vāsanās, and makes the citta progressively more transparent and still. The second phase: 'yogārūḍhasya' — for the one who has 'ascended to yoga' — whose mind has been purified through karma yoga to the point where it naturally rests inward, where desire has attenuated. For this person, 'śamaḥ kāraṇam ucyate' — śama (inner stillness, mental withdrawal, the natural settling of the mind into its source) is the means. This is not a different path — it is the same path at its next level. The active engagement of karma yoga creates the conditions for the restful absorption of dhyāna. Action purifies; stillness illuminates."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 4,
+            "global_verse_id": 237,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यदा हि नेन्द्रियार्थेषु न कर्मस्वनुषज्जते ।\nसर्वसंकल्पसंन्यासी योगारूढस्तदोच्यते ॥ ४ ॥",
+                "iast": "yadā hi nendriyārtheṣu na karmasv anuṣajjate |\nsarva-saṅkalpa-saṃnyāsī yogārūḍhas tadocyate ||4||"
+            },
+            "hindi": {
+                "devanagari": "जब न इन्द्रिय-विषयों में और न कर्मों में आसक्त होता है, तब जो सम्पूर्ण संकल्पों का त्याग करने वाला है — उसे योगारूढ़ कहा जाता है।",
+                "hinglish": "Jab na indriya-vishyon mein aur na karmon mein aasakt hota hai, tab jo sampurna sankalpoon ka tyaag karne waala hai — use yogaarudh kaha jaata hai.",
+                "translation": "जब वह न इन्द्रिय-विषयों में और न कर्मों में आसक्त होता है, तब समस्त संकल्पों का त्यागी वह पुरुष योगारूढ़ कहा जाता है।",
+                "explanation": "'नेन्द्रियार्थेषु अनुषज्जते' = इन्द्रिय-विषयों (रूप, रस, गन्ध, शब्द, स्पर्श) में आसक्त नहीं होता। 'न कर्मसु अनुषज्जते' = कर्मों में भी आसक्त नहीं — न कर्म-फल में, न 'मैं यह काम करूँगा' की महत्त्वाकांक्षा में। 'सर्वसंकल्पसंन्यासी' = समस्त संकल्पों का त्यागी — जिसका मन कोई भी 'मुझे यह चाहिए' का प्रस्ताव नहीं बनाता। यह अवस्था 'योगारूढ़' = योग पर आरूढ़ कहलाती है। यह श्लोक पूर्व श्लोक का व्यावहारिक विस्तार है: योगारूढ़ता के लक्षण क्या हैं? — इन्द्रियों में अनासक्ति, कर्मों में अनासक्ति, और संकल्प-वृत्ति का पूर्ण शमन। यह अवस्था प्राप्त होने पर शम स्वाभाविक रूप से साधन बन जाता है क्योंकि मन अब कहीं और जाना नहीं चाहता।"
+            },
+            "english": {
+                "translation": "When one is no longer attached to sense-objects and no longer attached to actions, then one who has renounced all saṅkalpas (desires, intentions) is said to have ascended to yoga.",
+                "explanation": "This verse provides the observable signs of the yogārūḍha (one ascended to yoga), completing the thought from verse 3. Two freedoms characterize this state: 'nendriyārtheṣu anuṣajjate' — no adhesion to sense-objects (the five tanmātras: sound, touch, form, taste, smell); and 'na karmasu anuṣajjate' — no adhesion to actions either: no ambition, no ego-investment in the outcome of work, no 'I must do this' driven by personal desire. The crowning quality: 'sarva-saṅkalpa-saṃnyāsī' — one who has renounced ALL saṅkalpas. Saṅkalpa here means the mind's ceaseless generation of desire-tinted intentions — 'I want, I will get, I must achieve.' When this faculty is genuinely stilled — not suppressed — the mind naturally rests in itself. This is the prerequisite for deep meditation, not a state to be artificially manufactured. It is the flower that blooms naturally from the root of karma yoga practiced with sustained sincerity."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 5,
+            "global_verse_id": 238,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् ।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ॥ ५ ॥",
+                "iast": "uddhared ātmanātmānaṃ nātmānam avasādayet |\nātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ ||5||"
+            },
+            "hindi": {
+                "devanagari": "अपने आप से ही अपना उद्धार करो, अपने को नीचे मत गिराओ। आत्मा ही आत्मा का बन्धु है और आत्मा ही आत्मा का शत्रु है।",
+                "hinglish": "Apne aap se hi apna uddhaar karo, apne ko neeche mat girao. Aatma hi aatma ka bandhu hai aur aatma hi aatma ka shatru hai.",
+                "translation": "अपने आप से ही अपना उद्धार करो, अपने आप को अधःपतित मत करो। आत्मा ही आत्मा का बन्धु है और आत्मा ही आत्मा का शत्रु है।",
+                "explanation": "यह गीता के सर्वाधिक शक्तिशाली और स्वावलम्बन का आह्वान करने वाले श्लोकों में से एक है। 'उद्धरेदात्मनात्मानम्' = आत्मा से आत्मा का उद्धार करो — 'ātmanā ātmānam' = स्वयं से स्वयं को। यहाँ 'आत्मन्' शब्द का प्रयोग बुद्धि/मन (साधन) और जीवात्मा (साध्य) दोनों अर्थों में है। मन और बुद्धि को साधन बनाकर स्वयं को ऊपर उठाओ। 'नात्मानमवसादयेत्' = अपने को अवसाद में मत डालो, पतन की ओर मत जाने दो। दूसरी पंक्ति अत्यन्त गहरी है: 'आत्मैव बन्धुः' और 'आत्मैव रिपुः' — आत्मा ही मित्र है, आत्मा ही शत्रु। दोनों 'आत्मन्' एक ही है: यदि मन को वश में किया तो वही मित्र; यदि नहीं किया तो वही शत्रु। इस श्लोक में एक गहरा सत्य है: कोई बाहरी शत्रु नहीं होता — हमारा अपना अनियन्त्रित मन ही हमारा सबसे बड़ा शत्रु है।"
+            },
+            "english": {
+                "translation": "Let a person uplift oneself by the self; let one not degrade oneself. The self alone is the friend of the self; the self alone is the enemy of the self.",
+                "explanation": "This is among the most powerful and psychologically penetrating declarations in the entire Gita. 'Uddhared ātmanātmānam' — let one lift up the self by the self. The first 'ātmanā' refers to the higher faculty of purified mind and intellect (the instrument); the second 'ātmānam' refers to the jīvātman (the individual self, the one being elevated). 'Nātmānam avasādayet' — do not allow oneself to sink into avasāda: despondency, degradation, the downward pull of tamasic and rajasic habits. The second line is a philosophical equipoise: 'ātmaiva hy ātmano bandhuḥ' — the self alone is the friend of the self. 'Ātmaiva ripur ātmanaḥ' — the self alone is the enemy of the self. The same mind that, when mastered, becomes one's greatest ally and liberator — when left unmastered — becomes one's most relentless tormentor. No external force binds us as effectively as our own unexamined mind. No external savior can liberate us as completely as our own awakened self-discipline. This verse is the Gita's deepest statement of spiritual self-responsibility."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 6,
+            "global_verse_id": 239,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "बन्धुरात्मात्मनस्तस्य येनात्मैवात्मना जितः ।\nअनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत् ॥ ६ ॥",
+                "iast": "bandhur ātmātmanas tasya yenātmaivātmanā jitaḥ |\nanātmanas tu śatrutve vartetātmaiva śatru-vat ||6||"
+            },
+            "hindi": {
+                "devanagari": "जिसने अपने आप को ही अपने द्वारा जीत लिया है, उस जितात्मा के लिए आत्मा ही बन्धु है। परन्तु जिसने आत्मा को नहीं जीता, उसके लिए यही आत्मा शत्रु की तरह शत्रुता में वर्तती है।",
+                "hinglish": "Jisne apne aap ko hi apne dwara jeet liya hai, us jitatma ke liye aatma hi bandhu hai. Parantu jisne aatma ko nahi jeeta, uske liye yahi aatma shatru ki tarah shatrutaa mein varti hai.",
+                "translation": "जिसने अपने आप को अपने द्वारा जीत लिया है, उस जितात्मा के लिए आत्मा (मन) बन्धु है। परन्तु जिसने अपने आत्मा (मन) को नहीं जीता, उसके लिए यही आत्मा शत्रु की भाँति शत्रुता में वर्तती है।",
+                "explanation": "पूर्व श्लोक का व्यावहारिक विस्तार। 'येनात्मैवात्मना जितः' = जिसने स्वयं से ही स्वयं को जीत लिया — अर्थात् जिसने अपने मन-बुद्धि-इन्द्रियों को संयमित कर लिया। ऐसे 'जितात्मा' के लिए 'बन्धुः' = मित्र। उसका मन उसकी रक्षा करता है, उसे आगे बढ़ाता है, उसे अन्तर्मुखी रखता है। दूसरी ओर: 'अनात्मनः' = जो जितात्मा नहीं है, जिसने मन को नहीं जीता। उसके लिए 'आत्मैव शत्रुवत् वर्तते' = यही मन (आत्मा) शत्रु की भाँति व्यवहार करता है। कैसे? — उसे विषयों की ओर खींचता है, उसे कामनाओं में फँसाता है, उसे क्रोध दिलाता है, निर्णय में भ्रमित करता है। एक ही मन — जीतने पर मित्र, न जीतने पर शत्रु। यही कारण है कि समस्त साधना का प्रारम्भिक लक्ष्य मन-विजय है।"
+            },
+            "english": {
+                "translation": "For the one who has conquered the self by the self, the self is a friend. But for one who has not conquered the self, the self acts as an enemy in the manner of a foe.",
+                "explanation": "This verse completes the psychological teaching begun in verse 5. 'Yenātmaivātmanā jitaḥ' — for the one in whom the self has been conquered by the self: the mind-intellect complex has been disciplined and mastered. 'Bandhur ātmā' — the self (mind) is a friend. A conquered mind serves as the yogi's most faithful ally: it turns inward, maintains focus, sustains clarity, resists temptation, and brings the meditator ever closer to the ātman. 'Anātmanaḥ' — for the one who is not 'ātmavān' (self-possessed, self-mastered). 'Śatrutve varteta ātmaiva śatru-vat' — the very same self operates in the mode of enmity, like a foe. The unmastered mind constantly pulls toward sensory indulgence, generates craving and aversion, manufactures anxiety and regret, distorts perception with desire-colored bias, and prevents any depth of concentration. The same entity — neither good nor bad in itself — is transformed by the presence or absence of mastery. This is why the entire yoga tradition, regardless of its particular form, begins with the problem of the mind."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 7,
+            "global_verse_id": 240,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "जितात्मनः प्रशान्तस्य परमात्मा समाहितः ।\nशीतोष्णसुखदुःखेषु तथा मानापमानयोः ॥ ७ ॥",
+                "iast": "jitātmanaḥ praśāntasya paramātmā samāhitaḥ |\nśītoṣṇa-sukha-duḥkheṣu tathā mānāpamānayoḥ ||7||"
+            },
+            "hindi": {
+                "devanagari": "जितात्मा और प्रशान्त पुरुष के लिए परमात्मा समाहित (एकाग्र, स्थित) है — शीत और उष्ण में, सुख और दुःख में, तथा मान और अपमान में।",
+                "hinglish": "Jitatma aur prashanta purush ke liye Paramaatma samaahit (ekaagra, sthit) hai — sheet aur ushna mein, sukh aur dukh mein, tatha maan aur apamaan mein.",
+                "translation": "जितात्मा और प्रशान्त पुरुष के लिए परमात्मा समाहित (निरन्तर स्थित) है — शीत-उष्ण में, सुख-दुःख में, तथा मान-अपमान में।",
+                "explanation": "'जितात्मनः' = जिसने मन को जीत लिया। 'प्रशान्तस्य' = जो गहरी शान्ति में प्रतिष्ठित है — प्रकर्ष से शान्त। ऐसे व्यक्ति के लिए 'परमात्मा समाहितः' = परमात्मा एकाग्र (समाहित) है। 'समाहित' का अर्थ है: सुस्थापित, स्थिर रूप से प्रतिष्ठित। परमात्मा सदा विद्यमान है — किन्तु शान्त और जितात्मा के लिए वह अनुभव में उपलब्ध होता है। अशान्त मन वाले के लिए परमात्मा उपलब्ध तो है, किन्तु मन के शोर में अनुभव नहीं होता। इसके बाद कृष्ण यह बताते हैं कि यह समाहितता किन परिस्थितियों में स्थिर रहती है: 'शीतोष्णसुखदुःखेषु' = सर्दी-गर्मी, सुख-दुःख में — शारीरिक द्वन्द्व। 'मानापमानयोः' = मान और अपमान में — सामाजिक द्वन्द्व। इन सब विपरीत परिस्थितियों में भी जितात्मा का परमात्मा से सम्पर्क अखण्ड रहता है।"
+            },
+            "english": {
+                "translation": "For the one who has conquered the self and is deeply at peace, the Paramātman is integrated (steadily present) — in cold and heat, pleasure and pain, as well as in honour and dishonour.",
+                "explanation": "'Jitātmanaḥ praśāntasya' — for the person who has conquered the lower self (mind-senses-ego) and dwells in 'praśānti,' a peace that is 'pra-śānta' (profoundly, completely peaceful — not merely the absence of disturbance but the positive presence of stillness). For such a one, 'paramātmā samāhitaḥ' — the Paramātman (the Supreme Self) is 'samāhita' — settled, integrated, constantly available. The Paramātman is present everywhere always — but the turbulent mind, like a muddy lake, cannot reflect the sky clearly. The still mind, like a clear lake, reflects the Self without distortion. Then the test-conditions: 'śītoṣṇa-sukha-duḥkheṣu' — in cold and heat (physical discomfort-comfort, the bodily pairs of opposites) and 'mānāpamānayoḥ' — in honour and dishonour (the social and psychological pairs of opposites). The jitātmā's inner communion with the Paramātman remains unbroken across all these fluctuations — because their peace is not contingent on any of them."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 8,
+            "global_verse_id": 241,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "ज्ञानविज्ञानतृप्तात्मा कूटस्थो विजितेन्द्रियः ।\nयुक्त इत्युच्यते योगी समलोष्टाश्मकाञ्चनः ॥ ८ ॥",
+                "iast": "jñāna-vijñāna-tṛptātmā kūṭastho vijitendriyaḥ |\nyukta ity ucyate yogī sama-loṣṭāśma-kāñcanaḥ ||8||"
+            },
+            "hindi": {
+                "devanagari": "ज्ञान और विज्ञान से तृप्त अन्तःकरण वाला, कूटस्थ (अचल), जितेन्द्रिय और मिट्टी, पत्थर और सोने को समान देखने वाला योगी युक्त (योगयुक्त) कहलाता है।",
+                "hinglish": "Gyaan aur vigyan se tripta antahkaran wala, kootastha (achal), jitendriy aur mitti, patthar aur sone ko saman dekhne waala yogi yukta (yogayukta) kahlata hai.",
+                "translation": "ज्ञान और विज्ञान से तृप्त अन्तःकरण वाला, कूटस्थ, जितेन्द्रिय तथा मिट्टी, पत्थर और सोने को समान समझने वाला योगी 'युक्त' कहलाता है।",
+                "explanation": "यह श्लोक 'युक्त' योगी के चार लक्षण देता है। (१) 'ज्ञानविज्ञानतृप्तात्मा' = ज्ञान और विज्ञान से तृप्त। 'ज्ञान' = शास्त्रीय, सैद्धान्तिक ज्ञान — जैसे 'आत्मा अमर है।' 'विज्ञान' = अनुभवजन्य प्रत्यक्ष ज्ञान — जैसे आत्मा की अमरता का साक्षात् अनुभव। 'तृप्त' = सन्तुष्ट, पूर्ण — उसे और जानने की कोई तृष्णा नहीं। (२) 'कूटस्थः' = कूट पर स्थित — अचल, जो किसी भी परिस्थिति से विचलित न हो। 'कूट' = पर्वत की चोटी या निहाई (anvil) — दोनों अर्थों में अटल। (३) 'विजितेन्द्रियः' = जितेन्द्रिय — इन्द्रियों पर जिसका पूर्ण अधिकार है। (४) 'समलोष्टाश्मकाञ्चनः' = मिट्टी के ढेले, पत्थर और स्वर्ण — तीनों में समान दृष्टि। यह समदृष्टि दुर्लभ और परम ज्ञान का प्रत्यक्ष प्रमाण है।"
+            },
+            "english": {
+                "translation": "One whose inner self is satisfied by knowledge and direct realization, who is immovable, self-controlled in the senses, and who regards a clod of earth, a stone, and gold as equal — such a yogi is called 'yukta' (perfectly integrated).",
+                "explanation": "Four defining marks of the 'yukta' yogi. First: 'jñāna-vijñāna-tṛptātmā' — satisfied inwardly by both jñāna and vijñāna. 'Jñāna' is śāstric, theoretical knowledge — understanding through scripture and reasoning that 'the ātman is eternal, Brahman is all.' 'Vijñāna' is direct, experiential realization — the immediate knowing of these truths in one's own awareness, beyond intellectual understanding. 'Tṛptātmā' — satisfied, complete: this person desires no further acquisition of knowledge because their inner self is already full. Second: 'kūṭasthaḥ' — immovable, positioned at the summit (kūṭa = mountaintop, or an anvil — both immovable). Third: 'vijitendriyaḥ' — with senses fully mastered. Fourth and most vivid: 'sama-loṣṭāśma-kāñcanaḥ' — viewing equally a clod of earth, a stone, and gold. Three things of wildly different conventional value are perceived as equal — not because the yogi is intellectually denying their practical differences, but because at the level of Self-awareness, all are equally modifications of the same Brahman. This equanimity of vision is the spontaneous fruit of deep realization."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 9,
+            "global_verse_id": 242,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "सुहृन्मित्रार्युदासीनमध्यस्थद्वेष्यबन्धुषु ।\nसाधुष्वपि च पापेषु समबुद्धिर्विशिष्यते ॥ ९ ॥",
+                "iast": "suhṛn-mitrāry-udāsīna-madhyastha-dveṣya-bandhuṣu |\nsādhuṣv api ca pāpeṣu sama-buddhir viśiṣyate ||9||"
+            },
+            "hindi": {
+                "devanagari": "सुहृद् (बिना स्वार्थ के हितैषी), मित्र, शत्रु, उदासीन (तटस्थ), मध्यस्थ, द्वेष्य (द्वेष का पात्र) और बन्धुजनों में — तथा साधुओं में और पापियों में भी — जिसकी बुद्धि समान है, वह विशिष्ट है।",
+                "hinglish": "Suhrid (bina swarath ke hitaishi), mitra, shatru, udaaseen (tatastha), madhyastha, dveshya (dvesh ka patra) aur bandhujano mein — tatha sadhuo mein aur paapiyon mein bhi — jiski buddhi saman hai, woh vishisht hai.",
+                "translation": "सुहृद्, मित्र, शत्रु, उदासीन, मध्यस्थ, द्वेष्य और बन्धुजनों में — तथा साधुओं और पापियों में भी — जिसकी बुद्धि समान रहती है, वह विशिष्ट (श्रेष्ठ) है।",
+                "explanation": "यह श्लोक मानवीय सम्बन्धों के सात वर्गों में समबुद्धि का वर्णन करता है। 'सुहृद्' = बिना स्वार्थ के हितैषी, जो स्वाभाविक रूप से भला चाहे। 'मित्र' = आपसी हित से जुड़ा मित्र। 'अरि' = शत्रु। 'उदासीन' = जो न मित्र है न शत्रु, तटस्थ। 'मध्यस्थ' = दोनों पक्षों के बीच रहने वाला। 'द्वेष्य' = जो हमारा द्वेष करता है। 'बन्धु' = परिवार के सदस्य। और अन्त में: 'साधुषु च पापेषु' = गुणवानों में और पापियों में भी। यह सात प्रकार की सम्बन्ध-स्थितियों का एक विस्तृत वर्गीकरण है। इन सबमें जिसकी बुद्धि सम रहती है — 'विशिष्यते' = वह विशेष रूप से उत्कृष्ट है। यह केवल भावनात्मक नहीं — यह ज्ञानजन्य दृष्टि है कि सभी में एक ही चेतना है।"
+            },
+            "english": {
+                "translation": "One who maintains equal-mindedness toward a well-wisher, a friend, an enemy, a neutral, an arbitrator, the hateful, and one's own kin — as well as toward the righteous and the sinful — such a one is distinguished (spiritually pre-eminent).",
+                "explanation": "This verse presents the most comprehensive catalogue in the Gita of the social relationships through which equanimity (sama-buddhi) must be tested and proven. Seven relational categories: 'suhṛd' (the unconditional well-wisher, the one who wishes good without any personal stake), 'mitra' (the friend, bound by mutual affinity), 'ari' (the enemy), 'udāsīna' (the indifferent neutral, uninvolved), 'madhyastha' (the mediator between parties), 'dveṣya' (the one toward whom one personally feels aversion — or who feels it toward you), and 'bandhu' (kinfolk, family). Then the final span: 'sādhuṣu api ca pāpeṣu' — among the virtuous AND among the sinful. 'Sama-buddhir viśiṣyate' — one of equal intelligence across all these is 'viśiṣyate': distinctly, specially excellent. Note that this sama-buddhi is wisdom-born, not emotional indifference. The jñānī sees the same ātman in friend and foe. This is not the suppression of appropriate discernment — it is the underlying metaphysical recognition that the same consciousness dwells in all."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 10,
+            "global_verse_id": 243,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "योगी युञ्जीत सततमात्मानं रहसि स्थितः ।\nएकाकी यतचित्तात्मा निराशीरपरिग्रहः ॥ १० ॥",
+                "iast": "yogī yuñjīta satatam ātmānaṃ rahasi sthitaḥ |\nekākī yata-cittātmā nirāśīr aparigrahaḥ ||10||"
+            },
+            "hindi": {
+                "devanagari": "योगी एकान्त स्थान में रहकर, एकाकी, संयत चित्त और आत्मा वाला, आशाहीन और परिग्रह-रहित होकर, सदा आत्मा (मन) को योग में लगाए।",
+                "hinglish": "Yogi ekaant sthaan mein rahkar, ekaaki, sanyat chitt aur aatma wala, aashaaheen aur parigrah-rahit hokar, sada aatma (man) ko yog mein lagaaye.",
+                "translation": "योगी एकान्त में स्थित होकर, एकाकी, चित्त और आत्मा को संयमित करके, आशारहित और परिग्रह-रहित होकर सदा आत्मा को योग में लगाए।",
+                "explanation": "यहाँ से ध्यान की व्यावहारिक विधि का विस्तृत वर्णन प्रारम्भ होता है। 'सततम्' = सदा, निरन्तर। 'युञ्जीत' = योग में लगाए, अभ्यास करे। 'रहसि स्थितः' = एकान्त में रहकर — शारीरिक एकान्त ध्यान के लिए आवश्यक है। 'एकाकी' = एकाकी, अकेले — न केवल शरीर से, बल्कि मन से भी। 'यतचित्तात्मा' = संयमित चित्त और आत्मा वाला। 'निराशीः' = आशाहीन — न फल की आशा, न मान की, न सिद्धि की भी — शुद्ध अभ्यास। 'अपरिग्रहः' = परिग्रह-रहित — संग्रह-वृत्ति से मुक्त। ये सब मिलकर ध्यानयोग के लिए अनुकूल मानसिक और परिस्थितिजन्य भूमि बनाते हैं। परिग्रह और आशा — ये दोनों मन को बाहर की ओर खींचते हैं; इनके त्याग से मन अन्तर्मुख होने लगता है।"
+            },
+            "english": {
+                "translation": "Let the yogi continuously engage the self in yoga, stationed in solitude, alone, with mind and body restrained, free from hope and free from accumulation.",
+                "explanation": "Here begins the Gita's most detailed and practical manual of meditation practice. 'Satatam yuñjīta' — let the yogi continuously engage, maintain constant yogic practice (not occasional or fitful). 'Rahasi sthitaḥ' — stationed in solitude: a physically quiet place, removed from distraction, is the necessary environmental condition for the beginning meditator. 'Ekākī' — alone: not merely physically isolated but mentally singular, without the diffusion of social engagement. 'Yata-cittātmā' — with both the citta (the emotional-mental faculty) and the ātmā (one's own person/body) restrained and disciplined. 'Nirāśīḥ' — free from āśā (hope, expectation of results): the meditator does not practice with the goal of achieving some future state in view — that goal-orientation itself becomes an obstacle. 'Aparigrahaḥ' — free from accumulation: not hoarding objects, relationships, or even spiritual experiences. These five conditions together create the optimal inner and outer environment for deep meditation: solitude, singleness, self-restraint, hope-lessness, and non-accumulation."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 11,
+            "global_verse_id": 244,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "शुचौ देशे प्रतिष्ठाप्य स्थिरमासनमात्मनः ।\nनात्युच्छ्रितं नातिनीचं चैलाजिनकुशोत्तरम् ॥ ११ ॥",
+                "iast": "śucau deśe pratiṣṭhāpya sthiram āsanam ātmanaḥ |\nnāty-ucchritaṃ nāti-nīcaṃ cailājina-kuśottaram ||11||"
+            },
+            "hindi": {
+                "devanagari": "शुद्ध स्थान में अपना स्थिर आसन स्थापित करे — न अत्यन्त ऊँचा, न अत्यन्त नीचा — ऊपर वस्त्र, उस पर मृगचर्म, उस पर कुश बिछाए हुए।",
+                "hinglish": "Shuddh sthan mein apna sthir aasan sthapit kare — na atyant ooncha, na atyant neeche — oopar vastra, us par mrigacharm, us par kush bichhaaye hue.",
+                "translation": "शुद्ध स्थान में अपने लिए स्थिर आसन स्थापित करे — न अत्यन्त ऊँचा, न अत्यन्त नीचा — ऊपर वस्त्र, मृगचर्म और नीचे कुश बिछाकर।",
+                "explanation": "ध्यान के लिए आसन-विधि का अत्यन्त विस्तृत और तकनीकी निर्देश। 'शुचौ देशे' = शुद्ध, पवित्र स्थान में — शुद्धि तीन प्रकार से: भौतिक स्वच्छता, ऊर्जा की शुद्धता और मानसिक शान्ति। 'स्थिरम् आसनम्' = स्थिर आसन — जो हिले-डुले नहीं, जो शरीर को देर तक बैठा रख सके। 'नात्युच्छ्रितं नातिनीचम्' = न बहुत ऊँचा (ऊँचाई से गिरने का भय), न बहुत नीचा (भूमि की नमी, कीड़ों का भय)। 'चैलाजिनकुशोत्तरम्' = इसकी रचना: सबसे नीचे कुश (दर्भ घास — जो पृथ्वी की ऊर्जा को अवशोषित करती है), उस पर मृगचर्म (ajina — जो शरीर को स्थिर रखता है), उस पर वस्त्र (कपड़ा)। यह त्रिस्तरीय आसन-रचना प्राचीन योगशास्त्र की पूर्ण तकनीकी विधि है। आधुनिक योग-मैट इसी परम्परा का विकसित रूप है।"
+            },
+            "english": {
+                "translation": "Having established a firm seat for oneself in a clean place — neither too high nor too low — with cloth, deerskin, and kuśa grass layered upon it.",
+                "explanation": "The Gita now enters the realm of precise technical instruction for meditation preparation — a level of practical detail rare in philosophical texts. 'Śucau deśe' — in a clean (śuci) place: clean in three senses — physically clean (free of dirt and disturbance), energetically pure (a space conducive to meditation, perhaps regularly used for that purpose), and mentally peaceful (away from noise and activity). 'Sthiram āsanam' — a firm, stable seat: the physical stability of the seat mirrors and supports the mental stability sought in meditation. 'Nāty-ucchritaṃ nāti-nīcam' — neither too elevated (risk of falling, instability) nor too low (dampness from the earth, insects, cold). 'Cailājina-kuśottaram' — the three layers from bottom up: kuśa grass (considered purifying and insulating from earth-energies), deerskin (ajina — traditionally used for its insulating and grounding properties), and cloth on top. This three-layered seat is the complete traditional specification. Modern yoga practitioners' use of a mat continues this ancient tradition of a designated, clean, slightly raised meditation surface."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 12,
+            "global_verse_id": 245,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "तत्रैकाग्रं मनः कृत्वा यतचित्तेन्द्रियक्रियः ।\nउपविश्यासने युञ्ज्याद्योगमात्मविशुद्धये ॥ १२ ॥",
+                "iast": "tatraikāgraṃ manaḥ kṛtvā yata-cittendriya-kriyaḥ |\nupaviśyāsane yuñjyād yogam ātma-viśuddhaye ||12||"
+            },
+            "hindi": {
+                "devanagari": "वहाँ उस आसन पर बैठकर, मन को एकाग्र करके, चित्त और इन्द्रियों की क्रियाओं को संयमित करके, आत्मशुद्धि के लिए योग का अभ्यास करे।",
+                "hinglish": "Wahan us aasan par baithkar, man ko ekaagra karke, chitt aur indriyon ki kriyaon ko sanyamit karke, aatmashuddhi ke liye yog ka abhyaas kare.",
+                "translation": "वहाँ उस आसन पर बैठकर, मन को एकाग्र करके, चित्त और इन्द्रियों की क्रियाओं को संयमित करके, आत्मशुद्धि के लिए योग का अभ्यास करे।",
+                "explanation": "'तत्र' = वहाँ (उस आसन पर)। 'एकाग्रं मनः कृत्वा' = मन को एकाग्र करके — एकाग्रता ध्यान का प्राण है। 'यतचित्तेन्द्रियक्रियः' = चित्त (मन) और इन्द्रियों की क्रियाओं को संयमित करके — प्रत्याहार और धारणा की अवस्था। 'उपविश्यासने' = आसन पर बैठकर। 'युञ्ज्याद् योगम्' = योग का अभ्यास करे। और यहाँ प्रयोजन स्पष्ट रूप से बताया गया है: 'आत्मविशुद्धये' = आत्म-शुद्धि के लिए। ध्यान का उद्देश्य केवल मानसिक शान्ति नहीं — वह अन्तःकरण की गहरी शुद्धि है जिससे स्वयं का यथार्थ स्वरूप प्रकट होता है। 'आत्मविशुद्धि' वह प्रक्रिया है जिसमें अज्ञान, वासनाएँ और संस्कार धीरे-धीरे ध्यान की अग्नि में जल जाते हैं।"
+            },
+            "english": {
+                "translation": "Having sat on that seat, with mind made one-pointed, with the functions of mind and senses restrained — let one practise yoga there for the purification of the self.",
+                "explanation": "'Ekāgraṃ manaḥ kṛtvā' — having made the mind one-pointed. Ekāgratā (one-pointedness) is the essential quality of meditation — the gathering of the mind's diffuse attention into a single, unbroken focus. 'Yata-cittendriya-kriyaḥ' — with the activities of both citta (the mind-stuff) and the senses restrained: this is the combined action of pratyāhāra (withdrawal of the senses from their objects) and dhāraṇā (concentration — holding the mind steady on a single point). 'Upaviśyāsane' — having sat on the prepared seat. 'Yuñjyād yogam' — let one engage in yoga (the practice of union, of bringing the scattered self back to its centre). The stated purpose: 'ātma-viśuddhaye' — for the purification of the self. Meditation is not primarily a relaxation technique or a stress-management tool — it is a process of ātma-śuddhi: the progressive refinement and cleansing of the inner being, burning away the accumulated impressions, desires, and ignorance that obscure the self's natural luminosity."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 13,
+            "global_verse_id": 246,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "समं कायशिरोग्रीवं धारयन्नचलं स्थिरः ।\nसम्प्रेक्ष्य नासिकाग्रं स्वं दिशश्चानवलोकयन् ॥ १३ ॥",
+                "iast": "samaṃ kāya-śiro-grīvaṃ dhārayann acalaṃ sthiraḥ |\nsaṃprekṣya nāsikāgraṃ svaṃ diśaś cānavalokayan ||13||"
+            },
+            "hindi": {
+                "devanagari": "काया, शिर और ग्रीवा (गर्दन) को सम (सीधा) और अचल रखते हुए, दृढ़तापूर्वक, अपनी नासिका के अग्रभाग को देखते हुए, अन्य दिशाओं को न देखते हुए।",
+                "hinglish": "Kaaya, shir aur greeva (gardan) ko sam (seedha) aur achal rakhte hue, dridhataapoorvak, apni naasika ke agrabhaag ko dekhte hue, anya dishaon ko na dekhte hue.",
+                "translation": "काया, शिर और ग्रीवा को सम और अचल रखते हुए, स्थिरतापूर्वक, अपनी नासिका के अग्रभाग को देखते हुए और अन्य दिशाओं को न देखते हुए।",
+                "explanation": "यह और अगला श्लोक ध्यान की शारीरिक मुद्रा का सूक्ष्म वर्णन देते हैं। 'समं कायशिरोग्रीवम्' = शरीर, सिर और गर्दन को एक सीध में रखना — यह रीढ़ की हड्डी की सीधी स्थिति है जो प्राण-प्रवाह के लिए आवश्यक है। 'अचलम्' = अचल — हिलना नहीं। 'स्थिरः' = दृढ़। 'नासिकाग्रं सम्प्रेक्ष्य' = नासिका के अग्रभाग को देखते हुए। यह एक प्रसिद्ध ध्यान-बिन्दु है: नासिकाग्र-दृष्टि से आँखें आधी बन्द रहती हैं, दृष्टि बाहर नहीं जाती, मन अन्तर्मुखी होता है। कुछ टीकाकार इसे 'भ्रूमध्य-दृष्टि' भी मानते हैं। 'दिशश्चानवलोकयन्' = अन्य दिशाओं को न देखते हुए — दृष्टि को बाहर न भटकने देना। शरीर की स्थिरता मन की स्थिरता को सहयोग देती है — शरीर और मन परस्पर प्रभावित करते हैं।"
+            },
+            "english": {
+                "translation": "Holding the body, head, and neck erect and still, steady, gazing at the tip of one's nose and not looking in any other direction —",
+                "explanation": "This verse and the next deliver the Gita's precise instructions for physical posture during meditation — a level of specificity that matches later yoga texts. 'Samaṃ kāya-śiro-grīvam' — body, head, and neck held erect and aligned. This vertical alignment of the spinal column is not merely aesthetic — it is physiologically significant: the upright spine allows the free flow of prāṇa (vital energy) through the suṣumnā nāḍī (the central subtle channel), which is the physiological basis of deep meditative states. 'Acalaṃ sthiraḥ' — immovable and firm: physical stillness directly supports mental stillness; every bodily movement creates a ripple in the citta. 'Nāsikāgraṃ saṃprekṣya' — gazing at the tip of the nose: in this gaze, the eyes are half-closed, the visual field is restricted, and external distraction is minimized while drowsiness is prevented. Some commentators interpret this as nasikāgra-dṛṣṭi (literal nose-tip gaze) and others as metaphorical for inward focus. 'Diśaś cānavalokayan' — not looking in other directions: the gaze is anchored, not wandering. Physical eyes that wander carry the mind with them."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 14,
+            "global_verse_id": 247,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "प्रशान्तात्मा विगतभीर्ब्रह्मचारिव्रते स्थितः ।\nमनः संयम्य मच्चित्तो युक्त आसीत मत्परः ॥ १४ ॥",
+                "iast": "praśāntātmā vigata-bhīr brahmacāri-vrate sthitaḥ |\nmanaḥ saṃyamya mac-citto yukta āsīta mat-paraḥ ||14||"
+            },
+            "hindi": {
+                "devanagari": "प्रशान्त अन्तःकरण वाला, भयरहित, ब्रह्मचर्य-व्रत में स्थित, मन को संयमित करके, मुझमें चित्त लगाकर, मुझे परायण होकर युक्त बैठे।",
+                "hinglish": "Prashant antahkaran wala, bhayrahit, brahmacharya-vrat mein sthit, man ko sanyamit karke, mujhme chitt lagakar, mujhe paraayan hokar yukta baithe.",
+                "translation": "प्रशान्त अन्तःकरण वाला, भयमुक्त, ब्रह्मचर्य-व्रत में स्थित, मन को संयमित करके, मुझमें चित्त लगाकर, मुझे परायण होकर, युक्त होकर बैठे।",
+                "explanation": "यह ध्यान के भीतरी भावपक्ष का वर्णन है। 'प्रशान्तात्मा' = शान्त अन्तःकरण — ध्यान से पूर्व मन की शान्ति आवश्यक है, व्याकुल मन से गहरी समाधि सम्भव नहीं। 'विगतभीः' = भयमुक्त — भय ध्यान का सबसे बड़ा विघ्नकारक है। 'ब्रह्मचारिव्रते स्थितः' = ब्रह्मचर्य-व्रत में स्थित — ब्रह्मचर्य का अर्थ केवल यौनसंयम नहीं; इसका शाब्दिक अर्थ है 'ब्रह्म में विचरण करना।' समस्त इन्द्रियों का संयम ब्रह्मचर्य है। 'मनः संयम्य' = मन को संयमित करके। 'मच्चित्तः' = मुझ (कृष्ण) में चित्त लगाकर — यहाँ ध्यानयोग में भक्ति का सुन्दर संयोजन है। 'मत्परः' = मुझे परायण — जिसका एकमात्र आश्रय मैं हूँ। यह श्लोक बताता है कि कृष्ण का ध्यानयोग निर्गुण ध्यान नहीं — वह सगुण परमात्मा में केन्द्रित है।"
+            },
+            "english": {
+                "translation": "With a serene inner self, free from fear, established in the vow of brahmacarya, with the mind controlled — let one sit integrated, with consciousness in Me, devoted to Me as the supreme.",
+                "explanation": "This verse describes the inner, qualitative dimension of the meditation posture, complementing the outer physical description of verses 11-13. 'Praśāntātmā' — with a serene inner being: the mind must be brought to a relative quietness before deep meditation is even possible; a churning mind cannot achieve concentration. 'Vigata-bhīḥ' — free from fear: fear is among the most potent disruptors of meditative depth — it contracts and agitates the mind-field. 'Brahmacāri-vrate sthitaḥ' — established in the vow of brahmacarya. The term brahmacarya literally means 'moving in Brahman' — its full meaning is comprehensive sense-restraint, not merely sexual continence. It is the disposition of one whose energy is gathered inward rather than dispersed through sensory indulgence. 'Manaḥ saṃyamya' — with the mind restrained, pulled back from its outward wandering. 'Mac-citto mat-paraḥ' — most significantly: 'with mind in Me, with Me as the supreme goal.' The meditation Krishna prescribes is not impersonal or abstract — it is centred in Him, in the personal divine. This is the meeting point of jñāna yoga, dhyāna yoga, and bhakti yoga."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 15,
+            "global_verse_id": 248,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "युञ्जन्नेवं सदात्मानं योगी नियतमानसः ।\nशान्तिं निर्वाणपरमां मत्संस्थामधिगच्छति ॥ १५ ॥",
+                "iast": "yuñjann evaṃ sadātmānaṃ yogī niyata-mānasaḥ |\nśāntiṃ nirvāṇa-paramāṃ mat-saṃsthām adhigacchati ||15||"
+            },
+            "hindi": {
+                "devanagari": "इस प्रकार सदा आत्मा (मन) को योग में लगाते हुए, नियत (संयमित) मन वाला योगी, मुझमें स्थित, निर्वाण-परम (परम) शान्ति को प्राप्त होता है।",
+                "hinglish": "Is prakar sada aatma (man) ko yog mein lagaate hue, niyat (sanyamit) man waala yogi, mujhme sthit, nirvaan-param (param) shaanti ko prapt hota hai.",
+                "translation": "इस प्रकार सदा अपने आत्मा को योग में लगाते हुए, नियतमानस (संयमित मन वाला) योगी मुझमें स्थित, निर्वाण की पराकाष्ठा वाली शान्ति को प्राप्त होता है।",
+                "explanation": "'युञ्जन् एवम्' = इस प्रकार (पूर्वोक्त विधि से) योग में लगाते हुए। 'सदा' = सदा, सर्वदा — निरन्तर अभ्यास। 'नियतमानसः' = नियत मन वाला — जिसका मन अनुशासित और नियन्त्रित है। 'मत्संस्थाम्' = मुझमें स्थित — परमात्मा में प्रतिष्ठित। 'शान्तिं निर्वाणपरमाम् अधिगच्छति' = निर्वाण-परम शान्ति को प्राप्त होता है। 'निर्वाणपरमा' = निर्वाण ही जिसका परम (चरम) है ऐसी शान्ति। या 'निर्वाण में परम' — ब्रह्मनिर्वाण की शान्ति। यह वह शान्ति है जो बाहरी परिस्थितियों से अप्रभावित है — न प्रतिकूलता से टूटती है, न अनुकूलता से उत्तेजित होती है। यह ध्यानयोग का अन्तिम फल है — परम शान्ति में परमात्मा के साथ एकता।"
+            },
+            "english": {
+                "translation": "Continuously engaging the self in yoga thus, the yogi of restrained mind attains the peace that culminates in nirvāṇa — established in Me.",
+                "explanation": "'Yuñjann evaṃ sadātmānam' — continuously engaging the self in yoga in this manner: the adverb 'sadā' (always, continuously) signals that yoga is not an occasional exercise but a consistent and sustained orientation of the entire life. 'Niyata-mānasaḥ' — the yogī with a disciplined, controlled mind: 'niyata' implies that the mind is not merely restrained temporarily but has been brought under a stable, ongoing governance. 'Mat-saṃsthām' — established in Me: the final ground of this peace is not in the yogi's individual mind but in the Divine — in Krishna, in the Paramātman. 'Śāntiṃ nirvāṇa-paramām' — the peace whose apex, whose supreme expression, is nirvāṇa: the complete extinction of the individual ego's restless grasping and fearing in the vast stillness of the infinite. This is not death — it is the most alive state possible: total presence without the distortion of self-concern. The entire meditation practice described in verses 10-15 culminates here — in this supreme peace that is simultaneously personal devotion and impersonal liberation."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 16,
+            "global_verse_id": 249,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नतः ।\nन चातिस्वप्नशीलस्य जाग्रतो नैव चार्जुन ॥ १६ ॥",
+                "iast": "nāty-aśnatas tu yogo 'sti na caikāntam anaśnataḥ |\nna cāti-svapna-śīlasya jāgrato naiva cārjuna ||16||"
+            },
+            "hindi": {
+                "devanagari": "हे अर्जुन! अत्यधिक खाने वाले के लिए योग नहीं है, और बिल्कुल न खाने वाले के लिए भी नहीं। अत्यधिक सोने वाले के लिए भी नहीं और सदा जागते रहने वाले के लिए भी नहीं।",
+                "hinglish": "He Arjun! Atyadhik khaane waale ke liye yog nahi hai, aur bilkul na khaane waale ke liye bhi nahi. Atyadhik sone waale ke liye bhi nahi aur sada jaagte rehne waale ke liye bhi nahi.",
+                "translation": "हे अर्जुन! अत्यधिक खाने वाले के लिए योग नहीं है, और बिल्कुल न खाने वाले के लिए भी नहीं। न अत्यधिक सोने वाले के लिए और न सदा जागने वाले के लिए।",
+                "explanation": "यह और अगला श्लोक ध्यानयोग के लिए आहार, निद्रा और जागरण का मध्यम मार्ग बताते हैं। 'अत्यश्नतः' = अत्यधिक खाने वाले — जो भोजन में अति करते हैं, उनका शरीर भारी और मन तमस-ग्रस्त होता है, ध्यान कठिन हो जाता है। 'अनश्नतः' = जो बिल्कुल नहीं खाते — अत्यन्त उपवास से शरीर दुर्बल होता है, मन चिड़चिड़ा होता है, एकाग्रता सम्भव नहीं। 'अतिस्वप्नशीलस्य' = जो अत्यधिक सोता है — तमस बढ़ता है, मन जड़ हो जाता है। 'जाग्रतः' = जो बिल्कुल नहीं सोता — जागरण की अति से थकान, उत्तेजना, रजस। दोनों अतियाँ योग के लिए हानिकारक हैं। यह गीता का 'मध्यम मार्ग' है — सम्भवतः बौद्ध दर्शन के 'मध्यम मार्ग' (Middle Path) से भी पूर्व प्रतिपादित।"
+            },
+            "english": {
+                "translation": "O Arjuna, yoga is not for the one who eats too much, nor for the one who eats nothing at all. Nor for the one who sleeps too much, nor for the one who is always awake.",
+                "explanation": "This and the next verse articulate the principle of yuktatā (measured, calibrated living) as the necessary foundation for meditative practice. Four extremes are disqualified: 'aty-aśnataḥ' — excessive eating: overeating makes the body heavy, generates tamasic lethargy, and directs prāṇa downward toward digestion rather than upward toward awareness. 'Anaśnataḥ' — eating nothing, extreme fasting: starvation depletes the body and agitates the mind — a starving meditator cannot maintain the calm steadiness needed for depth. 'Ati-svapna-śīlasya' — excessive sleeping: too much sleep increases tamas (inertia), dulls the mind, and makes concentration impossible. 'Jāgrataḥ' — the one who never sleeps: extreme sleep deprivation produces irritability, erratic thinking, and rajasic agitation. All four are anti-yogic extremes. The Gita's prescription here anticipates what it will articulate in verse 17: a middle path of measured balance. This is not asceticism and not indulgence — it is the precise calibration of the body's needs."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 17,
+            "global_verse_id": 250,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु ।\nयुक्तस्वप्नावबोधस्य योगो भवति दुःखहा ॥ १७ ॥",
+                "iast": "yuktāhāra-vihārasya yukta-ceṣṭasya karmasu |\nyukta-svapnāvabodhasya yogo bhavati duḥkha-hā ||17||"
+            },
+            "hindi": {
+                "devanagari": "युक्त आहार और विहार वाले के, कर्मों में युक्त चेष्टा वाले के, और युक्त निद्रा तथा जागरण वाले के लिए — यह योग दुःख का नाशक होता है।",
+                "hinglish": "Yukta aahaar aur vihaar waale ke, karmon mein yukta cheshta waale ke, aur yukta nindra tatha jaagran waale ke liye — yah yog dukh ka naashak hota hai.",
+                "translation": "युक्त आहार और विहार वाले के, कर्मों में युक्त (संयमित) चेष्टा वाले के, युक्त निद्रा और जागरण वाले के लिए — यह योग दुःख का नाशक होता है।",
+                "explanation": "'युक्त' = संयमित, संतुलित, सटीक — न अति, न न्यूनता। तीन क्षेत्रों में युक्तता: (१) 'युक्ताहारविहार' = संयमित आहार और विहार (विश्राम, भ्रमण, मनोरञ्जन)। (२) 'युक्तचेष्टस्य कर्मसु' = कर्मों में संयमित प्रयास — न अत्यधिक श्रम, न आलस्य। (३) 'युक्तस्वप्नावबोध' = संयमित निद्रा और जागरण। यह त्रिविध संयम जिसके जीवन में है, उसके लिए 'योगः दुःखहा भवति' = योग दुःख का नाशक होता है। 'दुःखहा' = दुःखों का नाशक। यह एक व्यावहारिक सत्य है: जब जीवन संतुलित हो — खाना, सोना, काम करना, विश्राम करना — सब नाप-तोल के साथ — तब शरीर और मन दोनों ध्यान के लिए तैयार होते हैं। संतुलन ही योग का आधार है।"
+            },
+            "english": {
+                "translation": "For one who is measured in eating and recreation, measured in effort in actions, measured in sleep and wakefulness — yoga becomes the destroyer of sorrow.",
+                "explanation": "This verse gives the positive prescription complementing the negatives of verse 16. 'Yukta' — measured, calibrated, appropriate: not a fixed formula but a living attentiveness to what the body and mind genuinely need. Three domains of yuktatā: (1) 'Yuktāhāra-vihārasya' — measured in āhāra (eating) and vihāra (recreation, relaxation, movement): food eaten in the right quantity at the right time of the right quality; rest and recreation taken neither excessively nor insufficiently. (2) 'Yukta-ceṣṭasya karmasu' — measured in effort in actions: work performed neither with draining overexertion nor with lazy half-heartedness. (3) 'Yukta-svapnāvabodhasya' — measured in sleep (svapna) and wakefulness (avabodha): the right amount of sleep — enough to restore without inducing torpor. For the one who lives this threefold balance: 'yogo bhavati duḥkha-hā' — yoga becomes the destroyer of sorrow. 'Duḥkha-hā' is a strong word: yoga does not merely manage sorrow — it destroys (hā) it at the root. The balanced life is not merely comfortable — it is the necessary soil in which the transformative flower of yoga can bloom."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 18,
+            "global_verse_id": 251,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यदा विनियतं चित्तमात्मन्येवावतिष्ठते ।\nनिःस्पृहः सर्वकामेभ्यो युक्त इत्युच्यते तदा ॥ १८ ॥",
+                "iast": "yadā viniyataṃ cittam ātmany evāvatiṣṭhate |\nniḥspṛhaḥ sarva-kāmebhyo yukta ity ucyate tadā ||18||"
+            },
+            "hindi": {
+                "devanagari": "जब वश में किया हुआ चित्त आत्मा में ही स्थित हो जाता है और सभी कामनाओं से निःस्पृह (इच्छारहित) हो जाता है — तब वह युक्त कहा जाता है।",
+                "hinglish": "Jab vash mein kiya hua chitt aatma mein hi sthit ho jaata hai aur sabhi kaamanaon se nihspriha (icchaaheen) ho jaata hai — tab woh yukta kaha jaata hai.",
+                "translation": "जब विनियमित चित्त आत्मा में ही स्थित हो जाता है और सम्पूर्ण कामनाओं से निःस्पृह हो जाता है — तब वह युक्त कहलाता है।",
+                "explanation": "'विनियतं चित्तम्' = विशेष रूप से नियमित, संयमित चित्त। 'आत्मन्येव अवतिष्ठते' = आत्मा में ही स्थित हो जाता है। यह वह क्षण है जब ध्यान गहरा होता है — चित्त बाहर भटकना बन्द कर देता है और आत्मा में ही टिक जाता है। 'निःस्पृहः सर्वकामेभ्यः' = समस्त कामनाओं से निःस्पृह — कोई भी इच्छा नहीं शेष। यह कामना-शून्यता बलपूर्वक नहीं — यह आत्म-सुख की तृप्ति से स्वाभाविक रूप से आती है। जब भीतर ही परम आनन्द मिल जाए, तो बाहर क्या खोजना? 'युक्तः इति उच्यते' = तब वह 'युक्त' कहलाता है। 'युक्त' = योगयुक्त, ईश्वर से जुड़ा हुआ। यह श्लोक ध्यान की परिपक्वता का सटीक संकेत देता है: चित्त का आत्मनिष्ठ हो जाना और कामनाओं का स्वाभाविक अवसान।"
+            },
+            "english": {
+                "translation": "When the disciplined mind rests in the Self alone, free from longing for all objects of desire — then that person is called 'yukta' (perfectly integrated, yoga-united).",
+                "explanation": "'Viniyataṃ cittam ātmany evāvatiṣṭhate' — the key word is 'eva' (alone, only): the disciplined mind rests in the Self alone — it has stopped going outward to objects and rests naturally in its own source. This is the turning point of dhyāna: the mind no longer needs to be effortfully restrained but has discovered a deeper rest within itself. 'Niḥspṛhaḥ sarva-kāmebhyaḥ' — completely without longing (spṛhā) for any and all desired objects: this is not suppression of desire but the natural dissolution of desire in the taste of something infinitely more satisfying — the ānanda of the ātman. When the inner ocean is found, the desire for drops from external sources naturally ceases. 'Yukta ity ucyate' — 'yukta' (from the root 'yuj' — to yoke, to join): this person has been yoked to the Supreme. This verse defines the practical criterion for 'yokedness': the mind at rest in the Self, free from the gravitational pull of desire. This is not a mystical special state — it is the natural condition of a purified mind."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 19,
+            "global_verse_id": 252,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता ।\nयोगिनो यतचित्तस्य युञ्जतो योगमात्मनः ॥ १९ ॥",
+                "iast": "yathā dīpo nivāta-stho neṅgate sopamā smṛtā |\nyogino yata-cittasya yuñjato yogam ātmanaḥ ||19||"
+            },
+            "hindi": {
+                "devanagari": "जैसे वायुरहित स्थान में रखा दीपक टिमटिमाता नहीं — वैसी ही उपमा आत्मयोग का अभ्यास करने वाले संयत-चित्त योगी की याद की जाती है।",
+                "hinglish": "Jaise vaayurahit sthan mein rakha deepak timtimata nahi — waisi hi upama aatmayog ka abhyaas karne waale sanyat-chitt yogi ki yaad ki jaati hai.",
+                "translation": "जैसे वायुरहित स्थान में रखा दीपक टिमटिमाता नहीं — वैसी ही उपमा आत्मयोग में संलग्न संयतचित्त योगी के लिए स्मृत (प्रसिद्ध) है।",
+                "explanation": "गीता की सबसे सुन्दर और प्रसिद्ध उपमाओं में से एक। 'दीपः निवातस्थः नेङ्गते' = वायुरहित स्थान में रखा दीपक कँपता नहीं, टिमटिमाता नहीं — उसकी ज्योति सीधी, स्थिर, शान्त रहती है। 'सोपमा स्मृता' = यही उपमा स्मृत (याद, प्रख्यात) है — शायद यह उपमा पहले से प्रचलित थी और कृष्ण उसे उद्धृत कर रहे हैं। 'योगिनो यतचित्तस्य युञ्जतो योगमात्मनः' = आत्मयोग का अभ्यास करने वाले संयतचित्त योगी की। ध्यानस्थ योगी का मन उस दीपक की ज्योति जैसा है: भीतर से प्रकाशमान, किसी भी बाहरी वायु (विचार, भावना, विकर्षण) से अप्रभावित। यह उपमा ध्यान की गहराई को बहुत सूक्ष्मता से व्यक्त करती है — दीपक जल रहा है (चेतना सक्रिय है), किन्तु एक भी काँपन नहीं (चित्त पूर्णतः स्थिर है)।"
+            },
+            "english": {
+                "translation": "As a lamp placed in a windless spot does not flicker — that is the simile recalled for the yogi of restrained mind who practises yoga of the Self.",
+                "explanation": "This is among the most celebrated similes in the entire Bhagavad Gita — exquisite in its simplicity and depth. 'Dīpo nivāta-stho neṅgate' — a lamp (dīpa) placed in a windless (nivāta) spot does not waver (neṅgate): its flame burns perfectly upright, luminous, steady, unwavering. 'Sopamā smṛtā' — 'that simile is remembered': the phrasing suggests this may have been a well-known traditional analogy that Krishna here employs. The yogi of restrained mind (yata-citta) who is engaged in ātma-yoga (the yoga of the Self) is like that flame. The mind is luminous (it is aware, it is active consciousness), yet it is completely still — undisturbed by the winds of sensory impulse, emotional agitation, discursive thought, or external distraction. Every wandering thought is like a gust that makes the flame flicker. The mastered mind of the dhyānī is the perfectly still flame: fully alive, fully alight, absolutely unswayed. This simile encapsulates the paradox of deep meditation — total aliveness and total stillness simultaneously."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 20,
+            "global_verse_id": 253,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यत्रोपरमते चित्तं निरुद्धं योगसेवया ।\nयत्र चैवात्मनात्मानं पश्यन्नात्मनि तुष्यति ॥ २० ॥",
+                "iast": "yatroparamate cittaṃ niruddhaṃ yoga-sevayā |\nyatra caivātmanātmānaṃ paśyann ātmani tuṣyati ||20||"
+            },
+            "hindi": {
+                "devanagari": "जहाँ (जिस अवस्था में) योग-साधना से निरुद्ध चित्त उपराम हो जाता है, और जहाँ आत्मा से आत्मा को देखते हुए आत्मा में ही सन्तुष्ट रहता है।",
+                "hinglish": "Jahan (jis avastha mein) yog-sadhana se niruddha chitt uparaam ho jaata hai, aur jahan aatma se aatma ko dekhte hue aatma mein hi santusht rehta hai.",
+                "translation": "जिस अवस्था में योगसेवा से निरुद्ध चित्त उपराम हो जाता है और जहाँ आत्मा से आत्मा को देखते हुए आत्मा में ही सन्तुष्ट रहता है।",
+                "explanation": "यह और अगले तीन श्लोक मिलकर समाधि की अवस्था का क्रमिक वर्णन करते हैं — गीता में सबसे सुन्दर और दुर्लभ विवरण। 'योगसेवया निरुद्धं चित्तम्' = योग-साधना से निरुद्ध (रोका हुआ, शान्त किया हुआ) चित्त। 'उपरमते' = उपराम होता है — 'उपराम' का अर्थ है बाहरी विषयों से पूर्ण विमुखता, सब ओर से चित्त का सिमट आना। 'आत्मनात्मानं पश्यन्' = आत्मा से आत्मा को देखते हुए — यह ज्ञान की वह परम अवस्था है जहाँ द्रष्टा, दर्शन और दृश्य तीनों एक हो जाते हैं। जब देखने वाला, देखा जाने वाला और देखने की क्रिया — सब आत्मा है। 'आत्मनि तुष्यति' = आत्मा में ही सन्तुष्ट होता है — परम स्वयंतुष्टि। यह अवस्था शब्दों से परे है।"
+            },
+            "english": {
+                "translation": "The state where the mind, restrained by the practice of yoga, becomes quiescent — and where seeing the Self by the Self alone, one is satisfied within the Self.",
+                "explanation": "This and the following three verses constitute the Gita's most intimate description of the samādhi state — the fruit of sustained dhyāna yoga. 'Yoga-sevayā niruddhaṃ cittam' — the mind restrained (niruddha — the same word used in Patañjali's Yoga Sūtra 1.2: 'yogaś citta-vṛtti-nirodhaḥ') through sustained yoga practice. 'Uparamate' — becomes 'upārama': this beautiful word means to 'become silent from above,' to withdraw from all external engagement and come to a complete inner standstill. 'Ātmanātmānaṃ paśyan' — seeing the Self by the Self: the most advanced form of self-knowledge where the instrument of knowing (the purified mind/intellect) and the object of knowing (the ātman) are experienced as one. The tripartite structure of subject-object-knowing collapses into a single, undivided experience. 'Ātmani tuṣyati' — contentment/satisfaction within the Self alone: the deepest possible satisfaction — not the satisfaction of a desire fulfilled but the natural fulfilment of the Self by the Self, which needs nothing outside itself."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 21,
+            "global_verse_id": 254,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "सुखमात्यन्तिकं यत्तद्बुद्धिग्राह्यमतीन्द्रियम् ।\nवेत्ति यत्र न चैवायं स्थितश्चलति तत्त्वतः ॥ २१ ॥",
+                "iast": "sukham ātyantikam yat tad buddhi-grāhyam atīndriyam |\nvetti yatra na caivāyaṃ sthitaś calati tattvataḥ ||21||"
+            },
+            "hindi": {
+                "devanagari": "जहाँ जो आत्यन्तिक (परम) सुख है — जो बुद्धि से ग्राह्य और इन्द्रियों से परे है — उसे वह जानता है। और जिस अवस्था में स्थित होने पर वह तत्त्व से विचलित नहीं होता।",
+                "hinglish": "Jahan jo aatyanttik (param) sukh hai — jo buddhi se grahya aur indriyon se pare hai — use woh jaanta hai. Aur jis avastha mein sthit hone par woh tattva se vichalit nahi hota.",
+                "translation": "जहाँ जो आत्यन्तिक सुख है — जो बुद्धि से ग्राह्य और इन्द्रियों से परे है — उसे योगी जानता है। और उस अवस्था में स्थित होने पर वह तत्त्व से विचलित नहीं होता।",
+                "explanation": "'आत्यन्तिकं सुखम्' = आत्यन्तिक (अत्यन्त का यौगिक) सुख = वह सुख जो किसी वस्तु पर निर्भर नहीं, जो स्वयं सत्ता का स्वभाव है। इस सुख की दो विशेषताएँ: (१) 'बुद्धिग्राह्यम्' = बुद्धि से ग्राह्य — बुद्धि की शुद्धतम अवस्था में यह सुख अनुभव होता है, इन्द्रियों से नहीं। यह बुद्धि-गम्य है। (२) 'अतीन्द्रियम्' = इन्द्रियों से परे। इन्द्रियाँ इसे छू भी नहीं सकतीं। 'वेत्ति' = जानता है — यह जानना अनुभव-जन्य है, सैद्धान्तिक नहीं। 'स्थितश्चलति तत्त्वतः न' = उस अवस्था में स्थित होने पर वह तत्त्व (सत्य) से विचलित नहीं होता। यह स्थिरता का अन्तिम प्रमाण है — न भोग से, न भय से, न काल से इस अवस्था को कुछ कर सकता है।"
+            },
+            "english": {
+                "translation": "The transcendent joy that is known there — graspable by the intellect yet beyond the senses — once established in that state, one does not move from the truth.",
+                "explanation": "'Sukham ātyantikam' — the joy that is 'ātyantika': absolute, without limit, without end, the terminal form of happiness — not the happiness of a particular pleasant experience but the happiness that is the very nature of being itself. Two precise qualifiers: (1) 'Buddhi-grāhyam' — graspable by the intellect (buddhi) in its purest, most refined state. This is not a raw sensory pleasure — the senses cannot reach it. It is apprehended through the highest instrument of inner knowledge, the śuddha-buddhi (purified intellect), when it has become transparent to the Self. (2) 'Atīndriyam' — beyond the senses: transcending the entire field of sensory perception. The five senses and their objects have no access here. 'Vetti' — one knows it: this knowing is not conceptual but direct, experiential, non-mediated. 'Sthitaś calati tattvataḥ na' — established in that state, one does not deviate from truth (tattva). This is absolute stability: once this ground is touched, nothing — no pleasure, no pain, no external event — can dislodge the yogi from it."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 22,
+            "global_verse_id": 255,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यं लब्ध्वा चापरं लाभं मन्यते नाधिकं ततः ।\nयस्मिन्स्थितो न दुःखेन गुरुणापि विचाल्यते ॥ २२ ॥",
+                "iast": "yaṃ labdhvā cāparaṃ lābhaṃ manyate nādhikaṃ tataḥ |\nyasmin sthito na duḥkhena guruṇāpi vicālyate ||22||"
+            },
+            "hindi": {
+                "devanagari": "जिसे पाकर उससे अधिक कोई दूसरा लाभ नहीं मानता, और जिसमें स्थित होने पर बड़े से बड़े दुःख से भी विचलित नहीं होता।",
+                "hinglish": "Jise paakar usse adhik koi doosra laabh nahi maanta, aur jismein sthit hone par bade se bade dukh se bhi vichalit nahi hota.",
+                "translation": "जिसे प्राप्त करके उससे अधिक कोई अन्य लाभ नहीं मानता, और जिसमें स्थित होने पर बड़े से बड़े दुःख से भी विचलित नहीं होता।",
+                "explanation": "'यं लब्ध्वा... नाधिकम् मन्यते' = जिसे प्राप्त करने के बाद उससे बड़ा कोई लाभ नहीं दिखता। यह सम्पूर्णता की अवस्था है — जहाँ 'और क्या?' का प्रश्न नहीं उठता। संसार की समस्त सम्पदाएँ — धन, यश, ज्ञान, सम्बन्ध — इस लाभ के सामने तुच्छ हो जाती हैं। 'यस्मिन् स्थितः' = जिसमें स्थित होने पर। 'गुरुणा दुःखेन न विचाल्यते' = बड़े से बड़े दुःख से भी विचलित नहीं होता। 'गुरुणा' = गहरे, भारी, अत्यन्त गम्भीर। यह अत्यन्त महत्त्वपूर्ण बात है: यह अवस्था दुःख का अभाव नहीं — यह दुःख की उपस्थिति में भी अविचलन है। योगी दुःख से अनजान नहीं; किन्तु दुःख उसे उसकी मूल अवस्था से नहीं हटा सकता। यही ब्रह्म-संस्थ योगी की पहचान है।"
+            },
+            "english": {
+                "translation": "Obtaining which, one does not consider any other gain to be greater, and being established in which, one is not moved even by the deepest sorrow.",
+                "explanation": "'Yaṃ labdhvā cāparaṃ lābhaṃ manyate nādhikaṃ' — having gained which, one considers no other gain to be greater. This is the definition of the ultimate attainment: the state of complete inner fullness where the question 'what more?' simply does not arise. The world's entire catalogue of desirables — wealth, power, fame, relationships, knowledge, health — all appear as lesser gains in comparison. This is not the arrogance of dismissal but the simple recognition of having found the source from which all value flows. 'Yasmin sthito na duḥkhena guruṇāpi vicālyate' — established in which, one is not shaken even by the heaviest (guruṇā) sorrow. Note: 'guruṇā' — the greatest, most weighty kind of sorrow — not minor inconveniences but serious suffering. This state does not make one immune to pain in the sense of becoming unfeeling — it provides an inner ground so stable that even severe external suffering cannot uproot the yogi from their essential peace. This is the supreme test and the supreme gift of dhyāna yoga."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 23,
+            "global_verse_id": 256,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "तं विद्याद्दुःखसंयोगवियोगं योगसंज्ञितम् ।\nस निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा ॥ २३ ॥",
+                "iast": "taṃ vidyād duḥkha-saṃyoga-viyogaṃ yoga-saṃjñitam |\nsa niścayena yoktavyo yogo 'nirviṇṇa-cetasā ||23||"
+            },
+            "hindi": {
+                "devanagari": "उसे दुःख के संयोग से वियोग अर्थात् वियुक्ति ही 'योग' इस नाम से जानना चाहिए। वह योग निश्चयपूर्वक अखिन्न (न ऊबने वाले, उत्साहयुक्त) चित्त से करना चाहिए।",
+                "hinglish": "Use dukh ke sanyog se viyog arthat viyukti hi 'yog' is naam se jaanana chahiye. Woh yog nishchayapoorvak akhinnn (na oobne waale, utsaahayukta) chitt se karna chahiye.",
+                "translation": "उसे 'दुःख के संयोग से वियोग' ही 'योग' इस संज्ञा से जानना चाहिए। वह योग निश्चय के साथ, न ऊबने वाले (अखिन्न) चित्त से करना चाहिए।",
+                "explanation": "यह गीता में 'योग' की सबसे उत्कृष्ट और अनोखी परिभाषाओं में से एक है। 'दुःखसंयोगवियोगम्' = दुःख के संयोग से (दुःख के साथ जो जोड़) का वियोग (उससे वियुक्ति, अलगाव)। योग का अर्थ यहाँ 'जोड़ना' नहीं — बल्कि 'उस जोड़ को तोड़ना जो दुःख के साथ है।' हम दुःख से जुड़े हुए हैं — यह मूल बन्धन है। योग उस जोड़ को काटता है। 'योगसंज्ञितम्' = योग इस नाम से जानना चाहिए। यह परिभाषा अत्यन्त व्यावहारिक है: योग का फल दुःख का उन्मूलन है। तदनन्तर: 'निश्चयेन योक्तव्यः' = निश्चय के साथ, दृढ़ संकल्प के साथ इस योग का अभ्यास करना चाहिए। 'अनिर्विण्णचेतसा' = जो चित्त ऊबा न हो, निराश न हो, हतोत्साहित न हो — उत्साहपूर्ण, धैर्यवान चित्त से। योग में ऊब और निराशा सबसे बड़े विघ्नकर्ता हैं।"
+            },
+            "english": {
+                "translation": "Let one know that which is called yoga to be the disjunction from the conjunction with sorrow. That yoga is to be practised with determination and with a mind that does not lose heart.",
+                "explanation": "This verse provides one of the most original and practically oriented definitions of yoga in the entire text. 'Duḥkha-saṃyoga-viyogaṃ yoga-saṃjñitam' — what is known by the name 'yoga' is the 'viyoga' (disjunction, disconnection) from the 'saṃyoga' (conjunction, connection) with duḥkha (sorrow, suffering). We are currently 'conjoined' with sorrow — our identity and experience are entangled with suffering. Yoga is precisely the severing of this entanglement. It is not primarily a technique for achieving bliss — it is the removal of the root connection to suffering. 'Sa niścayena yoktavyaḥ' — this yoga must be engaged 'with determination' (niścaya): without vacillation, without the lukewarm half-heartedness that picks up the practice for a few days and then drifts away. 'Anirviṇṇa-cetasā' — with a mind that is 'anirviṇṇa': not dejected, not disheartened, not tired of trying. Yoga practice is long. The mind will resist, progress will seem slow. The quality that sustains the practitioner through this is cheerful, unshakeable determination — not grim willpower but a deep, enthusiastic resolve."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 24,
+            "global_verse_id": 257,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "सङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषतः ।\nमनसैवेन्द्रियग्रामं विनियम्य समन्ततः ॥ २४ ॥",
+                "iast": "saṅkalpa-prabhavān kāmāṃs tyaktvā sarvān aśeṣataḥ |\nmanasaivendriya-grāmaṃ viniyamya samantataḥ ||24||"
+            },
+            "hindi": {
+                "devanagari": "संकल्प से उत्पन्न होने वाली सम्पूर्ण कामनाओं को अशेष रूप से त्यागकर, और मन से ही इन्द्रियों के समुदाय को सब ओर से विनियमित करके।",
+                "hinglish": "Sankalp se utpann hone waali sampurna kaamnaon ko ashesh roop se tyagkar, aur man se hi indriyon ke samuday ko sab or se viniyamit karke.",
+                "translation": "संकल्प से उत्पन्न होने वाली समस्त कामनाओं को अशेष रूप से त्यागकर, और मन के द्वारा ही इन्द्रियों के समूह को सब ओर से विनियमित करके।",
+                "explanation": "यह और अगला श्लोक मिलकर ध्यान-अभ्यास की विधि का सार देते हैं। 'संकल्पप्रभवान् कामान्' = संकल्प से उत्पन्न होने वाली कामनाएँ। एक महत्त्वपूर्ण अन्तर्दृष्टि: कामनाएँ कहाँ से आती हैं? संकल्प से। संकल्प (मन की इच्छा-निर्माण की क्रिया) ही कामनाओं का जन्मस्थान है। इसलिए संकल्प का त्याग = कामनाओं का मूलोच्छेद। 'सर्वान् अशेषतः' = सभी को, बिना शेष रखे — पूर्णतः, कोई भी इच्छा न छोड़कर। 'मनसा एव इन्द्रियग्रामम् विनियम्य' = मन से ही (बुद्धि के साधन से) इन्द्रियों के समूह को नियमित करके। 'समन्ततः' = सब ओर से — कोई भी इन्द्रिय बची न रहे। यह श्लोक ध्यान की पूर्वशर्त बताता है — कामना-त्याग और इन्द्रिय-संयम। यह इच्छाशक्ति से नहीं; यह विवेक (विनियम) से होता है।"
+            },
+            "english": {
+                "translation": "Abandoning completely and without remainder all desires born of saṅkalpa, and restraining the entire company of senses by the mind alone on every side —",
+                "explanation": "This verse and the next constitute the Gita's most concentrated description of the actual mechanics of meditation practice. 'Saṅkalpa-prabhavān kāmān tyaktvā sarvān aśeṣataḥ' — abandoning completely, without remainder, all desires 'born of saṅkalpa.' A crucial insight: desires (kāma) are not primary — they are secondary products of saṅkalpa (the mind's intentional desiring-faculty, its tendency to generate 'I want...' propositions). If the root is cut — if saṅkalpa itself is quieted — then desires have no source from which to arise. 'Aśeṣataḥ' — without residue, completely, not leaving even one desire untouched. This thoroughness is important: a single desire-seed left unaddressed will sprout in meditation and pull the mind outward. 'Manasaivendriya-grāmaṃ viniyamya samantataḥ' — and with the mind alone (the purified buddhi-guided mind as the instrument) restraining the entire collection (grāma) of senses from all sides: pratyāhāra — the systematic withdrawal of each sense from its corresponding object — achieved not through force but through the mind's discrimination and gentle, continuous return. This verse ends mid-sentence, continuing in verse 25."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 25,
+            "global_verse_id": 258,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "शनैः शनैरुपरमेद्बुद्ध्या धृतिगृहीतया ।\nआत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत् ॥ २५ ॥",
+                "iast": "śanaiḥ śanair uparamed buddhyā dhṛti-gṛhītayā |\nātma-saṃsthaṃ manaḥ kṛtvā na kiñcid api cintayet ||25||"
+            },
+            "hindi": {
+                "devanagari": "धैर्य से युक्त बुद्धि के द्वारा धीरे-धीरे उपराम प्राप्त करे, मन को आत्मा में स्थित करके, कुछ भी चिन्तन न करे।",
+                "hinglish": "Dhairya se yukta buddhi ke dwara dheere-dheere uparaam prapt kare, man ko aatma mein sthit karke, kuch bhi chintan na kare.",
+                "translation": "धैर्य से युक्त बुद्धि के द्वारा धीरे-धीरे (मन को) उपरत करे; मन को आत्मा में स्थित करके, कुछ भी चिन्तन न करे।",
+                "explanation": "यह श्लोक पूर्व श्लोक (24) का समापन करता है और ध्यान-अभ्यास की विधि का सबसे सूक्ष्म और महत्त्वपूर्ण निर्देश देता है। 'शनैः शनैः' = धीरे-धीरे, क्रमशः — यह बहुत महत्त्वपूर्ण है। ध्यान में बलपूर्वक, एकदम से, आक्रामकता से मन को रोकने की कोशिश नहीं करनी। धीरे-धीरे, सुकोमलता से। 'बुद्ध्या धृतिगृहीतया' = धैर्य से युक्त (धृति = धैर्य, धारणशक्ति) बुद्धि के द्वारा। धैर्यवान बुद्धि ही साधन है — जो बार-बार मन को वापस लाती है बिना हताश हुए। 'आत्मसंस्थं मनः कृत्वा' = मन को आत्मा में ही प्रतिष्ठित करके — यही ध्यान का सार है। 'न किञ्चिदपि चिन्तयेत्' = कुछ भी चिन्तन न करे — यहाँ तक कि 'अच्छे विचार' भी नहीं। ध्यान में विचारों का न होना ही लक्ष्य है। यह पतञ्जलि के 'चित्तवृत्ति-निरोध' से सीधे मेल खाता है।"
+            },
+            "english": {
+                "translation": "Gradually, step by step, let one attain stillness through the intellect endowed with patience; having made the mind established in the Self, let one not think of anything at all.",
+                "explanation": "'Śanaiḥ śanaiḥ' — slowly, gradually, step by step. This adverb pair is among the most practically wise instructions in the Gita's entire meditative section. The mind is not conquered through force or sudden violence — every attempt at aggressive mental suppression produces a counterforce of equal or greater resistance. The approach must be gentle, patient, and incremental. 'Buddhyā dhṛti-gṛhītayā' — by the intellect that is 'dhṛti-gṛhīta' (held by dhṛti: patience, fortitude, the quality of steadfast endurance). The purified, patient buddhi is the instrument of withdrawal — it gently disengages the mind from its objects, again and again, without frustration or self-judgment. 'Ātma-saṃsthaṃ manaḥ kṛtvā' — having settled the mind in the Self: this is the positive direction — not just 'away from objects' but 'toward the ātman.' The mind is given a place to rest. 'Na kiñcid api cintayet' — let one not think of ANYTHING at all. Not good thoughts, not spiritual thoughts, not visualizations — pure, objectless awareness is the goal. This is Patañjali's nirodha (cessation of mental modifications) articulated in the Gita's language."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 26,
+            "global_verse_id": 259,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम् ।\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत् ॥ २६ ॥",
+                "iast": "yato yato niścarati manaś cañcalam asthiram |\ntatas tato niyamyaitad ātmany eva vaśaṃ nayet ||26||"
+            },
+            "hindi": {
+                "devanagari": "यह चञ्चल और अस्थिर मन जहाँ-जहाँ से (जिस-जिस विषय की ओर) निकलता है, वहाँ-वहाँ से इसे रोककर, आत्मा में ही वश में लाए।",
+                "hinglish": "Yah chanchal aur asthir man jahan-jahan se (jis-jis vishay ki or) nikalata hai, wahan-wahan se ise rokkar, aatma mein hi vash mein laaye.",
+                "translation": "यह चञ्चल और अस्थिर मन जहाँ-जहाँ से निकलता (भटकता) है, वहाँ-वहाँ से नियमित करके, इसे आत्मा में ही वश में लाए।",
+                "explanation": "यह गीता का सबसे व्यावहारिक और अनुभव-आधारित ध्यान-निर्देश है — जो प्रत्येक साधक की प्रत्यक्ष वास्तविकता को सम्बोधित करता है। 'चञ्चलम् अस्थिरम्' = चञ्चल और अस्थिर — मन की दो स्वभावगत विशेषताएँ। चञ्चल = हर दिशा में तेज़ी से दौड़ता है; अस्थिर = एक स्थान पर टिकता नहीं। 'यतो यतो निश्चरति' = जहाँ-जहाँ से निकलता है। 'ततस्ततो नियम्य' = वहाँ-वहाँ से नियमित करके — बार-बार, हर बार। यह 'बार-बार' की पुनरावृत्ति बहुत महत्त्वपूर्ण है। कृष्ण यह नहीं कह रहे कि मन एक बार में ही रुक जाएगा — वे कह रहे हैं: जितनी बार भटके, उतनी बार वापस लाओ। 'आत्मन्येव' = आत्मा में ही। यह श्लोक ध्यान-साधना का सच्चा मर्म है: विचलन को असफलता मत मानो — यह प्रक्रिया का स्वाभाविक अंग है। वापस लाना ही अभ्यास है।"
+            },
+            "english": {
+                "translation": "Wherever the restless and unsteady mind wanders, from there, having restrained it, let one bring it back again and again into the Self alone.",
+                "explanation": "This is the single most practically applicable meditation instruction in the entire Bhagavad Gita — it speaks directly to the lived experience of every person who has ever sat down to meditate. 'Manaś cañcalam asthiram' — the mind is described with two adjectives: 'cañcala' (restless, flickering, jumping from object to object like a flame in wind) and 'asthira' (unsteady, unable to settle at any point). These are not pathological descriptions of a broken mind — they are the objective characteristics of the untrained human mind. 'Yato yato niścarati... tatas tato niyamya' — from wherever it wanders to, from there, having restrained it... The grammatical construction 'yato yato... tatas tatas' (wherever... from there...) captures the tracking quality — the yogi attentively notices where the mind has gone and gently retrieves it. 'Ātmany eva vaśaṃ nayet' — bring it under control INTO the Self alone. The genius of this verse is its normalization of wandering: Krishna does not say 'the mind should not wander.' He says 'when it wanders, bring it back.' The practice IS the returning. Each return to the Self is a repetition of the fundamental meditative act — and these repetitions, accumulated over years, deepen the groove of inner stability."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 27,
+            "global_verse_id": 260,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "प्रशान्तमनसं ह्येनं योगिनं सुखमुत्तमम् ।\nउपैति शान्तरजसं ब्रह्मभूतमकल्मषम् ॥ २७ ॥",
+                "iast": "praśānta-manasaṃ hy enaṃ yoginaṃ sukham uttamam |\nupaiti śānta-rajasaṃ brahma-bhūtam akalmaṣam ||27||"
+            },
+            "hindi": {
+                "devanagari": "जिसका मन प्रशान्त है, जिसका रज शान्त हो गया है, जो ब्रह्मभूत है और कल्मष-रहित है — ऐसे योगी को उत्तम सुख प्राप्त होता है।",
+                "hinglish": "Jiska man prashant hai, jiska raj shant ho gaya hai, jo Brahmabhoot hai aur kalmash-rahit hai — aise yogi ko uttam sukh prapt hota hai.",
+                "translation": "जिसका मन प्रशान्त है, जिसका रजोगुण शान्त हो गया है, जो ब्रह्मभूत है और कल्मष-रहित है — ऐसे योगी को उत्तम (परम) सुख प्राप्त होता है।",
+                "explanation": "यह श्लोक ध्यान की परिपक्व अवस्था में योगी की दशा और उसे प्राप्त होने वाले फल का वर्णन करता है। चार विशेषताएँ: (१) 'प्रशान्तमनसम्' = प्रशान्त (प्रगाढ़ रूप से शान्त) मन वाला। (२) 'शान्तरजसम्' = जिसका रजोगुण (क्रियाशीलता, आकांक्षा, आन्दोलन का गुण) शान्त हो गया। रज जब शान्त होता है तो मन विक्षेप से मुक्त होता है। (३) 'ब्रह्मभूतम्' = ब्रह्म-हो-गया, जिसने अपनी ब्रह्म-स्वरूपता को पहचान लिया। (४) 'अकल्मषम्' = कल्मष-रहित — पाप, अज्ञान, वासनाओं की मलिनता से मुक्त। ऐसे योगी को 'सुखमुत्तमम्' = उत्तम सुख प्राप्त होता है। 'उत्तमम्' = श्रेष्ठतम — यह वह सुख है जो सभी भौतिक सुखों से ऊपर है। यह उस ध्यान-साधना का प्राकृतिक फल है जो श्लोक 25-26 में वर्णित है।"
+            },
+            "english": {
+                "translation": "Supreme happiness comes to this yogi whose mind is deeply at peace, whose rajas is pacified, who has become Brahman, and who is free from all impurity.",
+                "explanation": "This verse describes the natural state and the natural reward of the yogi who has successfully practised the meditation described in verses 25-26. Four qualities define this yogi: (1) 'Praśānta-manasam' — whose mind is 'praśānta': not merely quiet but profoundly, deeply, completely peaceful — a peace that is qualitatively different from ordinary mental quietude. (2) 'Śānta-rajasam' — whose rajas has been pacified: rajas (the quality of restless activity, craving, agitation, ambition) is the primary obstacle to meditation. When rajas quiets, the mind stops its constant outward surge and settles naturally. (3) 'Brahma-bhūtam' — who has become Brahman: who has realized their identity as Brahman, not just intellectually acknowledged it but lived it as direct experience. (4) 'Akalmaṣam' — free from all impurity (kalmaṣa): the accumulated moral, psychological, and karmic residues have been dissolved. To such a yogi, 'sukham uttamam upaiti' — supreme happiness arrives. 'Upaiti' (comes to, approaches) — the happiness is not manufactured or achieved; it comes naturally, as light comes when darkness is removed. It is the Self's own ānanda, recognized."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 28,
+            "global_verse_id": 261,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "युञ्जन्नेवं सदात्मानं योगी विगतकल्मषः ।\nसुखेन ब्रह्मसंस्पर्शमत्यन्तं सुखमश्नुते ॥ २८ ॥",
+                "iast": "yuñjann evaṃ sadātmānaṃ yogī vigata-kalmaṣaḥ |\nsukhena brahma-saṃsparśam atyantaṃ sukham aśnute ||28||"
+            },
+            "hindi": {
+                "devanagari": "इस प्रकार सदा आत्मा को योग में लगाता हुआ विगतकल्मष (पापरहित) योगी सुखपूर्वक ब्रह्मस्पर्श — आत्यन्तिक सुख को भोगता है।",
+                "hinglish": "Is prakar sada aatma ko yog mein lagata hua vigatakalmaash (paaparahit) yogi sukhapoorvak brahma-samsparsh — aatyanttik sukh ko bhogata hai.",
+                "translation": "इस प्रकार सदा आत्मा को योग में लगाने वाला, विगतकल्मष योगी सुखपूर्वक ब्रह्म-संस्पर्श — आत्यन्तिक सुख को प्राप्त करता है।",
+                "explanation": "यह श्लोक ध्यानयोग के फल का सर्वोच्च वर्णन है। 'युञ्जन् एवं सदा' = इस प्रकार सदा लगाते हुए — निरन्तर अभ्यास। 'विगतकल्मषः' = जिसका कल्मष (पाप, दोष, मलिनता) दूर हो गया है। 'सुखेन' = सुखपूर्वक — यहाँ भी 'सुखम्' — आसानी से, स्वाभाविक रूप से। 'ब्रह्मसंस्पर्शम्' = ब्रह्म का स्पर्श। यह अत्यन्त सुन्दर शब्द है: 'संस्पर्श' = पूर्ण स्पर्श, गहरा स्पर्श। ब्रह्म का अनुभव एक 'स्पर्श' की तरह वर्णित है — यह कोई अमूर्त दार्शनिक अवधारणा नहीं, यह एक प्रत्यक्ष, जीवन्त अनुभव है। 'अत्यन्तं सुखम् अश्नुते' = आत्यन्तिक (परम, अन्तिम) सुख को भोगता है। 'ब्रह्मसंस्पर्श' से उत्पन्न यह सुख — यही समाधि का स्वाद है। यह ध्यानयोग के क्रमिक अभ्यास का अन्तिम परिणाम है।"
+            },
+            "english": {
+                "translation": "Thus continuously engaging the self in yoga, the yogi who is free from impurity easily attains the transcendent joy of brahma-saṃsparśa — contact with Brahman.",
+                "explanation": "'Brahma-saṃsparśam' — this is one of the most evocative compound words in the Gita: 'saṃsparśa' is complete, full contact — a touch that is whole, not partial. The experience of Brahman is here described not as a distant vision or an intellectual understanding, but as a direct, immediate, sensory-like 'touch' — something felt in the depths of being. This is the moment of samādhi: when the yogī's consciousness, purified through sustained practice, makes direct contact with Brahman — not the Brahman of scripture and philosophy but the living, luminous, blissful reality that was always present but veiled. 'Atyantaṃ sukham aśnute' — attains (aśnute: eats, experiences, savours) the absolute (atyanta) joy. 'Aśnute' suggests not passive reception but active tasting, a full and conscious enjoyment. 'Sukhena' — 'easily': the repeated use of this word in the Gita's meditation passages is deliberate — Krishna consistently frames the final stage of yoga not as a violent achievement but as the natural, effortless blossoming that occurs when the obstacles have been removed through patient practice."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 29,
+            "global_verse_id": 262,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि ।\nईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः ॥ २९ ॥",
+                "iast": "sarva-bhūta-stham ātmānaṃ sarva-bhūtāni cātmani |\nīkṣate yoga-yuktātmā sarvatra sama-darśanaḥ ||29||"
+            },
+            "hindi": {
+                "devanagari": "योगयुक्त आत्मा वाला, सर्वत्र समदर्शी (व्यक्ति) आत्मा को सर्वभूतों में और सर्वभूतों को आत्मा में देखता है।",
+                "hinglish": "Yogayukta aatma wala, sarvatra samadarshi (vyakti) aatma ko sarvabhooton mein aur sarvabhooton ko aatma mein dekhta hai.",
+                "translation": "योगयुक्त आत्मा वाला, सर्वत्र समदर्शी पुरुष आत्मा को सर्वभूतों में और सर्वभूतों को आत्मा में देखता है।",
+                "explanation": "यह श्लोक ध्यानयोग के फलस्वरूप प्राप्त होने वाली उस अद्वितीय दृष्टि का वर्णन करता है जो योगी को मिलती है। दो दिशाओं में एक साथ दर्शन: (१) 'सर्वभूतस्थम् आत्मानम् ईक्षते' = आत्मा को सर्वभूतों में देखता है — अपने भीतर की जो आत्मचेतना है, वही सब प्राणियों में भी है। (२) 'सर्वभूतानि चात्मनि' = और सभी प्राणियों को आत्मा में देखता है — आत्मा इतनी विशाल है कि समस्त सृष्टि उसमें समाई है। यह द्वि-दिशात्मक दर्शन अद्वैत-अनुभव है: आत्मा सबमें है और सब आत्मा में है। 'सर्वत्र समदर्शनः' = सर्वत्र समभाव से देखने वाला। 'सम' = समान — न केवल बुद्धि से, बल्कि प्रत्यक्ष दर्शन से। यह 5.18 में वर्णित समदर्शिता का विस्तार और पुष्टि है। जब आत्म-दर्शन होता है, तो सृष्टि का प्रत्येक कण उसी चेतना का प्रकाश दिखता है।"
+            },
+            "english": {
+                "translation": "The yoga-united self who sees everywhere equally perceives the Self in all beings and all beings in the Self.",
+                "explanation": "This verse describes the vision of non-duality (advaita-dṛṣṭi) that arises as the natural fruit of deep yoga — the most direct vision of what the Upaniṣads describe as 'tat tvam asi' (that thou art). Two simultaneous perceptions constitute this vision: (1) 'Sarva-bhūta-stham ātmānam īkṣate' — he perceives the Self as abiding in all beings: the same single consciousness that illuminates his own inner awareness is recognized as the identical reality illuminating every creature's inner awareness. (2) 'Sarva-bhūtāni cātmani' — and perceives all beings within the Self: the Self is not a small individual entity that somehow fits inside all beings — it is the infinite ground in which all beings arise, move, and dissolve. These two perceptions together constitute the complete non-dual recognition. 'Yoga-yuktātmā sarvatra sama-darśanaḥ' — the yoga-united person who sees equally everywhere. This 'sama-darśana' (equal vision) is not a philosophical opinion about equality — it is the direct perceptual recognition that the same radiant consciousness is the substratum of every form. It is seeing with the eye of the Self itself."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 30,
+            "global_verse_id": 263,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति ।\nतस्याहं न प्रणश्यामि स च मे न प्रणश्यति ॥ ३० ॥",
+                "iast": "yo māṃ paśyati sarvatra sarvaṃ ca mayi paśyati |\ntasyāhaṃ na praṇaśyāmi sa ca me na praṇaśyati ||30||"
+            },
+            "hindi": {
+                "devanagari": "जो सर्वत्र मुझे देखता है और सब कुछ मुझमें देखता है — उसके लिए मैं नष्ट नहीं होता (अर्थात् मैं सदा उसके समक्ष हूँ) और वह भी मेरे लिए नष्ट नहीं होता।",
+                "hinglish": "Jo sarvatra mujhe dekhta hai aur sab kuch mujhmein dekhta hai — uske liye main nasht nahi hota (arthat main sada uske samaksh hun) aur woh bhi mere liye nasht nahi hota.",
+                "translation": "जो सर्वत्र मुझे देखता है और सब कुछ मुझमें देखता है — उसके लिए मैं नष्ट नहीं होता और वह भी मेरे लिए नष्ट नहीं होता।",
+                "explanation": "यह गीता के सबसे हृदयग्राही और भक्ति-पूर्ण श्लोकों में से एक है। 'यो माम् पश्यति सर्वत्र' = जो सर्वत्र मुझे (कृष्ण/परमात्मा को) देखता है। 'सर्वं च मयि पश्यति' = और सब कुछ मुझमें देखता है। यह पूर्व श्लोक का भक्ति-रूप में रूपान्तरण है: जहाँ 29वें श्लोक में 'आत्मा' कहा था, यहाँ 'मैं' (कृष्ण) कहा — क्योंकि आत्मा और परमात्मा अभिन्न हैं। 'तस्याहं न प्रणश्यामि' = उसके लिए मैं नष्ट नहीं होता — अर्थात् मैं सदा उसकी दृष्टि में हूँ, मैं उससे कभी ओझल नहीं होता। 'स च मे न प्रणश्यति' = और वह भी मेरे लिए नष्ट नहीं होता — मैं उसे कभी नहीं भूलता। यह परस्पर अदृश्यता की असम्भवता है — भक्त और भगवान् के बीच जो प्रेम-सम्बन्ध है, वह कभी टूटता नहीं। यह द्वैत और अद्वैत का सुन्दर सम्मिलन है।"
+            },
+            "english": {
+                "translation": "One who sees Me everywhere and sees everything in Me — I am never lost to that one, and that one is never lost to Me.",
+                "explanation": "This is among the most tender and luminous verses in the entire Bhagavad Gita — a verse that transcends philosophy and touches the heart of devotion. 'Yo māṃ paśyati sarvatra sarvaṃ ca mayi paśyati' — who sees Me everywhere and sees everything in Me: this is the bhakti-version of the same non-dual vision described in verse 29, where the language was that of ātman. Here Krishna speaks in the first person — 'Me' — because the ātman of all beings and the personal God are not two different realities in the Gita's vision: they are the same single presence recognized with different emphases. 'Tasyāhaṃ na praṇaśyāmi' — I am never lost to that one: for the one who has learned to see the Divine everywhere, the Divine is never again obscured by the veil of ordinary perception. Every face, every form, every event becomes transparent to the Divine presence within. 'Sa ca me na praṇaśyati' — and that one is never lost to Me: Krishna's love for this devotee-seer is absolute and permanent. The mutual recognition of the lover and the Beloved — this is the mystical heart of the Gita. Once this seeing is established, neither party can lose the other."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 31,
+            "global_verse_id": 264,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "सर्वभूतस्थितं यो मां भजत्येकत्वमास्थितः ।\nसर्वथा वर्तमानोऽपि स योगी मयि वर्तते ॥ ३१ ॥",
+                "iast": "sarva-bhūta-sthitaṃ yo māṃ bhajaty ekatvam āsthitaḥ |\nsarvathā vartamāno 'pi sa yogī mayi vartate ||31||"
+            },
+            "hindi": {
+                "devanagari": "जो एकत्व में स्थित होकर सर्वभूतों में स्थित मुझे भजता है — वह योगी सभी प्रकार से वर्तमान (जीवनयापन) करता हुआ भी मुझमें ही स्थित रहता है।",
+                "hinglish": "Jo ekatva mein sthit hokar sarvabhooton mein sthit mujhe bhajata hai — woh yogi sabhi prakar se vartamaan (jeevanayapan) karta hua bhi mujhmein hi sthit rehta hai.",
+                "translation": "जो एकत्व में स्थित होकर, सभी प्राणियों में स्थित मुझे भजता है — वह योगी सभी प्रकार (अवस्थाओं) में वर्तमान होते हुए भी मुझमें ही वर्तता है।",
+                "explanation": "'एकत्वम् आस्थितः' = एकत्व (ब्रह्म की एकता) में स्थित — अद्वैत-दृष्टि में प्रतिष्ठित। 'सर्वभूतस्थितं मां भजति' = सर्वभूतों में स्थित मुझे भजता है। यहाँ भजन का स्वरूप परम्परागत पूजा-अर्चना नहीं — यह सर्वत्र परमात्मा को देखकर उनकी सेवा करना है। हर प्राणी में कृष्ण को देखकर उसकी सेवा करना = भजन। 'सर्वथा वर्तमानः अपि' = सभी प्रकार से वर्तमान होते हुए भी — चाहे खाना-पीना हो, काम करना हो, सोना हो, व्यापार करना हो। 'स योगी मयि वर्तते' = वह योगी मुझमें ही वर्तता है। यह भक्ति की वह परम अवस्था है जहाँ साधक सांसारिक जीवन जीते हुए भी सदा परमात्मा में स्थित रहता है। बाहरी अवस्था अप्रासंगिक हो जाती है — केवल भीतरी दृष्टि महत्त्वपूर्ण है।"
+            },
+            "english": {
+                "translation": "One who, established in oneness, worships Me dwelling in all beings — that yogi, in whatever way they live, dwells in Me.",
+                "explanation": "'Ekatvam āsthitaḥ' — established in ekatva (oneness, unity): grounded in the non-dual perception that all apparent multiplicity is one single Brahman-reality. 'Sarva-bhūta-sthitaṃ yo māṃ bhajaty' — who worships Me as the one dwelling in all beings. This is a revolutionary redefinition of bhajana (worship). Conventional bhajana is ritual: the act of singing, chanting, offering flowers, lighting lamps before an image. The bhajana described here is existential: to perceive the Divine in every creature and to serve and love each creature as a manifestation of the Divine. 'Sarvathā vartamāno 'pi' — in whatever way they live, whatever they do, whatever station of life they occupy, whatever activity they are engaged in. 'Sa yogī mayi vartate' — that yogi lives in Me. The extraordinary universality of this declaration: no particular external action or renunciation is required. The inner vision of unity is sufficient to make every moment of life a dwelling in the Divine. This is the practical climax of the Gita's non-dualism made accessible to every human being."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 32,
+            "global_verse_id": 265,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन ।\nसुखं वा यदि वा दुःखं स योगी परमो मतः ॥ ३२ ॥",
+                "iast": "ātmaupamyena sarvatra samaṃ paśyati yo 'rjuna |\nsukhaṃ vā yadi vā duḥkhaṃ sa yogī paramo mataḥ ||32||"
+            },
+            "hindi": {
+                "devanagari": "हे अर्जुन! जो अपने को उपमान मानकर (आत्मा की समानता से) सर्वत्र समान देखता है — सुख में और दुःख में — वह योगी परम (श्रेष्ठतम) माना गया है।",
+                "hinglish": "He Arjun! Jo apne ko upmaan maankar (aatma ki samaanta se) sarvatra saman dekhta hai — sukh mein aur dukh mein — woh yogi param (shreshthattam) mana gaya hai.",
+                "translation": "हे अर्जुन! जो आत्मौपम्य (आत्मा की उपमा) से सर्वत्र — सुख में और दुःख में — समान देखता है, वह योगी परम (श्रेष्ठ) माना गया है।",
+                "explanation": "'आत्मौपम्येन' = आत्मा की उपमा से, अपने आप को मानदण्ड मानकर। यह सुनहरा नियम (Golden Rule) है: जैसा सुख-दुःख मुझे होता है, वैसा ही दूसरों को होता है। 'सर्वत्र समम् पश्यति' = सर्वत्र समान देखता है। 'सुखं वा यदि वा दुःखम्' = चाहे सुख हो, चाहे दुःख — दूसरों के सुख-दुःख को अपने जैसा समझता है। यह सहानुभूति का सर्वोच्च रूप है। यह केवल बौद्धिक नहीं — यह आत्म-दर्शन से उत्पन्न करुणा है। जब हम जानते हैं कि सबमें एक ही आत्मा है, तो दूसरे का दुःख अपना दुःख बन जाता है और दूसरे का सुख अपना सुख। 'स योगी परमः मतः' = वह योगी परम (श्रेष्ठतम) है — यह कृष्ण का सर्वोच्च स्वीकार है। इस एक श्लोक में गीता का नैतिक दर्शन अपने चरम पर पहुँचता है: सर्वोत्तम योगी वह नहीं जो सबसे गहरी समाधि में जाता है — वह है जो सबके सुख-दुःख को अपने जैसा देखता है।"
+            },
+            "english": {
+                "translation": "O Arjuna, one who sees everywhere with equality — by the measure of the Self — whether in pleasure or in pain — that yogi is considered supreme.",
+                "explanation": "'Ātmaupamyena' — by the measure of the Self, using the Self as the standard of comparison. This is the Gita's statement of the universal moral principle known in many traditions as the Golden Rule: just as I experience pleasure and pain, so does every other being. Because the same ātman inhabits all forms, all forms share the same fundamental capacity for joy and suffering. 'Sarvatra samaṃ paśyati sukhaṃ vā yadi vā duḥkham' — seeing equally everywhere, whether in pleasure or in pain: one who has realized the unity of the Self does not merely philosophize about the equality of all beings — one directly feels the other's pleasure as one's own pleasure and the other's pain as one's own pain. This is not manufactured empathy but spontaneous compassionate resonance arising from Self-knowledge. 'Sa yogī paramo mataḥ' — that yogi is considered the supreme one: this is the Gita's highest accolade. Not the yogi of deepest samādhi, not the one of greatest austerity or widest knowledge — but the one who has fully realized the unity of all experience. The inner and the outer, the mystical and the ethical, are here perfectly integrated."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 33,
+            "global_verse_id": 266,
+            "speaker": "Arjuna",
+            "sanskrit": {
+                "devanagari": "अर्जुन उवाच ।\nयोऽयं योगस्त्वया प्रोक्तः साम्येन मधुसूदन ।\nएतस्याहं न पश्यामि चञ्चलत्वात्स्थितिं स्थिराम् ॥ ३३ ॥",
+                "iast": "arjuna uvāca |\nyo 'yaṃ yogas tvayā proktaḥ sāmyena madhusūdana |\netasyāhaṃ na paśyāmi cañcalatvāt sthitiṃ sthirām ||33||"
+            },
+            "hindi": {
+                "devanagari": "अर्जुन ने कहा — हे मधुसूदन! आपने जो यह साम्य-योग (समतायोग) कहा है, मन की चञ्चलता के कारण मैं इसकी स्थिर स्थिति नहीं देखता।",
+                "hinglish": "Arjun ne kaha — He Madhusudan! Aapne jo yah samya-yog (samataayog) kaha hai, man ki chanchalata ke karan main iski sthir sthiti nahi dekhta.",
+                "translation": "अर्जुन ने कहा — हे मधुसूदन! आपने जो यह साम्ययोग कहा है, मन की चञ्चलता के कारण मैं इसकी स्थिर स्थिति नहीं देख पाता।",
+                "explanation": "यहाँ अर्जुन का प्रश्न समग्र अध्याय का सबसे व्यावहारिक और मानवीय क्षण है। कृष्ण ने बहुत सुन्दर, बहुत उत्कृष्ट योग का वर्णन किया। अर्जुन सुनकर प्रेरित हैं — किन्तु एक गहरी व्यावहारिक कठिनाई उनके सामने है। 'चञ्चलत्वात्' = चञ्चलता के कारण। मन की चञ्चलता — यह अर्जुन की व्यक्तिगत समस्या नहीं, यह मनुष्यमात्र की समस्या है। 'स्थितिं स्थिराम् न पश्यामि' = स्थिर स्थिति नहीं देखता — 'मैं यह नहीं देख पाता कि यह स्थायी रूप से सम्भव है।' 'मधुसूदन' = मधु नामक असुर का वध करने वाले — अर्जुन इस नाम का प्रयोग करके परोक्ष रूप से कह रहे हैं: 'जैसे आपने मधु को जीता, क्या मेरे मन रूपी असुर को भी जीत सकते हैं?' यह प्रश्न प्रत्येक साधक का है और इसीलिए यह संवाद इतना अमर है।"
+            },
+            "english": {
+                "translation": "Arjuna said: O Madhusūdana, this yoga of equanimity that You have described — I do not see a stable, lasting footing for it, due to the mind's restlessness.",
+                "explanation": "Arjuna's question here is the most universal and honest question in the entire Gita — the question that every sincere meditator has asked at some point. Krishna has described a beautiful, luminous yoga of equanimity, stillness, and self-mastery. Arjuna has listened with reverence and genuine interest. But now — speaking from his own direct experience of the mind — he raises the fundamental practical objection: 'cañcalatvāt sthitiṃ sthirām na paśyāmi' — due to the restlessness of the mind, I do not see a stable, enduring footing for this yoga. This is not pessimism or defeatism — it is the honest report of a person who has tried to hold the mind still and found it nearly impossible. The word 'cañcalatvāt' identifies the specific obstacle: cañcalatva, the quality of being restless, flickering, perpetually moving. Arjuna is not saying yoga is wrong — he is asking: is it actually achievable, given the nature of this mind? The address 'Madhusūdana' (slayer of the demon Madhu) carries an implicit appeal: you conquered that demon — can you help me conquer this one?"
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 34,
+            "global_verse_id": 267,
+            "speaker": "Arjuna",
+            "sanskrit": {
+                "devanagari": "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद्दृढम् ।\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम् ॥ ३४ ॥",
+                "iast": "cañcalaṃ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham |\ntasyāhaṃ nigrahaṃ manye vāyor iva suduṣkaram ||34||"
+            },
+            "hindi": {
+                "devanagari": "हे कृष्ण! मन निश्चय ही चञ्चल, प्रमाथी (मथने वाला), बलवान् और दृढ़ है। मैं इसका निग्रह वायु के निग्रह के समान अत्यन्त कठिन मानता हूँ।",
+                "hinglish": "He Krishna! Man nishchay hi chanchal, pramathi (mathne waala), balwaan aur dridh hai. Main iska nigrah vayu ke nigrah ke saman atyant kathin maanta hun.",
+                "translation": "हे कृष्ण! मन निश्चित रूप से चञ्चल, प्रमाथी (मथने वाला), बलवान् और दृढ़ है। मैं इसके निग्रह को वायु के समान अत्यन्त कठिन मानता हूँ।",
+                "explanation": "यह अर्जुन के मन का सबसे ईमानदार और मार्मिक चित्रण है। चार विशेषण दिए गए हैं: (१) 'चञ्चलम्' = चञ्चल — सदा हिलता-डुलता, कहीं टिकता नहीं। (२) 'प्रमाथि' = प्रमथन करने वाला — मथने वाला, उलट-पुलट करने वाला। जैसे मक्खन निकालने के लिए दही मथा जाता है, वैसे यह मन भी सब कुछ मथ देता है — शान्ति को, निर्णय को, ज्ञान को। (३) 'बलवत्' = बलवान् — शक्तिशाली, आसानी से वश में न होने वाला। (४) 'दृढ़म्' = दृढ़ — अपनी आदतों में अटल, नई आदत बनाने में कठिन। 'वायोरिव सुदुष्करम्' = वायु के समान अत्यन्त कठिन। वायु को पकड़ना असम्भव है — उसी तरह मन को पकड़ना। यह उपमा अत्यन्त सटीक है। यह प्रश्न/कथन आज भी उतना ही सत्य है — यह सार्वकालिक और सार्वभौमिक है।"
+            },
+            "english": {
+                "translation": "O Krishna, the mind is indeed restless, turbulent, powerful, and stubborn. I consider its restraint as difficult as restraining the wind.",
+                "explanation": "Arjuna's description of the mind in this verse is one of the most accurate and universally relatable psychological portraits in all of world literature. Four precise attributes: (1) 'Cañcalam' — restless, flickering, never at rest for a single moment, moving incessantly from object to object. (2) 'Pramāthi' — the churner, the disturber: from 'pra-math' (to churn, to agitate violently). Just as the churning stick churns butter from curd, this mind churns and disrupts every settled state — peace, clarity, resolve, equanimity — leaving turbulence in its wake. (3) 'Balavat' — powerful, strong: it is not a weak, easily overridden impulse — it is a force of enormous momentum, built up through countless lifetimes of habit. (4) 'Dṛḍham' — firm, obstinate, stubborn: it clings to its established grooves and resists redirection with extraordinary tenacity. 'Vāyor iva suduṣkaram' — as difficult as restraining the wind. The simile is perfect: wind is invisible, ubiquitous, powerful, and cannot be grasped with the hand. Arjuna is not exaggerating — he is being precisely honest. And this honesty is the beginning of the genuine spiritual journey."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 35,
+            "global_verse_id": 268,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रीभगवानुवाच ।\nअसंशयं महाबाहो मनो दुर्निग्रहं चलम् ।\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ॥ ३५ ॥",
+                "iast": "śrī-bhagavān uvāca |\nasaṃśayaṃ mahābāho mano durnigrahaṃ calam |\nabhyāsena tu kaunteya vairāgyeṇa ca gṛhyate ||35||"
+            },
+            "hindi": {
+                "devanagari": "श्रीभगवान् ने कहा — हे महाबाहो! नि:संशय मन चञ्चल और दुर्निग्रह (कठिनाई से नियन्त्रण में आने वाला) है। परन्तु हे कौन्तेय! अभ्यास और वैराग्य से यह वश में होता है।",
+                "hinglish": "Shri Bhagwan ne kaha — He Mahabaho! Nihsanshay man chanchal aur durnigraha (kathinaai se niyantran mein aane waala) hai. Parantu He Kaunttey! Abhyaas aur vairaagya se yah vash mein hota hai.",
+                "translation": "श्रीभगवान् ने कहा — हे महाबाहो! नि:संशय मन चञ्चल और दुर्निग्रह है। परन्तु हे कौन्तेय! अभ्यास और वैराग्य से यह वश में होता है।",
+                "explanation": "कृष्ण का उत्तर उतना ही ईमानदार है जितना अर्जुन का प्रश्न। 'असंशयम्' = निःसंशय — बिल्कुल सही कहा। मन चञ्चल और दुर्निग्रह है — कृष्ण इसे नकारते नहीं। यह स्वीकार ही एक गहरी करुणा और ईमानदारी दर्शाता है। किन्तु 'तु' = परन्तु, किन्तु — यह एक छोटा सा 'किन्तु' बड़ी आशा लेकर आता है। 'अभ्यासेन च वैराग्येण गृह्यते' = अभ्यास और वैराग्य से यह वश में होता है। दो साधन: (१) 'अभ्यासः' = बार-बार किया गया अभ्यास, पुनरावृत्ति, निरन्तर प्रयास। यह पतञ्जलि के 'अभ्यास' से सीधे जुड़ता है (योगसूत्र 1.12)। (२) 'वैराग्यम्' = विषयों के प्रति आसक्ति का अभाव, अनुभव से प्राप्त विरक्ति। दोनों साथ चलते हैं: अभ्यास मन को एकाग्र करना सिखाता है; वैराग्य मन को बाहर खींचने वाले विषयों से दूर करता है।"
+            },
+            "english": {
+                "translation": "The Blessed Lord said: Undoubtedly, O mighty-armed, the mind is restless and difficult to restrain. But O son of Kuntī, it is brought under control by practice and by dispassion.",
+                "explanation": "Krishna's response is notable first for its complete honesty: 'asaṃśayam' — without any doubt, you are right. The mind IS restless and difficult to control. There is no minimization, no reassurance that it is easier than it appears, no spiritual bypassing of the genuine difficulty. This radical honesty is itself an act of profound respect for Arjuna's intelligence. Then: 'tu' — the pivotal 'but' that transforms the entire situation. 'Abhyāsena... vairāgyeṇa ca gṛhyate' — it is brought under control (gṛhyate: grasped, held, restrained) by two and only two means: (1) Abhyāsa — practice, the consistent, repeated, patient effort to return the mind to its object of meditation, again and again, without discouragement. This directly echoes Patañjali's Yoga Sūtra 1.12 ('abhyāsa-vairāgyābhyām tan-nirodhaḥ') — the control of the mind's fluctuations comes through practice and dispassion. (2) Vairāgya — dispassion, the progressive weakening of the mind's gravitational attraction toward sense-objects. These two work together: practice builds the positive groove of inner focus; vairāgya removes the competing pulls that draw the mind outward. They are the two blades of the scissors of mental mastery."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 36,
+            "global_verse_id": 269,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "असंयतात्मना योगो दुष्प्राप इति मे मतिः ।\nवश्यात्मना तु यतता शक्योऽवाप्तुमुपायतः ॥ ३६ ॥",
+                "iast": "asaṃyatātmanā yogo duṣprāpa iti me matiḥ |\nvaśyātmanā tu yatatā śakyo 'vāptum upāyataḥ ||36||"
+            },
+            "hindi": {
+                "devanagari": "असंयत आत्मा (अनियन्त्रित मन) वाले के लिए योग प्राप्त करना कठिन है — ऐसा मेरा मत है। परन्तु वश में किये हुए आत्मा (मन) वाले प्रयत्नशील के लिए, उपाय से, योग प्राप्त करना सम्भव है।",
+                "hinglish": "Asanyat aatma (aniyantrit man) waale ke liye yog prapt karna kathin hai — aisa mera mat hai. Parantu vash mein kiye hue aatma (man) waale prayatnasheel ke liye, upaay se, yog prapt karna sambhav hai.",
+                "translation": "असंयत आत्मा के लिए योग दुष्प्राप्य है — ऐसा मेरा मत है। परन्तु वश्यात्मा (संयमित-मन) वाले प्रयत्नशील के लिए, उपाय से, योग प्राप्त करना सम्भव है।",
+                "explanation": "'असंयतात्मना' = असंयत मन वाले के लिए। 'दुष्प्राप' = दुष्कर से प्राप्य, प्राप्त करना कठिन। 'इति मे मतिः' = यह मेरा मत है — कृष्ण यहाँ अपना स्पष्ट मत प्रकट करते हैं, कोई आदेश नहीं — 'मैं ऐसा मानता हूँ।' यह बड़ी विनम्रता है। दूसरी ओर: 'वश्यात्मना तु' = परन्तु वश्यात्मा (जिसका मन वश में है) के लिए। 'यतता' = प्रयत्नशील के लिए — जो प्रयास करता रहे। 'उपायतः' = उपाय से — सही साधनों से (अभ्यास और वैराग्य जो पूर्व श्लोक में बताए)। 'शक्यः अवाप्तुम्' = प्राप्त करना सम्भव है। यह श्लोक आशा और वास्तविकता का सुन्दर सन्तुलन है: कठिन है — परन्तु असम्भव नहीं। शर्त है: मन का संयम और सही उपायों से प्रयास। यह गीता का सन्देश है: चुनौती को स्वीकारो, उपाय अपनाओ, प्रयास करते रहो।"
+            },
+            "english": {
+                "translation": "For one of uncontrolled self (mind), yoga is difficult to attain — such is my view. But for the self-controlled, striving person who uses the right means, it is possible to attain.",
+                "explanation": "'Asaṃyatātmanā yogo duṣprāpaḥ' — for one whose mind is uncontrolled, yoga is difficult to attain: Krishna states this clearly and without sugar-coating. 'Iti me matiḥ' — such is my view, my considered opinion. This phrasing is notable: Krishna speaks with personal conviction rather than divine decree, inviting Arjuna to think along with him rather than simply accept a command. Then the counter-balancing affirmation: 'vaśyātmanā tu yatatā śakyo 'vāptum upāyataḥ' — but for the person whose mind is brought into control, who strives and applies the proper means (upāya — the specific tools of abhyāsa and vairāgya), yoga IS achievable (śakyaḥ). This verse is the Gita's most balanced statement about the difficulty and the possibility of yoga: neither falsely easy ('just try it!') nor falsely impossible ('it's for special souls only'). It is genuinely difficult AND genuinely possible — for anyone willing to do the inner work with the right understanding and the right tools. The path is real, the destination is real, and the means are knowable."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 37,
+            "global_verse_id": 270,
+            "speaker": "Arjuna",
+            "sanskrit": {
+                "devanagari": "अर्जुन उवाच ।\nअयतिः श्रद्धयोपेतो योगाच्चलितमानसः ।\nअप्राप्य योगसंसिद्धिं कां गतिं कृष्ण गच्छति ॥ ३७ ॥",
+                "iast": "arjuna uvāca |\nayatiḥ śraddhayopeto yogāc calita-mānasaḥ |\naprāpya yoga-saṃsiddhiṃ kāṃ gatiṃ kṛṣṇa gacchati ||37||"
+            },
+            "hindi": {
+                "devanagari": "अर्जुन ने कहा — हे कृष्ण! जो श्रद्धा से युक्त है किन्तु प्रयत्न-हीन है, योग से विचलित मन वाला है, योग की सिद्धि को न पाकर — वह किस गति को प्राप्त होता है?",
+                "hinglish": "Arjun ne kaha — He Krishna! Jo shraddha se yukta hai kintu prayatna-heen hai, yog se vichalit man wala hai, yog ki siddhi ko na paakar — woh kis gati ko prapt hota hai?",
+                "translation": "अर्जुन ने कहा — हे कृष्ण! श्रद्धा से युक्त किन्तु प्रयत्नहीन, योग से विचलित मन वाला व्यक्ति, योग की सिद्धि को न पाकर किस गति को प्राप्त होता है?",
+                "explanation": "यह गीता का सबसे करुणामय और मार्मिक प्रश्न है। अर्जुन एक विशेष व्यक्ति की स्थिति की कल्पना करते हैं: 'अयतिः' = प्रयत्नहीन — जो पूरी तरह प्रयास नहीं कर पाया। 'श्रद्धयोपेतः' = श्रद्धा से युक्त — उसकी श्रद्धा थी, निष्ठा थी, ईमानदारी थी। किन्तु 'योगाच्चलितमानसः' = योग से मन विचलित हो गया — वह पूरी तरह स्थिर नहीं हो पाया, कहीं चूक गया। 'योगसंसिद्धिम् अप्राप्य' = योग की पूर्ण सिद्धि प्राप्त किये बिना। 'कां गतिम् गच्छति' = वह किस गति को प्राप्त होता है? यह प्रश्न हर उस साधक के मन में उठता है जो अपनी साधना की अपूर्णता को अनुभव करता है। इसमें एक गहरी आत्म-चिन्ता है — 'यदि मैं योग पूरा न कर पाया तो?' कृष्ण का उत्तर सबसे अधिक अभयदान देने वाला है।"
+            },
+            "english": {
+                "translation": "Arjuna said: O Krishna, the one who is endowed with faith yet lacking in effort, whose mind has strayed from yoga — not having attained perfection in yoga, what end does that one reach?",
+                "explanation": "This is the most compassionate and universally anxious question in the entire Bhagavad Gita — a question that goes to the heart of every sincere spiritual seeker's deepest fear. Arjuna constructs a very specific and poignant character portrait: 'ayatiḥ' — one who lacks sustained effort, who began the path but could not maintain the discipline to the end. 'Śraddhayopetaḥ' — endowed with faith: crucially, this person had the right intention — they believed, they were sincere, they genuinely wanted liberation. 'Yogāc calita-mānasaḥ' — whose mind slipped from yoga: despite faith and some effort, the mind was pulled away — perhaps by life circumstances, perhaps by the sheer difficulty of maintaining the practice, perhaps by the old gravitational pull of desires. 'Aprāpya yoga-saṃsiddhim' — not having attained the full perfection of yoga. 'Kāṃ gatiṃ kṛṣṇa gacchati' — O Krishna, what destination does such a person reach? This question carries within it the anxiety of every person who has started a spiritual practice and then, looking at their own inconsistency, wondered: 'Is it too late for me? Was my partial effort wasted?' Krishna's answer will be the most reassuring passage in the Gita."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 38,
+            "global_verse_id": 271,
+            "speaker": "Arjuna",
+            "sanskrit": {
+                "devanagari": "कच्चिन्नोभयविभ्रष्टश्छिन्नाभ्रमिव नश्यति ।\nअप्रतिष्ठो महाबाहो विमूढो ब्रह्मणः पथि ॥ ३८ ॥",
+                "iast": "kaccin nobhaya-vibhraṣṭaś chinnābhram iva naśyati |\napratiṣṭho mahābāho vimūḍho brahmaṇaḥ pathi ||38||"
+            },
+            "hindi": {
+                "devanagari": "हे महाबाहो! क्या वह दोनों से भ्रष्ट (न सांसारिक न आध्यात्मिक सफलता पाया), आधार-रहित और ब्रह्म-पथ में मोहित — छिन्न मेघ की तरह नष्ट नहीं हो जाता?",
+                "hinglish": "He Mahabaho! Kya woh donon se bhrasht (na sansarik na aadhyatmik safalta paya), aadhaar-rahit aur Brahma-path mein mohit — chhin megh ki tarah nasht nahi ho jaata?",
+                "translation": "हे महाबाहो! क्या वह दोनों से विभ्रष्ट, आधाररहित, ब्रह्म-पथ में विमूढ़ व्यक्ति छिन्न मेघ की भाँति नष्ट नहीं हो जाता?",
+                "explanation": "यह अर्जुन के भय की पूर्णता है — एक बहुत सुन्दर और हृदयद्रावक उपमा के साथ। 'उभयविभ्रष्टः' = दोनों से विभ्रष्ट — न सांसारिक सफलता मिली (क्योंकि संसार छोड़ा), न योग की सिद्धि मिली (क्योंकि योग पूरा न हुआ)। दोनों के बीच में झूलता रहा। 'अप्रतिष्ठः' = आधार-रहित — न यहाँ का, न वहाँ का। 'विमूढ़ः ब्रह्मणः पथि' = ब्रह्म के पथ पर विमूढ़ (भटका हुआ)। 'छिन्नाभ्रमिव नश्यति' = छिन्न मेघ (टूटे-बिखरे बादल) की तरह नष्ट नहीं हो जाता? जब बादल का एक टुकड़ा पहाड़ से टकराकर अलग हो जाता है और हवा में बिखर जाता है — न वर्षा बन पाता, न आकाश में वापस जाता — बस विलुप्त हो जाता है। यह उपमा अर्जुन की गहरी संवेदनशीलता और कवि-दृष्टि को दर्शाती है।"
+            },
+            "english": {
+                "translation": "O mighty-armed, does that one not perish like a torn cloud — fallen from both, without support, bewildered on the path to Brahman?",
+                "explanation": "Arjuna's fear reaches its articulate peak in this verse, expressed through one of the most beautiful and melancholy similes in Sanskrit poetry. 'Ubhaya-vibhraṣṭaḥ' — fallen from both: neither the worldly householder's life (which was abandoned to pursue yoga) nor the yogī's liberation (which was not attained due to incomplete practice). The seeker who gave up the world for the spirit and then failed to reach the spirit — stranded between two worlds, belonging to neither. 'Apratiṣṭhaḥ' — without foundation, without ground beneath one's feet: neither world offers stability. 'Vimūḍho brahmaṇaḥ pathi' — bewildered, confused on the path to Brahman: lost on the very journey one had set out upon with such hope. 'Chinnābhram iva naśyati' — does that one perish like a torn cloud? This simile is exquisitely precise: a fragment of cloud separated from the whole — it cannot complete its journey to become rain, cannot return to the sky to rejoin the cloud-mass, cannot rest on the earth — it simply dissipates in the air, without accomplishing anything. Arjuna fears that the failed yogi is exactly like this: dissolving into nothing, with no world to call home."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 39,
+            "global_verse_id": 272,
+            "speaker": "Arjuna",
+            "sanskrit": {
+                "devanagari": "एतन्मे संशयं कृष्ण छेत्तुमर्हस्यशेषतः ।\nत्वदन्यः संशयस्यास्य छेत्ता न ह्युपपद्यते ॥ ३९ ॥",
+                "iast": "etan me saṃśayaṃ kṛṣṇa chettum arhasy aśeṣataḥ |\ntvad anyaḥ saṃśayasyāsya chettā na hy upapadyate ||39||"
+            },
+            "hindi": {
+                "devanagari": "हे कृष्ण! आप मेरे इस संशय को अशेष रूप से छेदन करने योग्य हैं। आपके अतिरिक्त इस संशय का छेदक दूसरा कोई उपयुक्त नहीं है।",
+                "hinglish": "He Krishna! Aap mere is sanshay ko ashesh roop se chhedan karne yogya hain. Aapke atirikt is sanshay ka chhedak doosra koi upayukta nahi hai.",
+                "translation": "हे कृष्ण! आप इस मेरे संशय को अशेषतः छेदन करने योग्य हैं। आपके अतिरिक्त इस संशय का छेदन करने वाला दूसरा कोई नहीं।",
+                "explanation": "'एतन् मे संशयम्' = यह मेरा संशय। 'छेत्तुम् अर्हसि अशेषतः' = अशेषतः छेदन करने योग्य हैं — 'अशेषतः' = बिना शेष रखे, सम्पूर्णतः। अर्जुन आधा समाधान नहीं चाहते — वे पूर्ण समाधान चाहते हैं। 'त्वदन्यः... चेत्ता न उपपद्यते' = आपके अतिरिक्त इस संशय का छेदन करने वाला दूसरा कोई उपयुक्त नहीं है। यह अर्जुन का कृष्ण में पूर्ण विश्वास और शरणागति का भाव है। यह 'संशय-छेदक' शब्द महत्त्वपूर्ण है — गीता के अन्त में (18.66) भी यही भाव आएगा। यहाँ अर्जुन को पूर्ण निश्चय है कि केवल कृष्ण ही इस संशय को पूरी तरह काट सकते हैं। यह श्रद्धा-पूर्ण समर्पण है जो प्रत्येक शिष्य और प्रत्येक साधक की आन्तरिक स्थिति होनी चाहिए।"
+            },
+            "english": {
+                "translation": "O Krishna, You alone are fit to dispel this doubt of mine completely. No one other than You is fit to cut through this doubt.",
+                "explanation": "'Etan me saṃśayaṃ kṛṣṇa chettum arhasi aśeṣataḥ' — You, O Krishna, are fit to cut through (chettum: to sever, as with a sword — the same root as jñāna-asi, the sword of knowledge in 4.42) this doubt of mine without remainder (aśeṣataḥ: completely, leaving not even a fragment of doubt unresolved). Arjuna is asking not for a partial answer or a philosophical discussion but for a complete, root-level resolution. 'Tvad anyaḥ saṃśayasyāsya chettā na hi upapadyate' — no one other than You is suited (upapadyate: fit, appropriate, competent) to cut this doubt. This declaration of absolute trust in Krishna as the only adequate teacher for this question is both a statement of Krishna's unique spiritual authority and an expression of Arjuna's genuine and humble recognition of his own limitation. The seeker acknowledges: 'I cannot resolve this by myself; my own intellect cannot reach here.' This surrender of the problem to the Guru is itself a form of spiritual practice. Krishna's answer, beginning in the next verse, is the most loving and assuring in the entire Gita."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 40,
+            "global_verse_id": 273,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "श्रीभगवानुवाच ।\nपार्थ नैवेह नामुत्र विनाशस्तस्य विद्यते ।\nन हि कल्याणकृत्कश्चिद्दुर्गतिं तात गच्छति ॥ ४० ॥",
+                "iast": "śrī-bhagavān uvāca |\npārtha naiveha nāmutra vināśas tasya vidyate |\nna hi kalyāṇa-kṛt kaścid durgatiṃ tāta gacchati ||40||"
+            },
+            "hindi": {
+                "devanagari": "श्रीभगवान् ने कहा — हे पार्थ! उस (योगभ्रष्ट) का न इस लोक में और न परलोक में विनाश होता है। हे तात! कल्याण करने वाला कोई भी दुर्गति को नहीं जाता।",
+                "hinglish": "Shri Bhagwan ne kaha — He Partha! Us (yogabhrasht) ka na is lok mein aur na parlok mein vinaash hota hai. He Taat! Kalyaan karne waala koi bhi durgati ko nahi jaata.",
+                "translation": "श्रीभगवान् ने कहा — हे पार्थ! उसका न इस लोक में और न परलोक में विनाश होता है। हे तात! कल्याण करने वाला कोई भी दुर्गति को नहीं जाता।",
+                "explanation": "यह गीता का सबसे बड़ा अभयदान वचन है — सम्भवतः सम्पूर्ण गीता की सबसे करुणामय और अभय-देने वाली पंक्ति। 'नैव इह न अमुत्र विनाशः विद्यते' = न इस लोक में, न परलोक में — कहीं भी उसका विनाश नहीं होता। वह व्यक्ति जो योग-पथ पर चला, भले ही पूरी सिद्धि न मिली — वह नष्ट नहीं होता। 'तात' = पुत्र, प्रिय — यह सम्बोधन बहुत महत्त्वपूर्ण है। कृष्ण 'तात' कहकर अर्जुन को पुत्र की तरह बुलाते हैं — यहाँ वात्सल्य है, अभयदान का भाव है। 'न हि कल्याणकृत् कश्चित् दुर्गतिं गच्छति' = कल्याण करने वाला कोई भी दुर्गति को नहीं जाता। 'कल्याणकृत्' = जो कल्याणकारी कार्य करता है, जो अच्छा मार्ग चुनता है। यह एक सार्वभौमिक आश्वासन है: यदि तुमने योग का मार्ग चुना — भले ही पूरी तरह न चल सके — वह प्रयास कभी व्यर्थ नहीं जाता।"
+            },
+            "english": {
+                "translation": "The Blessed Lord said: O Pārtha, neither in this world nor in the next does destruction come to that one. My dear one (tāta), one who does good never comes to an evil end.",
+                "explanation": "This verse contains what may be the single most comforting and unconditionally assuring statement in the entire Bhagavad Gita — the response of the Divine to the fear of the earnest, imperfect seeker. 'Pārtha naiveha nāmutra vināśas tasya vidyate' — O son of Pritha, neither in this world (iha) nor in the next (amutra) does destruction (vināśa) exist for that one. The yogī who strove sincerely but did not reach the goal is NOT lost. The sincere effort itself has eternal value and consequence. Then — and this address is exquisite: 'tāta' — this is the Sanskrit word a father uses for a beloved child, or a teacher for a dear student, conveying warmth, protection, and closeness. Krishna calls Arjuna 'tāta' — 'my dear one' — the tenderness in this single word is a universe of compassion. 'Na hi kalyāṇa-kṛt kaścid durgatiṃ tāta gacchati' — one who does good (kalyāṇa-kṛt) NEVER comes to an evil end (durgati). This is the Gita's fundamental moral law, stated without qualification: the direction of sincere aspiration toward the good is never wasted. The effort itself is transformative, regardless of whether the final goal was reached in this lifetime."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 41,
+            "global_verse_id": 274,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "प्राप्य पुण्यकृतां लोकानुषित्वा शाश्वतीः समाः ।\nशुचीनां श्रीमतां गेहे योगभ्रष्टोऽभिजायते ॥ ४१ ॥",
+                "iast": "prāpya puṇya-kṛtāṃ lokān uṣitvā śāśvatīḥ samāḥ |\nśucīnāṃ śrīmatāṃ gehe yoga-bhraṣṭo 'bhijāyate ||41||"
+            },
+            "hindi": {
+                "devanagari": "योगभ्रष्ट पुण्यकर्मियों के लोकों को प्राप्त करके, वहाँ बहुत वर्षों तक निवास करके, शुचि (पवित्र) और श्रीमान् (सम्पन्न) लोगों के घर में जन्म लेता है।",
+                "hinglish": "Yogabhrashtha punyakarmiyyon ke lokon ko prapt karke, wahan bahut varshon tak nivaas karke, shuchi (pavitra) aur shreemaan (sampann) logon ke ghar mein janm leta hai.",
+                "translation": "योगभ्रष्ट पुण्यकर्मियों के लोकों को प्राप्त करके, वहाँ अनेक वर्षों तक निवास करके, शुचि और श्रीमान् लोगों के घर में जन्म लेता है।",
+                "explanation": "कृष्ण अब योगभ्रष्ट की अगली गति का विस्तार से वर्णन करते हैं। पूर्व जन्म का पुण्य-संचय और योग-साधना का फल प्राप्त होता है: 'पुण्यकृतां लोकान् प्राप्य' = पुण्यकर्मियों के लोकों को — स्वर्ग और उच्च लोकों को — प्राप्त करके। 'शाश्वतीः समाः उषित्वा' = बहुत लम्बे काल तक वहाँ निवास करके। यह स्वर्ग-भोग उसके पूर्व-जन्म के पुण्य का फल है। 'शुचीनां श्रीमतां गेहे अभिजायते' = फिर पवित्र (शुचि = नैतिक रूप से शुद्ध) और श्रीमान् (सम्पन्न, सुसंस्कृत) परिवार में जन्म लेता है। यह अगले जन्म की विशेष कृपा है: वह एक ऐसे परिवार में जन्मेगा जहाँ उसे योग की साधना के लिए अनुकूल वातावरण मिलेगा। उच्च कुल में जन्म — अच्छे संस्कार, अच्छा वातावरण, अध्यात्म की परम्परा। यह उसके अगले जीवन में साधना की निरन्तरता के लिए ईश्वरीय व्यवस्था है।"
+            },
+            "english": {
+                "translation": "The fallen yogi attains the worlds of the meritorious, dwelling there for immeasurable years, and then takes birth in the home of the pure and prosperous.",
+                "explanation": "Krishna now gives the detailed account of the fallen yogi's trajectory — and it is entirely reassuring. First: 'prāpya puṇya-kṛtāṃ lokān' — attaining the worlds (lokas) of those who have performed meritorious deeds: the accumulated merit of sincere yoga practice, even incomplete, earns the yogi access to elevated post-mortem states — the higher celestial realms where the fruits of good karma are experienced in states of expanded awareness and joy. 'Uṣitvā śāśvatīḥ samāḥ' — dwelling there for immeasurable, long stretches of time (śāśvatīḥ samāḥ: enduring spans of years). The enjoyment of these elevated states is the fruit of the saṃskāras (deep impressions) created by the yoga practice. Then: 'śucīnāṃ śrīmatāṃ gehe yoga-bhraṣṭo 'bhijāyate' — the fallen yogi takes birth in the household of the pure (śucī: morally and spiritually clean, dharmic) and the prosperous (śrīmān: endowed with wealth, culture, and good fortune). This is not accidental — it is the karmic continuation of the yogi's spiritual trajectory. A family of genuine spiritual culture, moral integrity, and material stability will provide the ideal conditions for the yogi to resume their interrupted practice in the next life."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 42,
+            "global_verse_id": 275,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "अथवा योगिनामेव कुले भवति धीमताम् ।\nएतद्धि दुर्लभतरं लोके जन्म यदीदृशम् ॥ ४२ ॥",
+                "iast": "athavā yoginām eva kule bhavati dhīmatām |\netad dhi durlabhataraṃ loke janma yad īdṛśam ||42||"
+            },
+            "hindi": {
+                "devanagari": "अथवा वह बुद्धिमान् योगियों के कुल में ही जन्म लेता है। इस प्रकार का जन्म निश्चित रूप से इस लोक में अत्यन्त दुर्लभ है।",
+                "hinglish": "Athwaa woh buddhimaan yogiyon ke kul mein hi janm leta hai. Is prakar ka janm nishchit roop se is lok mein atyant durlabh hai.",
+                "translation": "अथवा वह बुद्धिमान् योगियों के ही कुल में जन्म लेता है। इस प्रकार का जन्म निश्चित रूप से इस लोक में अत्यन्त दुर्लभ है।",
+                "explanation": "'अथवा' = अथवा, या फिर। एक और विकल्प: 'योगिनाम् एव कुले भवति धीमताम्' = बुद्धिमान् योगियों के ही कुल में जन्म लेता है। यह पूर्व श्लोक से भी श्रेष्ठ स्थिति है: केवल धनी और पवित्र नहीं — बल्कि जन्मजात योगियों के परिवार में। जहाँ योग, ध्यान, आध्यात्मिक जीवन पहले से ही घर का स्वभाव है। 'एतत् हि दुर्लभतरम् लोके जन्म' = ऐसा जन्म इस लोक में अत्यन्त दुर्लभ है। 'दुर्लभतरम्' = अत्यन्त दुर्लभ — इसलिए यह जन्म एक विशेष कृपा है। जो साधक अपने पिछले जन्म में पूरी सिद्धि न पा सका, वह इस जन्म में यह दुर्लभ अनुकूलता पाता है कि उसे शुरू से ही सही वातावरण मिले, सही गुरु मिले, सही साधन मिले। यह ईश्वरीय कृपा की निरन्तरता है।"
+            },
+            "english": {
+                "translation": "Or else one takes birth in the very family of wise yogis — for such a birth as this is truly very rare in the world.",
+                "explanation": "'Athavā' — or alternatively, an even more fortunate possibility: 'yoginām eva kule bhavati dhīmatām' — the fallen yogi takes birth in the very family of wise (dhīmat) yogis. This is a step beyond verse 41's description of a morally upright and prosperous family. A family of actual yogis means: the child is born into an environment where the value of yoga is not merely theoretical but lived — where meditation, scripture, self-discipline, and spiritual aspiration are the natural texture of daily life. The child breathes yoga from birth. 'Etad dhi durlabhataraṃ loke janmaṃ yad īdṛśam' — such a birth is truly exceedingly rare (durlabhataram: comparative degree — rarer than rare) in this world. This verse affirms the extraordinary karmic continuity that yoga practice creates: the effort of one lifetime does not disappear at death but shapes the conditions of the next birth with remarkable precision. The fallen yogi's deep spiritual saṃskāras act as a karmic compass, steering the next incarnation toward the most conducive possible environment for continuation of the journey."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 43,
+            "global_verse_id": 276,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "तत्र तं बुद्धिसंयोगं लभते पौर्वदेहिकम् ।\nयतते च ततो भूयः संसिद्धौ कुरुनन्दन ॥ ४३ ॥",
+                "iast": "tatra taṃ buddhi-saṃyogaṃ labhate paurva-dehikam |\nyatate ca tato bhūyaḥ saṃsiddhau kuru-nandana ||43||"
+            },
+            "hindi": {
+                "devanagari": "वहाँ (उस नए जन्म में) वह पूर्व शरीर के बुद्धि-संयोग को प्राप्त करता है और हे कुरुनन्दन! फिर उससे भी आगे संसिद्धि के लिए प्रयत्न करता है।",
+                "hinglish": "Wahan (us naye janm mein) woh purva sharir ke buddhi-sanyog ko prapt karta hai aur He Kurunandan! Phir usse bhi aage samsiddhi ke liye prayatna karta hai.",
+                "translation": "वहाँ (उस जन्म में) वह पूर्व शरीर के बुद्धि-संयोग को (फिर से) प्राप्त करता है, और हे कुरुनन्दन! वहाँ से भी आगे संसिद्धि के लिए प्रयत्न करता है।",
+                "explanation": "'तत्र' = वहाँ, उस अगले जन्म में। 'पौर्वदेहिकम् बुद्धिसंयोगम् लभते' = पूर्व शरीर (पूर्व जन्म) के बुद्धि-संयोग को प्राप्त करता है। 'बुद्धिसंयोग' = बुद्धि का संयोग, बुद्धि की वह परिपक्वता और योग-निष्ठा जो पूर्व जन्म में प्राप्त की गई थी। यह कर्म-सिद्धान्त का एक अत्यन्त उत्साहवर्धक पहलू है: आत्मा मृत्यु के बाद भी अपने ज्ञान और संस्कार अपने साथ ले जाती है। जैसे बीज में पूरे वृक्ष का संस्कार होता है। 'ततो भूयः संसिद्धौ यतते' = वहाँ से और आगे पूर्ण सिद्धि के लिए प्रयत्न करता है। 'भूयः' = और अधिक, और आगे। वह पहले से जहाँ छोड़ा था वहाँ से नहीं — बल्कि उसे फिर से प्राप्त करके उससे आगे बढ़ता है। यह आध्यात्मिक यात्रा की अखण्डता का वर्णन है — मृत्यु उसे तोड़ती नहीं।"
+            },
+            "english": {
+                "translation": "There, that one regains the intellectual connection (buddhi-saṃyoga) from the previous body, and strives even further toward perfection, O joy of the Kurus.",
+                "explanation": "'Tatra taṃ buddhi-saṃyogaṃ labhate paurva-dehikam' — there, in that new birth, the soul retrieves the 'buddhi-saṃyoga' (the connection of the intellect with yoga wisdom) that was established in the previous body. This is one of the Gita's most extraordinary affirmations: the deep impressions (saṃskāras) of genuine spiritual practice are not lost at death. They are carried as subtle tendencies in the soul's subtle body and re-manifest in the new incarnation as an unusual native clarity, a natural spiritual bent, a spontaneous affinity for meditation and wisdom that other children in the same family may not have. This is why some children seem spiritually precocious — they are carrying the saṃskāras of their previous lives' practice. 'Tato bhūyaḥ saṃsiddhau yatate' — from that point (where they left off), one strives even further (bhūyaḥ: more, beyond) toward full perfection (saṃsiddhi). The spiritual journey is not reset to zero by death — it is resumed from the exact spiritual altitude reached in the previous life, like bookmarking a page in a book that spans many volumes."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 44,
+            "global_verse_id": 277,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "पूर्वाभ्यासेन तेनैव ह्रियते ह्यवशोऽपि सः ।\nजिज्ञासुरपि योगस्य शब्दब्रह्मातिवर्तते ॥ ४४ ॥",
+                "iast": "pūrvābhyāsena tenaiva hriyate hy avaśo 'pi saḥ |\njijñāsur api yogasya śabda-brahmātivartate ||44||"
+            },
+            "hindi": {
+                "devanagari": "वह पूर्व-अभ्यास से ही — अवश (बिना इच्छा के भी) — खिंचा चला जाता है। योग का जिज्ञासु भी शब्दब्रह्म (वेद-विधि) को अतिक्रमण कर जाता है।",
+                "hinglish": "Woh purva-abhyaas se hi — avash (bina ichchha ke bhi) — khiincha chala jaata hai. Yog ka jigyaasu bhi shabda-brahma (Veda-vidhi) ko atikraman kar jaata hai.",
+                "translation": "वह पूर्व-अभ्यास से ही, अवश (इच्छा के बिना भी) खिंचता चला जाता है। योग का जिज्ञासु भी शब्दब्रह्म (वेद) को अतिक्रमण कर जाता है।",
+                "explanation": "यह श्लोक पूर्वजन्म के संस्कारों की अद्भुत शक्ति का वर्णन करता है। 'पूर्वाभ्यासेन' = पूर्व जन्म के अभ्यास के बल पर। 'अवशः अपि' = अवश भी — बिना विशेष इच्छा या प्रयत्न के भी। यह संस्कारों की स्वाभाविक प्रेरणा है — जैसे नदी स्वाभाविक रूप से ढाल की ओर बहती है, वैसे ही योग-संस्कार वाली आत्मा स्वाभाविक रूप से योग की ओर खिंचती है। 'ह्रियते' = खींचा जाता है। 'जिज्ञासुः अपि योगस्य' = योग का जिज्ञासु (जानने की इच्छा रखने वाला) भी। 'शब्दब्रह्म अतिवर्तते' = शब्दब्रह्म (वेद की विधि-कर्मकाण्ड) को अतिक्रमण कर जाता है। वेद केवल विधि-विधान और कर्मकाण्ड तक सीमित है; किन्तु योग-जिज्ञासु उससे आगे, सीधे ब्रह्म-साक्षात्कार की ओर बढ़ता है। यह श्लोक स्पष्ट करता है कि योग-संस्कार कर्मकाण्ड से कहीं अधिक मौलिक और शक्तिशाली है।"
+            },
+            "english": {
+                "translation": "By that very previous practice, he is carried along irresistibly — even without his will. Even one who merely inquires about yoga transcends the Verbal Brahman (the Vedic rituals).",
+                "explanation": "'Pūrvābhyāsena tenaiva hriyate hy avaśo 'pi saḥ' — by that very previous practice (from the prior life), the soul is 'hriyate' (carried along, drawn, irresistibly pulled) — even 'avaśaḥ' (involuntarily, without conscious intention or effort). This is the extraordinary testimony to the power of spiritual saṃskāras: deep yoga practice creates grooves in the subtle body that are so powerful, so fundamental, that they become an automatic current drawing the soul toward yoga in the next life — whether the person consciously decides to practice or not. The soul's trajectory is set. 'Jijñāsur api yogasya śabda-brahmātivartate' — even someone who merely inquires into yoga (jijñāsuḥ: one with sincere inquiry, not yet a practitioner but genuinely seeking) transcends (atikramati) the 'śabda-brahma' — the domain of Vedic ritual prescription and the fruits it produces in higher worlds. Yoga's direct inquiry into the Self takes one beyond the entire domain of ritual action and its heavenly rewards, to the source itself."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 45,
+            "global_verse_id": 278,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "प्रयत्नाद्यतमानस्तु योगी संशुद्धकिल्बिषः ।\nअनेकजन्मसंसिद्धस्ततो याति परां गतिम् ॥ ४५ ॥",
+                "iast": "prayatnād yatamānas tu yogī saṃśuddha-kilbiṣaḥ |\naneka-janma-saṃsiddhas tato yāti parāṃ gatim ||45||"
+            },
+            "hindi": {
+                "devanagari": "परन्तु प्रयत्नपूर्वक यतनशील योगी, संशुद्ध पापों वाला, अनेक जन्मों से सिद्ध होकर — तब परम गति को प्राप्त होता है।",
+                "hinglish": "Parantu prayatnpoorvak yatansheel yogi, sanshudha paapon waala, anek janmon se siddh hokar — tab param gati ko prapt hota hai.",
+                "translation": "प्रयत्नपूर्वक यतनशील योगी, जिसके किल्बिष (पाप) संशुद्ध हो गए हैं और जो अनेक जन्मों में सिद्ध हुआ है — तब परम गति को प्राप्त होता है।",
+                "explanation": "यह श्लोक योगी की अन्तिम यात्रा का वर्णन करता है — अनेक जन्मों की साधना का परिणाम। 'प्रयत्नात् यतमानः' = प्रयत्नपूर्वक, परिश्रमपूर्वक प्रयास करने वाला — निरन्तर, सतत प्रयास। 'संशुद्धकिल्बिषः' = जिसके समस्त किल्बिष (पाप, कल्मष, पुराने संस्कार) पूर्णतः शुद्ध हो गए। यह शुद्धि एक जन्म में नहीं होती — यह अनेक जन्मों की साधना से आती है। 'अनेकजन्मसंसिद्धः' = अनेक जन्मों में सिद्ध हुआ — धीरे-धीरे, एक-एक जन्म में थोड़ा-थोड़ा आगे बढ़कर। 'ततः परां गतिम् याति' = तब परम गति को प्राप्त होता है। 'परां गतिम्' = परम गति = मोक्ष = ब्रह्मप्राप्ति। यह आध्यात्मिक विकास का क्रमिक और निश्चित नियम है: प्रत्येक जन्म की साधना संचित होती है, और अन्ततः परम गति निश्चित है। यह श्लोक अत्यन्त आशावादी और उत्साहवर्धक है।"
+            },
+            "english": {
+                "translation": "But the yogi who strives with effort, whose sins have been thoroughly purified, and who has been perfected over many births — then attains the supreme goal.",
+                "explanation": "'Prayatnād yatamānas tu' — but the yogi who strives with sustained, deliberate effort: 'prayatnāt' (with effort, intentionally) indicates that this is not passive evolution but active, willed engagement with the practice across multiple lifetimes. 'Saṃśuddha-kilbiṣaḥ' — whose kilbiṣas (sins, impurities, the accumulated karmic residues of many lifetimes of ignorance and selfish action) have been 'saṃśuddha' — thoroughly cleansed, not just reduced but purified to completion. This purification is the multi-lifetime work of sustained yoga practice. 'Aneka-janma-saṃsiddhaḥ' — perfected through many (aneka) births (janma): the word 'saṃsiddha' means 'thoroughly accomplished, fully ripened.' The yogī does not abandon the journey between lives — each life is a chapter in a single, unbroken story of spiritual ascent. 'Tato yāti parāṃ gatim' — then (after this multi-life ripening is complete) attains the supreme destination: mokṣa, Brahman, the ultimate liberation that is the end and the fullness of all spiritual seeking."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 46,
+            "global_verse_id": 279,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "तपस्विभ्योऽधिको योगी ज्ञानिभ्योऽपि मतोऽधिकः ।\nकर्मिभ्यश्चाधिको योगी तस्माद्योगी भवार्जुन ॥ ४६ ॥",
+                "iast": "tapasvibhyo 'dhiko yogī jñānibhyo 'pi mato 'dhikaḥ |\nkarmibhyaś cādhiko yogī tasmād yogī bhavārjuna ||46||"
+            },
+            "hindi": {
+                "devanagari": "योगी तपस्वियों से श्रेष्ठ है, ज्ञानियों से भी श्रेष्ठ माना जाता है, और कर्मकाण्डियों से भी श्रेष्ठ है। इसलिए हे अर्जुन! तुम योगी बनो।",
+                "hinglish": "Yogi tapasviyon se shreshttha hai, gyaaniyon se bhi shreshttha mana jaata hai, aur karmakanddiyon se bhi shreshttha hai. Isliye He Arjun! Tum yogi bano.",
+                "translation": "योगी तपस्वियों से श्रेष्ठ है, ज्ञानियों से भी श्रेष्ठ माना जाता है, और कर्मियों से भी श्रेष्ठ है। इसलिए हे अर्जुन! योगी बनो।",
+                "explanation": "यह श्लोक तुलनात्मक दृष्टि से योग की श्रेष्ठता स्थापित करता है। तीन तुलनाएँ: (१) 'तपस्विभ्यः अधिकः' = तपस्वियों से श्रेष्ठ। तप = शारीरिक और मानसिक कठोर अनुशासन। योग इससे श्रेष्ठ क्योंकि योग में तप, ध्यान और ज्ञान — तीनों समाहित हैं। (२) 'ज्ञानिभ्यः अपि अधिकः' = ज्ञानियों से भी श्रेष्ठ। केवल बौद्धिक ज्ञान पर्याप्त नहीं — यदि वह अनुभव में न उतरा हो। योगी का ज्ञान अनुभवजन्य है। (३) 'कर्मिभ्यः अधिकः' = कर्मकाण्ड करने वालों से श्रेष्ठ। यज्ञ-विधि और कर्मकाण्ड सीमित फल देते हैं; योग असीम मोक्ष देता है। 'तस्माद् योगी भवार्जुन' = इसलिए हे अर्जुन! तुम योगी बनो। यह सम्पूर्ण अध्याय का उपसंहार है — एक सीधा, सशक्त आदेश: योगी बनो।"
+            },
+            "english": {
+                "translation": "A yogi is superior to ascetics, superior even to those of knowledge, and superior to ritual performers. Therefore, O Arjuna, be a yogi.",
+                "explanation": "This verse delivers the chapter's comparative verdict and its direct practical conclusion. Three comparisons establish yoga's supremacy: (1) 'Tapasvibhyo 'dhiko yogī' — the yogi excels over tapasvīs (ascetics who practise physical and mental austerities). Tapas develops willpower and purifies the body-mind, but it may lack the inner depth of sustained meditative integration. Yoga encompasses tapas and goes beyond it. (2) 'Jñānibhyo 'pi mato 'dhikaḥ' — the yogi is considered superior even to jñānīs (those who possess knowledge, primarily intellectual-philosophical understanding). Theoretical knowledge that has not been deepened and confirmed through direct meditative experience remains incomplete. The yogi's knowledge is not merely conceptual — it is vijnāna (realized, direct knowing). (3) 'Karmibhyaś cādhiko yogī' — and the yogi excels over karmīs (those engaged in ritual Vedic action). Ritual action produces specific limited results — temporary heavenly rewards, material benefits — not mokṣa. Yoga's fruits are unlimited and final. 'Tasmād yogī bhavārjuna' — Therefore, O Arjuna, BE a yogi. This is the most direct, concentrated imperative in Chapter 6: not 'consider becoming,' not 'understand yoga theoretically' — BE one. The entire magnificent teaching of this chapter culminates in this single, unambiguous instruction."
+            }
+        },
+        {
+            "chapter": 6,
+            "verse_number": 47,
+            "global_verse_id": 280,
+            "speaker": "Śrī Bhagavān",
+            "sanskrit": {
+                "devanagari": "योगिनामपि सर्वेषां मद्गतेनान्तरात्मना ।\nश्रद्धावान्भजते यो मां स मे युक्ततमो मतः ॥ ४७ ॥",
+                "iast": "yoginām api sarveṣāṃ mad-gatenāntar-ātmanā |\nśraddhāvān bhajate yo māṃ sa me yuktatamo mataḥ ||47||"
+            },
+            "hindi": {
+                "devanagari": "और समस्त योगियों में भी — जो श्रद्धावान् पुरुष, अन्तरात्मा को मुझमें लगाकर, मुझे भजता है — वह मेरे मत से युक्ततम (सर्वाधिक योगयुक्त) है।",
+                "hinglish": "Aur samast yogiyon mein bhi — jo shraddhaavan purush, antaraatma ko mujhmein lagaakar, mujhe bhajata hai — woh mere mat se yuktatam (sarvadhik yogayukta) hai.",
+                "translation": "और समस्त योगियों में भी — जो श्रद्धावान् पुरुष, अन्तरात्मा को मुझमें लगाकर मुझे भजता है — वह मेरे मत से युक्ततम (सर्वश्रेष्ठ योगयुक्त) है।",
+                "explanation": "यह अध्याय का अन्तिम और सर्वोच्च श्लोक है — गीता के समग्र ध्यान-दर्शन का चरमोत्कर्ष। 'योगिनाम् अपि सर्वेषाम्' = और समस्त योगियों में भी — तपस्वी, ज्ञानी, कर्मयोगी, ध्यानयोगी — सबमें से। 'मद्गतेन अन्तरात्मना' = अन्तरात्मा को मुझमें लगाकर — भीतरी आत्मा को, चेतना के सबसे गहरे केन्द्र को, कृष्ण में लगाना। 'श्रद्धावान् भजते यो माम्' = जो श्रद्धावान् होकर मुझे भजता है। 'श्रद्धा' = विश्वास, प्रेम, समर्पण — यह भक्ति का प्राण है। 'स मे युक्ततमः मतः' = वह मेरे मत (मेरी राय, मेरी घोषणा) से युक्ततम (सबसे अधिक योगयुक्त) है। 'युक्ततम' = तमस् (superlative) — परम, सर्वोच्च। यह घोषणा अत्यन्त महत्त्वपूर्ण है: ध्यान + भक्ति + श्रद्धा = सर्वोच्च योग। ध्यान बिना भक्ति के अधूरा है; भक्ति बिना ध्यान के सतही हो सकती है। इन दोनों का संयोग सर्वोत्तम है। यह सम्पूर्ण गीता के आगे आने वाले भक्तियोग की भूमिका है।"
+            },
+            "english": {
+                "translation": "And among all yogis, the one who worships Me with inner self absorbed in Me, filled with faith — that one is considered by Me to be the most perfectly integrated (yuktatama).",
+                "explanation": "This is the final and supreme verse of Chapter 6 — the chapter's climactic declaration and one of the most important verses in the entire Bhagavad Gita. 'Yoginām api sarveṣāṃ' — among ALL yogis: this includes every category of yogin — the tapasvin, the jñānī, the karma yogin, the rāja yogin, the dhyāna yogin — all of them. Among all these: 'mad-gatenāntar-ātmanā śraddhāvān bhajate yo māṃ' — the one whose inner self (antar-ātmā — the innermost being, the deepest level of subjectivity) has gone into Me (mad-gata: moved into, absorbed into, dissolved into Me); who has faith (śraddhāvān — infused with śraddhā: not merely belief but a living, loving trust that opens the heart); and who 'bhajate' (worships, loves, serves with devotion). 'Sa me yuktatamo mataḥ' — that one, in My considered view (matah: my opinion, my declaration), is the MOST completely united (yuktatama: the superlative of yukta — the most yogayukta of all). This final verse integrates the entire teaching of Chapter 6: meditation (dhyāna) without devotion (bhakti) lacks a living centre; devotion without meditative depth lacks the ground of silence. The union of both — the inner self absorbed in the Divine with faith and love — is the supreme yoga. This verse prepares the ground for everything that follows in the Gita's great bhakti teachings of Chapters 7–12."
+            }
+        }
+    ],
+    "colophon": {
+        "sanskrit": "इति श्रीमद्भगवद्गीतासूपनिषत्सु ब्रह्मविद्यायां योगशास्त्रे श्रीकृष्णार्जुनसंवादे आत्मसंयमयोगो नाम षष्ठोऽध्यायः ॥",
+        "iast": "iti śrīmadbhagavadgītāsūpaniṣatsu brahmavidyāyāṃ yogaśāstre śrīkṛṣṇārjunasaṃvāde ātma-saṃyama-yogo nāma ṣaṣṭho 'dhyāyaḥ ||",
+        "hindi": "इस प्रकार श्रीमद्भगवद्गीतारूपी उपनिषद् में, ब्रह्मविद्या और योगशास्त्र विषयक, श्रीकृष्ण और अर्जुन के संवाद में, 'आत्मसंयमयोग' नामक षष्ठ अध्याय समाप्त होता है।",
+        "english": "Thus ends the Sixth Chapter, named 'Ātma-saṃyama Yoga' (The Yoga of Self-Restraint and Meditation), in the Upaniṣad known as the Śrīmad Bhagavad Gītā, the scripture of Brahma-vidyā (knowledge of Brahman) and Yoga, in the dialogue between Śrī Kṛṣṇa and Arjuna.",
+        "note": "The colophon is not counted as a verse. It is the traditional closing seal appended to each chapter in the Gita Press and most standard editions. Chapter 6 contains 47 verses total (Part A: verses 1–24, global IDs 234–257; Part B: verses 25–47, global IDs 258–280). Global verse count after Chapter 6: 280 (Chapters 1–6 total: 47 + 72 + 43 + 42 + 29 + 47 = 280)."
+    }
+}
