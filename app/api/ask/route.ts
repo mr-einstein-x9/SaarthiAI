@@ -56,24 +56,39 @@ export async function POST(request: Request) {
           const reqScore = Math.max(1, Math.floor(queryWords.length / 2));
           if (bestVerse && maxScore >= reqScore) {
             console.log("SOURCE: INTERNAL_DATABASE");
+            const data = language === "hi" ? {
+              shloka_sanskrit: bestVerse.text,
+              shloka_english: bestVerse.translation,
+              chapter_verse: `अध्याय ${bestVerse.chapter}, श्लोक ${bestVerse.verse}`,
+              opening_line: "उठो पार्थ! ज्ञान तुम्हारा इंतज़ार कर रहा है।",
+              core_message: bestVerse.translation,
+              krishna_guidance: bestVerse.meaning,
+              how_it_applies: "यह शिक्षा आपकी वर्तमान मनःस्थिति को सीधे संबोधित करती है।",
+              practical_steps: ["इस श्लोक पर विचार करें।", "बिना आसक्ति के कार्य करें।", "केंद्रित रहें।"],
+              daily_practice: "आज इस श्लोक का पाठ करें।",
+              deeper_wisdom: "आत्मा शाश्वत है, और सत्य भी।",
+              reflection_question: "यह श्लोक आपके दृष्टिकोण को कैसे बदलता है?",
+              their_problem: problem
+            } : {
+              shloka_sanskrit: bestVerse.text,
+              shloka_english: bestVerse.translation,
+              chapter_verse: `Chapter ${bestVerse.chapter}, Verse ${bestVerse.verse}`,
+              opening_line: "Krishna speaks to you through the Gita.",
+              core_message: bestVerse.translation,
+              krishna_guidance: bestVerse.meaning,
+              how_it_applies: "This teaching resonates with your current struggle.",
+              practical_steps: ["Reflect on this wisdom.", "Stay dutiful.", "Trust the process."],
+              daily_practice: "Meditate on this verse today.",
+              deeper_wisdom: "Truth is eternal.",
+              reflection_question: "How can you apply this today?",
+              their_problem: problem
+            };
+            
             return Response.json({
               success: true,
               source: "database",
               latency_ms: Date.now() - start,
-              data: {
-                shloka_sanskrit: bestVerse.text,
-                shloka_english: bestVerse.translation,
-                chapter_verse: `Chapter ${bestVerse.chapter}, Verse ${bestVerse.verse}`,
-                opening_line: "Krishna speaks to you through the Gita.",
-                core_message: bestVerse.translation,
-                krishna_guidance: bestVerse.meaning,
-                how_it_applies: "This teaching resonates with your current struggle.",
-                practical_steps: ["Reflect on this wisdom.", "Stay dutiful.", "Trust the process."],
-                daily_practice: "Meditate on this verse today.",
-                deeper_wisdom: "Truth is eternal.",
-                reflection_question: "How can you apply this today?",
-                their_problem: problem
-              }
+              data: data
             });
           }
         }

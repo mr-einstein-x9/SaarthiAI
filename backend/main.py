@@ -146,22 +146,39 @@ async def get_guidance(req: GuidanceRequest):
     if results and top_score >= req_score:
         print("SOURCE: DATABASE")
         v = results[0]
-        # Deterministic formatting to mimic AI but faster
-        data = {
-            "shloka_sanskrit": v.get("text", ""),
-            "shloka_english": v.get("translation", ""),
-            "chapter_verse": f"Chapter {v.get('chapter')}, Verse {v.get('verse')}",
-            "opening_line": "Arise, O Arjuna! Wisdom awaits you.",
-            "problem_reflection": f"You are facing a challenge of clarity regarding this situation.",
-            "core_message": v.get("translation", ""),
-            "krishna_guidance": v.get("meaning", ""),
-            "how_it_applies": "This verse directly addresses your current state of mind.",
-            "practical_steps": ["Reflect on this verse.", "Act without attachment.", "Stay centered."],
-            "daily_practice": "Recite this shloka today.",
-            "deeper_wisdom": "The soul is eternal, and so is truth.",
-            "reflection_question": "How does this verse change your perspective?",
-            "their_problem": "A moment of seeking."
-        }
+        # Deterministic formatting to mimic AI but localized
+        if req.language == "hi":
+            data = {
+                "shloka_sanskrit": v.get("text", ""),
+                "shloka_english": v.get("translation", ""), # Keep translation as is (English translation field)
+                "chapter_verse": f"अध्याय {v.get('chapter')}, श्लोक {v.get('verse')}",
+                "opening_line": "उठो पार्थ! ज्ञान तुम्हारा इंतज़ार कर रहा है।",
+                "problem_reflection": "आप इस स्थिति में स्पष्टता की चुनौती का सामना कर रहे हैं।",
+                "core_message": v.get("translation", ""),
+                "krishna_guidance": v.get("meaning", ""),
+                "how_it_applies": "यह शिक्षा आपकी वर्तमान मनःस्थिति को सीधे संबोधित करती है।",
+                "practical_steps": ["इस श्लोक पर विचार करें।", "बिना आसक्ति के कार्य करें।", "केंद्रित रहें।"],
+                "daily_practice": "आज इस श्लोक का पाठ करें।",
+                "deeper_wisdom": "आत्मा शाश्वत है, और सत्य भी।",
+                "reflection_question": "यह श्लोक आपके दृष्टिकोण को कैसे बदलता है?",
+                "their_problem": "खोज का एक क्षण।"
+            }
+        else:
+            data = {
+                "shloka_sanskrit": v.get("text", ""),
+                "shloka_english": v.get("translation", ""),
+                "chapter_verse": f"Chapter {v.get('chapter')}, Verse {v.get('verse')}",
+                "opening_line": "Arise, O Arjuna! Wisdom awaits you.",
+                "problem_reflection": "You are facing a challenge of clarity regarding this situation.",
+                "core_message": v.get("translation", ""),
+                "krishna_guidance": v.get("meaning", ""),
+                "how_it_applies": "This verse directly addresses your current state of mind.",
+                "practical_steps": ["Reflect on this verse.", "Act without attachment.", "Stay centered."],
+                "daily_practice": "Recite this shloka today.",
+                "deeper_wisdom": "The soul is eternal, and so is truth.",
+                "reflection_question": "How does this verse change your perspective?",
+                "their_problem": "A moment of seeking."
+            }
         res = {"success": True, "data": data, "source": "database", "latency_ms": 0}
         query_cache.put(cache_key, res)
         res["latency_ms"] = int((time.time()-start)*1000)
