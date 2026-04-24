@@ -15,30 +15,20 @@ export default function Home() {
   const [lang, setLang] = useState<Language>('en');
   const [quoteIndex, setQuoteIndex] = useState(0);
 
-  // Set random quote on mount to avoid hydration mismatch
   useEffect(() => {
     setQuoteIndex(Math.floor(Math.random() * 4));
   }, []);
   
-  // Handle header fade on scroll
   useEffect(() => {
     const handleScroll = () => {
-      if (!isInteracted) {
-        if (scrollOpacity !== 1) setScrollOpacity(1);
-        return;
-      }
-      
+      if (!isInteracted) return;
       const scrollY = window.scrollY;
-      const fadeStart = 10;
-      const fadeEnd = 60;
-      
-      const newOpacity = Math.max(0, Math.min(1, 1 - (scrollY - fadeStart) / (fadeEnd - fadeStart)));
+      const newOpacity = Math.max(0, Math.min(1, 1 - (scrollY - 10) / 50));
       setScrollOpacity(newOpacity);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [isInteracted, scrollOpacity]);
+  }, [isInteracted]);
 
   const [problem, setProblem] = useState("");
   const [loading, setLoading] = useState(false);
@@ -56,28 +46,17 @@ export default function Home() {
       heading: "Tell me, what is troubling your heart?",
       submit: "Seek Guidance",
       loading: "Krishna is listening...",
-      chips: [
-        "I feel stuck in my career",
-        "I can't stop overthinking",
-        "I'm scared of failing",
-        "I'm angry at someone I love"
-      ],
-      meaning: "What this means",
-      teaching: "What Krishna is telling you",
-      firstWord: "Krishna's first word",
-      situation: "For your situation",
-      step: "Your step today",
-      whyFits: "Why this shloka fits",
-      deeperWisdom: "Deeper wisdom",
-      dailyPractice: "Daily Practice",
-      reflection: "Reflection",
-      also: "Also relevant:",
+      chips: ["I feel stuck in my career", "I can't stop overthinking", "I'm scared of failing", "I'm angry at someone I love"],
+      labels: {
+        relevance: "Why this verse fits",
+        explanation: "Krishna's Guidance",
+        action: "Your Path Forward",
+        translation: "Translation"
+      },
       askAgain: "Ask another question",
-      regenerate: "Regenerate Response",
       copy: "Copy this wisdom",
       copied: "Copied!",
-      footer: "SaarathiAI is spiritual guidance, not a substitute for professional mental health support.",
-      builtWith: "Built with love. Rooted in the Gita."
+      footer: "SaarathiAI is spiritual guidance, not a substitute for professional mental health support."
     },
     hi: {
       subtitle: "सारथी",
@@ -85,490 +64,159 @@ export default function Home() {
       heading: "कहो मित्र, मन में क्या दुविधा है?",
       submit: "मार्गदर्शन पाएं",
       loading: "कृष्ण सुन रहे हैं...",
-      chips: [
-        "मेरा करियर रुका हुआ लगता है",
-        "मैं बहुत ज़्यादा सोचता हूं",
-        "मुझे असफलता का डर है",
-        "मुझे किसी प्रियजन पर गुस्सा है"
-      ],
-      meaning: "अर्थ",
-      teaching: "कृष्ण आपसे क्या कह रहे हैं",
-      firstWord: "\u0915\u0943\u0937\u094d\u0923 \u0915\u093e \u092a\u0939\u0932\u093e \u0935\u091a\u0928",
-      situation: "आपकी स्थिति में",
-      step: "आज का कदम",
-      whyFits: "\u092f\u0939 \u0936\u094d\u0932\u094b\u0915 \u0915\u094d\u092f\u094b\u0902 \u0909\u092a\u092f\u0941\u0915\u094d\u0924 \u0939\u0948",
-      deeperWisdom: "\u0917\u0939\u0930\u093e \u091c\u094d\u091e\u093e\u0928",
-      dailyPractice: "\u0906\u091c \u0915\u093e \u0905\u092d\u094d\u092f\u093e\u0938",
-      reflection: "\u0935\u093f\u091a\u093e\u0930",
-      also: "अन्य प्रासंगिक श्लोक:",
+      chips: ["मेरा करियर रुका हुआ लगता है", "मैं बहुत ज़्यादा सोचता हूं", "मुझे असफलता का डर है", "मुझे किसी प्रियजन पर गुस्सा है"],
+      labels: {
+        relevance: "यह श्लोक क्यों उपयुक्त है",
+        explanation: "कृष्ण का मार्गदर्शन",
+        action: "आपका मार्ग",
+        translation: "अनुवाद"
+      },
       askAgain: "दूसरा प्रश्न पूछें",
-      regenerate: "पुनः विचार करें",
-      copy: "यह ज्ञान कॉपी करें",
+      copy: "कॉपी करें",
       copied: "कॉपी हो गया!",
-      footer: "SaarathiAI आध्यात्मिक मार्गदर्शन है, पेशेवर मानसिक स्वास्थ्य सहायता का विकल्प नहीं।",
-      builtWith: "प्रेम से निर्मित। गीता में समाहित।"
+      footer: "SaarathiAI आध्यात्मिक मार्गदर्शन है, पेशेवर मानसिक स्वास्थ्य सहायता का विकल्प नहीं।"
     }
   };
 
   const currentT = t[lang];
-  
   const placeholders = {
-    en: [
-      '"Maiya Mori, Main Nahin Makhan Khayo..."\nShare what is on your mind.',
-      '"Do not fear, I will protect you from the demons of Kamsa."\nTell me what troubles you.',
-      '"Live a life of dharma and righteousness."\nSeek your path here.',
-      '"Why to hide, let\'s play in the open!"\nSpeak your heart freely.'
-    ],
-    hi: [
-      '"मैय्या मोरी, मैं नहिं माखन खायो..."\nअपने मन की बात साझा करो।',
-      '"डरो मत, मैं रक्षा करूंगा..."\nअपनी चिंता मुझसे साझा करो।',
-      '"धर्म और सत्य का जीवन जियो।"\nयहाँ अपना मार्गदर्शन खोजो।',
-      '"छुपना क्यों, चलो खुलकर खेलें!"\nअपने हृदय की बात बेझिझक कहो।'
-    ]
+    en: ['"Arise, O Arjuna!"\nShare what is on your mind.', '"Do not fear."\nTell me what troubles you.'],
+    hi: ['"उठो पार्थ!"\nअपने मन की बात साझा करो।', '"डरो मत।"\nअपनी चिंता मुझसे साझा करो।']
   };
 
-  const dynamicPlaceholder = placeholders[lang][quoteIndex];
-
-  const data = response?.data || {};
-  const openingLine = data.opening_line || data.core_message || "";
-  const problemReflection = data.problem_reflection || data.their_problem || "";
-  const krishnaGuidance = data.krishna_guidance || data.how_it_applies || "";
-  const whyThisFits = data.how_it_applies || data.krishna_guidance || "";
-  const practicalSteps = Array.isArray(data.practical_steps)
-    ? data.practical_steps.slice(0, 3)
-    : [];
-
-  // Auto-resize textarea
-  useEffect(() => {
-    if (textareaRef.current) {
-      textareaRef.current.style.height = "auto";
-      textareaRef.current.style.height = Math.max(120, textareaRef.current.scrollHeight) + "px";
-    }
-  }, [problem]);
-
-  useEffect(() => {
-    if (textareaRef.current && !response && !loading) {
-      textareaRef.current.focus();
-    }
-  }, [response, loading]);
-
-  useEffect(() => {
-    if (response && responseRef.current) {
-      setTimeout(() => {
-        responseRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }, 100);
-    }
-  }, [response]);
-
-  const fetchGuidance = async (targetLang: Language, lockedVerse?: LockedVerse) => {
-    if (!problem.trim() || problem.length > 500) return;
-    
-    setLoading(true);
-    setError("");
-    setResponse(null);
-    setCopied(false);
-    
+  const fetchGuidance = async (targetLang: Language) => {
+    if (!problem.trim()) return;
+    setLoading(true); setError(""); setResponse(null); setCopied(false);
     try {
       const baseUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
       const endpoint = baseUrl ? `${baseUrl}/ask` : "/api/ask";
-      
-      console.log(`🌐 Calling endpoint: ${endpoint}`);
-
       const res = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          problem,
-          query: problem, // Compatibility for both Next.js and FastAPI
-          language: targetLang,
-          ...(lockedVerse?.shloka_sanskrit ? { lockedVerse } : {})
-        })
+        body: JSON.stringify({ problem, query: problem, language: targetLang })
       });
-      
       let data = await res.json();
-
-      // If external backend fails, retry with internal fallback
       if (baseUrl && !res.ok) {
-        console.warn("⚠️ External backend failed. Falling back to internal API.");
-        const fallbackRes = await fetch("/api/ask", {
+        const fb = await fetch("/api/ask", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ problem, language: targetLang })
         });
-        data = await fallbackRes.json();
+        data = await fb.json();
       }
-      
-      if (!res.ok || data.success === false) {
-        throw new Error(data.message || data.error || "Failed to fetch guidance");
-      }
-
-      if (lockedVerse?.shloka_sanskrit && data.data) {
-        data.data.shloka_sanskrit = lockedVerse.shloka_sanskrit;
-      }
-      
+      if (!res.ok && !data.success) throw new Error("Failed to fetch guidance");
       setResponse(data);
-    } catch (err: any) {
-      setError(err.message || "An unexpected error occurred.");
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleSubmit = () => {
-    fetchGuidance(lang);
-  };
-
-  const handleLanguageToggle = () => {
-    const nextLang = lang === 'en' ? 'hi' : 'en';
-    setLang(nextLang);
-
-    if (response && problem.trim()) {
-      fetchGuidance(nextLang, {
-        chapter_verse: response.data?.chapter_verse,
-        shloka_sanskrit: response.data?.shloka_sanskrit
-      });
-    }
+    } catch (err: any) { setError(err.message); } finally { setLoading(false); }
   };
 
   const handleCopy = () => {
-    if (!response || !response.data) return;
-    const guidance = response.data;
-    const copyOpening = guidance.opening_line || guidance.core_message || "";
-    const copyProblem = guidance.problem_reflection || guidance.their_problem || "";
-    const copyGuidance = guidance.krishna_guidance || guidance.how_it_applies || "";
-    const copyWhyFits = guidance.how_it_applies || guidance.krishna_guidance || "";
-    
-    const stepsString = Array.isArray(guidance.practical_steps) && guidance.practical_steps.length
-      ? guidance.practical_steps.slice(0, 3).map((s: string) => `  * ${s}`).join("\n")
-      : "";
-
-    const text = `${guidance.chapter_verse || ""}
-
-${guidance.shloka_sanskrit || ""}
-
-Meaning:
-${guidance.shloka_english || ""}
-
-Guidance:
-* Krishna's first word:
-  ${copyOpening}
-* Core teaching:
-  ${guidance.core_message || ""}
-* For your situation:
-  ${copyProblem}
-  ${copyGuidance}
-* Your step today:
-${stepsString}
-* Daily Practice:
-  ${guidance.daily_practice || ""}
-* Why this shloka fits:
-  ${copyWhyFits}
-
-"${guidance.deeper_wisdom || ""}"
-
-${guidance.reflection_question || ""}`;
-    
+    if (!response?.data) return;
+    const d = response.data;
+    const text = `${d.verse?.chapter}:${d.verse?.verse}\n${d.verse?.text}\n\nExplanation: ${d.explanation}\nAction: ${Array.isArray(d.action) ? d.action.join(", ") : d.action}`;
     navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  const handleReveal = () => {
-    setIsInteracted(true);
-    // Explicitly focus textarea after reveal for better UX
-    setTimeout(() => textareaRef.current?.focus(), 500);
-    // Notify AudioPlayer to show controls
-    window.dispatchEvent(new CustomEvent('saarthi-reveal'));
-  };
-
-  const handleReset = () => {
-    setProblem("");
-    setResponse(null);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setCopied(true); setTimeout(() => setCopied(false), 2000);
   };
 
   return (
     <section className={`krishna-scene min-h-screen overflow-hidden ${isInteracted ? 'krishna-scene--active' : 'krishna-scene--landed'}`}>
       <div className="krishna-scene__image" aria-hidden="true"></div>
-      <div className="krishna-scene__warmth" aria-hidden="true"></div>
-      <div className="krishna-scene__haze" aria-hidden="true"></div>
-      <div className="krishna-scene__canopy" aria-hidden="true"></div>
-
-      {/* PERSISTENT LOGO & TRIGGER - Outside saarathi-content for visibility */}
-      <div 
-        className={`fixed z-50 transition-all duration-700 ease-in-out flex flex-col items-center ${
-          isInteracted 
-            ? 'top-8 left-1/2 -translate-x-1/2 scale-100 sm:scale-110' 
-            : 'top-[15%] right-[10%] scale-90 sm:scale-100 translate-x-0'
-        }`}
-        style={{ 
-          opacity: isInteracted ? scrollOpacity : 1,
-          pointerEvents: (isInteracted && scrollOpacity < 0.1) ? 'none' : 'auto',
-          visibility: (isInteracted && scrollOpacity === 0) ? 'hidden' : 'visible'
-        }}
-      >
-        <div className="relative group cursor-pointer text-center" onClick={!isInteracted ? handleReveal : undefined}>
-          <img 
-            src="/saarthi-symbol.png" 
-            alt="SaarthiAI Symbol" 
-            className="w-24 h-24 sm:w-32 sm:h-32 object-contain mb-2 drop-shadow-2xl"
-          />
-          
-          <h1 className="max-w-full text-3xl sm:text-4xl font-bold tracking-tight mb-2 leading-tight break-words">
-            SaarathiAI <span className="block sm:inline text-accent-gold-light opacity-80 font-spiritual">{currentT.subtitle}</span>
-          </h1>
-
+      <div className="saarathi-content relative z-10 min-h-screen flex flex-col pt-8 pb-16 overflow-x-hidden transition-all duration-1000">
+        
+        {/* LOGO SECTION */}
+        <div className={`flex flex-col items-center transition-all duration-700 ${isInteracted ? 'mt-4' : 'mt-[15vh]'}`}>
+          <img src="/saarthi-symbol.png" alt="SaarthiAI" className="w-24 h-24 sm:w-32 sm:h-32 object-contain mb-2" />
+          <h1 className="text-3xl sm:text-4xl font-bold text-center">SaarathiAI <span className="font-spiritual text-accent-gold">{currentT.subtitle}</span></h1>
           {!isInteracted && (
-            <button
-              onClick={handleReveal}
-              className="mt-6 bg-accent-gold hover:bg-accent-gold-light text-black font-bold px-8 py-3 rounded-full shadow-[0_0_20px_rgba(201,147,58,0.3)] transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(201,147,58,0.5)] flex items-center gap-2"
-            >
-              <Sparkles size={18} />
-              Ask Krishna
+            <button onClick={() => setIsInteracted(true)} className="mt-8 bg-accent-gold px-8 py-3 rounded-full text-black font-bold flex items-center gap-2 transition-all hover:scale-105">
+              <Sparkles size={18} /> Ask Krishna
             </button>
           )}
         </div>
-      </div>
 
-      <div className={`saarathi-content relative z-10 min-h-screen flex flex-col pt-8 pb-16 overflow-x-hidden transition-all duration-1000 ${isInteracted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}>
-      
-      {/* Spacer to account for fixed logo height in active state */}
-      <div className="h-40 sm:h-52 w-full shrink-0"></div>
-      
-      <header className={`flex flex-col items-center justify-center text-center pb-10 relative w-full`}>
-        <button 
-          onClick={handleLanguageToggle}
-          disabled={loading}
-          className="absolute top-0 right-0 flex items-center gap-2 bg-card border border-border px-3 py-1.5 rounded-full text-sm font-medium hover:bg-card-hover transition-all duration-300 disabled:opacity-50"
-          style={{ 
-            opacity: isInteracted ? scrollOpacity : 1,
-            pointerEvents: (isInteracted && scrollOpacity < 0.1) ? 'none' : 'auto'
-          }}
-        >
-          <Languages size={16} className="text-accent-gold" />
-          {lang === 'en' ? 'HI' : 'EN'}
-        </button>
-        
-        <p className="text-secondary text-base sm:text-lg max-w-[18rem] sm:max-w-none mx-auto leading-snug break-words mt-4">{currentT.tagline}</p>
-      </header>
+        <main className={`flex-grow w-full max-w-2xl mx-auto px-4 transition-all duration-1000 ${isInteracted ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+          <div className="flex justify-end mb-4">
+             <button onClick={() => setLang(lang === 'en' ? 'hi' : 'en')} className="bg-card px-3 py-1 rounded-full text-xs border border-border">
+                <Languages size={14} className="inline mr-1" /> {lang === 'en' ? 'HI' : 'EN'}
+             </button>
+          </div>
 
-      {/* INPUT SECTION */}
-      <main className="flex-grow w-full min-w-0 flex flex-col">
-        {!response && !loading && (
-          <div className="w-full min-w-0 flex-grow flex flex-col justify-center pb-20 animate-fade-in">
-            <h2 className="text-2xl font-medium mb-4 text-center">{currentT.heading}</h2>
-            <div className="relative w-full max-w-full min-w-0 shadow-lg">
+          {!response && !loading && (
+            <div className="animate-fade-in">
+              <h2 className="text-xl font-medium mb-4 text-center">{currentT.heading}</h2>
               <textarea
-                ref={textareaRef}
                 value={problem}
-                onChange={(e) => setProblem(e.target.value.substring(0, 500))}
-                placeholder={dynamicPlaceholder}
-                className="w-full max-w-full min-w-0 box-border bg-card border border-border rounded-2xl p-5 text-lg resize-none focus:outline-none focus:ring-1 focus:ring-accent-gold focus:border-accent-gold transition-all min-h-[120px]"
-                disabled={loading}
+                onChange={(e) => setProblem(e.target.value)}
+                placeholder={placeholders[lang][quoteIndex % 2]}
+                className="w-full bg-card border border-border rounded-2xl p-5 text-lg min-h-[150px] focus:ring-1 focus:ring-accent-gold outline-none"
               />
-              <div className="absolute bottom-4 right-4 text-xs font-mono text-muted">
-                {problem.length}/500
+              <div className="flex flex-wrap gap-2 mt-4 justify-center">
+                {currentT.chips.map((c, i) => <button key={i} onClick={() => setProblem(c)} className="bg-card/50 border border-border px-3 py-1 rounded-full text-sm hover:border-accent-gold transition-colors">{c}</button>)}
               </div>
+              <button onClick={() => fetchGuidance(lang)} disabled={!problem.trim()} className="mt-8 w-full bg-accent-gold text-black font-bold h-14 rounded-full flex items-center justify-center gap-2 disabled:opacity-50">
+                <Sparkles size={18} /> {currentT.submit}
+              </button>
             </div>
+          )}
 
-            {/* CHIPS */}
-            <div className="flex flex-wrap gap-2 mt-4 justify-center w-full max-w-full min-w-0 overflow-hidden">
-              {currentT.chips.map((chip, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => setProblem(chip)}
-                  disabled={loading}
-                  className="max-w-full min-w-0 whitespace-normal break-words bg-card/50 border border-border px-3 py-1.5 rounded-full text-sm text-secondary text-center hover:text-primary hover:border-accent-gold/50 transition-colors"
-                >
-                  {chip}
-                </button>
-              ))}
+          {loading && (
+            <div className="py-20 text-center animate-pulse">
+              <span className="text-6xl text-accent-gold">ॐ</span>
+              <p className="mt-4 text-secondary">{currentT.loading}</p>
             </div>
+          )}
 
-            {error && (
-              <div className="mt-6 p-4 bg-red-900/20 border border-red-900/50 rounded-xl text-red-200 text-center">
-                {error}
-              </div>
-            )}
-
-            <button
-              onClick={handleSubmit}
-              disabled={!problem.trim() || loading}
-              className="mt-8 w-full max-w-sm mx-auto bg-accent-gold hover:bg-accent-gold-light text-black font-semibold h-14 rounded-full flex items-center justify-center gap-2 transition-all disabled:opacity-50 disabled:hover:bg-accent-gold"
-            >
-              <Sparkles size={18} />
-              {currentT.submit}
-            </button>
-          </div>
-        )}
-
-        {/* LOADING STATE */}
-        {loading && (
-          <div className="w-full flex-grow flex flex-col items-center justify-center py-20 animate-fade-in">
-            <div className="relative">
-              <span className="text-6xl text-accent-gold font-serif animate-pulse-slow">ॐ</span>
-              <div className="absolute inset-0 bg-accent-gold/20 blur-xl rounded-full animate-pulse-slow"></div>
-            </div>
-            <p className="mt-8 text-xl text-secondary animate-pulse">{currentT.loading}</p>
-          </div>
-        )}
-
-        {/* RESPONSE CARD */}
-        {response && !loading && (
-          <div ref={responseRef} className="w-full animate-slide-up pb-10">
-            <div className="bg-card border border-border rounded-3xl overflow-hidden shadow-2xl relative">
-              {/* Card Header Content */}
-              <div className="p-6 md:p-8 text-center bg-gradient-to-b from-card-hover to-card border-b border-border">
-                <span className="inline-block px-3 py-1 bg-accent-gold/10 text-accent-gold text-xs font-semibold tracking-widest uppercase rounded-full mb-6">
-                  {response.data?.chapter_verse}
-                </span>
-                
-                <div className="mb-4">
-                  <p className="font-spiritual text-2xl md:text-3xl text-accent-gold-light leading-relaxed whitespace-pre-wrap">
-                    {response.data?.shloka_sanskrit}
-                  </p>
+          {response && !loading && (
+            <div ref={responseRef} className="animate-slide-up space-y-6">
+              <div className="bg-card border border-border rounded-3xl overflow-hidden shadow-2xl">
+                <div className="p-8 text-center bg-gradient-to-b from-card-hover to-card border-b border-border">
+                  <span className="text-xs text-accent-gold font-bold tracking-widest uppercase">BG {response.data.verse?.chapter}.{response.data.verse?.verse}</span>
+                  <p className="mt-4 font-spiritual text-2xl md:text-3xl text-accent-gold-light leading-relaxed">{response.data.verse?.text}</p>
                 </div>
-              </div>
-
-              {/* Card Body Content */}
-              <div className="px-6 md:px-10 py-8 space-y-8">
                 
-                <section>
-                  <h3 className="text-xs text-accent-gold uppercase tracking-wider mb-2 font-semibold">
-                    {currentT.firstWord}
-                  </h3>
-                  <p className="font-spiritual text-2xl text-accent-gold-light leading-snug">
-                    {openingLine}
-                  </p>
-                  {data.core_message && data.core_message !== openingLine && (
-                    <p className="mt-3 leading-relaxed text-secondary">
-                      {data.core_message}
-                    </p>
-                  )}
-                </section>
+                <div className="p-8 space-y-8">
+                  <section>
+                    <h3 className="text-xs text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.relevance}</h3>
+                    <p className="italic text-[#e8e2d7] opacity-90 leading-relaxed">"{response.data.relevance}"</p>
+                  </section>
 
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent"></div>
+                  <div className="h-px w-full bg-border/40"></div>
 
-                <section>
-                  <h3 className="text-xs text-accent-gold uppercase tracking-wider mb-2 font-semibold">
-                    {currentT.situation}
-                  </h3>
-                  <div className="space-y-3 leading-relaxed text-[#e8e2d7]">
-                    {problemReflection && (
-                      <p className="italic opacity-85">"{problemReflection}"</p>
-                    )}
-                    <p>{krishnaGuidance}</p>
-                  </div>
-                </section>
+                  <section>
+                    <h3 className="text-xs text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.explanation}</h3>
+                    <p className="leading-relaxed text-[#e8e2d7] whitespace-pre-line">{response.data.explanation}</p>
+                  </section>
 
-                <div className="h-px w-full bg-gradient-to-r from-transparent via-border to-transparent"></div>
+                  <div className="h-px w-full bg-border/40"></div>
 
-                <section>
-                  <h3 className="text-xs text-success uppercase tracking-wider mb-4 font-semibold flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 rounded-full bg-success"></div>
-                    {currentT.step}
-                  </h3>
-                  <ul className="leading-relaxed font-medium space-y-2 mb-4">
-                    {practicalSteps.map((step: string, idx: number) => (
-                      <li key={idx} className="flex gap-2 before:text-success before:opacity-70 before:content-['-'] [&>span:first-child]:hidden">
-                        <span className="text-success opacity-70">•</span>
-                        <span>{step}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="text-sm border-t border-border/30 pt-3 text-secondary mt-3">
-                    <strong className="text-accent-gold">{currentT.dailyPractice}:</strong> {data.daily_practice}
-                  </p>
-                </section>
+                  <section>
+                    <h3 className="text-xs text-success uppercase tracking-widest mb-3 font-bold">{currentT.labels.action}</h3>
+                    <ul className="space-y-2">
+                      {Array.isArray(response.data.action) ? response.data.action.map((a: string, i: number) => (
+                        <li key={i} className="flex gap-2 text-[#e8e2d7] font-medium">
+                          <span className="text-success">•</span> {a}
+                        </li>
+                      )) : <li className="text-[#e8e2d7]">{response.data.action}</li>}
+                    </ul>
+                  </section>
 
-                <div className="space-y-0 border-y border-border/40 divide-y divide-border/40">
-                  <details>
-                    <summary className="flex cursor-pointer list-none items-center justify-between gap-3 py-4 text-xs text-muted uppercase tracking-wider font-semibold hover:text-accent-gold transition-colors">
-                      <span>{currentT.whyFits}</span>
-                      <span aria-hidden="true" className="text-accent-gold">+</span>
-                    </summary>
-                    <div className="pb-5 space-y-3 text-secondary leading-relaxed">
-                      {data.shloka_english && <p>{data.shloka_english}</p>}
-                      {whyThisFits && <p>{whyThisFits}</p>}
-                    </div>
-                  </details>
-
-                  <details>
-                    <summary className="flex cursor-pointer list-none items-center justify-between gap-3 py-4 text-xs text-muted uppercase tracking-wider font-semibold hover:text-accent-gold transition-colors">
-                      <span>{currentT.deeperWisdom}</span>
-                      <span aria-hidden="true" className="text-accent-gold">+</span>
-                    </summary>
-                    <div className="pb-5 space-y-4">
-                      {data.deeper_wisdom && (
-                        <p className="font-serif italic text-accent-gold-light text-lg leading-relaxed">
-                          "{data.deeper_wisdom}"
-                        </p>
-                      )}
-                      {data.reflection_question && (
-                        <p className="text-sm text-secondary leading-relaxed">
-                          <strong className="text-accent-gold">{currentT.reflection}:</strong> {data.reflection_question}
-                        </p>
-                      )}
-                    </div>
+                  <details className="border-t border-border/40 pt-4">
+                    <summary className="text-xs text-muted uppercase font-bold cursor-pointer hover:text-accent-gold">{currentT.labels.translation}</summary>
+                    <p className="mt-2 text-sm text-secondary leading-relaxed">{response.data.verse?.translation}</p>
                   </details>
                 </div>
+              </div>
 
+              <div className="flex gap-4 justify-center">
+                <button onClick={() => {setResponse(null); setProblem("");}} className="flex items-center gap-2 px-6 py-2 rounded-full bg-card border border-border hover:border-accent-gold transition-colors"><RotateCcw size={16} /> {currentT.askAgain}</button>
+                <button onClick={handleCopy} className="flex items-center gap-2 px-6 py-2 rounded-full bg-card border border-border hover:border-accent-gold transition-colors"><Copy size={16} /> {copied ? currentT.copied : currentT.copy}</button>
               </div>
             </div>
+          )}
+        </main>
 
-            {/* Actions below card */}
-            <div className="flex flex-col sm:flex-row gap-4 mt-6 justify-center">
-              <button 
-                onClick={handleSubmit}
-                disabled={loading || !problem.trim()}
-                className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-card border border-border hover:border-accent-gold/50 transition-colors disabled:opacity-50"
-               >
-                <RotateCcw size={16} className="text-secondary" />
-                <span>{currentT.regenerate}</span>
-              </button>
-              <button 
-                onClick={handleCopy}
-                className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-card border border-border hover:border-accent-gold/50 transition-colors"
-               >
-                <Copy size={16} className="text-secondary" />
-                <span>{copied ? currentT.copied : currentT.copy}</span>
-              </button>
-              <button 
-                onClick={handleReset}
-                className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-card border border-border hover:border-accent-gold/50 transition-colors"
-               >
-                <Sparkles size={16} className="text-secondary" />
-                <span>{currentT.askAgain}</span>
-              </button>
-            </div>
-
-            {/* Trust Element */}
-            <div className="mt-10 text-center text-xs font-medium text-muted uppercase tracking-widest opacity-60">
-              {lang === 'en' ? "Rooted in Bhagavad Gita wisdom" : "भगवद गीता के ज्ञान पर आधारित"}
-            </div>
-            
-          </div>
-        )}
-      </main>
-
-      {/* FOOTER */}
-      <footer className="mt-auto text-center pt-8 border-t border-border/50 text-muted text-xs">
-        <p className="mb-1 max-w-sm mx-auto leading-relaxed">{currentT.footer}</p>
-        <p>{currentT.builtWith}</p>
-      </footer>
-
-      <style jsx global>{`
-        @keyframes fade-in {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-        @keyframes slide-up {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        .animate-fade-in { animation: fade-in 0.5s ease-out forwards; }
-        .animate-slide-up { animation: slide-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
-      `}</style>
+        <footer className="mt-auto text-center p-8 text-muted text-xs opacity-60">
+          <p>{currentT.footer}</p>
+        </footer>
       </div>
     </section>
   );
