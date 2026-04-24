@@ -4,14 +4,9 @@ import { useState, useRef, useEffect } from "react";
 import { Copy, Sparkles, Languages, RotateCcw } from "lucide-react";
 
 type Language = 'en' | 'hi';
-type LockedVerse = {
-  chapter_verse?: string;
-  shloka_sanskrit?: string;
-};
 
 export default function Home() {
   const [isInteracted, setIsInteracted] = useState(false);
-  const [scrollOpacity, setScrollOpacity] = useState(1);
   const [lang, setLang] = useState<Language>('en');
   const [quoteIndex, setQuoteIndex] = useState(0);
 
@@ -19,17 +14,6 @@ export default function Home() {
     setQuoteIndex(Math.floor(Math.random() * 4));
   }, []);
   
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!isInteracted) return;
-      const scrollY = window.scrollY;
-      const newOpacity = Math.max(0, Math.min(1, 1 - (scrollY - 10) / 50));
-      setScrollOpacity(newOpacity);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [isInteracted]);
-
   const [problem, setProblem] = useState("");
   const [loading, setLoading] = useState(false);
   const [response, setResponse] = useState<any>(null);
@@ -48,15 +32,14 @@ export default function Home() {
       loading: "Krishna is listening...",
       chips: ["I feel stuck in my career", "I can't stop overthinking", "I'm scared of failing", "I'm angry at someone I love"],
       labels: {
-        relevance: "Why this verse fits",
-        explanation: "Krishna's Guidance",
-        action: "Your Path Forward",
-        translation: "Translation"
+        insight: "Krishna's Insight",
+        meaning: "For You",
+        action: "Your Path",
       },
-      askAgain: "Ask another question",
-      copy: "Copy this wisdom",
+      askAgain: "Ask Krishna again",
+      copy: "Copy Wisdom",
       copied: "Copied!",
-      footer: "SaarathiAI is spiritual guidance, not a substitute for professional mental health support."
+      footer: "SaarathiAI is spiritual guidance, not professional therapy."
     },
     hi: {
       subtitle: "सारथी",
@@ -66,15 +49,14 @@ export default function Home() {
       loading: "कृष्ण सुन रहे हैं...",
       chips: ["मेरा करियर रुका हुआ लगता है", "मैं बहुत ज़्यादा सोचता हूं", "मुझे असफलता का डर है", "मुझे किसी प्रियजन पर गुस्सा है"],
       labels: {
-        relevance: "यह श्लोक क्यों उपयुक्त है",
-        explanation: "कृष्ण का मार्गदर्शन",
+        insight: "कृष्ण की अंतर्दृष्टि",
+        meaning: "आपके लिए",
         action: "आपका मार्ग",
-        translation: "अनुवाद"
       },
-      askAgain: "दूसरा प्रश्न पूछें",
+      askAgain: "कृष्ण से फिर पूछें",
       copy: "कॉपी करें",
       copied: "कॉपी हो गया!",
-      footer: "SaarathiAI आध्यात्मिक मार्गदर्शन है, पेशेवर मानसिक स्वास्थ्य सहायता का विकल्प नहीं।"
+      footer: "SaarathiAI आध्यात्मिक मार्गदर्शन है, चिकित्सा नहीं।"
     }
   };
 
@@ -104,15 +86,21 @@ export default function Home() {
         });
         data = await fb.json();
       }
-      if (!res.ok && !data.success) throw new Error("Failed to fetch guidance");
-      setResponse(data);
+      if (data.success) setResponse(data);
+      else throw new Error("Connection lost");
     } catch (err: any) { setError(err.message); } finally { setLoading(false); }
   };
+
+  useEffect(() => {
+    if (response && responseRef.current) {
+      setTimeout(() => responseRef.current?.scrollIntoView({ behavior: 'smooth' }), 100);
+    }
+  }, [response]);
 
   const handleCopy = () => {
     if (!response?.data) return;
     const d = response.data;
-    const text = `${d.verse?.chapter}:${d.verse?.verse}\n${d.verse?.text}\n\nExplanation: ${d.explanation}\nAction: ${Array.isArray(d.action) ? d.action.join(", ") : d.action}`;
+    const text = `${d.verse_ref}\n${d.verse}\n\nInsight: ${d.insight}\nFor You: ${d.meaning_for_you}\nAction: ${d.action?.join(", ")}`;
     navigator.clipboard.writeText(text);
     setCopied(true); setTimeout(() => setCopied(false), 2000);
   };
@@ -122,18 +110,18 @@ export default function Home() {
       <div className="krishna-scene__image" aria-hidden="true"></div>
       <div className="saarathi-content relative z-10 min-h-screen flex flex-col pt-8 pb-16 overflow-x-hidden transition-all duration-1000">
         
-        {/* LOGO SECTION */}
+        {/* HEADER */}
         <div className={`flex flex-col items-center transition-all duration-700 ${isInteracted ? 'mt-4' : 'mt-[15vh]'}`}>
-          <img src="/saarthi-symbol.png" alt="SaarthiAI" className="w-24 h-24 sm:w-32 sm:h-32 object-contain mb-2" />
-          <h1 className="text-3xl sm:text-4xl font-bold text-center">SaarathiAI <span className="font-spiritual text-accent-gold">{currentT.subtitle}</span></h1>
+          <img src="/saarthi-symbol.png" alt="Saarthi" className="w-24 h-24 sm:w-32 sm:h-32 object-contain" />
+          <h1 className="text-3xl sm:text-4xl font-bold">SaarathiAI <span className="font-spiritual text-accent-gold">{currentT.subtitle}</span></h1>
           {!isInteracted && (
-            <button onClick={() => setIsInteracted(true)} className="mt-8 bg-accent-gold px-8 py-3 rounded-full text-black font-bold flex items-center gap-2 transition-all hover:scale-105">
-              <Sparkles size={18} /> Ask Krishna
+            <button onClick={() => setIsInteracted(true)} className="mt-8 bg-accent-gold px-8 py-3 rounded-full text-black font-bold shadow-xl transition-all hover:scale-105">
+              Ask Krishna
             </button>
           )}
         </div>
 
-        <main className={`flex-grow w-full max-w-2xl mx-auto px-4 transition-all duration-1000 ${isInteracted ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+        <main className={`flex-grow w-full max-w-xl mx-auto px-4 transition-all duration-1000 ${isInteracted ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
           <div className="flex justify-end mb-4">
              <button onClick={() => setLang(lang === 'en' ? 'hi' : 'en')} className="bg-card px-3 py-1 rounded-full text-xs border border-border">
                 <Languages size={14} className="inline mr-1" /> {lang === 'en' ? 'HI' : 'EN'}
@@ -142,79 +130,74 @@ export default function Home() {
 
           {!response && !loading && (
             <div className="animate-fade-in">
-              <h2 className="text-xl font-medium mb-4 text-center">{currentT.heading}</h2>
+              <h2 className="text-lg font-medium mb-4 text-center">{currentT.heading}</h2>
               <textarea
+                ref={textareaRef}
                 value={problem}
                 onChange={(e) => setProblem(e.target.value)}
                 placeholder={placeholders[lang][quoteIndex % 2]}
-                className="w-full bg-card border border-border rounded-2xl p-5 text-lg min-h-[150px] focus:ring-1 focus:ring-accent-gold outline-none"
+                className="w-full bg-card border border-border rounded-2xl p-5 text-lg min-h-[140px] outline-none shadow-inner"
               />
               <div className="flex flex-wrap gap-2 mt-4 justify-center">
-                {currentT.chips.map((c, i) => <button key={i} onClick={() => setProblem(c)} className="bg-card/50 border border-border px-3 py-1 rounded-full text-sm hover:border-accent-gold transition-colors">{c}</button>)}
+                {currentT.chips.map((c, i) => <button key={i} onClick={() => setProblem(c)} className="bg-card/40 border border-border px-3 py-1 rounded-full text-xs hover:border-accent-gold transition-colors">{c}</button>)}
               </div>
-              <button onClick={() => fetchGuidance(lang)} disabled={!problem.trim()} className="mt-8 w-full bg-accent-gold text-black font-bold h-14 rounded-full flex items-center justify-center gap-2 disabled:opacity-50">
-                <Sparkles size={18} /> {currentT.submit}
+              <button onClick={() => fetchGuidance(lang)} disabled={!problem.trim()} className="mt-8 w-full bg-accent-gold text-black font-bold h-12 rounded-full shadow-lg disabled:opacity-50">
+                {currentT.submit}
               </button>
+              {error && <p className="mt-4 text-red-400 text-center text-sm">{error}</p>}
             </div>
           )}
 
           {loading && (
             <div className="py-20 text-center animate-pulse">
-              <span className="text-6xl text-accent-gold">ॐ</span>
-              <p className="mt-4 text-secondary">{currentT.loading}</p>
+              <span className="text-5xl text-accent-gold">ॐ</span>
+              <p className="mt-4 text-secondary text-sm">{currentT.loading}</p>
             </div>
           )}
 
           {response && !loading && (
             <div ref={responseRef} className="animate-slide-up space-y-6">
               <div className="bg-card border border-border rounded-3xl overflow-hidden shadow-2xl">
-                <div className="p-8 text-center bg-gradient-to-b from-card-hover to-card border-b border-border">
-                  <span className="text-xs text-accent-gold font-bold tracking-widest uppercase">BG {response.data.verse?.chapter}.{response.data.verse?.verse}</span>
-                  <p className="mt-4 font-spiritual text-2xl md:text-3xl text-accent-gold-light leading-relaxed">{response.data.verse?.text}</p>
+                <div className="p-6 text-center bg-card-hover/30 border-b border-border">
+                  <span className="text-[10px] text-accent-gold font-bold tracking-widest uppercase">{response.data.verse_ref}</span>
+                  <p className="mt-2 font-spiritual text-xl md:text-2xl text-accent-gold-light leading-relaxed">{response.data.verse}</p>
                 </div>
                 
-                <div className="p-8 space-y-8">
+                <div className="p-6 space-y-6">
                   <section>
-                    <h3 className="text-xs text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.relevance}</h3>
-                    <p className="italic text-[#e8e2d7] opacity-90 leading-relaxed">"{response.data.relevance}"</p>
+                    <h3 className="text-[10px] text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.insight}</h3>
+                    <p className="text-[#e8e2d7] leading-relaxed text-lg">{response.data.insight}</p>
                   </section>
 
-                  <div className="h-px w-full bg-border/40"></div>
-
                   <section>
-                    <h3 className="text-xs text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.explanation}</h3>
-                    <p className="leading-relaxed text-[#e8e2d7] whitespace-pre-line">{response.data.explanation}</p>
+                    <h3 className="text-[10px] text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.meaning}</h3>
+                    <p className="text-[#e8e2d7] opacity-90 leading-relaxed font-medium italic">{response.data.meaning_for_you}</p>
                   </section>
 
-                  <div className="h-px w-full bg-border/40"></div>
+                  <div className="h-px w-full bg-border/30"></div>
 
                   <section>
-                    <h3 className="text-xs text-success uppercase tracking-widest mb-3 font-bold">{currentT.labels.action}</h3>
+                    <h3 className="text-[10px] text-success uppercase tracking-widest mb-3 font-bold">{currentT.labels.action}</h3>
                     <ul className="space-y-2">
-                      {Array.isArray(response.data.action) ? response.data.action.map((a: string, i: number) => (
-                        <li key={i} className="flex gap-2 text-[#e8e2d7] font-medium">
+                      {response.data.action?.map((a: string, i: number) => (
+                        <li key={i} className="flex gap-2 text-[#e8e2d7] text-sm">
                           <span className="text-success">•</span> {a}
                         </li>
-                      )) : <li className="text-[#e8e2d7]">{response.data.action}</li>}
+                      ))}
                     </ul>
                   </section>
-
-                  <details className="border-t border-border/40 pt-4">
-                    <summary className="text-xs text-muted uppercase font-bold cursor-pointer hover:text-accent-gold">{currentT.labels.translation}</summary>
-                    <p className="mt-2 text-sm text-secondary leading-relaxed">{response.data.verse?.translation}</p>
-                  </details>
                 </div>
               </div>
 
-              <div className="flex gap-4 justify-center">
-                <button onClick={() => {setResponse(null); setProblem("");}} className="flex items-center gap-2 px-6 py-2 rounded-full bg-card border border-border hover:border-accent-gold transition-colors"><RotateCcw size={16} /> {currentT.askAgain}</button>
-                <button onClick={handleCopy} className="flex items-center gap-2 px-6 py-2 rounded-full bg-card border border-border hover:border-accent-gold transition-colors"><Copy size={16} /> {copied ? currentT.copied : currentT.copy}</button>
+              <div className="flex gap-3 justify-center pb-10">
+                <button onClick={() => {setResponse(null); setProblem("");}} className="flex items-center gap-2 px-5 py-2 rounded-full bg-card border border-border text-xs hover:border-accent-gold transition-colors"><RotateCcw size={14} /> {currentT.askAgain}</button>
+                <button onClick={handleCopy} className="flex items-center gap-2 px-5 py-2 rounded-full bg-card border border-border text-xs hover:border-accent-gold transition-colors"><Copy size={14} /> {copied ? currentT.copied : currentT.copy}</button>
               </div>
             </div>
           )}
         </main>
 
-        <footer className="mt-auto text-center p-8 text-muted text-xs opacity-60">
+        <footer className="mt-auto text-center p-8 text-muted text-[10px] opacity-40">
           <p>{currentT.footer}</p>
         </footer>
       </div>
