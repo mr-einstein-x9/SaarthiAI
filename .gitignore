@@ -13,3 +13,8 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 .vscode
+
+# Cache and generated files
+backend/__pycache__/
+*.pyc
+tsconfig.tsbuildinfo

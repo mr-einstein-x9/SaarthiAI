@@ -53,7 +53,18 @@ Create a `.env.local` file at the root of the directory and securely add your Ge
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-### 4. Run the development server
+### 4. Run the development servers
+
+Since the architecture relies on a clean proxy from the Next.js frontend to the FastAPI backend, you need to run both servers.
+
+**Terminal 1: Start the Python Backend**
+```bash
+cd backend
+pip install -r requirements.txt
+python main.py
+```
+
+**Terminal 2: Start the Next.js Frontend**
 ```bash
 npm run dev
 ```

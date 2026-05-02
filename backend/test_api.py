@@ -2,7 +2,7 @@ import requests
 import json
 import time
 
-URL = "http://localhost:8001/ask"
+URL = "http://localhost:8000/ask"
 
 test_queries = [
     # 1. Direct High Confidence Match (> 0.50)
@@ -25,13 +25,19 @@ for i, q in enumerate(test_queries):
     print(f"Query: {q}")
     start = time.time()
     try:
-        response = requests.post(URL, json={"query": q}, timeout=10)
+        response = requests.post(URL, json={"query": q, "language": "en"}, timeout=10)
         data = response.json()
         print(f"Status: {response.status_code}")
-        print(f"Confidence Tier: {data.get('confidence_tier')}")
         print(f"Latency MS: {data.get('latency_ms')}")
-        print(f"Ref: {data.get('verse_ref')}")
-        print(f"Guidance excerpt: {data.get('guidance')[:100]}...")
+        
+        if data.get("success"):
+            inner_data = data.get('data', {})
+            print(f"Ref: {inner_data.get('verse_ref')}")
+            print(f"Insight excerpt: {str(inner_data.get('insight'))[:100]}...")
+            print(f"Action steps: {inner_data.get('action')}")
+        else:
+            print(f"Error: {data.get('error')}")
+            
     except Exception as e:
         print(f"Failed to fetch: {e}")
     time.sleep(1) # small pause between tests

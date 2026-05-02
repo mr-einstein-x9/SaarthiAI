@@ -32,8 +32,9 @@ export default function Home() {
       loading: "Krishna is listening...",
       chips: ["I feel stuck in my career", "I can't stop overthinking", "I'm scared of failing", "I'm angry at someone I love"],
       labels: {
-        insight: "Krishna's Insight",
-        meaning: "For You",
+        battlefield: "On The Battlefield",
+        meaning: "Meaning",
+        relates: "For You",
         action: "Your Path",
       },
       askAgain: "Ask Krishna again",
@@ -49,8 +50,9 @@ export default function Home() {
       loading: "कृष्ण सुन रहे हैं...",
       chips: ["मेरा करियर रुका हुआ लगता है", "मैं बहुत ज़्यादा सोचता हूं", "मुझे असफलता का डर है", "मुझे किसी प्रियजन पर गुस्सा है"],
       labels: {
-        insight: "कृष्ण की अंतर्दृष्टि",
-        meaning: "आपके लिए",
+        battlefield: "कुरुक्षेत्र के रणभूमि पर",
+        meaning: "अर्थ",
+        relates: "आपके लिए",
         action: "आपका मार्ग",
       },
       askAgain: "कृष्ण से फिर पूछें",
@@ -100,7 +102,7 @@ export default function Home() {
   const handleCopy = () => {
     if (!response?.data) return;
     const d = response.data;
-    const text = `${d.verse_ref}\n${d.verse}\n\nInsight: ${d.insight}\nFor You: ${d.meaning_for_you}\nAction: ${d.action?.join(", ")}`;
+    const text = `${d.verse_ref}\n${d.verse}\n\nArjuna: ${d.arjuna_question}\nKrishna: ${d.krishna_answer}\nMeaning: ${d.meaning}\nFor You: ${d.meaning_for_you}\nAction: ${d.action?.join(", ")}`;
     navigator.clipboard.writeText(text);
     setCopied(true); setTimeout(() => setCopied(false), 2000);
   };
@@ -165,12 +167,30 @@ export default function Home() {
                 
                 <div className="p-6 space-y-6">
                   <section>
-                    <h3 className="text-[10px] text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.insight}</h3>
-                    <p className="text-[#e8e2d7] leading-relaxed text-lg">{response.data.insight}</p>
+                    <h3 className="text-[10px] text-accent-gold uppercase tracking-widest mb-3 font-bold">{currentT.labels.battlefield}</h3>
+                    <div className="space-y-3">
+                      {response.data.arjuna_question && (
+                        <div className="flex gap-3">
+                          <span className="text-[10px] text-orange-400 font-bold uppercase tracking-wider mt-1 shrink-0">Arjuna</span>
+                          <p className="text-[#e8e2d7] leading-relaxed text-base italic opacity-90">{response.data.arjuna_question}</p>
+                        </div>
+                      )}
+                      {response.data.krishna_answer && (
+                        <div className="flex gap-3">
+                          <span className="text-[10px] text-accent-gold font-bold uppercase tracking-wider mt-1 shrink-0">Krishna</span>
+                          <p className="text-[#e8e2d7] leading-relaxed text-lg">{response.data.krishna_answer}</p>
+                        </div>
+                      )}
+                    </div>
                   </section>
 
                   <section>
                     <h3 className="text-[10px] text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.meaning}</h3>
+                    <p className="text-[#e8e2d7] leading-relaxed text-lg">{response.data.meaning}</p>
+                  </section>
+
+                  <section>
+                    <h3 className="text-[10px] text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.relates}</h3>
                     <p className="text-[#e8e2d7] opacity-90 leading-relaxed font-medium italic">{response.data.meaning_for_you}</p>
                   </section>
 
