@@ -9,6 +9,7 @@
     "lint": "next lint --dir app --dir components --dir lib"
   },
   "dependencies": {
+    "@google/genai": "^2.7.0",
     "@google/generative-ai": "^0.21.0",
     "lucide-react": "latest",
     "next": "14.2.0",
