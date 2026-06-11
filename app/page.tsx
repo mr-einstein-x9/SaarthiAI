@@ -1,226 +1,143 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
-import { Copy, Sparkles, Languages, RotateCcw } from "lucide-react";
+import { useState, useEffect } from "react";
+import type { Language, GuidanceData } from "@/lib/types";
+import { t } from "@/lib/i18n";
+import Background from "@/components/layout/Background";
+import Header from "@/components/layout/Header";
+import AskForm from "@/components/input/AskForm";
+import LoadingState from "@/components/guidance/LoadingState";
+import GuidanceResult from "@/components/guidance/GuidanceResult";
 
-type Language = 'en' | 'hi';
+type AppState = "IDLE" | "LOADING" | "RESULT";
 
 export default function Home() {
-  const [isInteracted, setIsInteracted] = useState(false);
-  const [lang, setLang] = useState<Language>('en');
-  const [quoteIndex, setQuoteIndex] = useState(0);
-
-  useEffect(() => {
-    setQuoteIndex(Math.floor(Math.random() * 4));
-  }, []);
-  
+  const [lang, setLang] = useState<Language>("en");
+  const [appState, setAppState] = useState<AppState>("IDLE");
   const [problem, setProblem] = useState("");
-  const [loading, setLoading] = useState(false);
-  const [response, setResponse] = useState<any>(null);
+  const [guidance, setGuidance] = useState<GuidanceData | null>(null);
   const [error, setError] = useState("");
-  const [copied, setCopied] = useState(false);
-  
-  const responseRef = useRef<HTMLDivElement>(null);
-  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  const t = {
-    en: {
-      subtitle: "सारथी",
-      tagline: "Wisdom from the Gita, for your life today",
-      heading: "Tell me, what is troubling your heart?",
-      submit: "Seek Guidance",
-      loading: "Krishna is listening...",
-      chips: ["I feel stuck in my career", "I can't stop overthinking", "I'm scared of failing", "I'm angry at someone I love"],
-      labels: {
-        battlefield: "On The Battlefield",
-        meaning: "Meaning",
-        relates: "For You",
-        action: "Your Path",
-      },
-      askAgain: "Ask Krishna again",
-      copy: "Copy Wisdom",
-      copied: "Copied!",
-      footer: "SaarathiAI is spiritual guidance, not professional therapy."
-    },
-    hi: {
-      subtitle: "सारथी",
-      tagline: "गीता का ज्ञान, आज के जीवन के लिए",
-      heading: "कहो मित्र, मन में क्या दुविधा है?",
-      submit: "मार्गदर्शन पाएं",
-      loading: "कृष्ण सुन रहे हैं...",
-      chips: ["मेरा करियर रुका हुआ लगता है", "मैं बहुत ज़्यादा सोचता हूं", "मुझे असफलता का डर है", "मुझे किसी प्रियजन पर गुस्सा है"],
-      labels: {
-        battlefield: "कुरुक्षेत्र के रणभूमि पर",
-        meaning: "अर्थ",
-        relates: "आपके लिए",
-        action: "आपका मार्ग",
-      },
-      askAgain: "कृष्ण से फिर पूछें",
-      copy: "कॉपी करें",
-      copied: "कॉपी हो गया!",
-      footer: "SaarathiAI आध्यात्मिक मार्गदर्शन है, चिकित्सा नहीं।"
+  const strings = t(lang);
+
+  // Sync lang selection and check for URL query params on mount
+  useEffect(() => {
+    const saved = localStorage.getItem("saarathi-lang");
+    const params = typeof window !== "undefined" ? new URLSearchParams(window.location.search) : null;
+    const queryParam = params?.get("query");
+
+    Promise.resolve().then(() => {
+      if (saved === "en" || saved === "hi") {
+        setLang(saved);
+      }
+      if (queryParam) {
+        setProblem(queryParam);
+      }
+    });
+
+    if (queryParam && typeof window !== "undefined") {
+      const newUrl = window.location.pathname;
+      window.history.replaceState({}, "", newUrl);
     }
+  }, []);
+
+  const handleToggleLang = () => {
+    const nextLang = lang === "en" ? "hi" : "en";
+    setLang(nextLang);
+    localStorage.setItem("saarathi-lang", nextLang);
   };
 
-  const currentT = t[lang];
-  const placeholders = {
-    en: ['"Arise, O Arjuna!"\nShare what is on your mind.', '"Do not fear."\nTell me what troubles you.'],
-    hi: ['"उठो पार्थ!"\nअपने मन की बात साझा करो।', '"डरो मत।"\nअपनी चिंता मुझसे साझा करो।']
-  };
+  const handleAsk = async () => {
+    if (!problem.trim()) {
+      setError(strings.errors.empty);
+      return;
+    }
 
-  const fetchGuidance = async (targetLang: Language) => {
-    if (!problem.trim()) return;
-    setLoading(true); setError(""); setResponse(null); setCopied(false);
+    if (!navigator.onLine) {
+      setError(strings.errors.network);
+      return;
+    }
+
+    setError("");
+    setAppState("LOADING");
+
     try {
-      const baseUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
-      const endpoint = baseUrl ? `${baseUrl}/ask` : "/api/ask";
-      const res = await fetch(endpoint, {
+      const response = await fetch("/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ problem, query: problem, language: targetLang })
+        body: JSON.stringify({ query: problem, language: lang }),
       });
-      let data = await res.json();
-      if (baseUrl && !res.ok) {
-        const fb = await fetch("/api/ask", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ problem, language: targetLang })
-        });
-        data = await fb.json();
+
+      const json = await response.json();
+
+      if (json.success) {
+        setGuidance(json.data);
+        setAppState("RESULT");
+      } else {
+        setError(json.error || strings.errors.generic);
+        setAppState("IDLE");
       }
-      if (data.success) setResponse(data);
-      else throw new Error("Connection lost");
-    } catch (err: any) { setError(err.message); } finally { setLoading(false); }
+    } catch {
+      setError(strings.errors.generic);
+      setAppState("IDLE");
+    }
   };
 
-  useEffect(() => {
-    if (response && responseRef.current) {
-      setTimeout(() => responseRef.current?.scrollIntoView({ behavior: 'smooth' }), 100);
-    }
-  }, [response]);
-
-  const handleCopy = () => {
-    if (!response?.data) return;
-    const d = response.data;
-    const text = `${d.verse_ref}\n${d.verse}\n\nArjuna: ${d.arjuna_question}\nKrishna: ${d.krishna_answer}\nMeaning: ${d.meaning}\nFor You: ${d.meaning_for_you}\nAction: ${d.action?.join(", ")}`;
-    navigator.clipboard.writeText(text);
-    setCopied(true); setTimeout(() => setCopied(false), 2000);
+  const handleAskAgain = () => {
+    setProblem("");
+    setGuidance(null);
+    setAppState("IDLE");
   };
 
   return (
-    <section className={`krishna-scene min-h-screen overflow-hidden ${isInteracted ? 'krishna-scene--active' : 'krishna-scene--landed'}`}>
-      <div className="krishna-scene__image" aria-hidden="true"></div>
-      <div className="saarathi-content relative z-10 min-h-screen flex flex-col pt-8 pb-16 overflow-x-hidden transition-all duration-1000">
-        
-        {/* HEADER */}
-        <div className={`flex flex-col items-center transition-all duration-700 ${isInteracted ? 'mt-4' : 'mt-[15vh]'}`}>
-          <img src="/saarthi-symbol.png" alt="Saarthi" className="w-24 h-24 sm:w-32 sm:h-32 object-contain" />
-          <h1 className="text-3xl sm:text-4xl font-bold">SaarathiAI <span className="font-spiritual text-accent-gold">{currentT.subtitle}</span></h1>
-          {!isInteracted && (
-            <button onClick={() => setIsInteracted(true)} className="mt-8 bg-accent-gold px-8 py-3 rounded-full text-black font-bold shadow-xl transition-all hover:scale-105">
-              Ask Krishna
-            </button>
-          )}
-        </div>
+    <div className="min-h-screen flex flex-col justify-between p-4 selection:bg-[var(--accent-gold-glow)]">
+      {/* Cinematic background */}
+      <Background dimmed={appState !== "IDLE"} />
 
-        <main className={`flex-grow w-full max-w-xl mx-auto px-4 transition-all duration-1000 ${isInteracted ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
-          <div className="flex justify-end mb-4">
-             <button onClick={() => setLang(lang === 'en' ? 'hi' : 'en')} className="bg-card px-3 py-1 rounded-full text-xs border border-border">
-                <Languages size={14} className="inline mr-1" /> {lang === 'en' ? 'HI' : 'EN'}
-             </button>
-          </div>
+      {/* Main Container */}
+      <div className="w-full max-w-lg mx-auto flex flex-col items-center flex-1 gap-8">
+        <Header
+          lang={lang}
+          onToggleLang={handleToggleLang}
+          compact={appState !== "IDLE"}
+        />
 
-          {!response && !loading && (
-            <div className="animate-fade-in">
-              <h2 className="text-lg font-medium mb-4 text-center">{currentT.heading}</h2>
-              <textarea
-                ref={textareaRef}
-                value={problem}
-                onChange={(e) => setProblem(e.target.value)}
-                placeholder={placeholders[lang][quoteIndex % 2]}
-                className="w-full bg-card border border-border rounded-2xl p-5 text-lg min-h-[140px] outline-none shadow-inner"
-              />
-              <div className="flex flex-wrap gap-2 mt-4 justify-center">
-                {currentT.chips.map((c, i) => <button key={i} onClick={() => setProblem(c)} className="bg-card/40 border border-border px-3 py-1 rounded-full text-xs hover:border-accent-gold transition-colors">{c}</button>)}
-              </div>
-              <button onClick={() => fetchGuidance(lang)} disabled={!problem.trim()} className="mt-8 w-full bg-accent-gold text-black font-bold h-12 rounded-full shadow-lg disabled:opacity-50">
-                {currentT.submit}
-              </button>
-              {error && <p className="mt-4 text-red-400 text-center text-sm">{error}</p>}
-            </div>
+        {/* Content Box */}
+        <main className="w-full flex-1 flex flex-col justify-center max-w-md md:max-w-lg">
+          {appState === "IDLE" && (
+            <AskForm
+              lang={lang}
+              problem={problem}
+              onProblemChange={setProblem}
+              onSubmit={handleAsk}
+              loading={false}
+              error={error}
+            />
           )}
 
-          {loading && (
-            <div className="py-20 text-center animate-pulse">
-              <span className="text-5xl text-accent-gold">ॐ</span>
-              <p className="mt-4 text-secondary text-sm">{currentT.loading}</p>
-            </div>
+          {appState === "LOADING" && (
+            <LoadingState
+              lang={lang}
+              onTimeout={() => {
+                // Allows user to see retry prompt in progressive messages if timeout occurs
+              }}
+            />
           )}
 
-          {response && !loading && (
-            <div ref={responseRef} className="animate-slide-up space-y-6">
-              <div className="bg-card border border-border rounded-3xl overflow-hidden shadow-2xl">
-                <div className="p-6 text-center bg-card-hover/30 border-b border-border">
-                  <span className="text-[10px] text-accent-gold font-bold tracking-widest uppercase">{response.data.verse_ref}</span>
-                  <p className="mt-2 font-spiritual text-xl md:text-2xl text-accent-gold-light leading-relaxed">{response.data.verse}</p>
-                </div>
-                
-                <div className="p-6 space-y-6">
-                  <section>
-                    <h3 className="text-[10px] text-accent-gold uppercase tracking-widest mb-3 font-bold">{currentT.labels.battlefield}</h3>
-                    <div className="space-y-3">
-                      {response.data.arjuna_question && (
-                        <div className="flex gap-3">
-                          <span className="text-[10px] text-orange-400 font-bold uppercase tracking-wider mt-1 shrink-0">Arjuna</span>
-                          <p className="text-[#e8e2d7] leading-relaxed text-base italic opacity-90">{response.data.arjuna_question}</p>
-                        </div>
-                      )}
-                      {response.data.krishna_answer && (
-                        <div className="flex gap-3">
-                          <span className="text-[10px] text-accent-gold font-bold uppercase tracking-wider mt-1 shrink-0">Krishna</span>
-                          <p className="text-[#e8e2d7] leading-relaxed text-lg">{response.data.krishna_answer}</p>
-                        </div>
-                      )}
-                    </div>
-                  </section>
-
-                  <section>
-                    <h3 className="text-[10px] text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.meaning}</h3>
-                    <p className="text-[#e8e2d7] leading-relaxed text-lg">{response.data.meaning}</p>
-                  </section>
-
-                  <section>
-                    <h3 className="text-[10px] text-accent-gold uppercase tracking-widest mb-2 font-bold">{currentT.labels.relates}</h3>
-                    <p className="text-[#e8e2d7] opacity-90 leading-relaxed font-medium italic">{response.data.meaning_for_you}</p>
-                  </section>
-
-                  <div className="h-px w-full bg-border/30"></div>
-
-                  <section>
-                    <h3 className="text-[10px] text-success uppercase tracking-widest mb-3 font-bold">{currentT.labels.action}</h3>
-                    <ul className="space-y-2">
-                      {response.data.action?.map((a: string, i: number) => (
-                        <li key={i} className="flex gap-2 text-[#e8e2d7] text-sm">
-                          <span className="text-success">•</span> {a}
-                        </li>
-                      ))}
-                    </ul>
-                  </section>
-                </div>
-              </div>
-
-              <div className="flex gap-3 justify-center pb-10">
-                <button onClick={() => {setResponse(null); setProblem("");}} className="flex items-center gap-2 px-5 py-2 rounded-full bg-card border border-border text-xs hover:border-accent-gold transition-colors"><RotateCcw size={14} /> {currentT.askAgain}</button>
-                <button onClick={handleCopy} className="flex items-center gap-2 px-5 py-2 rounded-full bg-card border border-border text-xs hover:border-accent-gold transition-colors"><Copy size={14} /> {copied ? currentT.copied : currentT.copy}</button>
-              </div>
-            </div>
+          {appState === "RESULT" && guidance && (
+            <GuidanceResult
+              data={guidance}
+              lang={lang}
+              onAskAgain={handleAskAgain}
+            />
           )}
         </main>
-
-        <footer className="mt-auto text-center p-8 text-muted text-[10px] opacity-40">
-          <p>{currentT.footer}</p>
-        </footer>
       </div>
-    </section>
+
+      {/* Footer Disclaimer */}
+      <footer className="w-full max-w-md mx-auto text-center py-4 text-[10px] text-[var(--text-muted)] tracking-wide leading-relaxed mt-8">
+        {strings.footer}
+      </footer>
+    </div>
   );
 }

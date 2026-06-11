@@ -1,225 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&family=Tiro+Devanagari+Hindi&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* ── Design Tokens ──────────────────────────────────────────────────────── */
+
 :root {
-  --font-humanist: 'Lora', serif;
-  --font-spiritual: 'Tiro Devanagari Hindi', serif;
-  --bg-primary: #0A0A0A;
-  --bg-card: rgba(20, 20, 20, 0.7);
-  --bg-card-hover: rgba(28, 28, 28, 0.8);
+  --bg-deep: #08060A;
+  --bg-base: #0F0C12;
+  --bg-elevated: #1A1520;
+  --bg-glass: rgba(26, 21, 32, 0.7);
+
   --accent-gold: #C9933A;
   --accent-gold-light: #E8B455;
+  --accent-gold-glow: rgba(201, 147, 58, 0.2);
+  --accent-purple: #7C3AED;
+
   --text-primary: #F5F0E8;
   --text-secondary: #B5A998;
-  --text-muted: #8A8275;
-  --border: #252525;
+  --text-muted: #6B6160;
+
+  --border: rgba(201, 147, 58, 0.12);
   --success: #4A7C59;
-  --text-shadow-premium: 0 2px 8px rgba(0, 0, 0, 0.8), 0 1px 3px rgba(0, 0, 0, 0.9);
+  --error: #C94A4A;
+
+  --easing-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --easing-enter: cubic-bezier(0, 0, 0.2, 1);
 }
+
+/* ── Base Styles ────────────────────────────────────────────────────────── */
 
 body {
-  font-family: var(--font-humanist);
+  font-family: 'Raleway', sans-serif;
   color: var(--text-primary);
-  background: var(--bg-primary);
+  background: var(--bg-deep);
   overflow-x: hidden;
-  text-shadow: var(--text-shadow-premium);
-  cursor: url('/feather-pen.png'), auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-button, a, textarea, input, label, [role="button"] {
-  cursor: url('/feather-pen.png'), pointer !important;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
-.krishna-scene {
-  position: relative;
-  isolation: isolate;
-  background: #120d09;
+.font-spiritual {
+  font-family: 'Tiro Devanagari Hindi', serif;
 }
 
-/* Visibility Shroud for content */
-.saarathi-content {
-  width: calc(100vw - 2rem);
-  max-width: 22.375rem;
-  margin-inline: auto;
-  position: relative;
-  z-index: 10;
-}
-
-.krishna-scene__image,
-.krishna-scene__warmth,
-.krishna-scene__haze,
-.krishna-scene__canopy {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-}
-
-.krishna-scene__image {
-  inset: -2.5%;
-  z-index: -4;
-  background-image: url("/krishna-sunset.png");
-  background-position: 34% center;
-  background-size: cover;
-  transform: scale(1.015);
-  animation: sunset-drift 42s ease-in-out infinite alternate;
-  will-change: transform, filter;
-  transition: filter 2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.krishna-scene--landed .krishna-scene__image {
-  filter: brightness(1.15) contrast(1.1) saturate(1.1);
-}
-
-.krishna-scene--active .krishna-scene__image {
-  filter: brightness(0.65) contrast(1.0) saturate(0.9);
-}
-
-.krishna-scene__warmth {
-  z-index: -3;
-  background:
-    linear-gradient(90deg, rgba(6, 4, 3, 0.12) 0%, transparent 36%, rgba(6, 4, 3, 0.1) 100%),
-    radial-gradient(ellipse at 30% 43%, rgba(255, 183, 82, 0.24), rgba(255, 183, 82, 0.05) 28%, transparent 58%);
-  animation: sunset-breathe 18s ease-in-out infinite;
-}
-
-.krishna-scene__haze {
-  z-index: -2;
-  background:
-    linear-gradient(105deg, transparent 0%, rgba(245, 201, 126, 0.07) 38%, transparent 70%),
-    linear-gradient(0deg, rgba(14, 9, 6, 0.42), transparent 38%, rgba(9, 6, 5, 0.18));
-  mix-blend-mode: screen;
-  opacity: 0.62;
-  transform: translate3d(-1.5%, 0, 0);
-  animation: haze-pass 34s ease-in-out infinite alternate;
-}
-
-.krishna-scene__canopy {
-  z-index: -1;
-  background:
-    linear-gradient(175deg, rgba(7, 5, 3, 0.15) 0%, transparent 20%),
-    linear-gradient(90deg, rgba(5, 4, 3, 0.12) 0%, transparent 30%, transparent 76%, rgba(5, 4, 3, 0.1) 100%);
-  opacity: 0.6;
-  animation: canopy-sway 30s ease-in-out infinite alternate;
-}
+/* ── Background Atmosphere Animations ───────────────────────────────────── */
 
 @keyframes sunset-drift {
-  from {
-    transform: scale(1.015) translate3d(-0.35%, 0, 0);
-  }
-
-  to {
-    transform: scale(1.035) translate3d(0.45%, -0.35%, 0);
-  }
+  from { transform: scale(1.015) translate3d(-0.35%, 0, 0); }
+  to   { transform: scale(1.035) translate3d(0.45%, -0.35%, 0); }
 }
 
 @keyframes sunset-breathe {
-
-  0%,
-  100% {
-    opacity: 0.82;
-  }
-
-  50% {
-    opacity: 0.96;
-  }
+  0%, 100% { opacity: 0.82; }
+  50%      { opacity: 0.96; }
 }
 
 @keyframes haze-pass {
-  from {
-    opacity: 0.5;
-    transform: translate3d(-1.5%, 0.4%, 0);
-  }
-
-  to {
-    opacity: 0.72;
-    transform: translate3d(1.5%, -0.2%, 0);
-  }
+  from { opacity: 0.5; transform: translate3d(-1.5%, 0.4%, 0); }
+  to   { opacity: 0.72; transform: translate3d(1.5%, -0.2%, 0); }
 }
 
 @keyframes canopy-sway {
-  from {
-    transform: translate3d(-0.35%, 0, 0);
-  }
+  from { transform: translate3d(-0.35%, 0, 0); }
+  to   { transform: translate3d(0.35%, -0.25%, 0); }
+}
 
-  to {
-    transform: translate3d(0.35%, -0.25%, 0);
-  }
+/* ── UI Animations ──────────────────────────────────────────────────────── */
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes pulse-slow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: 0.7; transform: scale(1.08); }
+}
 
-  0%,
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
+@keyframes ping-slow {
+  0%   { opacity: 0.4; transform: scale(1); }
+  50%  { opacity: 0.15; transform: scale(1.6); }
+  100% { opacity: 0; transform: scale(2); }
+}
 
-  50% {
-    opacity: 0.7;
-    transform: scale(1.05);
-  }
+.animate-fade-in {
+  animation: fade-in 500ms var(--easing-enter) both;
+}
+
+.animate-slide-up {
+  animation: slide-up 600ms var(--easing-smooth) both;
 }
 
 .animate-pulse-slow {
   animation: pulse-slow 3s ease-in-out infinite;
 }
 
-@media (max-width: 640px) {
-  .krishna-scene__image {
-    background-position: 27% center;
-  }
-
-  .krishna-scene__warmth {
-    background:
-      linear-gradient(90deg, rgba(6, 4, 3, 0.5) 0%, rgba(6, 4, 3, 0.16) 42%, rgba(6, 4, 3, 0.42) 100%),
-      radial-gradient(ellipse at 31% 42%, rgba(255, 183, 82, 0.2), rgba(255, 183, 82, 0.04) 30%, transparent 62%);
-  }
+.animate-ping-slow {
+  animation: ping-slow 3s ease-in-out infinite;
 }
 
-@media (min-width: 640px) {
-  .saarathi-content {
-    width: calc(100vw - 3rem);
-    max-width: 48rem;
-  }
+/* ── Glassmorphic Utilities ──────────────────────────────────────────────── */
+
+.glass-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
 }
 
-@media (min-width: 768px) {
-  .saarathi-content {
-    width: calc(100vw - 4rem);
-  }
-}
+/* ── Custom Scrollbar ───────────────────────────────────────────────────── */
 
-@media (prefers-reduced-motion: reduce) {
-
-  .krishna-scene__image,
-  .krishna-scene__warmth,
-  .krishna-scene__haze,
-  .krishna-scene__canopy {
-    animation: none;
-  }
-}
-
-h1,
-h2,
-h3,
-.font-serif,
-[class*='text-accent-gold'] {
-  font-family: var(--font-humanist);
-  font-weight: 600;
-  letter-spacing: -0.01em;
-}
-
-.font-spiritual {
-  font-family: var(--font-spiritual);
-}
-
-.bg-card {
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-}
-
-/* Custom scrollbar for better ui */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -229,10 +130,66 @@ h3,
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--border);
+  background: rgba(201, 147, 58, 0.2);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--text-muted);
+  background: rgba(201, 147, 58, 0.4);
+}
+
+/* ── Responsive Content Container ───────────────────────────────────────── */
+
+.saarathi-content {
+  width: calc(100vw - 2rem);
+  max-width: 24rem;
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .saarathi-content {
+    width: calc(100vw - 3rem);
+    max-width: 36rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .saarathi-content {
+    width: calc(100vw - 4rem);
+    max-width: 40rem;
+  }
+}
+
+/* ── Reduced Motion ─────────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  .krishna-bg,
+  .animate-pulse-slow,
+  .animate-ping-slow {
+    animation: none !important;
+  }
+
+  .animate-fade-in,
+  .animate-slide-up {
+    animation-duration: 0.01ms !important;
+  }
+
+  * {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── Focus Styles ───────────────────────────────────────────────────────── */
+
+:focus-visible {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Selection ──────────────────────────────────────────────────────────── */
+
+::selection {
+  background: var(--accent-gold-glow);
+  color: var(--text-primary);
 }
